@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://peguerin.io"
+base_url = "http://127.0.0.1:1111/"
 
 title = "PEGUERIN"
 description = "A clean born to work bioinformatics blog"
@@ -29,12 +29,6 @@ build_search_index = true
 #
 taxonomies = []
 # The additional languages for that site
-# Example:
-#     languages = [
-#       {code = "fr", rss = true}, # there will be a RSS feed for French content
-#       {code = "it"}, # there won't be a RSS feed for Italian content
-#     ]
-#
 languages = [
     {code = "fr"}, 
     {code = "es"}, # there won't be a RSS feed for Spannish content
@@ -52,5 +46,5 @@ languages = [
 
 
 links = [
-    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "About"},
+    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"},
 ]
