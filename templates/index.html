@@ -1,5 +1,5 @@
 <html>
-    <head>
+  <head>
         
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -10,14 +10,38 @@
        <link rel="stylesheet" href="{{ get_url(path="corps.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="{{ get_url(path="sobre.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  </head>
+    <body>     
 
-       <link rel="stylesheet" href="{{ get_url(path="flag_icon.css", trailing_slash=false) }}">
-    </head>
-    <body>
+        {% block sidebar %}       
+        <div class="sidebar"> 
+
+            {% for langue in config.languages %}
+              {% if langue.code == "en" %}  
+                <a href="{{config.base_url}}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
+              {% else %}
+              <a href="{{config.base_url}}{{ langue.code }}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
+             {% endif %}
+            {% endfor %}
 
 
-        {% block sidebar %}
-        <div class="sidebar">
+
+
+
+              <a href="{{config.base_url}}">
+               <div class="flag-icon">
+               
+              </div>
+             </a>
+             <a href="{{config.base_url}}fr">
+               <span style="background-image: url({{config.base_url}}/flags/4x3/fr.svg)"></span>
+             </a>
+             <a href="{{config.base_url}}es">
+               <span style="background-image: url({{config.base_url}}/flags/4x3/es.svg)"></span>
+             </a>
+
+
+
                 <div class="container sidebar-sticky">
                     <div class="sidebar-about">
                         {% block sidebar_about %}
@@ -28,7 +52,9 @@
                         {% endblock sidebar_about %}
                     </div>
                     <div> coucouc <span class="flag-icon flag-icon-us"></span> </div>
+                   
                     <span class="flag-icon flag-icon-fr flag-icon-squared"></span>
+                    <span class="flag-icon"></span>
                    
 
 
@@ -43,14 +69,15 @@
             </div>
         {% endblock sidebar %}
 
+
         <div class="content container">
                     {% block content %}
-                        <div class="posts">
+                        <div class="posts">                          
                             {% for page in section.pages | reverse %}
-                              <div class="post">
+                              <div class="post">                                
                                 <h1 class="post-title">
-                                  <a href="{{ page.permalink }}">
-                                    {{ page.title }}
+                                  <a href="{{ page.permalink }}">                                     
+                                    {{ page.title }}                                    
                                   </a>
                                 </h1>
 
