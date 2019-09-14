@@ -15,6 +15,7 @@
 
         {% block sidebar %}       
         <div class="sidebar"> 
+          <div class="sidebar-lang">
 
             {% for langue in config.languages %}
               {% if langue.code == "en" %}  
@@ -24,49 +25,35 @@
              {% endif %}
             {% endfor %}
 
+          </div>
 
+        <hr>
 
+          <div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div>
+          <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
+           <div class="sidebar-description"><p> {{config.description}} </p></div>
+      
+          <div class="sidebar-nav-brand">
+              {% block sidebar_nav %}
+              {% for link in config.extra.links %}
+              <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)"></a> · 
+              {% endfor %}
+              Montpellier, FR · <a href="https://www.ephe.fr">EPHE</a>
+              {% endblock sidebar_nav %}
+          </div>
 
-
-              <a href="{{config.base_url}}">
-               <div class="flag-icon">
-               
-              </div>
-             </a>
-             <a href="{{config.base_url}}fr">
-               <span style="background-image: url({{config.base_url}}/flags/4x3/fr.svg)"></span>
-             </a>
-             <a href="{{config.base_url}}es">
-               <span style="background-image: url({{config.base_url}}/flags/4x3/es.svg)"></span>
-             </a>
-
-
-
-                <div class="container sidebar-sticky">
-                    <div class="sidebar-about">
-                        {% block sidebar_about %}
-                            <a href="{"><h1>{{ config.title }}</h1></a>
-                            {% if config.description %}
-                            <p class="lead">{{config.description}}</p>
-                            {% endif %}
-                        {% endblock sidebar_about %}
-                    </div>
-                    <div> coucouc <span class="flag-icon flag-icon-us"></span> </div>
-                   
-                    <span class="flag-icon flag-icon-fr flag-icon-squared"></span>
-                    <span class="flag-icon"></span>
-                   
-
-
-                    <ul class="sidebar-nav">
-                        {% block sidebar_nav %}
-                        {% for link in config.extra.links %}
-                        <li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
-                        {% endfor %}
-                        {% endblock sidebar_nav %}
-                    </ul>
-                </div>
+<hr>
+          <div class="container sidebar-sticky">
+            <div class="sidebar-about">
+                {% block sidebar_about %}
+                    <a href="{"><h1>{{ config.title }}</h1></a>
+                    {% if config.description %}
+                    <p class="lead">{{config.description}}</p>
+                    {% endif %}
+                {% endblock sidebar_about %}
             </div>
+          </div>
+        </div>
         {% endblock sidebar %}
 
 
@@ -76,7 +63,7 @@
                             {% for page in section.pages | reverse %}
                               <div class="post">                                
                                 <h1 class="post-title">
-                                  <a href="{{ page.permalink }}">                                     
+                                  <a href="{{ page.permalink }}">                               
                                     {{ page.title }}                                    
                                   </a>
                                 </h1>
