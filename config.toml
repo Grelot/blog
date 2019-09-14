@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "http://127.0.0.1:1111/"
 
-title = "PEGUERIN"
-description = "A clean born to work bioinformatics blog"
+title = "Guerin"
+description = "Reliable bioinformatics engineer with an excellent knowledge of computational biology."
 
 # The default language, used in RSS
 default_language = "en"
@@ -30,9 +30,11 @@ build_search_index = true
 taxonomies = []
 # The additional languages for that site
 languages = [
-    {code = "fr"}, 
-    {code = "es"}, # there won't be a RSS feed for Spannish content
+    
     {code = "en", rss = true}, # there will be a RSS feed for English content
+    {code = "fr"},
+    {code = "es"} # there won't be a RSS feed for Spannish content
+    
 ]
 
 
@@ -46,5 +48,8 @@ languages = [
 
 
 links = [
-    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"},
+    {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
+    {url = "https://twitter.com/epguerin", name = "twitter"},
+    {url = "https://github.com/Grelot", name = "github"},
+    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
