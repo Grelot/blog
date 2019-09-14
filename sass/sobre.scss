@@ -14,6 +14,10 @@ html {
 }
 
 
+
+
+
+
 /*
  * Sidebar
  *
@@ -23,7 +27,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -46,12 +50,31 @@ html {
 
 /************************************/
 /* Lang section */
-.sidebar-lang h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 12px;
+
+.sidebar-lang a {
+  width: 1.33333333em;
+  line-height: 1em;
+
 }
+
+/* name section */
+.sidebar-name p {
+  color: #fff;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* description section */
+
+.sidebar-description p {
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
 
 
 
@@ -71,6 +94,31 @@ html {
 .sidebar-nav-item {
   display: block;
 }
+
+
+/************************************/
+/* my photo avatar */
+
+.avatar {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* icon brand section */
+.sidebar-nav-brand a {
+      width: 1em;
+  line-height: 1em;
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
