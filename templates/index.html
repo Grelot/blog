@@ -25,8 +25,6 @@
               <a href="{{config.base_url}}{{ langue.code }}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
              {% endif %}
             {% endfor %}
-           <a class="button" href="mailto:{{config.extra.webmail}}?subject = Feedback&body = Message">contact <b>&#128386;</b></a>
-
           </div>
 
         <hr>
@@ -34,6 +32,7 @@
           <div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div>
           <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
            <div class="sidebar-description"><p> {{config.description}} </p></div>
+           <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#128386;</b>{{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
       
           <div class="sidebar-nav-brand">
               {% block sidebar_nav_brand %}
