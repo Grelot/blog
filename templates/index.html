@@ -10,6 +10,7 @@
        <link rel="stylesheet" href="{{ get_url(path="corps.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="{{ get_url(path="sobre.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
   </head>
     <body>     
 
@@ -19,11 +20,12 @@
 
             {% for langue in config.languages %}
               {% if langue.code == "en" %}  
-                <a href="{{config.base_url}}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
+                <a href="{{config.base_url}}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a>
               {% else %}
               <a href="{{config.base_url}}{{ langue.code }}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
              {% endif %}
             {% endfor %}
+           <a class="button" href="mailto:{{config.extra.webmail}}?subject = Feedback&body = Message">contact <b>&#128386;</b></a>
 
           </div>
 
@@ -34,46 +36,77 @@
            <div class="sidebar-description"><p> {{config.description}} </p></div>
       
           <div class="sidebar-nav-brand">
-              {% block sidebar_nav %}
+              {% block sidebar_nav_brand %}
               {% for link in config.extra.links %}
-              <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)"></a> · 
+              <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)"></a><b> · </b>
               {% endfor %}
-              Montpellier, FR · <a href="https://www.ephe.fr">EPHE</a>
-              {% endblock sidebar_nav %}
+              {{config.extra.mytown}}, {{config.extra.mycountry}}<b> · </b><a href={{config.extra.myjob_address}}>{{config.extra.myjob_name}}</a>
+              {% endblock sidebar_nav_brand %}
           </div>
 
-<hr>
+          <hr>
           <div class="container sidebar-sticky">
             <div class="sidebar-about">
-                {% block sidebar_about %}
-                    <a href="{"><h1>{{ config.title }}</h1></a>
+                {% block sidebar_about %}                    
                     {% if config.description %}
-                    <p class="lead">{{config.description}}</p>
+                    
+                    <p class="lead"><a href="{{ config.base_url }}"> Blog </a></p>                    
                     {% endif %}
                 {% endblock sidebar_about %}
             </div>
-          </div>
-        </div>
-        {% endblock sidebar %}
+            <hr>
 
+                <ul class="sidebar-nav">
+                    {% block sidebar_nav_infos %}
+                      {% for info in config.extra.infos %}
+                          {% set page = get_page(path=info.path) %}
+                          {% if current_url %}
+                            {% set split_url = current_url | split(pat="/") %}                            
+                          {% else %}
+                            {% set split_url = ["http:", "", "", "en"] %}
+                          {% endif %}
+
+                          {% if split_url.3 == "fr" %}
+                            <li class="sidebar-nav-item"><a href="{{config.base_url}}fr/{{info.title}}">{{info.fr_title }}</a></li>
+                          {% elif split_url.3 == "es" %}
+                            <li class="sidebar-nav-item"><a href="{{config.base_url}}es/{{info.title}}">{{info.es_title}}</a></li>
+                          {% else %}
+                            <li class="sidebar-nav-item"><a href="{{ page.permalink }}">{{page.title}}</a></li>
+                          {% endif %}
+                          
+                      {% endfor %}
+
+                    {% endblock sidebar_nav_infos %}                    
+                </ul>               
+
+          </div>
+
+        </div>
+       
+        {% endblock sidebar %}
 
         <div class="content container">
                     {% block content %}
                         <div class="posts">                          
-                            {% for page in section.pages | reverse %}
+                            {% for categorie, pages in section.pages | group_by(attribute="extra.categorie") %}
+                              {% if categorie != "CV" %}                              
+                              {% for page in pages %}
                               <div class="post">                                
                                 <h1 class="post-title">
                                   <a href="{{ page.permalink }}">                               
-                                    {{ page.title }}                                    
+                                    {{ page.title}}                                    
                                   </a>
                                 </h1>
 
                                 <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
-                              </div>
+                              </div>                              
+                              {% endfor %}
+                              {% endif %}
                             {% endfor %}
                         </div>
                     {% endblock content %}
                 </div>
+
 
     </body>
 </html>
