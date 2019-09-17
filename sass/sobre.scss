@@ -49,13 +49,47 @@ html {
 
 
 /************************************/
+
+
+
+
 /* Lang section */
 
 .sidebar-lang a {
   width: 1.33333333em;
   line-height: 1em;
+  color: #515151;
+}
+
+
+.sidebar-lang a:hover, .siderbar-lang a:focus {
+  width: 1.33333333em;
+  line-height: 1em;
+  color: #fff;
+  background-color: #515151;
 
 }
+
+
+/* mail button */
+
+.button {   
+    background-color: #fff;    
+    position: relative;
+    left: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 6px;    
+    text-decoration: none;   
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    position: relative;
+    left: 9.75em;    
+ }
+
+
+
+
 
 /* name section */
 .sidebar-name p {
@@ -119,9 +153,15 @@ html {
   line-height: 1em;
 }
 
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
+.sidebar-nav-item a {
+  color: rgba(255,255,255,.5);
+  font-size: 1.4rem;  
+}
+
+.sidebar-nav-item a:hover,
+.sidebar-nav-item a:focus {
   text-decoration: underline;
+  color: #fff;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
