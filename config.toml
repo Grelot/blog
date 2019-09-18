@@ -1,5 +1,7 @@
 # The URL the site will be built for
-base_url = "http://127.0.0.1:1111/"
+#base_url = "http://127.0.0.1:1111/"
+# github page
+base_url = "https://grelot.github.io/blog/"
 
 title = "Guerin"
 description = "Bioinformatics engineer"
