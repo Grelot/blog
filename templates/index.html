@@ -28,7 +28,7 @@
 
     <hr>
 
-      <div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div>
+      <a href="{{ get_url(path="about") }}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
        <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#x2709;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
