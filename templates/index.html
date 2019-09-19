@@ -31,7 +31,7 @@
       <div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
-       <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#128386;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
+       <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#x2709;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
   
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}
@@ -48,31 +48,27 @@
             {% block sidebar_about %}                    
               {% if config.description %}                    
                 <p class="lead"><a href="{{ config.base_url }}"> Blog </a></p>
+                <p class="lead"><a href="{{ get_url(path="resume") }}"> Resume </a></p>
               {% endif %}
             {% endblock sidebar_about %}
         </div>
         <hr>
-
-            <ul class="sidebar-nav">
+     <ul class="sidebar-nav">
                 {% block sidebar_nav_infos %}
-                  {% for info in config.extra.infos %}
-                      {% set page = get_page(path=info.path) %}
-                      {% if current_url %}
-                        {% set split_url = current_url | split(pat="/") %}                            
-                      {% else %}
-                        {% set split_url = ["http:", "", "", "en"] %}
-                      {% endif %}
-
-                      {% if split_url.3 == "fr" %}
-                        <li class="sidebar-nav-item"><a href="{{config.base_url}}fr/{{info.title}}">{{info.fr_title }}</a></li>
-                      {% elif split_url.3 == "es" %}
-                        <li class="sidebar-nav-item"><a href="{{config.base_url}}es/{{info.title}}">{{info.es_title}}</a></li>
-                      {% else %}
-                        <li class="sidebar-nav-item"><a href="{{ page.permalink }}">{{page.title}}</a></li>
-                      {% endif %}                          
-                  {% endfor %}
+               
+                            
+                       
+                         <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#experience">Experience</a></li>
+                         <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
+                          <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#education">Education</a></li>
+                          <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#skills">Skills</a></li>
+                           <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#publications">Publications</a></li>
+                           <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#other-activities">Other activities</a></li>
+                           
+               
                 {% endblock sidebar_nav_infos %}                    
             </ul> 
+
       </div>
     </div>
     {% endblock sidebar %}
@@ -80,9 +76,7 @@
     <div class="content container">
       {% block content %}
           <div class="posts">                          
-              {% for categorie, pages in section.pages | group_by(attribute="extra.categorie") %}
-                {% if categorie != "CV" %}                              
-                  {% for page in pages %}
+              {% for page in section.pages %}                   
                   <div class="post">                                
                     <h1 class="post-title">
                       <a href="{{ page.permalink }}">
@@ -90,9 +84,7 @@
                       </a>
                     </h1>
                     <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
-                  </div>                              
-                  {% endfor %}
-                {% endif %}
+                  </div>       
               {% endfor %}
           </div>
       {% endblock content %}
