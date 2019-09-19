@@ -19,9 +19,9 @@
 
         {% for langue in config.languages %}
           {% if langue.code == "en" %}  
-            <a href="{{config.base_url}}/blog" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a>
+            <a href="{{config.base_url}}/articles" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a>
           {% else %}
-          <a href="{{config.base_url}}{{ langue.code }}/blog" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
+          <a href="{{config.base_url}}{{ langue.code }}/articles" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
          {% endif %}
         {% endfor %}
       </div>
@@ -47,7 +47,7 @@
         <div class="sidebar-about">
             {% block sidebar_about %}                    
               {% if config.description %}                    
-                <p class="lead"><a href="{{ get_url(path="blog") }}"> Blog </a></p>
+                <p class="lead"><a href="{{ get_url(path="articles") }}"> Blog </a></p>
                 <p class="lead"><a href="{{ get_url(path="resume") }}"> Resume </a></p>
               {% endif %}
             {% endblock sidebar_about %}
