@@ -55,9 +55,3 @@ links = [
     {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
 
-infos = [	
-	{title="education", path="education/index.md",fr_title="Formations", es_title="Formaciones"},
-	{title="experiences", path="experiences/index.md",fr_title="Experiences professionnelles", es_title="Experiencias profesionales" },
-	{title="projects", path="projects/index.md",fr_title="Projets", es_title="Proyectos" }
-
-]
