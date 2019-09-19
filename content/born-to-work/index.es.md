@@ -5,8 +5,6 @@ date =  2019-09-03
 draft = false
 tags = ["first_try", "hello_world"]
 lang = "es"
-extra= {categorie="test"}
-
 +++
 
 Esta es la versión en español

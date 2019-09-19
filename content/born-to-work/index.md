@@ -4,8 +4,6 @@ title = "Born to work"
 date =  2019-09-03
 draft = false
 tags = ["first_try", "hello_world"]
-extra= {categorie="test"}
-
 +++
 
 I'm born to work.
