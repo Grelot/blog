@@ -5,7 +5,7 @@ template = "static_page.html"
 
 <img align="right" src="../avatar.png">
 
-## Please, call me Pierre. Thanks for looking my site.
+## Please, call me Pierre. Thanks for visiting my site.
 
 I'm a bioinformatics engineer currently living in Montpellier.
 
