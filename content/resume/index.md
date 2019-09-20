@@ -1,5 +1,5 @@
 +++
-template = "page.html"
+template = "static_page.html"
 title = "Curriculum Vitae"
 date =  2019-08-20
 draft = false
