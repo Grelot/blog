@@ -1,9 +1,9 @@
 # The URL the site will be built for
 #base_url = "http://127.0.0.1:1111/"
 # github page
-#base_url = "https://grelot.github.io/blog/"
+base_url = "https://grelot.github.io/blog/"
 # my domain
-base_url = "https://guerinpe.com/"
+#base_url = "https://guerinpe.com/"
 title = "Guerin"
 description = "Bioinformatics engineer"
 
