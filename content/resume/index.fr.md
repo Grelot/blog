@@ -49,14 +49,14 @@ blablalbla
 
 # EDUCATION
 
-blablalbla
-blablalbla
-blablalbla
+<img align="right" width="128rem" height="256rem" src="paris7.png">
 
-blablalbla
-blablalbla
-blablalbla
-blablalbla
+
+### 2016 - MASTER Bioinformatics
+University Paris 7 Paris Diderot
+
+
+### 2014 - LICENCE Life sciences
 
 
 # SKILLS
@@ -72,20 +72,28 @@ blablalbla
 
 
 
+# PUBLICATIONS DANS DES REVUES SCIENTIFIQUES
 
-# PUBLICATIONS
+### mai 2018 - [Predicting genotype environmental range from genome–environment associations](https://doi.org/10.1111/mec.14723)
 
-* test
-* test
-* test
-* test
-* test
+- Molecular Ecology
+- Manel S, Andrello M, Henry K, Verdelet D, Darracq A, **Guerin PE**, Desprez B, Devaux P
+
+### juin 2016 - [ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles](https://doi.org/10.1038/srep28268)
+
+- Scientific Reports (Nature Publishing Group)
+- Ghouzam Y, Postic G, **Guerin PE**, de Brevern AG, Gelly JC
 
 
-# OTHER ACTIVITIES
 
 
-<img align="right" width="256rem" height="256rem" src="usnm.png">
+_______________________________________________________________________________
+
+
+# AUTRES ACTIVITES
+
+
+<img align="right" width="296rem" height="256rem" src="usnm.png">
 
 ### Triathlon
 
