@@ -6,8 +6,7 @@ draft = false
 tags = ["education", "profile"]
 +++
 
-I'm a bioinformatician scientist recruited on european project [RESERVEBENEFIT](https://www.biodiversa.org/1023) as [EPHE](https://www.ephe.fr/)'s ingineer since 2017. I'm currently a bioinformatics ingineer working in [CEFE](https://www.cefe.cnrs.fr), the largest center of ecology research in Europe, where i bring my programming skills to several scientific projects in collaboration with international teams.
-
+I am a computational biologist in [EPHE](https://www.ephe.fr/) and [CEFE](https://www.cefe.cnrs.fr) research team at [Campus CNRS route de Mende](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
 _______________________________________________________________________________
 
 ### Occupation
@@ -16,7 +15,7 @@ Bioinformatics ingineer | [Ecole Pratique des Hautes Etudes](https://www.ephe.fr
 ### Contact
 [pierre.edouard.guerin [at] gmail.com](mailto:pierre.edouard.guerin@gmail.com)
 
-### Equipe de recherche
+### Research team
 [Centre d'Ecologie Fonctionnelle et Evolutive](https://www.cefe.cnrs.fr)  
 1919 route de Mende, Montpellier, Occitanie, France
 
@@ -25,23 +24,46 @@ _______________________________________________________________________________
 
 # EXPERIENCE
 
-### Bioinformatician - [EPHE](https://www.ephe.fr/), [CNRS](http://www.cnrs.fr/), UMR [Center of Functional Ecology and Evolution](https://www.cefe.cnrs.fr/)
-Current occupation as bioinformatics ingineer
+### [EPHE](https://www.ephe.fr/), [CNRS](http://www.cnrs.fr/), UMR [Center of Functional Ecology and Evolution](https://www.cefe.cnrs.fr/)
 
-### Software developer - [INSERM](https://www.inserm.fr/), UMR [Genetics of Diabetes](https://ecolesdoctorales.parisdescartes.fr/ed157/Equipes-de-recherche/Liste-des-equipes-d-accueil/Genetique-des-diabetes)
-Master intership (8 months)
+<img align="right" width="132rem" height="124rem" src="ephe.png">
+
+> **Computational biologist** (Master internship)
+> <br> Montpellier, FR
+> <br> *02.2017 - current*
+
+- C++, bash, python, R, julia programming
+- Landscape genomics
+- Metabarcoding
+- Genome assembly
+
+
+### [INSERM](https://www.inserm.fr/), UMR [Genetics of Diabetes](https://ecolesdoctorales.parisdescartes.fr/ed157/Equipes-de-recherche/Liste-des-equipes-d-accueil/Genetique-des-diabetes)
+
+<img align="right" width="164rem" height="36rem" src="inserm.png">
+
+> **Python software developer** (Master internship)
+> <br> Paris, FR
+> <br> *01.2016 - 08.2016*
+
 - python, qt, mySQL, bash programming
 - Human genomes DNA sequencing data analysis
 - Program to detect and annotate rare genetic variants from sequencing data
 - Graphical interface
 - Speed performance improvement
 
-### Bioinformatician - [INSERM](https://www.inserm.fr/), UMR [Dynamics of Structures and Interactions of Macromolecules in Biology](http://www.dsimb.inserm.fr/)
-Master intership (4 months)
+### [INSERM](https://www.inserm.fr/), UMR [Dynamics of Structures and Interactions of Macromolecules in Biology](http://www.dsimb.inserm.fr/)
+
+<img align="right" width="164rem" height="36rem" src="inserm.png">
+
+> **Computational biologist** (Master internship)
+> <br> Paris, FR
+> <br> *02.2015 - 06.2015*
+
 - C, bash, R, python programming
 - 3D-modelisation of protein structure at atomic resolution
 - Optimization of a method of fold recognition in protein structure
-- New algorithm of prediction of protein structure
+- New algorithm to predict protein structure
 
 # PROJECTS
 
@@ -62,44 +84,22 @@ blablalbla
 
 # EDUCATION
 
-<img align="right" width="128rem" height="256rem" src="paris7.png">
+<img align="right" width="96rem" height="192rem" src="paris7.png">
 
 
-### 2016 - MASTER of bioinformatics,
-University of Paris ( Paris 7 Paris Diderot)
-- Multidisciplinary training based on 3 key-domains : Biology, Statistics and Informatics
-- Prominent knowledge in biology
-- Software development in C++
-- Algorithmics
-- Working on Unix/Linux environment
-- Create and manage database with postgreSQL
-- Statistics skills to analyse data with R
-- Programming in perl
-- Build a web application (HTML, CSS, mySQL, python)
-- Student assessment by numerous projects applying methodology and computer science skills to specific biological problematics
-- Project Management
-- Autotraining, technological watch, scientific literature, scientific english, autonomy
-
-### 2014 - LICENCE of life sciences (with specialization in bioinformatics)
-University of Paris ( Paris 7 Paris Diderot)
-- Programming in C
-- Programming in python
-- Biostatistics
-- Omics
-- Molecular biology
-- Cheminformatics
-- Physiology
-- Initiation to computational neuroscience
+### University of Paris 
+> **MASTER Degree of Bioinformatics**
+> <br> Paris, FR
+> <br> june 2016
 
 
 
 # SKILLS
 
 
-
 ## Informatics
 
-| Domain                    | tools                      |
+| Domain                    | Tools                      |
 |---------------------------|----------------------------|
 | LINUX environments        | Ubuntu, Debian             |
 | Programming languages     | Python, R, C++, bash, C, julia   |
@@ -108,7 +108,7 @@ University of Paris ( Paris 7 Paris Diderot)
 | Web technologies          | HTML, CSS, SVG, javascript, django |
 | Workload manager          | SLURM, Univa Grid Engine |
 | Version control system    | Git, gitlab, github       |
-| Create a container        | Singularity, docker        |
+| Manage a container        | Singularity, docker        |
 | Workflow manager          | Snakemake, nextflow       |
 
 ## Statistics
@@ -134,61 +134,49 @@ University of Paris ( Paris 7 Paris Diderot)
 
 # SOFTWARES
 
-### [Genbar2](https://github.com/Grelot/genbar2): identify genetic boundaries between populations using individual spatial coordinates and genetic variants
-- <span style="color:#FF1493; font-weight:bold">C++</span>
-- work in progress since march 2019
-- **Guerin PE**, Benestan L, Choquet R, Manel S
+* [Genbar2](https://github.com/Grelot/genbar2): identify genetic boundaries between populations using individual spatial coordinates and genetic variants
 
 
-### [DEMORT](https://pypi.org/project/demort/): a DEmultiplexing MOnitoring Report Tool
-- <span style="color:#4682B4; font-weight:bold">python3</span>
-- june 2019
-- **Guerin PE**
+* [DEMORT](https://pypi.org/project/demort/): a DEmultiplexing MOnitoring Report Tool
 
 
-### [EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/): a whole exome sequencing analysis and its graphical interface
-- <span style="color:#4682B4; font-weight:bold">python2</span>, **qt**, <span style="color:#A9A9A9; font-weight:bold">mySQL</span>
-- june 2016
-- Daures M, **Guerin PE**, Degrave A, Philippi A, Julier C
+* [EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/): a whole exome sequencing analysis and its graphical interface
 
-### [COAT](https://github.com/Grelot/diabetesGenetics--COAT): a COverage Analysis Tool for exome sequencing data
-- <span style="color:#4682B4; font-weight:bold">python2</span>, **qt**
-- april 2016
-- **Guerin PE**, Degrave A, Philippi A, Julier C
+* [COAT](https://github.com/Grelot/diabetesGenetics--COAT): a COverage Analysis Tool for exome sequencing data
 
  	
-### [ORION](http://www.dsimb.inserm.fr/ORION/): a sensivitve method for protein template detection
-- **C**, <span style="color:#32CD32; font-weight:bold">bash</span>
-- Ghouzam Y, Postic G, **Guerin PE**, de Brevern AG, Gelly JC
+* [ORION](http://www.dsimb.inserm.fr/ORION/): a sensivitve method for protein template detection
 
 
- 	
-
- 	
 
 # PUBLICATIONS
 
 
-### 2019 - Global determinants of freshwater and marine fish genetic diversity
+* **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
 
-- submitted to Nature Communications in februrary 2019
-- Manel S, **Guerin PE**, Mouillot D, Blanchet S, Velez L, Albouy C, Pellissier L
+* **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
 
-### may 2018 - [Predicting genotype environmental range from genome–environment associations](https://doi.org/10.1111/mec.14723)
+* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
 
-- Molecular Ecology
-- Manel S, Andrello M, Henry K, Verdelet D, Darracq A, **Guerin PE**, Desprez B, Devaux P
 
-### june 2016 - [ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles](https://doi.org/10.1038/srep28268)
-
-- Scientific Reports (Nature Publishing Group)
-- Ghouzam Y, Postic G, **Guerin PE**, de Brevern AG, Gelly JC
 
 
 
 _______________________________________________________________________________
 
 # OTHER ACTIVITIES
+
+
+### Sciences
+
+* Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
+* Author on french bioinformatics participative blog [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
+
+
+### Personnal projects
+
+* [speckyman](https://github.com/Grelot/speckyman): a platform game developed in JavaScript
+* [fromdnatomusic](https://github.com/Grelot/fromdnatomusic): convert DNA sequences into MIDI track and listen to it
 
 
 <img align="right" width="296rem" height="256rem" src="usnm.png">
