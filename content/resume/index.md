@@ -7,18 +7,17 @@ tags = ["education", "profile"]
 +++
 
 I am a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
-_______________________________________________________________________________
 
-### Occupation
-Computational biologist | [CNRS](http://www.cnrs.fr), [EPHE](https://www.ephe.fr/)
 
-### Contact
-[pierre.edouard.guerin [at] gmail.com](mailto:pierre.edouard.guerin@gmail.com)
+## Areas of focus
 
-### Research team
-[Centre d'Ecologie Fonctionnelle et Evolutive](https://www.cefe.cnrs.fr)  
-1919 route de Mende, Montpellier, Occitanie, France
-
+* **Bioinformatics**
+	* Metabarcoding
+	* Genomics
+* **Linux Systems**
+	* Ubuntu and Debian based systems. Orchestration and automation of tasks ranging from containerized web services to DNA high throughput sequencing data processing and workflow management on HPC platform.
+* **Programming Languages**
+	* Bash, Python, C, C++, R, julia
 
 _______________________________________________________________________________
 
@@ -34,7 +33,6 @@ _______________________________________________________________________________
 > <br> Montpellier, FR
 > <br> *02.2017 - current*
 
-- C++, bash, python, R, julia programming
 - Landscape genomics
 - Metabarcoding
 - Genome assembly
@@ -48,7 +46,6 @@ _______________________________________________________________________________
 > <br> Paris, FR
 > <br> *01.2016 - 08.2016*
 
-- python, qt, mySQL, bash programming
 - Human genomes DNA high throughput sequencing data analysis
 - Program to detect and annotate rare genetic variants
 - Graphical interface
@@ -62,7 +59,6 @@ _______________________________________________________________________________
 > <br> Paris, FR
 > <br> *02.2015 - 06.2015*
 
-- C, bash, R, python programming
 - 3D-modelisation of protein structure at atomic resolution
 - Optimization of a method of fold recognition in protein structure
 - New algorithm to predict protein structure
@@ -98,12 +94,18 @@ blablalbla
 
 # SKILLS
 
+## Soft Skills
 
-## Informatics
+* Interacted with many researchers from diverse fields for co-authored research work
+* Technical support and training for students and partners
+* Presentations of my works at several conferences, at group and institute-wide meeting
+* Technical consulting and participation in decision-making
+
+## Software Engineering
 
 | Domain                    | Tools                      |
 |---------------------------|----------------------------|
-| LINUX environments        | Ubuntu, Debian             |
+| Operating systems       | Ubuntu, Debian             |
 | Programming languages     | Python, R, C++, bash, C, julia   |
 | Graphical interface       | Qt                        
 | Database                  | PostgresSQL, mySQL         |
