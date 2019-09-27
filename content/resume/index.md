@@ -3,7 +3,7 @@ template = "static_page.html"
 title = "Curriculum Vitae"
 date =  2019-08-20
 draft = false
-tags = ["education", "profile"]
+tags = ["resume"]
 +++
 
 I am a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
@@ -17,7 +17,7 @@ I am a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team
 * **Linux Systems**
 	* Ubuntu and Debian based systems. Orchestration and automation of tasks ranging from containerized web services to DNA high throughput sequencing data processing and workflow management on HPC platform.
 * **Programming Languages**
-	* Bash, Python, C, C++, R, julia
+	* Bash, Python, C++, C, R, Julia
 
 _______________________________________________________________________________
 
@@ -65,19 +65,8 @@ _______________________________________________________________________________
 
 # PROJECTS
 
-blablalbla 
-blablalbla 
-blablalbla 
+* Assembly 
 
-blablalbla 
-blablalbla 
-blablalbla 
-blablalbla 
-* test
-* test
-* test
-* test
-* test
 
 
 # EDUCATION
@@ -96,53 +85,48 @@ blablalbla
 
 ## Soft Skills
 
-* Interacted with many researchers from diverse fields for co-authored research work
-* Technical support and training for students and partners
-* Presentations of my works at several conferences, at group and institute-wide meeting
-* Technical consulting and participation in decision-making
+* **Interaction** with many researchers from diverse fields for co-authored research work
+* **Technical support and training** for students and team partners
+* **Presentation** at several conferences, at group and institute-wide meeting
+* **Technical consulting** and participation in decision-making
 
 ## Software Engineering
 
-| Domain                    | Tools                      |
-|---------------------------|----------------------------|
-| Operating systems       | Ubuntu, Debian             |
-| Programming languages     | Python, R, C++, bash, C, julia   |
-| Graphical interface       | Qt                        
-| Database                  | PostgresSQL, mySQL         |
-| Web technologies          | HTML, CSS, SVG, javascript, django |
-| Workload manager          | SLURM, Univa Grid Engine |
-| Version control system    | Git, gitlab, github       |
-| Manage a container        | Singularity, docker        |
-| Workflow manager          | Snakemake, nextflow       |
+* **Operating systems** _Ubuntu, Debian_
+* **Programming languages** _Bash, Python, C++, C, R, Julia_
+* **Graphical interface** _Qt_
+* **Database _PostgresSQL**, mySQL_
+* **Web technologies** _HTML, CSS, SVG, Javascript, Django_
+* **Workload management system** _SLURM, Univa Grid Engine_
+* **Version control system** _Git, Gitlab, Github_
+* **Manage a container** _Singularity, Docker_
+* **Workflow manager** _Snakemake, Nextflow_
 
 ## Statistics
 
-* Statistical modeling
-* Machine learning and optimization theory
-* Bayesian inference
+* **Statistical modeling**
+* **Machine learning and optimization theory**
+* **Bayesian inference**
 
 ## Bioinformatics
 
-| Domain                    | Softwares                  |
-|---------------------------|----------------------------|
-| Metabarcoding             | Vsearch, usearch, swarm, obitools2 |
-| Population genomics       | STACKS, freebayes, dDocent, STRUCTURE |
-| Genomics                  | VCFtools, SAMtools, bedtools, cutadapt, trimmomatic, bwa, annovar... |
+* **Metabarcoding** _vsearch, usearch, swarm, obitools2_
+* **Population genomics** _STACKS, freebayes, dDocent, STRUCTURE_
+* **Genomics** _vcftools, samtools, bedtools, cutadapt, trimmomatic, bwa, annovar_
 
 ## Design
 
-* Inkscape
-* Adobe photoshop
-* Adobe illustrator
+* **Image and graphic design editing** _Adobe photoshop_
+* **Vector graphics** _Inkscape, Adobe illustrator_
 
 
 # SOFTWARES
 
-* [Genbar2](https://github.com/Grelot/genbar2): identify genetic boundaries between populations using individual spatial coordinates and genetic variants
-* [DEMORT](https://pypi.org/project/demort/): a DEmultiplexing MOnitoring Report Tool
-* [EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/): a whole exome sequencing analysis and its graphical interface
-* [COAT](https://github.com/Grelot/diabetesGenetics--COAT): a COverage Analysis Tool for exome sequencing data
-* [ORION](http://www.dsimb.inserm.fr/ORION/): a sensivitve method for protein template detection
+* **[Genbar2](https://github.com/Grelot/genbar2)**: identify genetic boundaries between populations using individual spatial coordinates and genetic variants
+* **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
+* **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
+* **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: a COverage Analysis Tool for exome sequencing data
+* **[ORION](http://www.dsimb.inserm.fr/ORION/)**: a sensivitve method for protein template detection
 
 
 # PUBLICATIONS
@@ -151,7 +135,6 @@ blablalbla
 * **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
-
 
 
 
