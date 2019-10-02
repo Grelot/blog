@@ -6,7 +6,9 @@ draft = false
 tags = ["resume"]
 +++
 
-I am a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
+# PRESENTATION
+
+Pierre-Edouard GUERIN is a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
 
 
 ## Areas of focus
@@ -65,7 +67,17 @@ _______________________________________________________________________________
 
 # PROJECTS
 
-* Assembly 
+## genbar2
+
+## Rad-seq + genome assemblies
+
+## Metabarcoding
+
+## Global determinants of freshwater and marine fish genetic diversity
+
+## Predicting genotype environmental range from genome–environment associations
+
+
 
 
 
@@ -80,46 +92,6 @@ _______________________________________________________________________________
 > <br> *june 2016*
 
 
-
-# SKILLS
-
-## Soft Skills
-
-* **Interaction** with many researchers from diverse fields for co-authored research work
-* **Technical support and training** for students and team partners
-* **Presentation** at several conferences, at group and institute-wide meeting
-* **Technical consulting** and participation in decision-making
-
-## Software Engineering
-
-* **Operating systems** _Ubuntu, Debian_
-* **Programming languages** _Bash, Python, C++, C, R, Julia_
-* **Graphical interface** _Qt_
-* **Database _PostgresSQL**, mySQL_
-* **Web technologies** _HTML, CSS, SVG, Javascript, Django_
-* **Workload management system** _SLURM, Univa Grid Engine_
-* **Version control system** _Git, Gitlab, Github_
-* **Manage a container** _Singularity, Docker_
-* **Workflow manager** _Snakemake, Nextflow_
-
-## Statistics
-
-* **Statistical modeling**
-* **Machine learning and optimization theory**
-* **Bayesian inference**
-
-## Bioinformatics
-
-* **Metabarcoding** _vsearch, usearch, swarm, obitools2_
-* **Population genomics** _STACKS, freebayes, dDocent, STRUCTURE_
-* **Genomics** _vcftools, samtools, bedtools, cutadapt, trimmomatic, bwa, annovar_
-
-## Design
-
-* **Image and graphic design editing** _Adobe photoshop_
-* **Vector graphics** _Inkscape, Adobe illustrator_
-
-
 # SOFTWARES
 
 * **[Genbar2](https://github.com/Grelot/genbar2)**: identify genetic boundaries between populations using individual spatial coordinates and genetic variants
@@ -131,12 +103,9 @@ _______________________________________________________________________________
 
 # PUBLICATIONS
 
-
 * **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
-
-
 
 
 _______________________________________________________________________________
