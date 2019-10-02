@@ -4,7 +4,7 @@
 #base_url = "https://grelot.github.io/blog/"
 # my domain
 base_url = "https://guerinpe.com/"
-title = "Guerin"
+title = "Pierre-Edouard Guerin"
 description = "Computational biologist"
 
 # The default language, used in RSS
