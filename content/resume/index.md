@@ -67,13 +67,81 @@ _______________________________________________________________________________
 
 # PROJECTS
 
-## genbar2
-
-## Rad-seq + genome assemblies
-
 ## Metabarcoding
 
+> Montpellier, FR
+> <br> *01.2018 - current*
+> <br><details><summary>One of the most promising genetic techniques for improving biodiversity assessments is the metabarcoding of environmental DNA. I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.</summary>
+><p>
+>
+>
+>
+>### Overview: the necessity to assess marine biodiversity
+> Marine environments, both coastal and offshore, are being severely impacted by traditional and emerging human activities. This is translated into habitat losses, pollution and overexploitation which treats marine >biodiversity. It compromises the sustainability of marine ecosystems and services.
+>
+>As a response to the environmental degradation, initiatives aims to protect marine ecosystems. Development of reliable marine biodiversity assessment methods is necessary. One of the most promising genetic techniques for >improving biodiversity assessments is the **metabarcoding** of environmental DNA.
+>
+>### What is Metabarcoding
+>
+>Indeed, all organisms shed cells containing DNA in their environment, as intra or extra-cellular material for up to a few days. The amplification and high-throughput eDNA sequencing followed by bioinformatic analyses >produces a list of sequences with the ultimate goal to assess species diversity in a given site.
+>
+>### Assess marine biodiversity all over the world with metabarcoding
+>
+>eDNA samples were collected by [Monaco Scientific Exploration Yersin](https://fr.wikipedia.org/wiki/Yersin_(navire_oc%C3%A9anographique)) in Guadeloupe, Lengguru, Malpelo Fakarava and Mediteranean sea. Sequencing were performed by [SPYGEN company](http://www.spygen.com/) and I was in charge of the bioinformatics processing of sequencing data.
+>
+>### My contribution as a computational biologist
+>
+>I did a state of the Art of available methods and developed serveral workflows to process **metabarcoding** data in order to assess marine biodiversity all over the world. Source codes are available as git repositories on the [Montpellier server dedicated to eDNA analysis](https://gitlab.mbb.univ-montp2.fr/edna).
+>
+>
+></p>
+></details>
+
+
+
+
+## Genotyping by sequencing
+
+
+> Montpellier, FR
+> <br> *02.2017 - current*
+> <br><details><summary>s</summary>
+><p>
+>
+>### Overview:
+>
+>
+>
+></p>
+></details>
+
+
+## Genome assembly
+
+> Montpellier, FR
+> <br> *02.2017 - current*
+> <br><details><summary>s</summary>
+><p>
+>
+>### Overview: the necessity to produce whole genome sequence
+>
+>### What is a genome ?
+>
+> Genome sequencing is figuring out the order of DNA nucleotides, or bases, in a genome—the order of As, Cs, Gs, and Ts that make up an organism's DNA. For instance, the human genome is made up of over 3 billion of these genetic letters.
+>
+>### Sequencing the genome
+>
+>
+>### New genomes available for three species of mediterranean fishes
+>
+>
+></p>
+></details>
+
+
 ## Global determinants of freshwater and marine fish genetic diversity
+
+## genbar2
 
 ## Predicting genotype environmental range from genome–environment associations
 

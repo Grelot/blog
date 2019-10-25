@@ -7,94 +7,62 @@ tags = ["education", "profile"]
 lang = "fr"
 +++
 
+# PRESENTATION
 
-### Profession
-Ingénieur d'étude en bio-informatique | [Ecole Pratique des Hautes Etudes](https://www.ephe.fr/)
-
-### Contact
-[pierre.edouard.guerin [at] gmail.com](mailto:pierre.edouard.guerin@gmail.com)
-
-### Equipe de recherche
-[Centre d'Ecologie Fonctionnelle et Evolutive](https://www.cefe.cnrs.fr)  
-1919 route de Mende, Montpellier, Occitanie, France
-
-# EXPERIENCES
+je m'appelle Pierre-Edouard GUERIN, je suis bioinformaticien dans le laboratoire [CEFE](https://www.cefe.cnrs.fr) du [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) de Montpellier.
 
 
-### Ingénieur d'étude en bio-informatique
-Ecole Pratique des Hautes Etudes | janvier 2017 à aujourd'hui | Montpellier
+## Centres d'interêts
 
-Intégré à l'unité de recherche du CNRS "Centre d'Ecologie Fonctionnelle et Evolutive"
-
-### janvier-juillet 2016
-Stage M2 |  INSERM - UMR "Génétique des Diabètes" | Paris
-
-### mars-juin 2015
- Stage M1 | INSERM - UMR "Dynamique des structures et interactions des macromolécules biologiques" | Paris
-2014-2016
-Master Biologie informatique Bioinformatique | Université Paris Diderot | Paris
-
-
-# PROJECTS
-
-blablalbla
-blablalbla
-blablalbla
-
-blablalbla
-blablalbla
-blablalbla
-blablalbla
-
-
-# EDUCATION
-
-<img align="right" width="128rem" height="256rem" src="paris7.png">
-
-
-### 2016 - MASTER Bioinformatics
-University Paris 7 Paris Diderot
-
-
-### 2014 - LICENCE Life sciences
-
-
-# SKILLS
-
-blablalbla
-blablalbla
-blablalbla
-
-blablalbla
-blablalbla
-blablalbla
-blablalbla
-
-
-
-# PUBLICATIONS DANS DES REVUES SCIENTIFIQUES
-
-### mai 2018 - [Predicting genotype environmental range from genome–environment associations](https://doi.org/10.1111/mec.14723)
-
-- Molecular Ecology
-- Manel S, Andrello M, Henry K, Verdelet D, Darracq A, **Guerin PE**, Desprez B, Devaux P
-
-### juin 2016 - [ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles](https://doi.org/10.1038/srep28268)
-
-- Scientific Reports (Nature Publishing Group)
-- Ghouzam Y, Postic G, **Guerin PE**, de Brevern AG, Gelly JC
-
-
-
+* **Bioinformatique**
+	* Metabarcoding
+	* Genomique
+* **Systèmes LINUX**
+	* Ubuntu et autres systemes Debian. Orchestration et automatisation de tâches allant de la conteneurisation de services, au traitement des données de séquençage haut-débit et de la gestion des workflows sur cluster de calcul.
+* **Languages de programmation**
+	* Bash, Python, C++, C, R, Julia
 
 _______________________________________________________________________________
 
 
-# AUTRES ACTIVITES
+# EXPERIENCE
+
+## [Centre d'Ecologie Fonctionnelle et Evolutive](https://www.cefe.cnrs.fr/)
+
+<a href="https://www.ephe.fr/"><img align="right" width="132rem" height="124rem" src="ephe.png"></a>
+<a href="https://www.cnrs.fr/"><img align="right" width="96rem" height="96rem" src="cnrs.png"></a>
 
 
-<img align="right" width="296rem" height="256rem" src="usnm.png">
+> **Ingénieur biologiste en traitement des données**
+> <br> Montpellier, FR
+> <br> *02.2017 - présent*
 
-### Triathlon
+- Génomique des paysages
+- Metabarcoding
+- Assemblage de génomes
 
-Je suis membre du club [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn-web/view/index.php) depuis 2017. Rejoignez-nous !
+
+## [Génétique des Diabètes](https://ecolesdoctorales.parisdescartes.fr/ed157/Equipes-de-recherche/Liste-des-equipes-d-accueil/Genetique-des-diabetes)
+
+<a href="https://www.inserm.fr/"><img align="right" width="164rem" height="36rem" src="inserm.png"></a>
+
+> **Développement de logiciel en python** (Master internship)
+> <br> Paris, FR
+> <br> *01.2016 - 08.2016*
+
+- Génomes humains, Analyse de lourdes données de séquençage haut-débit
+- Logiciel qui detecte et annote les variants génétiques rares
+- Conception et réalisation d'une interface graphique
+
+## [Dynamique des Systèmes et Interactions des Macromolécules Biologiques](http://www.dsimb.inserm.fr/)
+
+<a href="https://www.inserm.fr/"><img align="right" width="164rem" height="36rem" src="inserm.png"></a>
+
+
+> **Ingénieur biologiste en traitement des données** (Master internship)
+> <br> Paris, FR
+> <br> *02.2015 - 06.2015*
+
+- modélisation et visualisation 3D des structures de protéine à l'échelle de l'atome
+- Optimisation d'une méthode de reconnaissances des repliements dans la structure des protéines
+- Amélioration des performances d'un algorithme de prédiction de la structure des protéines
