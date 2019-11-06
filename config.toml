@@ -51,7 +51,7 @@ mycountry= "FR"
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
-    {url = "https://twitter.com/epguerin", name = "twitter"},
+    {url = "https://twitter.com/guerin_pe", name = "twitter"},
     {url = "https://github.com/Grelot", name = "github"},
     {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
