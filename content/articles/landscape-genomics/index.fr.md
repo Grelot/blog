@@ -119,7 +119,7 @@ La génomique du paysage est une discipline qui intègre des concepts et des out
 Nous avons vu que la bioinformatique apportait de la puissance à ces méthodes à la croisée entre écologie, statistiques, informatique et génomique.
 Ces approches sont utiles à la fois pour les laboratoires de recherche, mais aussi pour les bureaux d’études. Les nombreuses études de génomique des paysages réalisées au cours de cette décennie ont contribué à faire des choix éclairés de politique de conservation de la nature. Permettant ainsi de maintenir les écosystèmes et de prévenir ou de corriger les dégradations qu'ils pourraient subir. 
 
-<img align="left" src="reservebenefit.jpeg">
+<img align="left" src="reservebenefit.jpg">
 
 Actuellement en Méditerranée occidentale, le projet RESERVEBENEFIT vise à évaluer la connexion entre les aires marines protégées pour les poissons pêchés. Cette évaluation s'appuie sur une approche de génomique des paysages et vise à terme à optimiser le placement des futures aires marines protégées en Méditerranée dans le but de pérenniser les stocks de poissons. Les fruits de ce travail, collaboration entre pêcheurs et scientifiques dont j'ai l'honneur de réaliser la bioinformatique, sont diffusés sur un [compte twitter dédié](https://twitter.com/reservebenefit).
 
