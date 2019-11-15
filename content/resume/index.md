@@ -6,72 +6,57 @@ draft = false
 tags = ["resume"]
 +++
 
-# PRESENTATION
 
-Pierre-Edouard GUERIN is a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France. 
+[![Generic badge](https://img.shields.io/badge/version-FR-blue.svg)](https://guerinpe.com/fr/resume/)[![Generic badge](https://img.shields.io/badge/version-ES-yellow.svg)](https://guerinpe.com/es/resume/)  
 
 
-## Areas of focus
 
-* **Bioinformatics**
-	* Metabarcoding
-	* Genomics
-* **Linux Systems**
-	* Ubuntu and Debian based systems. Orchestration and automation of tasks ranging from containerized web services to DNA high throughput sequencing data processing and workflow management on HPC platform.
-* **Programming Languages**
-	* Bash, Python, C++, C, R, Julia
+# Curriculum Vitae
+
+My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France.
 
 _______________________________________________________________________________
 
-# EXPERIENCE
+<img align="right" width="48rem" height="96rem" src="paris7.png">
 
-## [Center of Functional Ecology and Evolution](https://www.cefe.cnrs.fr/)
-
-<a href="https://www.ephe.fr/"><img align="right" width="132rem" height="124rem" src="ephe.png"></a>
-<a href="https://www.cnrs.fr/"><img align="right" width="96rem" height="96rem" src="cnrs.png"></a>
+# Education
 
 
-> **Computational biologist**
-> <br> Montpellier, FR
-> <br> *02.2017 - current*
 
-- Landscape genomics
-- Metabarcoding
-- Genome assembly
+**2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 
 
-## [Genetics of Diabetes](https://ecolesdoctorales.parisdescartes.fr/ed157/Equipes-de-recherche/Liste-des-equipes-d-accueil/Genetique-des-diabetes)
 
-<a href="https://www.inserm.fr/"><img align="right" width="164rem" height="36rem" src="inserm.png"></a>
+# Experience
+<a href="https://www.ephe.fr/"><img align="right" width="66rem" height="62rem" src="ephe.png"></a>
+<a href="https://www.cnrs.fr/"><img align="right" width="48rem" height="48rem" src="cnrs.png"></a>
+**February 2017 to present: Computational biologist**  
+Center of Functional Ecology and Evolution, Montpellier, France  
+- Landscape genomics approach to assess genetic populations of mediteranean fishes for the european mission RESERVEBENEFIT  
+- Program to process *metabarcoding* marine eDNA data for the world oceanographic mission of Monaco
+- Genome assembly 
 
-> **Software developer** (Master internship)
-> <br> Paris, FR
-> <br> *01.2016 - 08.2016*
-
-- Human genomes DNA high throughput sequencing data analysis
-- Program to detect and annotate rare genetic variants
-- Graphical interface
-
-## [Dynamics of Structures and Interactions of Macromolecules in Biology](http://www.dsimb.inserm.fr/)
-
-<a href="https://www.inserm.fr/"><img align="right" width="164rem" height="36rem" src="inserm.png"></a>
+<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
+**January 2016 to august 2016: Software developer** (Master internship)
+Genetics of Diabetes, Paris, FR  
+- Human genomes DNA high throughput sequencing data analysis  
+- Program to detect and annotate rare genetic variants  
+- Graphical interface  
 
 
-> **Computational biologist** (Master internship)
-> <br> Paris, FR
-> <br> *02.2015 - 06.2015*
+<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
+**February 2015 to June 2015: Computational biologist** (Master internship)  
+- Dynamics of Structures and Interactions of Macromolecules in Biology Paris, FR  
+- 3D-modelisation of protein structure at atomic resolution  
+- Optimization of a method of fold recognition in protein structure  
+- New algorithm to predict protein structure  
 
-- 3D-modelisation of protein structure at atomic resolution
-- Optimization of a method of fold recognition in protein structure
-- New algorithm to predict protein structure
-
-# PROJECTS
+# Projects
 
 ## Metabarcoding
 
-> Montpellier, FR
-> <br> *01.2018 - current*
-> <br><details><summary>One of the most promising genetic techniques for improving biodiversity assessments is the metabarcoding of environmental DNA. I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.</summary>
+
+> <details><summary>One of the most promising genetic techniques for improving biodiversity assessments is the metabarcoding of environmental DNA. I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.</summary>
 ><p>
 >
 >
@@ -104,8 +89,7 @@ _______________________________________________________________________________
 
 
 > Montpellier, FR
-> <br> *02.2017 - current*
-> <br><details><summary>s</summary>
+> <br><details><summary> </summary>
 ><p>
 >
 >### Overview:
@@ -149,18 +133,8 @@ _______________________________________________________________________________
 
 
 
-# EDUCATION
 
-<img align="right" width="96rem" height="192rem" src="paris7.png">
-
-
-## University of Paris 
-> **MASTER Degree of Bioinformatics**
-> <br> Paris, FR
-> <br> *june 2016*
-
-
-# SOFTWARES
+# Softwares
 
 * **[Genbar2](https://github.com/Grelot/genbar2)**: identify genetic boundaries between populations using individual spatial coordinates and genetic variants
 * **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
@@ -169,8 +143,9 @@ _______________________________________________________________________________
 * **[ORION](http://www.dsimb.inserm.fr/ORION/)**: a sensivitve method for protein template detection
 
 
-# PUBLICATIONS
+# Publications
 
+* **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources in november 2019)
 * **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
@@ -178,20 +153,24 @@ _______________________________________________________________________________
 
 _______________________________________________________________________________
 
-# OTHER ACTIVITIES
+# Other activities
 
 
 ## Sciences
 
+* My scientific [blog](https://guerinpe.com/articles/)
 * Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
 * Author on french bioinformatics participative blog [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
 
 
+
 ## Personnal projects
 
-* [speckyman](https://github.com/Grelot/speckyman): a platform game developed in JavaScript
-* [fromdnatomusic](https://github.com/Grelot/fromdnatomusic): convert DNA sequences into MIDI track and listen to it
+<img align="right" width="60px" height="60px" src="costa_walk.png">
 
+* **[speckyman](https://github.com/Grelot/speckyman)**: a platform game developed in JavaScript
+* **[fromdnatomusic](https://github.com/Grelot/fromdnatomusic)**: convert DNA sequences into MIDI track and listen to it
+* **[Nos data ont du talent](https://www.youtube.com/channel/UCvjBNumU6EvJiiGfxqNfd7Q)**: a youtube channel dedicated to data visualisation
 
 
 
