@@ -44,8 +44,8 @@ languages = [
 # Put all your custom variables here
 
 webmail = "pierre.edouard.guerin@gmail.com"
-myjob_name = "EPHE"
-myjob_address = "https://www.ephe.fr"
+myjob_name = "CNRS"
+myjob_address = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin"
 mytown = "Montpellier"
 mycountry= "FR"
 
