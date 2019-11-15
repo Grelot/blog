@@ -6,6 +6,7 @@ draft = false
 tags = ["genomics", "sciences"]
 lang = "es"
 +++
+*versión en español*
 
 [![Generic badge](https://img.shields.io/badge/version-EN-red.svg)](https://guerinpe.com/articles/landscape-genomics/)
 [![Generic badge](https://img.shields.io/badge/version-FR-blue.svg)](https://guerinpe.com/fr/articles/landscape-genomics/)  

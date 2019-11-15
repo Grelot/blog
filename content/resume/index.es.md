@@ -11,7 +11,8 @@ categorie="CV"
 [![Generic badge](https://img.shields.io/badge/version-EN-red.svg)](https://guerinpe.com/resume/)
 [![Generic badge](https://img.shields.io/badge/version-FR-blue.svg)](https://guerinpe.com/fr/resume/)  
 
-
+# Curriculum Vitae
+*versión en español*
 
 Pierre-Edouard Guerin en espanol !
 

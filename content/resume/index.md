@@ -12,6 +12,7 @@ tags = ["resume"]
 
 
 # Curriculum Vitae
+*English version*
 
 My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France.
 

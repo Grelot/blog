@@ -9,7 +9,7 @@ lang = "fr"
 [![Generic badge](https://img.shields.io/badge/version-EN-red.svg)](https://guerinpe.com/resume/) [![Generic badge](https://img.shields.io/badge/version-ES-yellow.svg)](https://guerinpe.com/es/resume/)  
 
 # Curriculum Vitae
-
+*Version française*
 
 Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
 
