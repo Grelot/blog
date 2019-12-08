@@ -1,11 +1,10 @@
 +++
-template = "static_page.html"
+template = "page.html"
 title = "Curriculum Vitae"
 date =  2019-08-20
 draft = false
 tags = ["education", "profile"]
 lang = "fr"
-slug="resume"
 +++
 
 
