@@ -4,15 +4,11 @@ title = "Curriculum Vitae"
 date =  2019-08-20
 draft = false
 tags = ["resume"]
+slug="resume"
 +++
 
 
-[![Generic badge](https://img.shields.io/badge/version-FR-blue.svg)](https://guerinpe.com/fr/resume/)[![Generic badge](https://img.shields.io/badge/version-ES-yellow.svg)](https://guerinpe.com/es/resume/)  
 
-
-
-# Curriculum Vitae
-*English version*
 
 My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France.
 
