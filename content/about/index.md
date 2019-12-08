@@ -11,7 +11,7 @@ I'm a bioinformatics engineer currently living in Montpellier.
 
 Feel free to add me on:
 
-* [Twitter](https://twitter.com/epguerin)
+* [Twitter](https://twitter.com/guerin_pe)
 * [LinkedIn](https://www.linkedin.com/in/pierre-edouard-guerin)
 * [GitHub](https://github.com/Grelot)
 
