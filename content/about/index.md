@@ -1,7 +1,7 @@
 +++
 title = "About Pierre"
 template = "static_page.html"
-slug = "workshop-git"
+slug = "about"
 
 +++
 
