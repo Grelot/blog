@@ -5,6 +5,7 @@ date =  2019-11-26
 draft = false
 tags = ["tech", "git"]
 lang = "fr"
+slug = "workshop-git"
 +++
 
 *Version française*  

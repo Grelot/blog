@@ -1,6 +1,8 @@
 +++
 title = "About Pierre"
 template = "static_page.html"
+slug = "workshop-git"
+
 +++
 
 <img align="right" src="../avatar.png">
