@@ -14,20 +14,7 @@
   </head>
     <body>
     {% block sidebar %}       
-    <div class="sidebar"> 
-      <div class="sidebar-lang">
-
-        {% for langue in config.languages %}
-          {% if langue.code == "en" %}  
-            <a href="{{config.base_url}}/articles" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a>
-          {% else %}
-          <a href="{{config.base_url}}{{ langue.code }}/articles" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
-         {% endif %}
-        {% endfor %}
-      </div>
-
-    <hr>
-
+    <div class="sidebar">      
       <a href="{{ get_url(path="about") }}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
