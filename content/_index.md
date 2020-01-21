@@ -1,4 +1,4 @@
 +++
 template = "index.html"
-redirect_to = "resume/"
+redirect_to = "about/"
 +++
