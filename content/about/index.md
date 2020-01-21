@@ -1,5 +1,5 @@
 +++
-title = "About Pierre"
+title = "About Pierre-Edouard GUERIN"
 template = "static_page.html"
 slug = "about"
 
