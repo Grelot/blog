@@ -3,7 +3,7 @@
 # github page
 #base_url = "https://grelot.github.io/blog/"
 # my domain
-base_url = "https://guerinpe.com/about"
+base_url = "https://guerinpe.com/"
 title = "Pierre-Edouard Guerin"
 description = "Computational biologist"
 
