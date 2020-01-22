@@ -42,7 +42,7 @@ cd ~
 ```
 OU
 ```
-cd /user/home
+cd /home/user
 ```
 Se rendre au répertoire courant (cette commande est inutile car vous êtes déjà dans le répertoire courant)
 ```
@@ -121,7 +121,7 @@ ls -l mon_dossier
 ### Output
 
 ```
--rw-rw-r-- 1 peguerin teamBI 697 janv. 23 11:09 fichier_dans_mon_dossier
+-rw-rw-r-- 1 user teamBI 697 janv. 23 11:09 fichier_dans_mon_dossier
  ```
  
 l’option `-l` permet d’afficher le détail des fichiers dans le répertoire `mon_dossier`.  
@@ -133,7 +133,7 @@ Le premier caractère indique si il s’agit d’un repertoire/fichier/lien
 signifie que le droit n’est pas accordé
 Il y a 3 series de 3 caracteres chacune indicant l’absence ou la présence du droit de lecture, écriture, execution pour respectivement, l’utilisateur propriétaire du fichier, le groupe propriétaire du fichier et l’invité.  
 
-Par exemple ici mon fichier `fichier_dans_mon_dossier` peut-être lu et écrit mais pas executé par l’utilisateur `peguerin`, il peut être lu et écrit par les membres du groupe `teamBI` et les invités peuvent lire ce fichier. Ce fichier a une taille 697bytes, a été créer le 23 janvier à 11:09.
+Par exemple ici mon fichier `fichier_dans_mon_dossier` peut-être lu et écrit mais pas executé par l’utilisateur `user`, il peut être lu et écrit par les membres du groupe `teamBI` et les invités peuvent lire ce fichier. Ce fichier a une taille 697bytes, a été créer le 23 janvier à 11:09.
 
 # Commandes utiles
 
