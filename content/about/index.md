@@ -20,13 +20,13 @@ I am a computational biologist engineer at Center of Functional Ecology and Evol
 <br>
 <div style="display: flex;">
 	<div style="flex: 31%;">
-		<img src="bash_logo.png" width="60rem">
+		<img src="../../static/tools_logo/bash_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="python_logo.png" width="60rem">
+		<img src="../../static/tools_logo/python_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="R_logo.png" width="60rem" >
+		<img src="../../static/tools_logo/R_logo.png" width="60rem" >
 	</div>
 </div>
 <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
@@ -39,13 +39,13 @@ I am a computational biologist engineer at Center of Functional Ecology and Evol
 <br>
 <div style="display: flex;">
 	<div style="flex: 31%;">
-		<img src="Sublime_text_logo.png" width="60rem">
+		<img src="../../static/tools_logo/Sublime_text_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="pycharm_logo.png" width="60rem">
+		<img src="../../static/tools_logo/pycharm_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="rstudio_logo.png" width="60rem" >
+		<img src="../../static/tools_logo/rstudio_logo.png" width="60rem" >
 	</div>
 </div>
 <small>
@@ -58,13 +58,13 @@ Sublime Text, Pycharm, Rstudio, Visual Studio to create computer softwares. SLUR
 <br>
 <div style="display: flex;">
 	<div style="flex: 31%;">
-		<img src="git_logo.png" width="60rem">
+		<img src="../../static/tools_logo/git_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="singularity_logo.png" width="60rem">
+		<img src="../../static/tools_logo/singularity_logo.png" width="60rem">
 	</div>
 	<div style="flex: 31%;">
-		<img src="snakemake_logo.png" width="60rem" >
+		<img src="../../static/tools_logo/snakemake_logo.png" width="60rem" >
 	</div>
 </div>
 <small> 
