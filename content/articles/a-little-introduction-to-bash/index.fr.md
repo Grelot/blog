@@ -12,7 +12,7 @@ Une **commande** est un ensemble d’instructions ou tâches données à l’ord
 
 l'intérêt de travailler en ligne de commande plutôt qu’en interface graphique est de pouvoir **automatiser** une tâche ou un ensemble de tâches complexes.
 
-#Fichiers, répertoires, liens symboliques
+# Fichiers, répertoires, liens symboliques
 
 Le **fichier** ou plus exactement le nom du fichier est un pointeur. Un pointeur va indiquer à la machine la position exacte sur le disque dur où la lecture du fichier peut se faire.
 
@@ -23,13 +23,13 @@ Le **répertoire** est aussi un pointeur mais qui pointe non pas sur un fichier 
 Les **liens symboliques** sont des pointeurs qui pointe vers d’autres pointeurs (répertoire ou fichier). Pour faire simple, ce sont des copies de pointeurs. Utiliser un lien symbolique revient à utiliser le nom du fichier/répertoire vers lequel il pointe.
 Se déplacer dans l’arborescence des fichiers.
 
-#Se déplacer dans l’arborescence des fichiers.
+# Se déplacer dans l’arborescence des fichiers.
 
-##Change Directory cd
+## Change Directory cd
 
 Permet d’aller à l’intérieur d’un répertoire. 
 
-###Commandes
+### Commandes
 
 Se rendre au répertoire `root`. (c’est le répertoire parent ultime)
 ```
@@ -66,7 +66,7 @@ cd mon_dossier_dans_le_dossier
 cd mon_dossier/mon_dossier_dans_le_dossier
 ```
 
-###Notion de chemin relatif et de chemin absolu.
+### Notion de chemin relatif et de chemin absolu.
 
 * Le chemin absolu part de `root`, exemple : `cd /vers/mon/fichier_a_atteindre`
 * Le chemin relatif part du répertoire courant, exemple, si je suis dans `/vers/mon`, je peux écrire : `cd ./mon/fichier_a_atteindre`
@@ -75,50 +75,50 @@ Souvent quand on débute sur le shell (et même après), la plupart des erreurs 
 
 Quand vous entrez des chemins vers un fichier, ne pas hésiter à utiliser l’auto-complétion avec la touche `TAB`.  
 
-#Print name of Working Directory pwd
+# Print name of Working Directory pwd
 
 permet de connaître le chemin absolu(c’est-à-dire en partant de `root`) du répertoire dans lequel je me trouve.
-###Commande
+### Commande
 
 ```
 pwd
 ```
-###Output
+### Output
 
 ```
 /le_repertoire/ou_je_me/trouve/
 ```
 je me trouve actuellement dans le répertoire `/le_repertoire/ou_je_me/trouve/`
 
-#List ls
+# List ls
 
 permet d’afficher la liste des noms de tous les fichiers et répertoires présents dans le répertoire désigné. (par défaut le répertoire courant)  
 
-###Commande
+### Commande
 ```
 ls
 ```
-###Output
+### Output
 
 ```
 fichier_dans_le_repertoire_courant
 ```
 
-###Pour lister les fichiers/repertoires dans le repertoire courant
+### Pour lister les fichiers/repertoires dans le repertoire courant
 ```
 ls mon_dossier
 ```
-###Output
+### Output
 
 ```
 fichier_dans_mon_dossier
 ```
 
-###Pour lister les fichiers/répertoires dans le répertoire `mon_dossier`
+### Pour lister les fichiers/répertoires dans le répertoire `mon_dossier`
 ```
 ls -l mon_dossier
 ```
-###Output
+### Output
 
 ```
 -rw-rw-r-- 1 peguerin teamBI 697 janv. 23 11:09 fichier_dans_mon_dossier
@@ -135,12 +135,12 @@ Il y a 3 series de 3 caracteres chacune indicant l’absence ou la présence du 
 
 Par exemple ici mon fichier `fichier_dans_mon_dossier` peut-être lu et écrit mais pas executé par l’utilisateur `peguerin`, il peut être lu et écrit par les membres du groupe `teamBI` et les invités peuvent lire ce fichier. Ce fichier a une taille 697bytes, a été créer le 23 janvier à 11:09.
 
-#Commandes utiles
+# Commandes utiles
 
 ## Manual man
 Affiche le manuel d’utilisation d’une fonction, d’un programme du shell
 
-###Commmande
+### Commmande
 ```
 man ls
 ```
@@ -151,7 +151,7 @@ man ls
 ## head
 
 Afficher les 15 premières lignes d’un fichier
-###Commande
+### Commande
 ```
 head mon_fichier
 ```
@@ -160,7 +160,7 @@ Afficher les 15 premières lignes de mon_fichier sur le shell
 ## tail
 
 Afficher les 15 dernières lignes d’un fichier
-###Commande
+### Commande
 ```
 tail mon_fichier
 ```
@@ -191,11 +191,11 @@ Afficher le contenu de mon_fichier dans une session du shell
 * Taper “/” et un mot pour chercher ce mot dans le fichier, taper “n” (next) pour chercher le mot suivant dans le fichier.
 * Finalement taper “q” pour quitter la session, vous reviendrez au shell tel que vous l’avez laissé après avoir taper la commande less.
 
-##Text editor vi
+## Text editor vi
 
 Permet de lire et d’éditer un fichier comme si vous utilisez le bloc note de windows (mais avec énormément d’options supplémentaires)
 Il existe beaucoup de text editor sur linux : le plus connu est vi (vim étant la version améliorée) et le deuxième plus connu est nano.
-###Commande
+### Commande
 
 ```
 vi mon_fichier
@@ -216,22 +216,22 @@ Vous devez quitter le mode insertion pour réaliser des commandes qui ne sont pa
 
 Note : si `mon_fichier` n’existe pas au moment où vous entrer la commande, le fichier `mon_fichier` sera alors créer
 
-##echo
+## echo
 
 Cette commande est vraiment pratique associée à d’autres commandes parce qu’elle retourne son input en une ligne de texte interprétable dans le shell. Toute seule, elle est plutôt inutile
 
-###Commande
+### Commande
 
 Retourne la chaine de caractere “coucou” en une chaine de caractere sur le shell
 ```
 echo “coucou”
 ```
-###Output
+### Output
 ```
 coucou
 ```
 
-###Autre exemple
+### Autre exemple
 
 Retourne le nom du fichier en une chaine de caractère du nom du fichier sur le shell.
 ```
@@ -243,10 +243,10 @@ mon_fichier
 ```
 
 
-##Concatenate cat
+## Concatenate cat
 
 Permet de concaténer des fichiers ensemble
-###Commande
+### Commande
 affiche le contenu du fichier dans le terminal
 
 ```
@@ -270,11 +270,11 @@ cat mon_fichier2 mon_fichier1
 Permet de compter le nombre de mots dans un fichier/input
 
 
-###Commande
+### Commande
 ```
 wc mon_fichier
 ```
-###Output
+### Output
 ```
 1    2    3 mon_fichier
 ```
@@ -287,7 +287,7 @@ L’option `-l` donne uniquement le nombre de lignes.
 ```
 wc -l mon_fichier
 ```
-###Output
+### Output
 Il y a une seule ligne dans `mon_fichier`
 ```
 1
@@ -299,7 +299,7 @@ L’option `-w` donne uniquement le nombre de mots.
 ```
 wc -w mon_fichier
 ```
-###Output
+### Output
 ```
 2
 ```
@@ -311,12 +311,12 @@ L’option `-c` donne uniquement le nombre de caracteres.
 ```
 wc -c mon_fichier
 ```
-###Output
+### Output
 ```
 3
 ```
 
-#Combiner les commandes
+# Combiner les commandes
 La plupart des programmes LINUX sont conçus selon le principe “faire une seule chose mais le faire très bien”. Par exemple `ls` affiche la liste des fichiers dans un répertoire et `wc` permet de compter combien il y a d’éléments dans une entrée.
 
 Il faut comprendre un programme basiquement comme cela :
@@ -329,7 +329,7 @@ input(entree) → programme → output(sortie)
 
 * La force du shell c’est de pouvoir donner l’output d’un programme en input à un autre et ainsi de les combiner.
 
-###Par exemple :
+### Par exemple :
 ```
 ls .
 ```
@@ -339,7 +339,7 @@ fichier1, fichier2, fichier3
 ```
 Cette commande affiche les noms des 3 fichiers dans mon repertoire courant
 
-#####Maintenant essayons de combiner ce programme à un autre en utilisant le pipe `|`
+##### Maintenant essayons de combiner ce programme à un autre en utilisant le pipe `|`
 ```
 ls . | wc -w
 ```
@@ -361,7 +361,7 @@ ouput :
 
 :pushpin: note : le `;` permet de différencier deux lignes de commandes. Vous pouvez utiliser le saut à la ligne ou le “;” indifféremment.
 
-#####Par exemple
+##### Par exemple
 ```
 echo “coucou” > coucou.txt ; more coucou.txt
 ```
@@ -372,7 +372,7 @@ coucou
 
 J’ai écrit la sortie de `echo` dans le fichier nommé `coucou.txt`. J’ai ensuite afficher le contenu de `coucou.txt` avec `more`. Je vois alors ce que j’avais écrit pour `echo` écrit dans ce fichier.
 
-#####Suite de l’exemple
+##### Suite de l’exemple
 ```
 cat coucou.txt | wc -c > nombre_carac_coucou.txt
 cat coucou.txt nombre_carac_coucou.txt > coucou_nombre.txt
