@@ -14,7 +14,7 @@
     <body>
     {% block sidebar %}       
     <div class="sidebar">       
-      <a href="{{ get_url(path="about") }}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
+      <a href="{{config.base_url}}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
        <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#x2709;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
@@ -67,19 +67,20 @@
 
 
       <br>
+
       <center>
       <div style="display: inline-block; width: 31%;"> 
       <h2> Code </h2>
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/bash_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/bash_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/python_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/python_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/R_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/R_logo.png" width="60rem" >
         </div>
       </div>
       <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
@@ -92,13 +93,13 @@
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/Sublime_text_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/Sublime_text_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/pycharm_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/pycharm_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/rstudio_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/rstudio_logo.png" width="60rem" >
         </div>
       </div>
       <small>
@@ -111,13 +112,13 @@
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/git_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/git_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/singularity_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/singularity_logo.png" width="60rem">
         </div>
         <div style="flex: 31%;">
-          <img src="../static/tools_logo/snakemake_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/snakemake_logo.png" width="60rem" >
         </div>
       </div>
       <small> 
