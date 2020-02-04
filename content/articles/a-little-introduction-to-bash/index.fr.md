@@ -21,7 +21,7 @@ Il est possible de lire, écrire ou exécuter un fichier. Pour pouvoir faire ces
 Le **répertoire** est aussi un pointeur mais qui pointe non pas sur un fichier mais sur une liste d’autres pointeurs. Un répertoire “contient” (plus exactement “pointe vers”) des fichiers (plus exactement “des noms de fichiers”). Comme le répertoire est aussi un pointeur, un répertoire peut contenir d’autres répertoires.
 
 Les **liens symboliques** sont des pointeurs qui pointe vers d’autres pointeurs (répertoire ou fichier). Pour faire simple, ce sont des copies de pointeurs. Utiliser un lien symbolique revient à utiliser le nom du fichier/répertoire vers lequel il pointe.
-Se déplacer dans l’arborescence des fichiers.
+
 
 # Se déplacer dans l’arborescence des fichiers.
 
@@ -51,6 +51,10 @@ cd .
 Se rendre au répertoire parent. (très utile)
 ```
 cd ..
+```
+Se rendre au répertoire précédement consulté
+```
+cd -
 ```
 Se rendre au répertoire `mon_dossier` dans le répertoire courant.
 ```
