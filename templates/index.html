@@ -10,14 +10,15 @@
        <link rel="stylesheet" href="{{ get_url(path="sobre.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
+
   </head>
     <body>
-    {% block sidebar %}       
+    {% block sidebar %}   
     <div class="sidebar">       
       <a href="{{config.base_url}}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
-       <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#x2709;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>
+       <div class="sidebar-webmail"> <p><a href="mailto:{{config.extra.webmail}}"><b>&#x2709;</b> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a></p></div>      
   
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}
@@ -57,30 +58,36 @@
 
       {% block content %}
       <div>
+      <br>
 
-
-
+      <center>
       <h1> Please, call me PIERRE. Thanks for visiting my website.</h1>
 
 
       I am a computational biologist engineer at Center of Functional Ecology and Evolution, CNRS, Montpellier. I am mainly focusing on second and third Next-Generation Sequencing data analysis for the european project RESERVEBENEFIT. I am also strongly involved in environmental DNA studies such as MONACO MARINE WORLDWIDE EXPEDITION. My expertise is related to programming, whole-genome assembly, 3D protein modelling, variant calling, parsing large public database and stastiscal analysis. I am interested in working on next-generation approaches and solving complex problems using combination of state-of-the-art algorithms.
-
-
+      
+      </center>
+      <br>
+      <br>
+      <br>
       <br>
 
+
+
+
       <center>
-      <div style="display: inline-block; width: 31%;"> 
+      <div style="display: inline-block; width: 24%; margin: 4%;"> 
       <h2> Code </h2>
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/bash_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/bash_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/python_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/python_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/R_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/R_logo.png" width="44rem" >
         </div>
       </div>
       <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
@@ -88,18 +95,18 @@
 
       </div>
 
-      <div style="display: inline-block; width: 31%;"> 
+      <div style="display: inline-block; width: 24%;  margin: 4%;"> 
       <h2> Tools </h2>
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/Sublime_text_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/Sublime_text_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/pycharm_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/pycharm_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/rstudio_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/rstudio_logo.png" width="44rem" >
         </div>
       </div>
       <small>
@@ -107,18 +114,18 @@
       </small>
       </div>
 
-      <div style="display: inline-block; width: 31%;">
-      <h2> Reproducible sciences</h2>
+      <div style="display: inline-block; width: 24%;  margin: 4%;">
+      <h2> Reproducibility</h2>
       <br>
       <div style="display: flex;">
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/git_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/git_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/singularity_logo.png" width="60rem">
+          <img src="{{config.base_url}}/tools_logo/singularity_logo.png" width="44rem">
         </div>
         <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/snakemake_logo.png" width="60rem" >
+          <img src="{{config.base_url}}/tools_logo/snakemake_logo.png" width="44rem" >
         </div>
       </div>
       <small> 

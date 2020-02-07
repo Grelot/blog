@@ -172,6 +172,13 @@ _______________________________________________________________________________
 
 ## Triathlon
 
-<img align="right" width="276rem" height="256rem" src="usnm.png">
 
 I'm an active member of the [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn-web/view/index.php) sportive club since 2017. Join us !
+
+<img align="center" width="264rem" height="247rem" src="usnm.png">
+
+
+______
+
+
+

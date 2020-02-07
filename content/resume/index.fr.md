@@ -124,6 +124,11 @@ ______________________________________________________________________________
 
 ## Triathlon
 
-<img align="right" width="276rem" height="256rem" src="usnm.png">
 
 Je suis triathlète fftri et membre de l'**U**nion **S**portive des **N**ageurs de Montpellier [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn-web/view/index.php) depuis 2017. Rejoignez-nous !
+
+
+<img align="center" width="264rem" height="247rem" src="usnm.png">
+
+
+______

@@ -7,9 +7,10 @@
 
 html,
 body {
-  margin: 0;
+  margin: 0;  
   padding: 0;
 }
+
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,13 +19,13 @@ html {
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #f1f1f1;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -49,27 +50,27 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Georgia", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Georgia", serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
 }
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
-  font-weight: 500;
-  font-family: "Georgia", serif;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 /* Body text */
@@ -194,11 +195,16 @@ tbody tr:nth-child(odd) th {
 }
 
 
+
+
+
 /*
  * Custom type
  *
  * Extend paragraphs with `.lead` for larger introductory text.
  */
+
+
 
 .lead {
   font-size: 1rem;
@@ -223,17 +229,6 @@ tbody tr:nth-child(odd) th {
 }
 
 
-/*
- * Container
- *
- * Center the page content.
- */
-
-.container {
-  max-width: 48rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
 
 
 /*
@@ -383,4 +378,14 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+
+/*
+ * basic properties of container
+ *
+ */
+
+.container {
+  background-color: #fff;
 }
