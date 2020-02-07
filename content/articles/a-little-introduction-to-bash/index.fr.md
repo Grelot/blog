@@ -130,11 +130,11 @@ ls -l mon_dossier
  
 l’option `-l` permet d’afficher le détail des fichiers dans le répertoire `mon_dossier`.  
 `-rw-rw-r--`  
-Le premier caractère indique si il s’agit d’un repertoire/fichier/lien
+* Le premier caractère indique si il s’agit d’un repertoire(`d`)/fichier(`-`)/lien(`l`)
 * `r` signifie droit de lecture du fichier
 * `w` signifie droit d’écriture du fichier (plus exactement droit de supprimer le fichier)
 * `x` signifie droit d'exécution du fichier (seulement pour les programmes exécutables)
-signifie que le droit n’est pas accordé
+* `-` signifie que le droit n’est pas accordé
 Il y a 3 series de 3 caracteres chacune indicant l’absence ou la présence du droit de lecture, écriture, execution pour respectivement, l’utilisateur propriétaire du fichier, le groupe propriétaire du fichier et l’invité.  
 
 Par exemple ici mon fichier `fichier_dans_mon_dossier` peut-être lu et écrit mais pas executé par l’utilisateur `user`, il peut être lu et écrit par les membres du groupe `teamBI` et les invités peuvent lire ce fichier. Ce fichier a une taille 697bytes, a été créer le 23 janvier à 11:09.
@@ -363,7 +363,7 @@ ouput :
 * Pour écrire la sortie “en dur” d’un programme (car à la fin on voudrait quand même avoir nos résultats écrits dans un fichier) il faut utiliser `>`
 (attention toutefois, certains programmes génèrent par défaut des fichiers et alors le `>` n’est pas nécessaire)
 
-:pushpin: note : le `;` permet de différencier deux lignes de commandes. Vous pouvez utiliser le saut à la ligne ou le “;” indifféremment.
+note : le `;` permet de différencier deux lignes de commandes. Vous pouvez utiliser le saut à la ligne ou le “;” indifféremment.
 
 ##### Par exemple
 ```
@@ -405,7 +405,7 @@ coucou
 * J’ai affiché le contenu du fichier `coucou.txt` et brancher sa sortie sur `wc -c` qui a retourné le nombre de caractere dans le fichier `coucou.txt`. Ce résultat a été écrit dans le fichier `nombre_carac_coucou.txt`.
 * J’ai ensuite concatener avec `cat`, `coucou.txt` et `nombre_carac_coucou.txt` et écrit la sortie de `cat` dans le fichier `coucou_nombre.txt`. Je lis ce fichier `coucou_nombre.txt` avec `more`. Ce fichier contient le contenu du fichier `coucou.txt` et le contenu du fichier `coucou_nombre.txt`, eux même résultat des opérations précédentes.
 
-:pushpin: note : Pourquoi 7 caractères pour “coucou” qui en compte en réalité 6 ? 
+note : Pourquoi 7 caractères pour “coucou” qui en compte en réalité 6 ? 
 Hé bien parce que le programme a aussi compté le saut à la ligne comme un caractère. En effet j’ai écrit “coucou” mais j’ai donné la sortie de `echo` et `echo` par défaut ajoute un saut de ligne (c’est plus propre). Donc `echo` a envoyé à `wc` la chaîne de caractères : `coucou\n` (`\n` retour chariot, le caractère saut à la ligne)
 Si vous êtes perfectionniste ajouter l’option `-n` à `echo` soit la commande:
 ```

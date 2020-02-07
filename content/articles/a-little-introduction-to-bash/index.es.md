@@ -7,4 +7,4 @@ tags = ["tech", "computer"]
 +++
 
 
-Hasta ahora, este artículo no está disponible en español.
+Hasta ahora este artículo no está disponible en español.
