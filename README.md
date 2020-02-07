@@ -33,3 +33,9 @@ zola serve --interface 0.0.0.0 --base-url 127.0.0.1
 zola serve --interface 0.0.0.0 --port 2000 --output-dir www/public
 zola serve --watch-only
 ```
+
+
+
+## Pictures for macro git twitter etc
+
+https://github.com/insipx/Ergo/blob/master/templates/macros.html

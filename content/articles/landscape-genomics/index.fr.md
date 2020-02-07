@@ -6,13 +6,6 @@ draft = false
 tags = ["genomics", "sciences"]
 lang = "fr"
 +++
-*Version française*  
-
-[![Generic badge](https://img.shields.io/badge/version-EN-red.svg)](https://guerinpe.com/articles/landscape-genomics/)
-[![Generic badge](https://img.shields.io/badge/version-ES-yellow.svg)](https://guerinpe.com/es/articles/landscape-genomics/)  
-Retrouvez cet article également disponible sur [bioinfo-fr](https://bioinfo-fr.net/genomique-des-paysages)
-
-_______________________________________________________________________________
 
 
 ## Introduction
