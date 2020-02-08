@@ -47,7 +47,7 @@ html {
 .sidebar {
   text-align: center;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  color: rgba(255,255,255,.5);
+  color: #f1f1f1;
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -123,7 +123,7 @@ html {
 
 .sidebar-description p {
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   font-size: 1rem;  
   text-align: center;
 }
@@ -185,7 +185,7 @@ html {
 }
 
 .sidebar-nav-item a {
-  color: rgba(255,255,255,.5);
+  color: #f1f1f1;
   font-size: 1rem;  
 }
 

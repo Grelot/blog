@@ -45,9 +45,11 @@ languages = [
 
 webmail = "pierre.edouard.guerin@gmail.com"
 myjob_name = "CNRS"
-myjob_address = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin"
+myjob_site = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin"
 mytown = "Montpellier"
-mycountry= "FR"
+mycountry= "France"
+myjob_address= "Campus CNRS - 1919, route de Mende."
+myjob_tel="(+33) 04 67 61 32 35"
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
