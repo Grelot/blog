@@ -48,7 +48,7 @@ myjob_name = "CNRS"
 myjob_site = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin"
 mytown = "Montpellier"
 mycountry= "France"
-myjob_address= "Campus CNRS - 1919, route de Mende."
+myjob_address= "Campus CNRS, 1919, route de Mende."
 myjob_tel="(+33) 04 67 61 32 35"
 
 links = [

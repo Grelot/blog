@@ -33,7 +33,7 @@
             {% block sidebar_about %}                    
               {% if config.description %}                    
                 <p class="lead"><a href="{{ get_url(path="articles") }}"> Blog </a></p>
-                <p class="lead"><a href="{{ get_url(path="resume") }}/#experience"> Curriculum Vitae </a></p>
+                <p class="lead"><a href="{{ get_url(path="resume") }}/#"> Curriculum Vitae </a></p>
               {% endif %}
             {% endblock sidebar_about %}
         </div>
@@ -147,7 +147,7 @@
       {{config.extra.myjob_address}} {{config.extra.mytown}}, {{config.extra.mycountry}}<br>
       <a href="mailto:{{config.extra.webmail}}"> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a> {{config.extra.myjob_tel}}
       <br><br><br><br>
-      <small> 2019-2020 Pierre-Edouard GUERIN | Powered by ZOLA</small>
+      <small> 2019 - 2020 Pierre-Edouard GUERIN | Powered by ZOLA</small>
       </div>
     </body>
 </html>

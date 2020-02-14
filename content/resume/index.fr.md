@@ -17,8 +17,8 @@ _______________________________________________________________________________
 
 # Formation
 
-**2016: Master en bioinformatique**, Université Paris Diderot Paris 7, France
-
+* **2016: Master double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
+* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
 
 # Experiences professionnelles
 <a href="https://www.ephe.fr/"><img align="right" width="66rem" height="62rem" src="ephe.png"></a>
@@ -86,6 +86,7 @@ Génétique des diabètes, Paris, FR
 
 # Softwares
 
+* **[wfgd](https://shiny.cefe.cnrs.fr/wfgd/)**: carte mondiale de la diversité génétique des poissons
 * **[Genbar2](https://github.com/Grelot/genbar2)**: logiciel C++ détection et assignation des individus à des populations génétiques à partir de données ADN type génotypage
 * **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
 * **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
@@ -96,9 +97,9 @@ Génétique des diabètes, Paris, FR
 # Publications
 
 * **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources in november 2019)
-* **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
-* **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
-* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
+* **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications en février 2020](https://www.nature.com/articles/s41467-020-14409-7))
+* **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
+* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))
 
 ______________________________________________________________________________
 

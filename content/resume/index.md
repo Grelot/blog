@@ -7,8 +7,6 @@ tags = ["resume"]
 +++
 
 
-
-
 My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France.
 
 _______________________________________________________________________________
@@ -17,10 +15,8 @@ _______________________________________________________________________________
 
 # Education
 
-
-
-**2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
-
+* **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
+* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 
 
 # Experience
@@ -132,6 +128,7 @@ Genetics of Diabetes, Paris, FR
 
 # Softwares
 
+* **[wfgd](https://shiny.cefe.cnrs.fr/wfgd/)**: interactive worldmap of fish genetic diversity
 * **[Genbar2](https://github.com/Grelot/genbar2)**: identify genetic boundaries between populations using individual spatial coordinates and genetic variants
 * **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
 * **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
@@ -142,9 +139,9 @@ Genetics of Diabetes, Paris, FR
 # Publications
 
 * **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources in november 2019)
-* **Global determinants of freshwater and marine fish genetic diversity** (submitted to Nature Communications in februrary 2019)
+* **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications in february 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
-* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 1016](https://doi.org/10.1038/srep28268))
+* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 2016](https://doi.org/10.1038/srep28268))
 
 
 _______________________________________________________________________________
