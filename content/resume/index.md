@@ -76,6 +76,15 @@ Genetics of Diabetes, Paris, FR
 <div class="duration"> From may 2017 to february 2020 </div>
 </div>
 
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<img align="center" width="48rem" height="48rem" src="cnrs.png">
+<div class="title">Genbar 2</div>
+<div class="description"> I programmed a software to identify genetic boundaries between populations from individual spatial coordinates and genetic variants data.</div>
+<div class="skills"> (C, C++, htslib)</div>
+<hr width="31%"> 
+<div class="duration"> From may 2017 to february 2020 </div>
+</div>
+
 
 <div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/genomic_resources_for_med_fishes'">
 <img align="center" width="48rem" height="48rem" src="reservebenefit.png">
@@ -116,7 +125,7 @@ Genetics of Diabetes, Paris, FR
 
 <div role="button" class="project" onclick="location.href='https://github.com/Grelot/diabetesGenetics--COAT'">
 <img align="center" width="136rem" height="32rem" src="inserm.png">
-<div class="title">Landscape genomics</div>
+<div class="title">Report bad quality region of coding sequences from genome sequencing data</div>
 <div class="description">I developped a software able to detect human genomic variations with low coverage. Graphical Interface. </div>
 <div class="skills"> (Illumina paired-end, samtools, bedtools, variation annotation, python, mySQL, qt4)</div>
 <hr width="31%"> 
