@@ -394,13 +394,34 @@ a.pagination-item:hover {
 /*
  * box projects into markdown
  *
- */ 
+ */
 
  .all_proj {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
   grid-gap: 1px;
 }
+
+
+
+@media (min-width: 38em) {
+  .all_proj {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+  
+}
+
+@media (min-width: 75em) {
+  .all_proj {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+  }
+  
+}
+
 
 .project {
   background-color: #fff;
