@@ -45,86 +45,98 @@ Genetics of Diabetes, Paris, FR
 
 # Projects
 
-## Metabarcoding
 
 
-> <details><summary>One of the most promising genetic techniques for improving biodiversity assessments is the metabarcoding of environmental DNA. I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.</summary>
-><p>
->
->
->
->### Overview: the necessity to assess marine biodiversity
-> Marine environments, both coastal and offshore, are being severely impacted by traditional and emerging human activities. This is translated into habitat losses, pollution and overexploitation which treats marine >biodiversity. It compromises the sustainability of marine ecosystems and services.
->
->As a response to the environmental degradation, initiatives aims to protect marine ecosystems. Development of reliable marine biodiversity assessment methods is necessary. One of the most promising genetic techniques for >improving biodiversity assessments is the **metabarcoding** of environmental DNA.
->
->### What is Metabarcoding
->
->Indeed, all organisms shed cells containing DNA in their environment, as intra or extra-cellular material for up to a few days. The amplification and high-throughput eDNA sequencing followed by bioinformatic analyses >produces a list of sequences with the ultimate goal to assess species diversity in a given site.
->
->### Assess marine biodiversity all over the world with metabarcoding
->
->eDNA samples were collected by [Monaco Scientific Exploration Yersin](https://fr.wikipedia.org/wiki/Yersin_(navire_oc%C3%A9anographique)) in Guadeloupe, Lengguru, Malpelo Fakarava and Mediteranean sea. Sequencing were performed by [SPYGEN company](http://www.spygen.com/) and I was in charge of the bioinformatics processing of sequencing data.
->
->### My contribution as a computational biologist
->
->I did a state of the Art of available methods and developed serveral workflows to process **metabarcoding** data in order to assess marine biodiversity all over the world. Source codes are available as git repositories on the [Montpellier server dedicated to eDNA analysis](https://gitlab.mbb.univ-montp2.fr/edna).
->
->
-></p>
-></details>
+<div class="all_proj">
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2'">
+<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
+<div class="title">Population genomics</div>
+<div class="description">I genotyped 1200 individuals belonging to 3 fish species. I worked with restriction enzyme-based data such as RAD-seq.</div>
+<div class="skills"> (illumina paired-end, STACKS, vcftools, bedtools, bwa, python, snakemake, singularity, Univa Grid Engine, bash)</div>
+<hr width="31%"> 
+<div class="duration"> From april 2017 to december 2018 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/lmathon/eDNA--benchmark_pipelines'">
+<img align="center" width="114rem" height="48rem" src="spygen.png">
+<div class="title">Benchmarking of metabarcoding workflows</div>
+<div class="description">I did a modularized workflow in order to process metabarcoding data with different combination of softwares. Then we designed the workflow with the best performances.</div>
+<div class="skills"> (obitools, vsearch, cutadapt, bash, python, singularity, Univa Grid Engine)</div>
+<hr width="31%"> 
+<div class="duration"> From februrary 2019 to march 2020 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<img align="center" width="48rem" height="48rem" src="map_marine.png">
+<div class="title">First Global Map of Fish Genetic Diversity</div>
+<div class="description"> I built a database containing over 50,000 DNA sequences representing 3,815 species of marine fish and 1,611 species of freshwater fish. I estimated the average genetic diversity at different geographical scales.</div>
+<div class="skills"> (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)</div>
+<hr width="31%"> 
+<div class="duration"> From may 2017 to february 2020 </div>
+</div>
+
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/genomic_resources_for_med_fishes'">
+<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
+<div class="title">Genome assembly</div>
+<div class="description">I did the sequencing and assembly of 3 new fish species nuclear and mitochondrial genomes.</div>
+<div class="skills"> (illumina paired-end, mate-pair, 10X genomics chromium, Abyss, Platanus, QUAST, SLURM, bash)</div>
+<hr width="31%"> 
+<div class="duration"> From January 2017 to Novembrer 2019 </div>
+</div>
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/edna'">
+<img align="center" width="128rem" height="48rem" src="monaco.png">
+<div class="title">Metabarcoding</div>
+<div class="description">I programmed several workflow to process metabarcoding environmental DNA data from MONACO MARINE WORLDWIDE EXPEDITION.</div>
+<div class="skills"> (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> From april 2018 to present </div>
+</div>
+
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/seaconnect'">
+<img align="center" width="136rem" height="48rem" src="total.png">
+<div class="title">Landscape genomics</div>
+<div class="description">I processed low-coverage RAD-seq data from 1800 individuals belonging to 2 fish species collected from all over the Mediterranean sea.</div>
+<div class="skills"> (dDocent, freebayes, vcftools, samtools, trimmomatic, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> From june 2017 to present </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/aker--beetGenomeEnvironmentAssociation'">
+<img align="center" width="48rem" height="48rem" src="aker.png">
+<div class="title">Beets genome metrics</div>
+<div class="description">I calculated metrics (nucleotide diversity, Tajima's D) on the beets genome from 14,409 random single nucleotide polymorphisms (SNPs) among 299 individuals of cultivated beets.</div>
+<div class="skills"> (R, python, genpop)</div>
+<hr width="31%"> 
+<div class="duration"> may 2017 to may 2018 </div>
+</div>
+
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/diabetesGenetics--COAT'">
+<img align="center" width="136rem" height="32rem" src="inserm.png">
+<div class="title">Landscape genomics</div>
+<div class="description">I developped a software able to detect human genomic variations with low coverage. Graphical Interface. </div>
+<div class="skills"> (Illumina paired-end, samtools, bedtools, variation annotation, python, mySQL, qt4)</div>
+<hr width="31%"> 
+<div class="duration"> From january 2016 to july 2016 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://www.dsimb.inserm.fr/orion/'">
+<img align="center" width="136rem" height="32rem" src="inserm.png">
+<div class="title">Optimization of a method of fold recognition in protein structure</div>
+<div class="description">I added a new algorithm to predict 3D-modelisation of protein structure at atomic resolution </div>
+<div class="skills"> (PDB, pymol, C, C++, python, R, html, css )</div>
+<hr width="31%"> 
+<div class="duration"> From february 2015 to june 2015 </div>
+</div>
+
+</div>
 
 
 
-
-## Genotyping by sequencing
-
-
-> Montpellier, FR
-> <br><details><summary> </summary>
-><p>
->
->### Overview:
->
->
->
-></p>
-></details>
-
-
-## Genome assembly
-
-> Montpellier, FR
-> <br> *02.2017 - current*
-> <br><details><summary>s</summary>
-><p>
->
->### Overview: the necessity to produce whole genome sequence
->
->### What is a genome ?
->
-> Genome sequencing is figuring out the order of DNA nucleotides, or bases, in a genome—the order of As, Cs, Gs, and Ts that make up an organism's DNA. For instance, the human genome is made up of over 3 billion of these genetic letters.
->
->### Sequencing the genome
->
->
->### New genomes available for three species of mediterranean fishes
->
->
-></p>
-></details>
-
-
-## Global determinants of freshwater and marine fish genetic diversity
-
-## genbar2
-
-## Predicting genotype environmental range from genome–environment associations
-
-
-
-
-
+ 
 
 # Softwares
 
