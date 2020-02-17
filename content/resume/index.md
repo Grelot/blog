@@ -128,7 +128,7 @@ _______________________________________________________________________________
 <div class="description">I calculated metrics (nucleotide diversity, Tajima's D) on the beets genome from 14,409 random single nucleotide polymorphisms (SNPs) among 299 accessions of cultivated beets.</div>
 <div class="skills"> (R, python, genpop)</div>
 <hr width="31%"> 
-<div class="duration"> may 2017 to may 2018 </div>
+<div class="duration"> From may 2017 to may 2018 </div>
 </div>
 
 
