@@ -7,7 +7,7 @@ tags = ["resume"]
 +++
 
 
-My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist in [CEFE](https://www.cefe.cnrs.fr) research team at [CNRS](http://www.cnrs.fr/languedoc-roussillon/03com-labos/03-2-lab-site/02-lab-site-montp.htm) of Montpellier, France.
+My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist for [CNRS](https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin) at Montpellier, France.
 
 _______________________________________________________________________________
 
@@ -18,33 +18,42 @@ _______________________________________________________________________________
 * **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 * **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 
+# Skills
+
+
+
+|   |                                       |
+|------------------|--------------------------------------------|
+| Knowledge        | Algorithmics, Biology, Genomics, Landscape genomics, Statistics |
+| LINUX operating system           | Ubuntu, Debian                             |
+| Programming      | Python, R, C, C++, Julia, Javascript, bash |
+| database         | PostgresSQL, mySQL                         |
+| workload manager | SLURM, Univa Grid Engine                   |
+| Forge (software) | [github](https://github.com/Grelot), [gitlab](https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups) |
+| Container        | Singularity, Docker                        |
+| workflow manager | Snakemake, Nextflow                        |
+| Metabarcoding    | vsearch, usearch, swarm, obitools          |
+| Population genomics | STACKS, Freebayes, STRUCTURE, genpop    |
+| Genomics         | VCFtools, SAMtools, BEDtools, cutadapt, trimmomatic, bwa
+| Statistics | Multivariate Analysis, Supervised and unsupervised machine learning algorithms |
+| Design       | Inkscape, Gimp, Adobe Photoshop, Adobe illustrator |
+
+
 
 # Experience
-<a href="https://www.ephe.fr/"><img align="right" width="66rem" height="62rem" src="ephe.png"></a>
-<a href="https://www.cnrs.fr/"><img align="right" width="48rem" height="48rem" src="cnrs.png"></a>
-**February 2017 to present: Computational biologist**  
-Center of Functional Ecology and Evolution, Montpellier, France  
-- Landscape genomics approach to assess genetic populations of mediteranean fishes for the european mission RESERVEBENEFIT  
-- Program to process *metabarcoding* marine eDNA data for the world oceanographic mission of Monaco
-- Genome assembly 
 
-<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
-**January 2016 to august 2016: Software developer** (Master internship)
-Genetics of Diabetes, Paris, FR  
-- Human genomes DNA high throughput sequencing data analysis  
-- Program to detect and annotate rare genetic variants  
-- Graphical interface  
+**February 2017 to present: Computational biologist**, CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier
+- New softwares for the analysis and visualization of megadata from high-throughput DNA sequencing (genomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
-<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
-**February 2015 to June 2015: Computational biologist** (Master internship)  
-- Dynamics of Structures and Interactions of Macromolecules in Biology Paris, FR  
-- 3D-modelisation of protein structure at atomic resolution  
-- Optimization of a method of fold recognition in protein structure  
-- New algorithm to predict protein structure  
+**January 2016 to august 2016: Software developer** (Master internship), INSERM UMR S598, Genetics of Diabetes, Paris
+- New features for a software dedicated to detection and annotation of rare genetic variants from human genome sequence data. *(python, mySQL, qt4 )*
+
+
+**February 2015 to June 2015: Computational biologist** (Master internship), INSERM UMR S1134, Dynamics of Structures and Interactions of Macromolecules in Biology Paris  
+- New algorithm to predict 3D-modelisation of protein structure at atomic resolution *(python, R, C, C++, bash, CSS, HTML, Javascript)*
 
 # Projects
-
 
 
 <div class="all_proj">
@@ -68,7 +77,7 @@ Genetics of Diabetes, Paris, FR
 </div>
 
 <div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
-<img align="center" width="48rem" height="48rem" src="map_marine.png">
+<img align="center" width="224rem" height="48rem" src="ephe.png">
 <div class="title">First Global Map of Fish Genetic Diversity</div>
 <div class="description"> I built a database containing over 50,000 DNA sequences representing 3,815 species of marine fish and 1,611 species of freshwater fish. I estimated the average genetic diversity at different geographical scales.</div>
 <div class="skills"> (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)</div>
@@ -114,9 +123,9 @@ Genetics of Diabetes, Paris, FR
 </div>
 
 <div role="button" class="project" onclick="location.href='https://github.com/Grelot/aker--beetGenomeEnvironmentAssociation'">
-<img align="center" width="48rem" height="48rem" src="aker.png">
+<img align="center" width="48rem" height="48rem" src="florimond.png">
 <div class="title">Beets genome metrics</div>
-<div class="description">I calculated metrics (nucleotide diversity, Tajima's D) on the beets genome from 14,409 random single nucleotide polymorphisms (SNPs) among 299 individuals of cultivated beets.</div>
+<div class="description">I calculated metrics (nucleotide diversity, Tajima's D) on the beets genome from 14,409 random single nucleotide polymorphisms (SNPs) among 299 accessions of cultivated beets.</div>
 <div class="skills"> (R, python, genpop)</div>
 <hr width="31%"> 
 <div class="duration"> may 2017 to may 2018 </div>
