@@ -11,17 +11,16 @@ My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational b
 
 _______________________________________________________________________________
 
-
-# Education
-
-* **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
-* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
-
 # Contact
 
 * **Mail:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Phone:** (+33) 04 67 61 32 35
 
+
+# Education
+
+* **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
+* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 
 
 # Experience
@@ -37,8 +36,8 @@ _______________________________________________________________________________
 **February 2015 to June 2015: Computational biologist** (Master internship), INSERM UMR S1134, Dynamics of Structures and Interactions of Macromolecules in Biology Paris  
 - New algorithm to predict 3D-modelisation of protein structure at atomic resolution *(python, R, C, C++, bash, CSS, HTML, Javascript)*
 
-# Projects
 
+# Projects
 
 <div class="all_proj">
 
@@ -93,7 +92,7 @@ _______________________________________________________________________________
 <div class="description">I programmed several workflow to process metabarcoding environmental DNA data from MONACO MARINE WORLDWIDE EXPEDITION.</div>
 <div class="skills"> (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)</div>
 <hr width="31%"> 
-<div class="duration"> From april 2018 to present </div>
+<div class="duration"> From march 2018 to present </div>
 </div>
 
 
@@ -189,7 +188,7 @@ I'm an active member of the [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn
 <img align="center" width="264rem" height="247rem" src="usnm.png">
 
 
-______
+_______________________________________________________________________________
 
 
 
