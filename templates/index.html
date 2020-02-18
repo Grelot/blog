@@ -4,7 +4,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <!-- Enable responsiveness on mobile devices-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=6">
       <!-- CSS -->
        <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
        <link rel="stylesheet" href="{{ get_url(path="corps.css", trailing_slash=false) }}">
@@ -16,14 +16,14 @@
     <body>
     {% block sidebar %}   
     <div class="sidebar">       
-      <a href="{{config.base_url}}"><div class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></div></a>
+      <a href="{{config.base_url}}"><span class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></span></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
        <div class="sidebar-description"><p> {{config.description}} </p></div>
       
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}
           {% for link in config.extra.links %}
-          <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)"></a><b> · </b>
+          <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a><b> · </b>
           {% endfor %}
           <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a>
           {% endblock sidebar_nav_brand %}
