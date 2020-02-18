@@ -11,32 +11,16 @@ My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational b
 
 _______________________________________________________________________________
 
-<img align="right" width="48rem" height="96rem" src="paris7.png">
 
 # Education
 
 * **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 * **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
 
-# Skills
+# Contact
 
-
-
-|   |                                       |
-|------------------|--------------------------------------------|
-| Knowledge        | Algorithmics, Biology, Genomics, Landscape genomics, Statistics |
-| LINUX operating system           | Ubuntu, Debian                             |
-| Programming      | Python, R, C, C++, Julia, Javascript, bash |
-| database         | PostgresSQL, mySQL                         |
-| workload manager | SLURM, Univa Grid Engine                   |
-| Forge (software) | [github](https://github.com/Grelot), [gitlab](https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups) |
-| Container        | Singularity, Docker                        |
-| workflow manager | Snakemake, Nextflow                        |
-| Metabarcoding    | vsearch, usearch, swarm, obitools          |
-| Population genomics | STACKS, Freebayes, STRUCTURE, genpop    |
-| Genomics         | VCFtools, SAMtools, BEDtools, cutadapt, trimmomatic, bwa
-| Statistics | Multivariate Analysis, Supervised and unsupervised machine learning algorithms |
-| Design       | Inkscape, Gimp, Adobe Photoshop, Adobe illustrator |
+* **Mail:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
+* **Phone:** (+33) 04 67 61 32 35
 
 
 
