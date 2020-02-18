@@ -8,100 +8,154 @@ lang = "fr"
 +++
 
 
-Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
+Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au [CNRS](https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin) de Montpellier depuis 2017.
 
 _______________________________________________________________________________
 
+# Coordonnées
 
-<img align="right" width="48rem" height="96rem" src="paris7.png">
+* **Courriel:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
+* **Téléphone:** (+33) 04 67 61 32 35
+
 
 # Formation
 
 * **2016: Master double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
 * **2014: Licence double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
 
-# Experiences professionnelles
-<a href="https://www.ephe.fr/"><img align="right" width="66rem" height="62rem" src="ephe.png"></a>
-<a href="https://www.cnrs.fr/"><img align="right" width="48rem" height="48rem" src="cnrs.png"></a>
-**Depuis février 2017: Ingénieur biologiste en traitement des données**  
-Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier, France  
-- Réalisation et mise en production de workflows d'analyse de données de séquençage ADN (technologie RAD-seq) sur 1200 individus parmis 3 espèces de poissons en Méditerrannée pour le projet européen RESERVEBENEFIT
-- Réalisation et mise en production de workflows d'analyse des données metabarcoding d'ADNe marin de l'expedition océaonographique de MONACO.
-- Conception du protocole et assemblage de la première séquence génomique de référence pour le rouget de roche (*Mullus surmuletus*), le serran (*Serranus cabrilla*) et le sar (*Diplodus sargus*)
-- Carte mondiale de la diversité génétique des actinoptérygiens en exploitant les données de la banque [BOLD](http://www.boldsystems.org/)
-- Développement logiciel C++ détection et assignation des individus à des populations génétiques à partir de données ADN type génotypage.
-- Développement et comparaison de protocoles informatiques du traitement de la donnée de séquençage ADNe en metabarcoding  en étroite collaboration avec la société [SPYGEN](http://www.spygen.com/).
-- Analyses du génome de la betterave (Beta vulgaris) en exploitant des données chipseq et les séquences génomiques réferences pour caractériser les régions génomiques associées à la sécheresse.
-- Traitement de données de séquençage de génome réduit (RAD-seq) avec une faible couverture de plus de 500 individus du rouget de roche (*Mullus surmuletus*) pour la FONDATION TOTAL (projet SEACONNECT)
 
-<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
-**De janvier 2016 à août 2016: Développeur logiciel python** (stage de Master)
-Génétique des diabètes, Paris, FR  
-- Génomes humains, Analyse de lourdes données de séquençage haut-débit
-- Logiciel qui detecte et annote les variants génétiques rares
-- Conception et réalisation d'une interface graphique
 
-<a href="https://www.inserm.fr/"><img align="right" width="100rem" height="24rem" src="inserm.png"></a>
-**De février 2015 à juin 2015: Ingénieur biologiste en traitement des données** (stage de Master)  
-- modélisation et visualisation 3D des structures de protéine à l'échelle de l'atome
-- Optimisation d'une méthode de reconnaissances des repliements dans la structure des protéines
-- Amélioration des performances d'un algorithme de prédiction de la structure des protéines
+# Experience
+
+**De février 2017 à aujourd'hui: Ingénieur biologiste en traitement de données**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
+- Développement de nouveaux logiciels pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
+
+
+**De janvier 2016 à août 2016: Développeur logiciel** (Stage de Master), INSERM UMR S598, Génétique des Diabètes, Paris
+- Développement de nouvelles fonctionnalités pour un logiciel dédié à la détection et à l'annotation de variants génétiques rares à partir de données de séquencage de génomes humains. *(python, mySQL, qt4 )*
+
+
+**De février 2015 à juin 2015: Bioinformaticien** (Stage de Master), INSERM UMR S1134, Dynamtique des Structures et Interactions des Macromolécules en Biologie, Paris  
+- Conception et développement d'un nouvel algorithme pour améliorer la prédiction de modélisation 3D des structures des protéines à résolution atomique *(python, R, C, C++, bash, CSS, HTML, Javascript)*
 
 
 # Projects
 
-## Metabarcoding
+<div class="all_proj">
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2'">
+<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
+<div class="title">Génomique des populations</div>
+<div class="description">J'ai effectué le génotypage de 1200 individus parmis 3 espèces de poissons. Mon workflow est conçu pour analyser des données de séquençage RAD-seq.</div>
+<div class="skills"> (illumina paired-end, STACKS, vcftools, bedtools, bwa, python, snakemake, singularity, Univa Grid Engine, bash)</div>
+<hr width="31%"> 
+<div class="duration"> D'avril 2017 à décembre 2018 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/lmathon/eDNA--benchmark_pipelines'">
+<img align="center" width="114rem" height="48rem" src="spygen.png">
+<div class="title">Etude comparative des outils pour le traitement des données metabarcoding</div>
+<div class="description">J'ai developpé un workflow modulable qui utilise tous les outils de l'état de l'Art disponibles. Nous avons ensuite comparé leurs performances afin de selectionner le workflow optimal.</div>
+<div class="skills"> (obitools, vsearch, cutadapt, bash, python, singularity, Univa Grid Engine)</div>
+<hr width="31%"> 
+<div class="duration"> De février 2019 à mars 2020 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<img align="center" width="224rem" height="48rem" src="ephe.png">
+<div class="title">Carte mondiale de la diversité génétique des poissons</div>
+<div class="description"> J'ai construit une base de données contenant plus de 50000 séquences d'ADN représentant 3815 espèces de poissons marins et 1611 espèces de poissons d'eau douce. J'ai estimé la distribution mondiale de la diversité génétique moyenne.</div>
+<div class="skills"> (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)</div>
+<hr width="31%"> 
+<div class="duration"> De mai 2017 à février 2020 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<img align="center" width="48rem" height="48rem" src="cnrs.png">
+<div class="title">Genbar 2</div>
+<div class="description">  J'ai programmé un logiciel pour identifier les populations génétiques à partir de coordonnées spatiales individuelles et de données sur les génotypes individuels.</div>
+<div class="skills"> (C, C++, htslib)</div>
+<hr width="31%"> 
+<div class="duration"> De mai 2017 à février 2020 </div>
+</div>
 
 
-> <details><summary>Une des techniques les plus prometteuses pour l'évaluation de la biodiversité et le metabarcoding de l'ADN environnemental. J'ai réalisé l'état de l'Art des méthodes d'analyses en lien avec cette technique et j'ai developpé plusieurs workflows d'analyse informatique pour traiter, stocker et gérer les données produites par la mission océanographique de MONACO.</summary>
-><p>
->
->
->
->### Overview: La nécessité d'évaluer la biodiversité marine
-> Marine environments, both coastal and offshore, are being severely impacted by traditional and emerging human activities. This is translated into habitat losses, pollution and overexploitation which treats marine >biodiversity. It compromises the sustainability of marine ecosystems and services.
->
->As a response to the environmental degradation, initiatives aims to protect marine ecosystems. Development of reliable marine biodiversity assessment methods is necessary. One of the most promising genetic techniques for >improving biodiversity assessments is the **metabarcoding** of environmental DNA.
->
->### What is Metabarcoding
->
->Indeed, all organisms shed cells containing DNA in their environment, as intra or extra-cellular material for up to a few days. The amplification and high-throughput eDNA sequencing followed by bioinformatic analyses >produces a list of sequences with the ultimate goal to assess species diversity in a given site.
->
->### Assess marine biodiversity all over the world with metabarcoding
->
->eDNA samples were collected by [Monaco Scientific Exploration Yersin](https://fr.wikipedia.org/wiki/Yersin_(navire_oc%C3%A9anographique)) in Guadeloupe, Lengguru, Malpelo Fakarava and Mediteranean sea. Sequencing were performed by [SPYGEN company](http://www.spygen.com/) and I was in charge of the bioinformatics processing of sequencing data.
->
->### My contribution as a computational biologist
->
->I did a state of the Art of available methods and developed serveral workflows to process **metabarcoding** data in order to assess marine biodiversity all over the world. Source codes are available as git repositories on the [Montpellier server dedicated to eDNA analysis](https://gitlab.mbb.univ-montp2.fr/edna).
->
->
-></p>
-></details>
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/genomic_resources_for_med_fishes'">
+<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
+<div class="title">Assemblage de génomes</div>
+<div class="description">J'ai supervisé le séquençage et réaliser l'assemblage des génomes nucléaires et mitochondriaux de 3 nouvelles espèces de poissons.</div>
+<div class="skills"> (illumina paired-end, mate-pair, 10X genomics chromium, Abyss, Platanus, QUAST, SLURM, bash)</div>
+<hr width="31%"> 
+<div class="duration"> De janvier 2017 à novembre 2019 </div>
+</div>
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/edna'">
+<img align="center" width="128rem" height="48rem" src="monaco.png">
+<div class="title">Metabarcoding</div>
+<div class="description">J'ai programmé plusieurs logiciels pour traiter les données de metabarcoding d'ADN environnemental issue de la CAMPAGNE D'EXPLORATION OCEANOGRAPHIQUE DE MONACO.</div>
+<div class="skills"> (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> De mars 2018 à aujourd'hui</div>
+</div>
 
 
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/seaconnect'">
+<img align="center" width="136rem" height="48rem" src="total.png">
+<div class="title">Génomique des paysages</div>
+<div class="description">J'ai traité des données RAD-seq à faible couverture provenant de 1800 individus parmis 2 espèces de poissons, collectés  dans toute la Méditerranée.</div>
+<div class="skills"> (dDocent, freebayes, vcftools, samtools, trimmomatic, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> De juin 2017 à aujourd'hui </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/aker--beetGenomeEnvironmentAssociation'">
+<img align="center" width="48rem" height="48rem" src="florimond.png">
+<div class="title">Etude du génome de la betterave</div>
+<div class="description">J'ai fait plusieurs mesures (diversité nucléotidique, D de Tajima) sur le génome de la betterave à partir de 14409 polymorphismes aléatoires de nucléotides uniques (SNP) parmi 299 accessions de betteraves cultivées.</div>
+<div class="skills"> (R, python, genpop)</div>
+<hr width="31%"> 
+<div class="duration"> De mai 2017 à mai 2018 </div>
+</div>
 
 
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/diabetesGenetics--COAT'">
+<img align="center" width="136rem" height="32rem" src="inserm.png">
+<div class="title">Automatisation du contrôle qualité des séquences d'exome </div>
+<div class="description">J'ai développé un logiciel capable de détecter les variations génomiques humaines potentiellement pathologique mais avec une mauvaise qualité de séquençage. </div>
+<div class="skills"> (Illumina paired-end, samtools, GATK, bedtools, variation annotation, python, mySQL, qt4)</div>
+<hr width="31%"> 
+<div class="duration"> De janvier 2016 à juillet 2016 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://www.dsimb.inserm.fr/orion/'">
+<img align="center" width="136rem" height="32rem" src="inserm.png">
+<div class="title">Optimisation d'une méthode de reconnaissance des repliements dans la structure des protéines</div>
+<div class="description">J'ai implémenté et mise à l'épreuve un nouvel algorithme qui améliore la prédiction des modélisations 3D des structure des protéines à résolution atomique. </div>
+<div class="skills"> (PDB, pymol, C, C++, python, R, html, css )</div>
+<hr width="31%"> 
+<div class="duration"> De février 2015 à juin 2015 </div>
+</div>
+
+</div>
 
 
-# Softwares
+# Logiciels
 
 * **[wfgd](https://shiny.cefe.cnrs.fr/wfgd/)**: carte mondiale de la diversité génétique des poissons
 * **[Genbar2](https://github.com/Grelot/genbar2)**: logiciel C++ détection et assignation des individus à des populations génétiques à partir de données ADN type génotypage
 * **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
 * **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
-* **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: a COverage Analysis Tool for exome sequencing data
-* **[ORION](http://www.dsimb.inserm.fr/ORION/)**: a sensivitve method for protein template detection
+* **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: Reporte les régions codantes de génomes humains, potentiellement liées à un diabète et avec une mauvaise qualité de séquençage.
+* **[ORION](http://www.dsimb.inserm.fr/ORION/)**: une méthode de détection des modèles de structure de protéines
 
 
-# Publications
+# Publications scientifiques
 
 * **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources in november 2019)
 * **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications en février 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))
 
-______________________________________________________________________________
+_______________________________________________________________________________
 
 # Autres activités
 
@@ -132,4 +186,4 @@ Je suis triathlète fftri et membre de l'**U**nion **S**portive des **N**ageurs 
 <img align="center" width="264rem" height="247rem" src="usnm.png">
 
 
-______
+_______________________________________________________________________________
