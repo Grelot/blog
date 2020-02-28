@@ -10,6 +10,7 @@ lang = "es"
 
 
 He Estado usando `git` durante varios años, solo o en colaboración con mi equipo. Con el tiempo, he adquirido hábitos de uso que presento en este artículo.
+
 _______________________________________________________________________________
 
 
@@ -32,3 +33,8 @@ He definido dos tipos de utilización para `git` (delante y detrás). La parte d
 <img src="git_team_workflow_singlebranch_peguerin.png" width="640" />
 <img src="git_team_workflow_usingbranches.png" width="640" />
 </center>
+
+
+_______________________________________________________________________________
+
+*Este articulo traducido por Jimena Guerrero*
