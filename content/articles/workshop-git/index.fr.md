@@ -14,7 +14,7 @@ _______________________________________________________________________________
 
 # Qu'est ce que git ?
 
-Quand un projet informatique gagne en complexité, il faut souvent le diviser en versions. Qu'il s'agisse d'une progression naturelle du projet à travers le temps ou simplement d'y ajouter des options supplémentaires. La gestion de ces versions devient fastidieuses à mesure que le projet grandit; elle devient hasardeuse lorsque le projet implique plusieurs collaborateurs.
+Quand un projet informatique gagne en complexité, il faut souvent le diviser en versions. Qu'il s'agisse d'une progression naturelle du projet à travers le temps ou simplement d'y ajouter des options supplémentaires. La gestion de ces versions reste fastidieuse à mesure que le projet grandit et devient même hasardeuse lorsque le projet implique plusieurs collaborateurs.
 
 `git` est le logiciel qui gére le versionnage des fichiers. Plus exactement, il oblige les utilisateurs à versionner systématiquement leurs fichiers. Enfin, il ne faut pas confondre git avec les forges logicielles telles que gitlab, github ou bitbucket qui utilisent notamment `git`. Une forge logicielle permet de travailler sur internet avec d'autres utilisateurs et propose un cadre qui couvre bien plus de fonctionnalités que notamment la gestion des versions.
 

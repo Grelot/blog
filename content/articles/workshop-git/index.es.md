@@ -9,15 +9,33 @@ lang = "es"
 +++
 
 
+Estado usando `git` durante varios años, solo o en colaboración con mi equipo. Con el tiempo, adquirido mis hábitos de uso que presento en este artículo.
+
+_______________________________________________________________________________
 
 
-<img src="git_team_workflow_singlebranch_peguerin.png" width="600" />
+# ¿Qué es git?
+
+Cuando un proyecto informático se vuelve más complejo, es necesario dividirlo en versiones. Ya sea una progresión natural del proyecto a través del tiempo o simplemente para añadir opciones adicionales. La gestión de estas versiones sigue siendo tediosa a medida que el proyecto crece e incluso se vuelve arriesgada cuando el proyecto involucra a varios colaboradores.
+
+
+`git` es el software que gestiona el versionado de los archivos. Más precisamente, obliga a los usuarios a versionar sus archivos sistemáticamente. Por último, no confundir `git` con gitlab, github o bitbucket que son forjas. Una forja permite trabajar en Internet con otros usuarios y ofrece un marco que abarca mucha más funcionalidad que la gestión de versiones.
+
+
+# Ma fiche pense-bête pour se servir de git
+
+J'ai défini deux niveaux d'utilisation de git (recto et verso). Le recto correspond à une utilisation très basique de `git`, adaptée pour travailler à tour de rôle.  Le verso correspond à une utilisation plus avancée de `git` avec l'utilisation des branches. Il s'agit de vérifier une nouvelle branche, d'y travailler puis de fusionner les modifications sur la branche principale *master* en un seul commit.
 
 
 
-<img src="git_timeline.png" width="800" />
+# Mi hoja de trucos para git
+
+He definido dos tipos de utilización para `git` (delante y detrás). La parte delantera corresponde a un uso muy básico de `git`, adaptado para trabajar por turnos. La parte de atrás es un uso más avanzado de `git` con el uso de ramas. Esto implica comprobar una nueva rama, trabajar en ella, y luego fusionar los modificaciones en la rama principal *master* en un solo commit.
 
 
+**[Descargar en PDF](https://github.com/ednaMontpellier/workshop_git/raw/master/git_team_workflow_peguerin.pdf)**
 
-
-<img src="git_team_workflow_usingbranches.png" width="600" />
+<center>
+<img src="git_team_workflow_singlebranch_peguerin.png" width="640" />
+<img src="git_team_workflow_usingbranches.png" width="640" />
+</center>
