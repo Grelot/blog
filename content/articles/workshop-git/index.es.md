@@ -22,12 +22,6 @@ Cuando un proyecto informático se vuelve más complejo, es necesario dividirlo 
 `git` es el software que gestiona el versionado de los archivos. Más precisamente, obliga a los usuarios a versionar sus archivos sistemáticamente. Por último, no confundir `git` con gitlab, github o bitbucket que son forjas. Una forja permite trabajar en Internet con otros usuarios y ofrece un marco que abarca mucha más funcionalidad que la gestión de versiones.
 
 
-# Ma fiche pense-bête pour se servir de git
-
-J'ai défini deux niveaux d'utilisation de git (recto et verso). Le recto correspond à une utilisation très basique de `git`, adaptée pour travailler à tour de rôle.  Le verso correspond à une utilisation plus avancée de `git` avec l'utilisation des branches. Il s'agit de vérifier une nouvelle branche, d'y travailler puis de fusionner les modifications sur la branche principale *master* en un seul commit.
-
-
-
 # Mi hoja de trucos para git
 
 He definido dos tipos de utilización para `git` (delante y detrás). La parte delantera corresponde a un uso muy básico de `git`, adaptado para trabajar por turnos. La parte de atrás es un uso más avanzado de `git` con el uso de ramas. Esto implica comprobar una nueva rama, trabajar en ella, y luego fusionar los modificaciones en la rama principal *master* en un solo commit.
