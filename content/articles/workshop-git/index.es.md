@@ -9,8 +9,7 @@ lang = "es"
 +++
 
 
-Estado usando `git` durante varios años, solo o en colaboración con mi equipo. Con el tiempo, adquirido mis hábitos de uso que presento en este artículo.
-
+He Estado usando `git` durante varios años, solo o en colaboración con mi equipo. Con el tiempo, he adquirido hábitos de uso que presento en este artículo.
 _______________________________________________________________________________
 
 
