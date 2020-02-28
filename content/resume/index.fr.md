@@ -8,7 +8,7 @@ lang = "fr"
 +++
 
 
-Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au [CNRS](https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin) de Montpellier depuis 2017.
+Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
 
 _______________________________________________________________________________
 

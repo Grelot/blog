@@ -7,7 +7,7 @@ tags = ["resume"]
 +++
 
 
-My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist for [CNRS](https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin) at Montpellier, France.
+My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist for CNRS at Montpellier, France.
 
 _______________________________________________________________________________
 

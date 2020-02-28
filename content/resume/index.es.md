@@ -8,7 +8,7 @@ lang = "es"
 categorie="CV"
 +++
 
-Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después de algunas misiones en unidades del INSERM en París, estoy ahora trabajo en el [CNRS](https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin) en Montpellier (Francia).
+Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después de algunas misiones en unidades del INSERM en París, estoy ahora trabajo en el CNRS en Montpellier (Francia).
 
 
 # Coordenadas
