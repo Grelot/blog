@@ -34,7 +34,3 @@ He definido dos tipos de utilización para `git` (delante y detrás). La parte d
 <img src="git_team_workflow_usingbranches.png" width="640" />
 </center>
 
-
-_______________________________________________________________________________
-
-*Este articulo traducido por Jimena Guerrero*
