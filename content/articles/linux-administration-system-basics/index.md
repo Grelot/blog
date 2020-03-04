@@ -31,6 +31,11 @@ Modify the default shell of an user named `thisuser`
 ```
 chsh -s /bin/bash thisuser
 ```
+It displays the list of all users on the system
+```
+awk -F':' '{ print $1}' /etc/passwd
+```
+
 
 ## Add new groups to an user
 
