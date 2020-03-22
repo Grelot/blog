@@ -1,0 +1,17 @@
+/* display skills */
+.bloc-skills {
+    display: inline-block;
+    width: 24%;
+    margin: 4%;
+    text-align: center;
+}
+
+.bloc-skills-row {
+    display: flex;
+}
+
+.bloc-skills-row img {
+
+    flex: 26%;
+    margin: 0.5rem;
+}

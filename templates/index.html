@@ -9,6 +9,7 @@
        <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
        <link rel="stylesheet" href="{{ get_url(path="corps.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="{{ get_url(path="sobre.css", trailing_slash=false) }}">
+       <link rel="stylesheet" href="{{ get_url(path="introduction.css", trailing_slash=false) }}">
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
 
@@ -43,8 +44,8 @@
                 {% block sidebar_nav_infos %}
                
                           <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
-                          <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
-                          <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#publications">Publications</a></li>
+                          <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares & publications</a></li>
+                          <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" style="color:orange">Machine learning</a></li>
 
                            
                
@@ -70,85 +71,51 @@
       <br>
       <br>
       <br>
-      <br>
-
-
-
-
-      <center>
-      <div style="display: inline-block; width: 24%; margin: 4%;"> 
-      <h2> Code </h2>
-      <br>
-      <div style="display: flex;">
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/bash_logo.png" width="44rem">
+      <br>      
+      <div class="bloc-skills"> 
+        <h2> Code </h2>        
+        <div class="bloc-skills-row">
+            <img src="{{config.base_url}}/tools_logo/bash_logo.png">        
+            <img src="{{config.base_url}}/tools_logo/python_logo.png">
+            <img src="{{config.base_url}}/tools_logo/R_logo.png" >
         </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/python_logo.png" width="44rem">
-        </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/R_logo.png" width="44rem" >
-        </div>
-      </div>
-      <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
-      </small>
-
+        <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
+        </small>
       </div>
 
-      <div style="display: inline-block; width: 24%;  margin: 4%;"> 
-      <h2> Tools </h2>
-      <br>
-      <div style="display: flex;">
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/Sublime_text_logo.png" width="44rem">
+      <div class="bloc-skills">  
+        <h2> Tools </h2>       
+        <div class="bloc-skills-row">
+            <img src="{{config.base_url}}/tools_logo/visual_studio_logo.png">
+            <img src="{{config.base_url}}/tools_logo/slurm_logo.png">
+            <img src="{{config.base_url}}/tools_logo/rstudio_logo.png">
         </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/pycharm_logo.png" width="44rem">
-        </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/rstudio_logo.png" width="44rem" >
-        </div>
-      </div>
-      <small>
-      Sublime Text, Pycharm, Rstudio, Visual Studio to create computer softwares. SLURM or Univa Grid Engine to submit job on the cluster.
-      </small>
+        <small>
+        Sublime Text, Pycharm, Rstudio, Visual Studio to create computer softwares. SLURM or Univa Grid Engine to submit job on the cluster.
+        </small>
       </div>
 
-      <div style="display: inline-block; width: 24%;  margin: 4%;">
-      <h2> Reproducibility</h2>
-      <br>
-      <div style="display: flex;">
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/git_logo.png" width="44rem">
+      <div class="bloc-skills"> 
+        <h2> Reproducibility</h2>     
+        <div class="bloc-skills-row">        
+            <img src="{{config.base_url}}/tools_logo/git_logo.png">
+            <img src="{{config.base_url}}/tools_logo/singularity_logo.png">        
+            <img src="{{config.base_url}}/tools_logo/snakemake_logo.png">
         </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/singularity_logo.png" width="44rem">
-        </div>
-        <div style="flex: 31%;">
-          <img src="{{config.base_url}}/tools_logo/snakemake_logo.png" width="44rem" >
-        </div>
-      </div>
-      <small> 
-      To ease scientific reproduction, I take advange of Git, Singularity, Docker, Conda, Jupyter notebook, SnakeMake or Nextflow.
-      </small>
-      </div>
-       
-      </center>
+        <small> 
+        To ease scientific reproduction, I take advange of Git, Singularity, Docker, Conda, Jupyter notebook, SnakeMake or Nextflow.
+        </small>
+      </div>  
     </div>
 
-
-
-
-
-      {% endblock content %}
-      </div>
+    {% endblock content %}
+    </div>
  
-     <div class="footer">     
-
+    <div class="footer"> 
       {{config.extra.myjob_address}} {{config.extra.mytown}}, {{config.extra.mycountry}}<br>
       <a href="mailto:{{config.extra.webmail}}"> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a> {{config.extra.myjob_tel}}
       <br><br><br><br>
       <small> Copyright © 2019-2020 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
-      </div>
+    </div>
     </body>
 </html>
