@@ -7,7 +7,7 @@ tags = ["resume"]
 +++
 
 
-My name is Pierre-Edouard **GUERIN**. I'm currently working as a computational biologist for CNRS at Montpellier, France.
+My name is Pierre-Edouard **GUERIN**. I'm currently working as a computer scientist for CNRS at Montpellier, France.
 
 _______________________________________________________________________________
 
@@ -19,17 +19,17 @@ _______________________________________________________________________________
 
 # Education
 
-* **2016: Master's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
-* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot Paris 7, France
+* **2016: Master's degree of Bioinformatics**, Université Paris Diderot, France
+* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot, France
 
 
 # Experience
 
-**February 2017 to present: Computational biologist**, CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier
+**February 2017 to present: Computer scientist**, CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier
 - New softwares for the analysis and visualization of megadata from high-throughput DNA sequencing (genomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
-**January 2016 to august 2016: Software developer** (Master internship), INSERM UMR S598, Genetics of Diabetes, Paris
+**January 2016 to august 2016: Software ingineer** (Master internship), INSERM UMR S598, Genetics of Diabetes, Paris
 - New features for a software dedicated to detection and annotation of rare genetic variants from human genome sequence data. *(python, mySQL, qt4 )*
 
 
@@ -167,7 +167,7 @@ _______________________________________________________________________________
 * My scientific [blog](https://guerinpe.com/articles/)
 * Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
 * Author on french bioinformatics participative blog [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
-
+* [Data science skills demo](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* using python ecosystem for machine learning *(pandas, numpy, tensorflow, scikit-learn)* training on [kaggle](https://www.kaggle.com/pierreedouardguerin).
 
 
 ## Personnal projects

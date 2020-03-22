@@ -8,7 +8,7 @@ lang = "fr"
 +++
 
 
-Je m'appelle Pierre-Edouard **GUERIN**. Bioinformaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
+Je m'appelle Pierre-Edouard **GUERIN**. Informaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
 
 _______________________________________________________________________________
 
@@ -20,23 +20,23 @@ _______________________________________________________________________________
 
 # Formation
 
-* **2016: Master double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
-* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot Paris 7, France
+* **2016: Master double compétence informatique et biologie**, Université Paris Diderot, France
+* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot, France
 
 
 
 # Experience
 
 **De février 2017 à aujourd'hui: Ingénieur biologiste en traitement de données**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
-- Développement de nouveaux logiciels pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
+- Développement de nouveaux logiciels et réalisation de workflow avec calcul intensif pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
 **De janvier 2016 à août 2016: Développeur logiciel** (Stage de Master), INSERM UMR S598, Génétique des Diabètes, Paris
-- Développement de nouvelles fonctionnalités pour un logiciel dédié à la détection et à l'annotation de variants génétiques rares à partir de données de séquencage de génomes humains. *(python, mySQL, qt4 )*
+- Développement de nouvelles fonctionnalités pour un logiciel dédié au diagnostic médical automatisé en exploitant les données de variants génétiques rares détectés sur les séquences de génomes humains. *(python, mySQL, qt4 )*
 
 
 **De février 2015 à juin 2015: Bioinformaticien** (Stage de Master), INSERM UMR S1134, Dynamtique des Structures et Interactions des Macromolécules en Biologie, Paris  
-- Conception et développement d'un nouvel algorithme pour améliorer la prédiction de modélisation 3D des structures des protéines à résolution atomique *(python, R, C, C++, bash, CSS, HTML, Javascript)*
+- Conception et développement d'un nouvel algorithme pour améliorer la prédiction de modélisation 3D des structures des protéines à résolution atomique. *(python, R, C, C++, bash, CSS, HTML, Javascript)*
 
 
 # Projects
@@ -164,7 +164,7 @@ _______________________________________________________________________________
 * Mon [blog scientifique](https://guerinpe.com/articles/)
 * Membre de l'association des **JE**unes **BI**oinformaticiens de **F**rance [Jebif](https://jebif.fr/en/)
 * Auteur d'articles de vulgarisation scientifique pour la communauté [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
-
+* [Machine learning](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* en exploitant les technologies basée sur python *(pandas, numpy, tensorflow, scikit-learn)* j'améliore mes compétences en partipant aux compétitions numériques sur [kaggle](https://www.kaggle.com/pierreedouardguerin).
 
 
 ## Projets personnels
