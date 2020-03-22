@@ -27,7 +27,7 @@ _______________________________________________________________________________
 
 # Experience
 
-**De février 2017 à aujourd'hui: Ingénieur biologiste en traitement de données**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
+**De février 2017 à aujourd'hui: Ingénieur d'étude en calcul scientifique**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
 - Développement de nouveaux logiciels et réalisation de workflow avec calcul intensif pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
