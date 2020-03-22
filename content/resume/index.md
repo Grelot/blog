@@ -167,7 +167,7 @@ _______________________________________________________________________________
 * My scientific [blog](https://guerinpe.com/articles/)
 * Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
 * Author on french bioinformatics participative blog [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
-* [Data science skills demo](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* using python ecosystem for machine learning *(pandas, numpy, tensorflow, scikit-learn)* training on [kaggle](https://www.kaggle.com/pierreedouardguerin).
+* My [data science skills demo](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* using python ecosystem for machine learning *(pandas, numpy, tensorflow, scikit-learn)* training on [kaggle](https://www.kaggle.com/pierreedouardguerin).
 
 
 ## Personnal projects

@@ -162,7 +162,7 @@ _______________________________________________________________________________
 * Mi [blog científico](https://guerinpe.com/articles/)
 * Miembro de la asociación de **JE**unes **BI**oinformaticiens de **F**rance [Jebif](https://jebif.fr/en/)
 * Autor de artículos de ciencia popular para la comunidad francófona [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
-
+* [Machine Learning](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* con las tecnologías python *(pandas, numpy, tensorflow, scikit-learn)*. Mejoro mis habilidades participando en competiciones de [kaggle](https://www.kaggle.com/pierreedouardguerin).
 
 
 ## Proyectos personales
