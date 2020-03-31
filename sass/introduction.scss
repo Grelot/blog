@@ -10,8 +10,38 @@
     display: flex;
 }
 
-.bloc-skills-row img {
 
-    flex: 26%;
-    margin: 0.5rem;
+@media only screen and (min-width : 320px) {
+    .bloc-skills-row img {        
+        width: 32px;
+        flex: 26%;
+        margin: 0.5rem;
+    } 
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 720px) {
+    .bloc-skills-row img {        
+        width: 32px;
+        flex: 26%;
+        margin: 0.5rem;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .bloc-skills-row img {        
+        width: 48px;
+        flex: 26%;
+        margin: 0.5rem;
+    }
+}
+
+/* Large screen */
+@media only screen and (min-width : 1800px) {
+    .bloc-skills-row img {        
+        width: 60px;
+        flex: 26%;
+        margin: 0.5rem;
+    } 
 }
