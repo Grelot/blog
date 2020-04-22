@@ -36,6 +36,3 @@ I defined two types of usage for `git` (front and back). The front part correspo
 
 _______________________________________________________________________________
 
-To be continued...
-
-<img src="git_team_workflow_usingbranches.png" width="600" />
