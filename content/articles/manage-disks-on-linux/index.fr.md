@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "How to manage disks on linux ?"
+title = "La gestion des disques et des partitions sur linux"
 date =  2019-07-27
 draft = false
 tags = ["tech", "computer"]
