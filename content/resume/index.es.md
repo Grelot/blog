@@ -17,12 +17,6 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 * **Teléfono:** (+33) 04 67 61 32 35
 
 
-# Educación
-
-* **2016: Master de Bioinformática**, Universidad Paris Diderot Paris 7, Francia  
-* **2014: Licencia de Bioinformática**, Universidad de París Diderot París 7, Francia
-
-
 # Experiencia profesional
 
 **Desde febrero de 2017 hasta hoy: Bioinformático**, CNRS UMR 5175, Centro de Ecología Funcional y Evolutiva, Montpellier, Francia  
@@ -145,13 +139,19 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 * **[ORION](http://www.dsimb.inserm.fr/ORION/)**: método para detectar los patrones de estructura de las proteínas
 
 
-
 # Publicaciones científicas
 
-* **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources, noviembre 2019)
+* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics in july 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
 * **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications, febrero 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology, mayo 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports, juno 2016](https://doi.org/10.1038/srep28268))
+
+
+# Educación
+
+* **2016: Master de Bioinformática**, Universidad Paris Diderot Paris 7, Francia  
+* **2014: Licencia de Bioinformática**, Universidad de París Diderot París 7, Francia
+
 
 _______________________________________________________________________________
 

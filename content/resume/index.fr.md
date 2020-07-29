@@ -17,14 +17,6 @@ _______________________________________________________________________________
 * **Courriel:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Téléphone:** (+33) 04 67 61 32 35
 
-
-# Formation
-
-* **2016: Master double compétence informatique et biologie**, Université Paris Diderot, France
-* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot, France
-
-
-
 # Experience
 
 **De février 2017 à aujourd'hui: Ingénieur d'étude en calcul scientifique**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
@@ -150,10 +142,17 @@ _______________________________________________________________________________
 
 # Publications scientifiques
 
-* **New genomic ressources for three exploited Mediterranean fishes** (submitted to Molecular Ecology Ressources in november 2019)
+* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics in july 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
 * **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications en février 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))
+
+
+# Formation
+
+* **2016: Master double compétence informatique et biologie**, Université Paris Diderot, France
+* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot, France
+
 
 _______________________________________________________________________________
 
