@@ -60,7 +60,7 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 <div class="duration"> De mayo de 2017 a febrero de 2020  </div>
 </div>
 
-<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/genbar2'">
 <img align="center" width="48rem" height="48rem" src="cnrs.png">
 <div class="title">Genbar 2</div>
 <div class="description"> Yo desarrollo software para identificar poblaciones genéticas basadas en coordenadas espaciales individuales y datos de genotipos individuales.</div>

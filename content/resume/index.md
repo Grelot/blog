@@ -19,15 +19,15 @@ _______________________________________________________________________________
 # Experience
 
 **February 2017 to present: Computer scientist**, CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier
-- New softwares for the analysis and visualization of megadata from high-throughput DNA sequencing (genomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
+- I develop softwares for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
 **January 2016 to august 2016: Software ingineer** (Master internship), INSERM UMR S598, Genetics of Diabetes, Paris
-- New features for a software dedicated to detection and annotation of rare genetic variants from human genome sequence data. *(python, mySQL, qt4 )*
+- I developed and integrated a functionnality and its graphical interface to a medical software. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data. *(python, mySQL, qt4 )*
 
 
 **February 2015 to June 2015: Computational biologist** (Master internship), INSERM UMR S1134, Dynamics of Structures and Interactions of Macromolecules in Biology Paris  
-- New algorithm to predict 3D-modelisation of protein structure at atomic resolution *(python, R, C, C++, bash, CSS, HTML, Javascript)*
+- Implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution *(python, R, C, C++, bash, CSS, HTML, Javascript)*
 
 
 # Projects
@@ -61,7 +61,7 @@ _______________________________________________________________________________
 <div class="duration"> From may 2017 to february 2020 </div>
 </div>
 
-<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/genbar2'">
 <img align="center" width="48rem" height="48rem" src="cnrs.png">
 <div class="title">Genbar 2</div>
 <div class="description"> I programmed a software to identify genetic boundaries between populations from individual spatial coordinates and genetic variants data.</div>

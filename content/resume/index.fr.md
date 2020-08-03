@@ -20,7 +20,7 @@ _______________________________________________________________________________
 # Experience
 
 **De février 2017 à aujourd'hui: Ingénieur d'étude en calcul scientifique**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
-- Développement de nouveaux logiciels et réalisation de workflow avec calcul intensif pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
+- Développement de logiciels et réalisation de chaînes de traitement de données en calcul intensif pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
 **De janvier 2016 à août 2016: Développeur logiciel** (Stage de Master), INSERM UMR S598, Génétique des Diabètes, Paris
@@ -62,7 +62,7 @@ _______________________________________________________________________________
 <div class="duration"> De mai 2017 à février 2020 </div>
 </div>
 
-<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/genbar2'">
 <img align="center" width="48rem" height="48rem" src="cnrs.png">
 <div class="title">Genbar 2</div>
 <div class="description">  J'ai programmé un logiciel pour identifier les populations génétiques à partir de coordonnées spatiales individuelles et de données sur les génotypes individuels.</div>
