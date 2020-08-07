@@ -142,7 +142,8 @@ _______________________________________________________________________________
 
 # Publications scientifiques
 
-* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics in july 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
+* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal en auguste 2020](https://doi.org/10.1111/ecog.05049))
+* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics en juillet 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
 * **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications en février 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))

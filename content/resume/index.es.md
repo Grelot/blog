@@ -141,7 +141,8 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 
 # Publicaciones científicas
 
-* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics in july 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
+* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal agusto 2020](https://doi.org/10.1111/ecog.05049))
+* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics, julio 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
 * **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications, febrero 2020](https://www.nature.com/articles/s41467-020-14409-7))
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology, mayo 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports, juno 2016](https://doi.org/10.1038/srep28268))
