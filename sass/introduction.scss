@@ -8,6 +8,7 @@
 
 .bloc-skills-row {
     display: flex;
+    flex-direction: row;
 }
 
 
@@ -16,6 +17,8 @@
         width: 32px;
         flex: 26%;
         margin: 0.5rem;
+        align-items: flex-start;
+
     } 
 }
 
