@@ -6,11 +6,6 @@ draft = false
 tags = ["genomics", "sciences"]
 +++
 
-So far this article is not yet available in english.
-
-_______________________________________________________________________________
-
-
 
 ## Introduction
 
