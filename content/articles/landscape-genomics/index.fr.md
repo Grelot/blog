@@ -70,22 +70,23 @@ Imaginons que nous ayons une espèce de poisson présentant deux phénotypes dis
 <img align="center" src="superschema.png">
 
 
-## Les données
+### Les données
 
 Nous devons recueillir deux types de données pour chaque individu :
 
 * les descripteurs environnementaux : température, bathymétrie, substrat, production de phytoplancton, courantométrie, distance à la côte… Ces données peuvent être récupérées à partir des coordonnées GPS des individus sur des banques de données spécialisées tel que le [Global Marine Environment Datasets](gmed.auckland.ac.nz) par exemple.
 * Les génotypes sont plus coûteux à obtenir. Il faut échantillonner chaque individu, extraire son ADN et le séquencer. Bien que le coût du séquençage à haut-débit des génomes n’a cessé de diminuer au cours des 15 dernières années, ce coût demeure trop élevé pour des analyses à large échelle impliquant le séquençage de centaines d’individus. C’est pourquoi il faut avoir recours à des séquençages de génomes réduits. 
 
-* Séquençage ADN
+### Séquençage ADN
 
 Une méthode de séquençage de génomes réduits est le RAD-seq pour Restriction site Associated Dna SEQuencing. L’ADN de l’individu est extrait, puis digéré par une enzyme de restriction. Une séquence dite adaptateur pour initier le séquençage est ensuite incorporée aux extrémités digérées avec une séquence-étiquette qui permettra d’identifier l’individu. Ainsi lors du séquençage, seules les régions consécutives des sites de restrictions sont séquencées. En fonction de l’enzyme utilisée et de l’espèce étudiée, le nombre de site de restrictions peut varier. Il faut choisir une enzyme qui génère un nombre de fragments ni trop élevé (s' il y a trop de sites à séquencer, la couverture sera faible et il y aura des données manquantes pour chaque individu ce qui empêche la comparaison des génotypes entre individus) ni trop faible (s'il n’y a pas assez de sites, il n’y aura pas assez de marqueurs génétiques et il ne sera pas possible de distinguer des structures génétiques au sein des populations). Si on dispose d’une séquence référence du génome de l’espèce étudiée ou à défaut d’une espèce proche, il est possible de réaliser des simulations de digestion enzymatique du génome pour choisir l’enzyme le plus pertinent (voir le package simRAD disponible sous R).
-Traitement des données de séquençage
 
-Un autre aspect de notre travail va consister au traitement de ces données RAD-seq. Il s’agit de fichier FastQ tout à fait classique. La première étape va donc consister à nettoyer ces données en retirant les séquences de mauvaises qualités ou les contaminations (phiX, adaptateurs, clone PCR…). Pour la deuxième étape il s’agira de démultiplexer c’est-à-dire à partir de la lecture des séquence-étiquettes incorporées au séquençage, d’attribuer chaque séquence à un individu.
+### Traitement des données de séquençage
+
+Un autre aspect de notre travail va consister au traitement de ces données RAD-seq. Il s’agit de fichier `FastQ` tout à fait classique. La première étape va donc consister à nettoyer ces données en retirant les séquences de mauvaises qualités ou les contaminations (phiX, adaptateurs, clone PCR…). Pour la deuxième étape il s’agira de démultiplexer c’est-à-dire à partir de la lecture des séquence-étiquettes incorporées au séquençage, d’attribuer chaque séquence à un individu.
 
 
-## Génotypage
+### Génotypage
 
 Ensuite vient l’étape cruciale d’appel des variants. Il s’agit de regrouper l’ensemble des séquences d’un même site enzymatique pour tous les individus afin de déduire à partir des fréquences de chaque type de base à chaque position de la séquence, si l’individu est homozygote à la référence, hétérozygote ou homozygote alternatif. Pour chaque site enzymatique, des variants génétiques sont recherchés parmi les individus et un génotype est attribué à chaque individu.
 
@@ -96,10 +97,11 @@ Il existe deux méthodes populaires pour le traitement de ces données RAD-seq :
 * [Freebayes (dDocent)](https://www.ddocent.com/) s’appuie sur le concept de locus sur la séquence référence du génome plutôt que d’empilement des séquences et utilise une approche bayésienne pour assigner un génotype sachant les séquences observées sur le locus considéré. Il est donc possible d’utiliser des séquences trimmées et de génotyper un individu même avec une faible couverture là où STACKS n’aurait produit que des données manquantes. 
 
 
-## Assignation des individus à une population génétique
+### Assignation des individus à une population génétique
 
-Les génotypes des individus peuvent être récupérés sous la forme de fichier VCF. Des logiciels tel que [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) ou [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) permettent avec une approche dite de regroupement hiérarchique de réaliser un test d’assignation à une population pour chaque individu à partir des génotypes. Les fréquences alléliques observées pour chaque locus permettent d’inférer des populations génétiques auxquels les individus sont assignés selon leurs allèles. Chaque itération de cette opération permet de raffiner l’assignation. Le résultat final est une probabilité d’appartenance à une ou plusieurs populations génétiques pour chaque individu.
-Analyse des populations par rapport aux descripteurs environnementaux
+Les génotypes des individus peuvent être récupérés sous la forme de fichier `VCF`. Des logiciels tel que [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) ou [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) permettent avec une approche dite de regroupement hiérarchique de réaliser un test d’assignation à une population pour chaque individu à partir des génotypes. Les fréquences alléliques observées pour chaque locus permettent d’inférer des populations génétiques auxquels les individus sont assignés selon leurs allèles. Chaque itération de cette opération permet de raffiner l’assignation. Le résultat final est une probabilité d’appartenance à une ou plusieurs populations génétiques pour chaque individu.
+
+### Analyse des populations par rapport aux descripteurs environnementaux
 
 En combinant ces assignations aux descripteurs environnementaux, nous pouvons alors rechercher des corrélations entre les facteurs environnementaux et la structure génétique de nos populations observées. Par exemple, Les poissons rouges, localisés au niveau de l'étang vivent dans des eaux chaudes, avec une salinité faible tandis que les poissons bleus, localisés au niveau des bords de mer vivent dans des eaux froides avec une salinité forte. Les deux populations ne sont reliées entre elles que par un *grau* (estuaire en occitan). Les écarts de conditions environnementales et la relative isolation des deux populations peuvent expliquer les différences génétiques observés entre les deux populations (les rouges et les bleus). Il y a donc une structuration de l'espèce par son habitat autrement dit le paysage.
 
