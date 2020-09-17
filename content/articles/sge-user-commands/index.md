@@ -25,13 +25,13 @@ To access to a cluster, you need your administrator creates your account first. 
 ssh <yourUserName>@<clusterAdress>
 ```
 
-## Command to submit a job
+## Job scheduling: command to submit a job
 
 Here an example of bash script `submitBatchJob.sh` to submit a batch job via SGE:
 
 ```
 # Job name
-#$ -N myjob_20190903-110055
+#$ -N myjob_1
 # Using current working directory (otherwise, you will have to use '#$ wd /path/to/run')
 #$ -cwd
 # job time limits (h_rt is required [s_rt == software time limit / h_rt == hardware time limit])
@@ -81,8 +81,116 @@ qsub submitBatchJob.sh
 
 
 
-## Command to submit a job
+## Job monitoring: check the current status of my submitted job
+
+You can see the current status of the available Grid Engine queues and the jobs associated with the queues with `qstat`:
+
+```
+qstat
+```
+
+It returns:
 
 
-#(qconf -sql (to list queues) qconf -sq queue_name (to print informations on this queue))
-#
+```
+job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
+-----------------------------------------------------------------------------------------------------------------
+2041601 0.53741 myjob_1    peguerin     r     09/17/2020 12:08:30 cemeb20.q@mbbnode-0-30.local       1        
+2041602 0.54128 myjob_2    peguerin     qw    09/17/2017 12:07:12                                    1       
+```
+
+- job-ID: the ID number of the job, useful to kill the job
+- prior: priority of the job. The higher a job's priority value, the earlier it gets dispatched.
+- name: the name of the job you submitted with `qsub`
+- user: the user name of the owner of the job
+- state(s):
+    * `q`: queued 
+    * `w`: waiting
+    * `s`: suspended
+    * `r`: running
+    * `e`: error
+- submit/start at: the date the job was submitted
+- queue: the name of the queue the job is using (defined with `qsub`)
+- slots: the number of slot the job is taking.
+- ja-task-ID -- The job array task ID
+
+Specifies a full format display of information:
+
+```
+qstat -f
+```
+
+See a specific job status with a given job-ID `<job-ID>`:
+
+```
+qstat -j <job-ID>
+```
+
+To delete Grid Engine job with a given job-ID `<job-ID>` from queues:
+
+```
+qdel -j <job-ID>
+```
+
+
+## Queue information
+
+This command displays a list of available queues in a cluster:
+
+```
+qconf -sql
+```
+
+This command shows the status of Grid Engine hosts, queues, jobs
+
+```
+qhost
+```
+
+
+To manage the queues of the system, we use `qconf`. Let's print information about the queue named `<queue>`
+
+```
+qconf -sq <queue>
+```
+
+Finally, this `qstat` command displays a cluster queue summary:
+
+```
+qstat -g c
+```
+
+It returns:
+
+
+```
+CLUSTER QUEUE                   CQLOAD   USED    RES  AVAIL  TOTAL aoACDS  cdsuE  
+--------------------------------------------------------------------------------
+cemeb.q                           0.70     64      0     39    104      8      0 
+cemeb20.q                         1.17    121      0     20    176     40     48 
+mbb.q                             0.00      0      0     40     40      0      0 
+mem.q                             0.08      3      0     37     40      0      0 
+```
+
+* CLUSTER QUEUE: the cluster queue name.
+* CQLOAD:  an average of the normalized load average of all queue hosts.
+* USED: the number of currently used slots.
+* RES: the number of slots reserved in advance.
+* AVAIL: the number of currently available slots.
+* TOTAL:  the total number of slots.
+* aoACDS: the number of slots which is in at least one of the states `aoACDS`
+    - `a`: Load threshold alarm
+    - `o`: Orphaned
+    - `A`: Suspend threshold alarm
+    - `C`: Suspended by calendar
+    - `D`: Disabled by calendar
+* cdsuE: the number of slots which are in one of these states or in any combination of them: `cdsuE`
+    - `c`: Configuration ambiguous
+    - `d`: Disabled
+    - `s`: suspended
+    - `u`: Unknown
+    - `E`: Error
+
+_______________________________________________________________________________
+
+
