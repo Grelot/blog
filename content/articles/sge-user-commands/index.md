@@ -120,6 +120,12 @@ Specifies a full format display of information:
 qstat -f
 ```
 
+See jobs owned by the user `$USER`:
+
+```
+qstat | grep $USER
+```
+
 See a specific job status with a given job-ID `<job-ID>`:
 
 ```
