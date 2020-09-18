@@ -10,7 +10,7 @@ lang = "en"
 
 ## Sun Grid Engine
 
-Cluster environment such as [MBB](https://mbb.univ-montp2.fr/MBB/index.php) is similar unix/linux environments for your job submission (e.g. running your scripts or other software). The difference is that you need to specify needed resources beforehand. The cluster is controlled by a **SGE** (**S**un **G**rid **E**ngine software) that orders the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many.
+Cluster environment such as [MBB](https://mbb.univ-montp2.fr/MBB/index.php) is similar as unix/linux environments for job submission (e.g. running your scripts or other software). The difference is that you need to specify needed resources beforehand. The cluster is controlled by a **SGE** (**S**un **G**rid **E**ngine software) that orders the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many.
 
 SGE will do the *job scheduling*. That means you can submit all your jobs and SGE will queue them and run them when resources you requested becomes available. SGE will also achieve *load balancing* where the jobs will be distributed so that specific nodes do not get overloaded. In addition, SGE will allow you to do *job monitoring* which will be useful when you want to check if your job is running ,and if it failed it will help you understand what went wrong.
 
@@ -196,6 +196,7 @@ mem.q                             0.08      3      0     37     40      0      0
     - `s`: suspended
     - `u`: Unknown
     - `E`: Error
+
 
 _______________________________________________________________________________
 
