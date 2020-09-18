@@ -60,50 +60,38 @@
       <div>
       <br>
 
-      <center>
-      <h1> Please, call me PIERRE. Thanks for visiting my website.</h1>
-
-      {{config.extra.introduction}}
+     
+      <h1> About</h1>
       
-      </center>
-      <br>
-      <br>
-      <br>
-      <br>      
-      <div class="bloc-skills"> 
-        <h2> Code </h2>        
-        <div class="bloc-skills-row">
-            <img src="{{config.base_url}}/tools_logo/bash_logo.png">        
-            <img src="{{config.base_url}}/tools_logo/python_logo.png">
-            <img src="{{config.base_url}}/tools_logo/cpp_logo.png" >
-        </div>
-        <small>My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
-        </small>
-      </div>
+      <p>After a Master thesis in bioinformatics, during which I developed my first machine learning softwares applied to 3D proteomics 
+        a technique that couples chemical cross-linking with mass spectrometry and has emerged as a tool to study protein conformations,
+        I join INSERM Genetics of Diabetes research unit for developing softwares 
+        to automate detection of genetic variants linked to the diabete phenotype onto human genomes.
+      </p>
 
-      <div class="bloc-skills">  
-        <h2> Tools </h2>       
-        <div class="bloc-skills-row">
-            <img src="{{config.base_url}}/tools_logo/visual_studio_logo.png">
-            <img src="{{config.base_url}}/tools_logo/slurm_logo.png">
-            <img src="{{config.base_url}}/tools_logo/R_logo.png">
-        </div>
-        <small>
-        Sublime Text, Pycharm, Rstudio, Visual Studio to create computer softwares. SLURM or Univa Grid Engine to submit job on the cluster.
-        </small>
-      </div>
+      <p>As I was already developing my own tools to deal with sequencing and "omics" data, I followed a course of statitics about population genetics.
+        It aims me to be recruited for the european project RESERVEBENEFIT in 2017.
+      </p>
+    
+      <p>Within this project, I learn to handle HPC platforms and to ease scientific reproduction.
+         I take advange of Git, Singularity, Docker, Conda, Jupyter notebook, SnakeMake or Nextflow.
+        I successfully performed new genome DNA sequence assemblies for 3 species and variant calling of 1600 individuals.
+      </p>
+      <p>
+        In parallel to this project, I joined SEACONNECT project to process RADseq data and carry out population genetics analysis. 
+        I learn to handle geographical and environmental data from public database.
+      </p>
+      <p> In 2019, I integrate CNRS of Montpellier as a computational biologist and contribute to various projects
+         in collaboration with different teams on metabarcoding and metagenomics.
+         I also create automated workflows and database system for storing, retrieving and processing metabarcoding data for the MONACO MARINE WORLDWIDE EXPEDITION.
+      </p>
 
-      <div class="bloc-skills"> 
-        <h2> Reproducibility</h2>     
-        <div class="bloc-skills-row">        
-            <img src="{{config.base_url}}/tools_logo/git_logo.png">
-            <img src="{{config.base_url}}/tools_logo/singularity_logo.png">        
-            <img src="{{config.base_url}}/tools_logo/snakemake_logo.png">
-        </div>
-        <small> 
-        To ease scientific reproduction, I take advange of Git, Singularity, Docker, Conda, Jupyter notebook, SnakeMake or Nextflow.
-        </small>
-      </div>  
+      <p>
+      My main computational languages are Bash, Python and R. However I also realised several projects using C, C++, Perl or Julia.
+      See my <a href="{{ get_url(path="resume") }}">Curriculum Vitae</a> for more details.
+     </p>
+     <br>
+     <br>
     </div>
 
     {% endblock content %}
