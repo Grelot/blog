@@ -18,12 +18,12 @@ La **reproductibilité** d'une preuve scientifique est la proximité des **mesur
 
 ### Pourquoi travailler de façon reproductible ?
 
-En pratique, cela permet de valider les experiences scientifiques sans en garantir l’exactitude, la justesse ou la pertinence. C'est aussi utile pour tester une hypothèse et faciliter la diffusion et la publication des résultats. En ce qui concerne, le calcul numérique et les simulations, à l'exigence de **réplicabilité** et de **reproductibilité**, il faut encore ajouter la **reutilisabilité**.
+En pratique, cela permet de valider les expériences scientifiques sans en garantir l’exactitude, la justesse ou la pertinence. C'est aussi utile pour tester une hypothèse et faciliter la diffusion et la publication des résultats. En ce qui concerne, le calcul numérique et les simulations, à l'exigence de **réplicabilité** et de **reproductibilité**, il faut encore ajouter la **reutilisabilité**.
 
 
 ### Comment travailler de façon reproductible ?
 
-Règle de **R5** ([ReSciences](https://hal.archives-ouvertes.fr/hal-01573262))
+Règle des **5 R** ([ReSciences](https://hal.archives-ouvertes.fr/hal-01573262))
 
 
 **Reexécutable**
