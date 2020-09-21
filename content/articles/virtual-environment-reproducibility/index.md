@@ -19,7 +19,7 @@ In practice, this serves to validate scientific experience without guaranteeing 
 
 ### How to work in a reproducible way ?
 
-Principe of the **R5** ([ReSciences](https://hal.archives-ouvertes.fr/hal-01573262))
+Principle of the **R5** ([ReSciences](https://hal.archives-ouvertes.fr/hal-01573262))
 
 
 **Rerunnable** 
