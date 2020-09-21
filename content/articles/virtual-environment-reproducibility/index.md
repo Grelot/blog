@@ -25,15 +25,19 @@ Principe of the **R5** ([ReSciences](https://hal.archives-ouvertes.fr/hal-015732
 **Rerunnable** 
 * Can you re-run your program ?
 * One day, one week, one month, one year (just kidding) apart ?
+
 **Repeatable**
 * Can you re-run your program and get same results ?
 * Did you save everything, including random seed ?
+
 **Replicable**
 * Can someone reimplement your model and get same results ?
 * Did you describe everything ?
+
 **Reproducible**
 * Can someone re-run your program and get same results ?
 * Did you save the software stack ?
+
 **Reusable**
 * Can someone reuse your program using different data ?
 * Is your software data-dependent ?

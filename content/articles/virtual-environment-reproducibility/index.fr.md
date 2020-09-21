@@ -29,15 +29,19 @@ Règle de **R5** ([ReSciences](https://hal.archives-ouvertes.fr/hal-01573262))
 **Reexécutable**
 * Pouvez vous exécuter à nouveau votre programme sans problème ?
 * Un jour, une semaine, un mois, voire une année plus tard ?
+
 **Répétable**
 * Pouvez vous exécuter à nouveau votre programme et obtenir les même résultats ?
 * Avez-vous conserver ces données, y compris la valeur du départ aléatoire pour les simulations ?
+
 **Replicabilité**
 * Est ce que quelqu'un peut réimplémenter votre simulation et obtenir les même résultats ?
 * Avez-vous décrit toutes les conditions nécessaires de l'experience ?
+
 **Reproductibilité**
 * Est ce que quelqu'un d'autre peut réussir à exécuter à nouveau votre programme ?
 * Avez vous sauvegarder la liste des dépendances logicielles ?
+
 **Réutilisable**
 * Est ce que quelqu'un d'autre peut réussir à exécuter votre programme mais avec des données différentes ?
 * Est ce que votre programme dépend de la donnée utilisée ?
