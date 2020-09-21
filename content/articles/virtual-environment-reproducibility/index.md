@@ -111,7 +111,7 @@ singularity pull --name ednatools.simg shub://Grelot/bioinfo_singularity_recipes
 
 ## Docker
 
-Docker can package an application and its dependencies in a virtual container that can run on any Linux server. This enables the application to run in a variety of locations, such as on-premises, in a public cloud, and/or in a private cloud.
+[Docker](https://www.docker.com/) can package an application and its dependencies in a virtual container that can run on any Linux server. This enables the application to run in a variety of locations, such as on-premises, in a public cloud, and/or in a private cloud.
 
 ### Build an image
 
