@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Environements virtuels, conteneurs et reproductibilité scientifique"
+title = "Environnements virtuels, conteneurs et reproductibilité scientifique"
 date =  2018-01-19
 draft = false
 tags = ["tech", "sciences"]
