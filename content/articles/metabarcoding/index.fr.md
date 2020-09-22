@@ -3,7 +3,7 @@ template = "page.html"
 title = "Metabarcoding"
 date =  2019-02-09
 draft = false
-tags = ["genomics", "sciences"]
+tags = ["omics", "sciences"]
 lang = "fr"
 +++
 
@@ -11,7 +11,8 @@ lang = "fr"
 
 ## Metabarcoding
 
-L'une des technologies en génomique les plus prometteuses pour l'évaluation de la biodiversité est le *metabarcoding* de l'ADN environemental (ADNe). J'ai travaillé longuement sur ces méthodes et developpé plusieurs workflows pour traiter et analyser les données issues du metabarcoding. J'ai notamment été en charge du traitement des données génomiques récoltées par l'expedition scientifique d'exploration marine de Monaco entre 2018 et 2020.
+L'une des technologies en génomique les plus prometteuses pour l'évaluation de la biodiversité est le *metabarcoding* de l'ADN environnemental (ADNe). J'ai travaillé longuement sur ces méthodes et developpé plusieurs workflows pour traiter et analyser les données issues du metabarcoding. J'ai notamment été en charge du traitement des données génomiques récoltées par l'expedition scientifique d'exploration marine de Monaco entre 2018 et 2020.
+
 
 ### Un point d'horizon : pourquoi évaluer la biodiversité marine ?
 
@@ -21,9 +22,13 @@ Les environements marins, qu'ils soient sur les côtes ou au large sont tous sé
 ### Qu'est ce que le metabarcoding
 
 
-### ADN environemental
+### ADN environnemental
 
-Nous savons tous que tous les organismes vivants perdent et dispersent leurs cellules dans leur environement. Le matériel ADN contenu dans et autour de ces cellules persistent alors plusieurs jours dans l'environement.
+Nous savons tous que tous les organismes vivants perdent et dispersent des morceaux de peau ou d'écailles dans leur environnement. Le matériel ADN contenu dans et autour des cellules constitutives de ces tissus persistent alors plusieurs jours dans l'environnement. Les cellules eukaryotes possèdent en elle des mitochondries, organite siège de la respiration cellulaire indispensable au metabolisme. Chaque cellule compte 300 à 1000 mitochondries et une cellule du parenchyme du foie compte jusqu'à 2500 mitochondries. La mitochondrie possède son propre ADN distinct de l'ADN nucléaire de la cellule. L'ADN de la mitochondrie est circulaire et de dimension modeste (environ 20 Kpb). Il compte tout au plus une quinzaine de gènes. Les gènes mitochondriaux sont donc bien plus abondant que les gènes nucléaires dans l'environnement.
+
+### Du barcoding au metabarcoding
+
+Le **barcoding** est une méthode d'identification des espèces qui utilise une séquence ADN provenant d'un ou plusieurs gènes spécifiques. Tout comme les code-barres des supermarchés permettent d'identifier les produits, certaines séquences ADN *i.e* les code-barres ADN permettent d'identifier les espèces voire les individus. Différentes régions de gènes sont utilisées pour identifier les différents groupes d'organismes à l'aide de codes-barres.
 
 
 
