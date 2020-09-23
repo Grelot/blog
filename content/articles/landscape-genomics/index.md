@@ -3,7 +3,9 @@ template = "page.html"
 title = "Landscape genomics"
 date =  2019-11-14
 draft = false
-tags = ["genomics", "sciences"]
+description = "An emerging research field that studies how genetic diversity distributes across space and how environmental features can modify this structure through local adaptation."
+[taxonomies]
+tags = ["omics", "sciences"]
 +++
 
 

@@ -3,7 +3,8 @@ template = "page.html"
 title = "Travailler en équipe avec git"
 date =  2019-11-26
 draft = false
-tags = ["tech", "git"]
+description=""
+tags = ["tech"]
 lang = "fr"
 +++
 

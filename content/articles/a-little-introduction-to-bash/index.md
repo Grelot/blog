@@ -3,7 +3,9 @@ template = "page.html"
 title = "A little introduction to BASH (Born Again Shell)"
 date =  2018-01-23
 draft = false
-tags = ["tech", "computer"]
+description = "A quick introduction to the very basics starting from the UNIX operating system."
+[taxonomies]
+tags = ["tech"]
 +++
 
 

@@ -3,7 +3,9 @@ template = "page.html"
 title = "Team working with git"
 date =  2019-11-26
 draft = false
-tags = ["tech", "computer"]
+description = "A quick reference for basic Git commands to help students learn Git."
+[taxonomies]
+tags = ["tech"]
 +++
 
 

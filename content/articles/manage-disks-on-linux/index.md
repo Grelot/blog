@@ -3,7 +3,9 @@ template = "page.html"
 title = "Disk management on linux"
 date =  2019-07-27
 draft = false
-tags = ["tech", "computer"]
+description="Commands such as checking, adding or removing storage devices, creating and deleting partitions."
+[taxonomies]
+tags = ["tech"]
 +++
 
 

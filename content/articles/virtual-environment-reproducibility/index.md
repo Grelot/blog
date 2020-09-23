@@ -3,8 +3,9 @@ template = "page.html"
 title = "Virtual environments, containers and scientific reproducibility"
 date =  2018-01-19
 draft = false
+description = "How to use Docker or Singularity to build containers in order to ease workflows dissemination."
+[taxonomies]
 tags = ["tech", "sciences"]
-lang = "en"
 +++
 
 ## The need to produce reproducible experiments in computer science

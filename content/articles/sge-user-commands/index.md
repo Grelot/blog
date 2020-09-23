@@ -3,8 +3,10 @@ template = "page.html"
 title = "SGE user commands"
 date =  2017-09-17
 draft = false
-tags = ["SGE", "cluster", "tech"]
-lang = "en"
+description = "Understand SGE and queueing system. Submit batch jobs to SGE cluster."
+[taxonomies]
+tags = ["tech"]
+
 +++
 
 

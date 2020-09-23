@@ -3,7 +3,7 @@ template = "page.html"
 title = "Metabarcoding"
 date =  2019-02-09
 draft = false
-tags = ["omics", "sciences"]
+tags = ["omics"]
 lang = "fr"
 +++
 

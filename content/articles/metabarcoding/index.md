@@ -3,8 +3,9 @@ template = "page.html"
 title = "Metabarcoding"
 date =  2019-02-09
 draft = false
-tags = ["genomics", "sciences"]
-lang = "en"
+description = "Thorough explanation of a next-generation sequencing method applied on environmental DNA."
+[taxonomies]
+tags = ["omics"]
 +++
 
 

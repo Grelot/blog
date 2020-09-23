@@ -3,7 +3,7 @@ template = "page.html"
 title = "Génomique des paysages"
 date =  2019-11-14
 draft = false
-tags = ["genomics", "sciences"]
+tags = ["omics", "sciences"]
 lang = "fr"
 +++
 
