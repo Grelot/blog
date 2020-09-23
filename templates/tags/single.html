@@ -12,17 +12,17 @@
   <div >
     {% for page in section.pages %}
     <div class="post">
-      <time class="post-date">
-        {{ page.date | date(format="%B %eth, %Y") }}
-      </time>
+      
 
       <h2 class="post-title">
         <a href="{{ page.permalink }}">
           <span>{{ page.title }}</span>
         </a>
-                
+
+
         {% if page.taxonomies.tags %}
-        <ul class="tags-article">  
+        <span class="tags-article">
+        <ul>  
           {% for tag in page.taxonomies.tags %}
           <li style="background: {{config.extra.tags_color.0[tag]}}" >
             <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>&nbsp;
@@ -30,19 +30,16 @@
           {% endfor %}
         </ul>
         {% endif %}
+      </span>
       </h2>
 
-      {% if loop.index < 6 and page.description %}
-      <div >
-        {{ page.description | safe }}
-      </div>
+      {% if loop.index < 9 and page.description %}      
+      <span class="post-date"> {{ page.date | date(format="%B %eth, %Y") }} </span>                
+      {{ page.description | safe}}
+      <hr>         
       {% endif %}
-  
-     
-
-
     </div>
-    <hr>
+    
     {% endfor %}
   </div>
 {% endblock %}}

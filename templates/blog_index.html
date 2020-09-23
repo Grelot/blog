@@ -10,8 +10,8 @@
                 {{ page.title }}                
               </a>
               {% if page.taxonomies.tags %} 
-              <span class="tags-article">          
-              <ul >  
+              <span class="tags-article">
+              <ul>  
                 {% for tag in page.taxonomies.tags %}
                 
                 <li style="background: {{config.extra.tags_color.0[tag]}}">
@@ -19,21 +19,12 @@
                 </li>
                 {% endfor %}
               </ul>
-              {% endif %}
+              {% endif %}            
+              </span>
             </h1>
-          </span>   
-            <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }} </span>
-            {{ page.description | safe}}
-           
-
-            <hr>
-
-
-           
-
-
-
-
+          <span class="post-date">{{ page.date | date(format="%B %eth, %Y") }} </span>
+          {{ page.description | safe}}      
+          <hr>
           </div>
         {% endfor %}
     {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
