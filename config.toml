@@ -30,7 +30,10 @@ build_search_index = true
 #       {name = "authors"}, # Basic definition: no RSS or pagination
 #     ]
 #
-taxonomies = []
+
+taxonomies = [
+  { name = "tags",  rss = true },
+]
 # The additional languages for that site
 languages = [
     
@@ -57,6 +60,11 @@ links = [
     {url = "https://github.com/Grelot", name = "github"},
     {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
+
+tags_color = [
+    { tech = "#e1b501", sciences = "#dd0100", omics = "#24b900" }
+    ]
+
 
 introduction = """I am a computer scientist at CNRS of Montpellier. 
  I am mainly focusing on second and third Next-Generation Sequencing data processing for the european project RESERVEBENEFIT.
