@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Une petite introduction au BASH (Born Again Shell)"
-date =  2018-01-23
+date =  2017-06-23
 draft = false
 tags = ["tech", "computer"]
 +++

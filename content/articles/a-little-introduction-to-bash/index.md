@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "A little introduction to BASH (Born Again Shell)"
-date =  2018-01-23
+date =  2017-06-23
 draft = false
 description = "A quick introduction to the very basics starting from the UNIX operating system."
 [taxonomies]
