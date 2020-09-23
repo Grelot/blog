@@ -76,34 +76,37 @@ a:focus {
  */
 
  .readmore-btn {
-  color: #494949 !important;
+  color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #ffffff;
+  background: #494949;
   padding: 18px;
-  border: 3px solid #515151 !important;
+  border: 3px solid #494949 !important;
   display: inline-block;
   transition: all 0.4s ease 0s;
   }
   
 
-  .readmore-btn:hover {
-  color: #ffffff !important;
+.readmore-btn:hover {
+  font-weight: bold;
+  color: #494949 !important;
   text-decoration: none;
-  background: #515151;
-  border-color: #515151 !important;
+  background: #f9f9f9;
+  border-color: #f9f9f9 !important;
   transition: all 0.4s ease 0s;
   padding: 24px
   }
 
-  .readmore-btn:active {
-    color: #ffffff !important;
-    text-decoration: none;
-    background: #515151;
-    border-color: #515151 !important;
-    transition: all 0.4s ease 0s;
-    padding: 24px
-    }
+.readmore-btn:active {
+  font-weight: bold;
+  color: #494949 !important;
+  text-decoration: none;
+  background: #f9f9f9;
+  border-color: #f9f9f9 !important;
+  transition: all 0.4s ease 0s;
+  padding: 24px
+  }
+
   
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
