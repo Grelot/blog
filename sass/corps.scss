@@ -41,6 +41,38 @@ a:focus {
   text-decoration: underline;
 }
 
+
+
+.tags-article {
+  min-height: 0.5rem;
+  display: flex;
+  display: inline-block;
+  font-size: 14px;
+  li {
+    display: inline-flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    a {
+      color: #f9f9f9;
+      display: block;
+      overflow: hidden;
+      padding: 0.25rem;
+      text-overflow: ellipsis;
+      text-decoration: none;
+    
+      a:hover {
+        border: solid #f9f9f9;
+        border-width: medium;        
+      }       
+    }
+  }
+}
+
+
+
+
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
