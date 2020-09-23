@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+
+{% block title %}
+  {{ term.name ~ " Articles" }} - {{ super() }} {% endblock title %}
+  
+{% block header_title %}
+  {{ term.name ~ " Articles" }}
+{% endblock header_title %}
+
+{% block content %}
+  {% set section = term %}
+  <div >
+    {% for page in section.pages %}
+    <div class="post">
+      <time class="post-date">
+        {{ page.date | date(format="%B %eth, %Y") }}
+      </time>
+
+      <h2 class="post-title">
+        <a href="{{ page.permalink }}">
+          <span>{{ page.title }}</span>
+        </a>
+                
+        {% if page.taxonomies.tags %}
+        <ul class="tags-article">  
+          {% for tag in page.taxonomies.tags %}
+          <li style="background: {{config.extra.tags_color.0[tag]}}" >
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>&nbsp;
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </h2>
+
+      {% if loop.index < 6 and page.description %}
+      <div >
+        {{ page.description | safe }}
+      </div>
+      {% endif %}
+
+     
+
+
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}}

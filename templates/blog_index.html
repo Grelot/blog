@@ -2,16 +2,36 @@
 
 <div class="content container">
 {% block content %}
-    <div class="posts">
+    <div >
         {% for page in section.pages %}
           <div class="post">
             <h1 class="post-title">
               <a href="{{ page.permalink }}">
-                {{ page.title }}
+                {{ page.title }}                
               </a>
+              {% if page.taxonomies.tags %}
+              <ul class="tags-article">  
+                {% for tag in page.taxonomies.tags %}
+                
+                <li style="background: {{config.extra.tags_color.0[tag]}}">
+                  <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>&nbsp;
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </h1>
-            <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
-            {{ page.summary | safe }}
+            <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }} </span>
+            {{ page.description | safe}}
+           
+
+            <hr>
+
+
+           
+
+
+
+
           </div>
         {% endfor %}
     {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
