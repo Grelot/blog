@@ -124,7 +124,7 @@ mon_premier_package
 ├── NAMESPACE
 </pre>
 
-### Add documentation
+### Write documentation
 
 To create **documentation** describing your function.
 
@@ -145,6 +145,29 @@ mon_premier_package
 ├── DESCRIPTION
 ├── NAMESPACE
 </pre>
+
+Check the documentation is working well:
+
+<pre>
+help(hello_world)
+</pre>
+
+This command returns:
+<pre>
+<b>Say Hello</b>
+<b>Description</b>
+Creates a string with hello word
+
+<b>Usage</b>
+hello_world(name)
+Arguments
+<b>name	</b>
+A string
+
+<b>Value</b>
+a string
+</pre>
+
 
 ## Continuous integration with travis
 
