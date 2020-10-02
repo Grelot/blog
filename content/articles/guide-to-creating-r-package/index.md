@@ -24,7 +24,7 @@ In R, the fundamental unit of shareable code is the package. A package bundles t
 ### Softwares
 
 * [R](https://www.r-project.org/)
-* [Rstudio](https://rstudio.com/)
+* [Rstudio IDE](https://rstudio.com/)
 * [git](https://git-scm.com/)
 
 ### R packages
@@ -39,8 +39,9 @@ To register your package on CRAN or bioconductor can be long and requires your p
 
 1) Sign up/in to [github](https://github.com/) and **create a new repository**.
 2) Check the `github repository address` on the github quick set up page.
-3) On Rstudio open a new project as `new folder` `R package`. Activate the `use git` option. This will create a ready-to-use empty R package.
+3) On Rstudio open a new project as `new folder` `R package`. Activate the `use git` option. For instance, I call the package `mon_premier_package`. This will create a ready-to-use empty R package.
 4) Connect your local R package to the github repository. Go to `terminal` in Rstudio and type:
+
 ```
 git init
 git add .
@@ -48,16 +49,8 @@ git commit -m "init R package"
 git remote add origin <github repository address>
 git push origin master
 ```
-5) That's it ! Your R package is hosted as an online github repository
 
-## Create Package Framework
-
-
-We need to create a directory for our package. We can do this in one line of code, using the devtools create function. In terminal run:
-
-```
-devtools::create("mon_premier_package")
-```
+5) That's it ! Your R package is hosted as an online github repository.
 
 This automatically creates the bare bone files and directories needed to define our R package called `mon_premier_package`.
 
