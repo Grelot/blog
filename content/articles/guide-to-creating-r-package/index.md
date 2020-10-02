@@ -162,6 +162,6 @@ Here we learnt how to quickly build a R package. Creating R package is a critica
 ## References
 
 - Book on R packages ([Hadley Wickham](http://r-pkgs.had.co.nz/))
-- Presentation on R packages ([Nina Schiett](https://github.com/nschiett/rladies_package_workshop_2020))
+- Presentation on R packages ([Nina Schiettekatte](https://github.com/nschiett/rladies_package_workshop_2020))
 - Guidebook to git and GitHub ([Jenny Bryan](https://happygitwithr.com/))
 - Beginners guide to travis ([Julia Silge](https://juliasilge.com/blog/beginners-guide-to-travis/))
