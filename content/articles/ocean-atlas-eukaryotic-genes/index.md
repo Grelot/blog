@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "A global ocean atlas of eukaryotic genes"
-date =  2020-09-23
+date =  2020-09-19
 draft = false
 description= "Description of a metatranscriptomics approach to capture expressed genes in open ocean Tara Oceans stations."
 [taxonomies]
