@@ -42,26 +42,26 @@ To register your package on CRAN or bioconductor can be long and requires your p
 3) On Rstudio open a new project as `new folder` `R package`. Activate the `use git` option. For instance, I call the package `mon_premier_package`. This will create a ready-to-use empty R package.
 4) Connect your local R package to the github repository. Go to `terminal` in Rstudio and type:
 
-```
+<pre>
 git init
 git add .
 git commit -m "init R package"
 git remote add origin <github repository address>
 git push origin master
-```
+</pre>
 
 5) That's it ! Your R package is hosted as an online github repository.
 
 This automatically creates the bare bone files and directories needed to define our R package called `mon_premier_package`.
 
-```
+<pre>
 mon_premier_package
 ├── R
 ├── man
 ├── mon_premier_package.Rproj
 ├── DESCRIPTION
 ├── NAMESPACE
-```
+</pre>
 
 *  `R` folder will eventually contain our R code.
 * `man` folder will eventually contain documentation.
@@ -74,19 +74,19 @@ mon_premier_package
 
 In Rstudio, click on `Check` then `Install and restart`. These commands will automatically install your package. Alternatively, you can run these commands  from the terminal:
 
-```
+<pre>
 devtools::check()
 devtools::install()
-```
+</pre>
 
 Then your package is ready-to-use and available. It can be installed in any R session with devtools using `install_github` function:
 
-```
+<pre>
 if (!requireNamespace("devtools", quietly = TRUE)) { install.packages("devtools") }
 library(devtools)
 devtools::install_github("Pierre/mon_premier_package")
 library(mon_premier_package)
-```
+</pre>
 
 Now you can share the skeleton of your package to anybody, so let's add muscle and skin to it.
 
@@ -97,7 +97,7 @@ Now you can share the skeleton of your package to anybody, so let's add muscle a
 
 Our package wouldn’t do much without functions. Let’s add a function. Here the R file `hello_world.R` contains the code source for the function `hellow_world`:
 
-```
+<pre>
 #' @title Say Hello
 #'
 #' @description Creates a string with hello word
@@ -111,14 +111,14 @@ hello_world <- function(name) {
     res <- "hello "+name
     return(res)
 }
-```
+</pre>
 * Lines beginning with a `#'` are mandatory to generate **documentation** describing the function.
 * We have to add our function to the `R` folder, since this is where R looks for any functions inside a library.
 
 <pre>
 mon_premier_package
 <b>├── R
-    ├── hello_world.R</b>
+│   ├── hello_world.R</b>
 ├── mon_premier_package.Rproj
 ├── DESCRIPTION
 ├── NAMESPACE
@@ -128,19 +128,19 @@ mon_premier_package
 
 To create **documentation** describing your function.
 
-```
+<pre>
 devtools::document()
 roxygen2::roxygenize()
-```
+</pre>
 
 This will generate a `man` folder and `.Rd` documentation files describing functions in `R` folder.
 
 <pre>
 mon_premier_package
 ├── R
-    ├── hello_world.R
+│   ├── hello_world.R
 <b>├── man
-    ├── hello_world.Rd </b>
+│   ├── hello_world.Rd </b>
 ├── mon_premier_package.Rproj
 ├── DESCRIPTION
 ├── NAMESPACE
