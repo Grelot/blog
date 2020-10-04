@@ -46,11 +46,11 @@ By convention, we write and read a DNA sequence from 5' to 3'. To describe a who
 
 Determining the order of the nucleotides composing a DNA molecule is known as **DNA sequencing**. In metabarcoding context we want to target **barcode** sequence exclusively. Barcode are DNA sequence of gene from mitochondrion with the following property:
 
-```
+<pre>
 conservative region         hypervariable region            conservative region
 
 ===================|||||||||||||||||||||||||||||||||||||||||===================
-```
+</pre>
 
 The conservative region is typical of the taxonomic group we want to target (*e.g.* teleostei). The conservative region will be used as *primer* to initiate the PCR. The hypervariable region is the barcode sequence itself, it permits to identify at species level. In **metabarcoding**, barcode sequences from a sample are targeted and ampliflied by PCR using *primer*. Then the isolated DNA barcodes are pooled with barcode sequences from other samples. A tag sequence of 8 nucleotides is added to each DNA fragments from a given sample. So that it will be possible to assign the sample of a given DNA fragment in downstream analysis.
 
@@ -116,5 +116,5 @@ test
 
 ## References
 
-* OBItools: a unix‐inspired software package for DNA metabarcoding ([Molecular Ecology Resources in 2016](https://doi.org/10.1111/1755-0998.12428))
-* 
+* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal in 2020](https://doi.org/10.1111/ecog.05049)))
+* **OBItools: a unix‐inspired software package for DNA metabarcoding** ([Molecular Ecology Resources in 2016](https://doi.org/10.1111/1755-0998.12428))
