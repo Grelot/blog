@@ -31,14 +31,12 @@
     <div class="sidebar">       
       <a href="{{config.base_url}}"><span class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></span></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
-       <div class="sidebar-description"><p> {{config.description}} </p></div>
-      
+       <div class="sidebar-description"><p> {{config.description}} @  <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a></p></div>      
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}
           {% for link in config.extra.links %}
-          <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a><b> · </b>
-          {% endfor %}
-          <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a>
+          <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a> &nbsp
+          {% endfor %}         
           {% endblock sidebar_nav_brand %}
       </div>
 

@@ -65,10 +65,3 @@ tags_color = [
     { tech = "#e1b501", sciences = "#dd0100", omics = "#24b900" }
     ]
 
-
-introduction = """I am a computer scientist at CNRS of Montpellier. 
- I am mainly focusing on second and third Next-Generation Sequencing data processing for the european project RESERVEBENEFIT.
-  I am also strongly involved in environmental DNA data based studies such as MONACO MARINE WORLDWIDE EXPEDITION.
-  My expertise is related to programming, LINUX systems, data vizualisation, whole-genome assembly, 3D protein modelling, population genomics, 
-     parsing large public database and machine learning. I am interested in working on next-generation approaches 
-    and solving complex problems using combination of state-of-the-art algorithms."""

@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "OBITools: DNA metabarcoding stuff"
+title = "OBITools: processing DNA metabarcoding data"
 date =  2020-09-19
 draft = false
 description= "All the information needed to process metabarcoding data using OBITools software."
@@ -111,3 +111,10 @@ Here, we describe the bioinformatics workflow used by [SPYGEN](http://www.spygen
 ### Assemble reads
 
 test
+
+
+
+## References
+
+* OBItools: a unix‐inspired software package for DNA metabarcoding ([Molecular Ecology Resources in 2016](https://doi.org/10.1111/1755-0998.12428))
+* 
