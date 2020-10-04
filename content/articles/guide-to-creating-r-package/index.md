@@ -46,7 +46,7 @@ To register your package on CRAN or bioconductor can be long and requires your p
 git init
 git add .
 git commit -m "init R package"
-git remote add origin <github repository address>
+git remote add origin < github repository address >
 git push origin master
 </pre>
 
@@ -160,8 +160,8 @@ Creates a string with hello word
 
 <b>Usage</b>
 hello_world(name)
-Arguments
-<b>name	</b>
+<b>Arguments</b>
+name
 A string
 
 <b>Value</b>
