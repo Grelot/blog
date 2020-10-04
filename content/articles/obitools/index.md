@@ -12,13 +12,12 @@ tags = ["omics", "tech"]
 
 ## Introduction
 
-[OBITools](https://doi.org/10.1111/1755-0998.12428) is a 
+The [OBITools](https://doi.org/10.1111/1755-0998.12428) software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information. It is distributed as an open source software available on the following website: http://metabarcoding.org/obitools.
 
 
+## Data description: a bit of biology
 
 <img align="right" width="360rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/1024px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png">
-
-## Data description: a bit of biological context
 
 
 Deoxyribonucleic acid (DNA) is a molecule composed of two polynucleotide chains that coil around each other to form a double helix carrying genetic information for development of all living organisms.
@@ -43,6 +42,8 @@ Deoxyribonucleic acid (DNA) is a molecule composed of two polynucleotide chains 
 <img width="480rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DNA_chemical_structure-1-.fr.svg/1024px-DNA_chemical_structure-1-.fr.svg.png?1601388990848">
 
 By convention, we write and read a DNA sequence from 5' to 3'. To describe a whole DNA molecule, we write the sequence of the positive sense strand (the negative antisense strand sequence can be deduced from the positive sense sequence as it is the reverse complementary).
+
+## Metabarcoding context
 
 Determining the order of the nucleotides composing a DNA molecule is known as **DNA sequencing**. In metabarcoding context we want to target **barcode** sequence exclusively. Barcode are DNA sequence of gene from mitochondrion with the following property:
 
