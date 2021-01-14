@@ -123,11 +123,6 @@ __________________________
 
 ## Metabarcoding data processing workflow
 
-Here, we describe the bioinformatics workflow used by [SPYGEN](http://www.spygen.com/) to generate species environmental presence from raw eDNA data. This workflow is based on OBItools.
-
-
-### Sequencing data
-
 Metabarcoding data to process are FASTQ files. 
 
 Structure of a DNA fragment is as follow:
@@ -197,5 +192,5 @@ Thanks to OBItools we were able to process eDNA raw sequencing data in order to 
 
 ## References
 
-* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal in 2020](https://doi.org/10.1111/ecog.05049)))
+* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal in 2020](https://doi.org/10.1111/ecog.05049))
 * **OBItools: a unix‐inspired software package for DNA metabarcoding** ([Molecular Ecology Resources in 2016](https://doi.org/10.1111/1755-0998.12428))
