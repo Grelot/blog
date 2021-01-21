@@ -145,13 +145,15 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3.25rem; 
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+  text-align: right;
+  text-transform: uppercase;
 }
 .sidebar-nav-item {
   display: block;
@@ -220,40 +222,23 @@ html {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+
+ .content {
   padding-top:    2rem;
   padding-bottom: 2rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
 }
 
-@media (min-width: 36em) {
+@media (min-width: 48em) {
   .content {
-    margin-left: 22em ;
-    margin-right: 0em;
-    padding-left:  2rem;
-    padding-right: 2rem;
+    max-width: 46em;
+    margin-left: 24rem;
+    margin-right: 2rem;
   }
 }
 
-@media (min-width: 75em) {
+@media (min-width: 64em) {
   .content {
-    margin-left: 28em ;
-    margin-right: 6em;
-    padding-left:  2rem;
-    padding-right: 2rem;
+    margin-left: 24rem;
+    margin-right: 2rem;
   }
 }
-
-
-
-@media (min-width: 100em) {
-  .content {
-    margin-left: 30%;
-    margin-right:15%;
-    padding-left:  4rem;
-    padding-right: 4rem;
-  }
-
-}
-

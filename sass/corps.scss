@@ -24,8 +24,7 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #f1f1f1;
+  color: #515151;  
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -117,19 +116,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 1.35rem;
+  font-size: 2rem;
   font-weight: bold;
   font-family: "Helvetica", sans-serif;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: bold;
   font-family: "Helvetica Neue", sans-serif;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: bold;
   font-family: "Helvetica Neue", sans-serif;
 }
@@ -275,9 +274,10 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1rem;
-  font-weight: bold;
   margin-top: 0rem;
   margin-bottom: 0rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 
@@ -543,28 +543,14 @@ a.pagination-item:hover {
   padding-bottom: 0rem;
   height: 12rem;
   overflow: auto; 
-  margin-left: 0rem;
   bottom: 0;
   width: 100%;
   background-color: orange;
   color: #202020;
-  text-align: center;  
+  text-align: center;
 }
 
 .footer a {
-  color: #202020;
-}
-
-@media (min-width: 36em) {
-  .footer {
-    margin-left: 4rem;
-  }
-  
-}
-
-@media (min-width: 750px) {
-  .footer {
-    margin-left: 12rem;
-  }
+  color: #202020 ;
   
 }
