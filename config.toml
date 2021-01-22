@@ -38,7 +38,7 @@ taxonomies = [
 # The additional languages for that site
 languages = [
     
-    {code = "en", rss = true}, # there will be a RSS feed for English content
+   
     {code = "fr"},
     {code = "es"} # there won't be a RSS feed for Spannish content
     
