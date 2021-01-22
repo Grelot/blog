@@ -3,6 +3,7 @@ template = "page.html"
 title = "Une petite introduction au BASH (Born Again Shell)"
 date =  2017-06-23
 draft = false
+description= "Une introduction aux rudiments du terminal bash dans LINUX."
 tags = ["tech", "computer"]
 +++
 

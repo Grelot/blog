@@ -7,3 +7,4 @@ description= "Descripción de la metatranscriptómico aplicado a la detección d
 tags = ["omics", "sciences"]
 +++
 
+Hasta ahora, este artículo no está disponible en español.

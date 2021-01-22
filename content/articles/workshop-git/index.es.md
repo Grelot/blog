@@ -3,10 +3,8 @@ template = "page.html"
 title = "Trabajar con git"
 date =  2019-11-26
 draft = false
-description = ""
+description = "Una referencia rápida de los comandos básicos de Git para ayudar a los estudiantes a aprenderlo"
 tags = ["tech"]
-lang = "es"
-
 +++
 
 

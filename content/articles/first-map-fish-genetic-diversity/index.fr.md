@@ -3,9 +3,8 @@ template = "page.html"
 title = "La première carte de la diversité génétique des poissons publiée"
 date =  2020-03-04
 draft = false
-description= ""
+description= "L'analyse de 70 000 séquences codes-barres ADN mitochondrial géoréférencées pour les espèces de poissons révèle la corrélation entre la diversité génétique, la diversité des espèces et leur répartition mondiale en fonction du climat et de la géographie."
 tags = ["sciences"]
-lang ="fr"
 +++
 
 

@@ -3,12 +3,10 @@ template = "page.html"
 title = "Génomique des paysages"
 date =  2019-11-14
 draft = false
+description = "Présentation d'une discipline émergente qui étudie comment la diversité génétique d'une espèce se répartit dans l'espace géographique et comment les caractéristiques environnementales influencent cette structure génétique."
 tags = ["omics", "sciences"]
-lang = "fr"
 +++
 
-
-## Introduction
 
 « Génomique des paysages » cela sonne comme le titre d’une œuvre d’Eduardo Kac. Ce nom un peu post-moderne désigne en fait une discipline scientifique qui a connu une expansion fulgurante au cours de la dernière décennie.
 

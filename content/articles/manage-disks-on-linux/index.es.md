@@ -3,8 +3,8 @@ template = "page.html"
 title = "Gestión de discos y particiones en linux"
 date =  2019-07-27
 draft = false
+description="Comandos para comprobar, añadir o eliminar dispositivos de almacenamiento, crear y eliminar particiones."
 tags = ["tech", "computer"]
-lang = "es"
 +++
 
 

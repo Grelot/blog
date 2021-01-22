@@ -3,9 +3,8 @@ template = "page.html"
 title = "Travailler en équipe avec git"
 date =  2019-11-26
 draft = false
-description=""
+description="Un guide à destination des étudiants pour prendre en main le gestionnaire de version git en un éclair !"
 tags = ["tech"]
-lang = "fr"
 +++
 
 J'utilise `git` depuis plusieurs années, seul ou en collaboration avec mon équipe ou nos partenaires. Avec le temps, j'ai acquis mes propres habitudes d'utilisation que je présente dans cet article.

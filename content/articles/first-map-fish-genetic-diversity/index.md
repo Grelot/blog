@@ -13,6 +13,7 @@ tags = ["sciences"]
 
 
 At the beginning of 2020, our team* has published the first global map of the genetic diversity of marine and freshwater fishes. This is an important instrument for the preservation of species. This first map is published in the journal [Nature Communications](https://doi.org/10.1038/s41467-020-14409-7). As I have done all the bioinformatics analysis, I thought I could present this work from my point of view as a computer scientist. Indeed, this work required the collaboration of a wide range of professions: ecologist, oceanographer, statistician and geneticist.
+<!-- more -->
 
 <small> *Team "Biogéographie des Vertébrés" Ecole pratique des Hautes Etudes from UMR CNRS "Centre d'Ecologie Fonctionnelle et Evolutive" in collaboration with IFREMER  and ETH Zurich</small>
 

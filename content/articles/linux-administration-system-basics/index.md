@@ -8,9 +8,10 @@ description="Here a collection of basic but useful commands to admin a linux sys
 tags = ["tech"]
 +++
 
-Here a collection of basic but useful commands to admin a linux system.
+Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine.
+ <!-- more -->
+At the same time, it is to be expected that two or more users may need to share access to certain system resources, such as directories and files. User and group management in Linux allows us to accomplish both objectives.
 
-_______________________________________________________________________________
 
 
 # Managing users and groups

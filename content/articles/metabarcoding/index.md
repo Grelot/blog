@@ -3,16 +3,16 @@ template = "page.html"
 title = "Metabarcoding"
 date =  2019-02-09
 draft = false
-description = "Next-generation sequencing of environmental DNA."
+description = "Next-generation sequencing of environmental barcodes-DNA."
 [taxonomies]
 tags = ["omics"]
 +++
 
 
 
-## Introduction
-
 One of the most promising genetic techniques for improving biodiversity assessments is the metabarcoding of environmental DNA. I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.
+<!-- more -->
+
 
 ### Overview: the necessity to assess marine biodiversity
 

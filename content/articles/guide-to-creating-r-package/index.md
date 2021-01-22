@@ -8,9 +8,10 @@ description= "How to create an R package with Rstudio and devtools."
 tags = ["tech"]
 +++
 
-## Introduction
 
-In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others. As of June 2019, there were over 14,000 packages available on the Comprehensive R Archive Network, or CRAN, the public clearing house for R packages. In this article I describe how to create a R package step-by-step so that others can easily download and use your code.
+In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others. <!-- more -->As of June 2019, there were over 14,000 packages available on the Comprehensive R Archive Network, or CRAN, the public clearing house for R packages. In this article I describe how to create a R package step-by-step so that others can easily download and use your code.
+
+
 
 <div style="background: #f1f1f1; ">
 

@@ -8,7 +8,8 @@ description = "A quick introduction to the very basics starting from the UNIX op
 tags = ["tech"]
 +++
 
-
+This is some hints about shell script programming based on examples. I provide here some little scripts which will hopefully help to understand the very basics. 
+<!-- more -->
 
 The **shell** or terminal is a command line interpreter.
 

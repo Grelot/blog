@@ -3,13 +3,10 @@ template = "page.html"
 title = "Metabarcoding"
 date =  2019-02-09
 draft = false
+description="Une méthode de capture et d'amplification des code-barres ADN qui permet grâce au séquençage haut-débit l'identification des espèces ou l'estimation de la diversité génétique dans un ou plusieurs échantillons."
 tags = ["omics"]
-lang = "fr"
 +++
 
-
-
-## Metabarcoding
 
 L'une des technologies en génomique les plus prometteuses pour l'évaluation de la biodiversité est le *metabarcoding* de l'ADN environnemental (ADNe). J'ai travaillé longuement sur ces méthodes et developpé plusieurs workflows pour traiter et analyser les données issues du metabarcoding. J'ai notamment été en charge du traitement des données génomiques récoltées par l'expedition scientifique d'exploration marine de Monaco entre 2018 et 2020.
 

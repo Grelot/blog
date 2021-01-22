@@ -3,8 +3,8 @@ template = "page.html"
 title = "Entornos virtuales, contenedores y reproducibilidad científica"
 date =  2018-01-19
 draft = false
+description="Cómo utilizar Docker o Singularity para crear contenedores que faciliten la distribución de software"
 tags = ["tech", "sciences"]
-lang = "es"
 +++
 
 

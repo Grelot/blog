@@ -11,9 +11,7 @@ tags = ["tech"]
 
 
 I've been using `git` for years, alone or in collaboration with my team. Over time, I developed habits that I present in this article.
-
-_______________________________________________________________________________
-
+ <!-- more -->
 
 # What's git?
 

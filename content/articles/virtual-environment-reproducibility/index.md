@@ -8,6 +8,12 @@ description = "How to use Docker or Singularity to build containers in order to 
 tags = ["sciences", "tech"]
 +++
 
+
+Containers provide an easy-to-use, secure, and reproducible environment for scientists to transport their studies between computational resources. As more communities are using Docker or Singularity, we enter into the age of high reproducibility or at least replicability so that the use of containers is mandatory for any study.
+
+<!-- more -->
+
+
 ## The need to produce reproducible experiments in computer science
 
 ### What is reproducibility ?

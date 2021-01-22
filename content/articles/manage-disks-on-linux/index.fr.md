@@ -3,8 +3,9 @@ template = "page.html"
 title = "La gestion des disques et des partitions sur linux"
 date =  2019-07-27
 draft = false
+description="Commandes sur bash dans un système linux pour la vérification, l'ajout ou la suppression de périphériques de stockage, la création et la suppression de partitions."
 tags = ["tech", "computer"]
-lang = "fr"
+
 +++
 
 
