@@ -31,38 +31,28 @@
     <div class="sidebar">       
       <a href="{{config.base_url}}"><span class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></span></a>
       <div class="sidebar-name"><p> PIERRE-EDOUARD <b>GUERIN</b> </p></div>
-       <div class="sidebar-description"><p> {{config.description}}, <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a></p></div>      
+       <div class="sidebar-description"><p> {{config.description}} </p></div>      
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}
           {% for link in config.extra.links %}
           <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a> &nbsp
           {% endfor %}         
           {% endblock sidebar_nav_brand %}
-      </div>
-
+      </div>   
       <hr>      
-        <div class="sidebar-about">
-            {% block sidebar_about %}                    
-              {% if config.description %}                    
-                <p class="lead"><a href="{{ get_url(path="articles") }}"> Blog </a></p>
-                <p class="lead"><a href="{{ get_url(path="resume") }}/#"> Curriculum Vitae </a></p>
-              {% endif %}
-            {% endblock sidebar_about %}
-        </div>
+      <ul class="sidebar-nav">
+        {% block sidebar_nav_infos %}
+        {% if config.description %}                    
+          <li class="sidebar-nav-item"><a href="{{ get_url(path="articles") }}">Blog</a></li>
+          <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#">Curriculum Vitae</a></li>
+        {% endif %}
         <hr>
-     <ul class="sidebar-nav">
-                {% block sidebar_nav_infos %}
-               
-                          <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
-                          <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
-                          <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#publications">Publications</a></li>
-                          <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" style="color:orange">Machine learning</a></li>
-
-                           
-               
-                {% endblock sidebar_nav_infos %}                    
-            </ul> 
-
+        <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
+        <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
+        <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#publications">Publications</a></li>
+        <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" style="color:orange">Machine learning</a></li>
+        {% endblock sidebar_nav_infos %}                    
+      </ul>
     </div>
 
     {% endblock sidebar %}

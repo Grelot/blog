@@ -78,9 +78,9 @@ a:focus {
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #494949;
+  background: #202020;
   padding: 18px;
-  border: 3px solid #494949 !important;
+  border: 3px solid #202020 !important;
   display: inline-block;
   transition: all 0.4s ease 0s;
   }
@@ -88,20 +88,20 @@ a:focus {
 
 .readmore-btn:hover {
   font-weight: bold;
-  color: #494949 !important;
+  color: #202020 !important;
   text-decoration: none;
-  background: #f9f9f9;
-  border-color: #f9f9f9 !important;
+  background: orange;
+  border-color: orange !important;
   transition: all 0.4s ease 0s;
   padding: 24px
   }
 
 .readmore-btn:active {
   font-weight: bold;
-  color: #494949 !important;
+  color: #202020 !important;
   text-decoration: none;
-  background: #f9f9f9;
-  border-color: #f9f9f9 !important;
+  background: orange;
+  border-color: orange !important;
   transition: all 0.4s ease 0s;
   padding: 24px
   }
@@ -262,23 +262,6 @@ tbody tr:nth-child(odd) th {
 
 
 
-
-
-/*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-
-
-.lead {
-  font-size: 1rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  text-align: right;
-  text-transform: uppercase;
-}
 
 
 /*

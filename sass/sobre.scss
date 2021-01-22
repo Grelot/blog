@@ -46,8 +46,9 @@ html {
  */
 
 .sidebar {
+
   text-align: center;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 1rem 1rem 1rem 1rem;
   color: #f1f1f1;
   background-color: #202020;
 }
@@ -57,7 +58,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 22rem;
+    width: 18rem;
     text-align: left;
   }
 }
@@ -127,6 +128,7 @@ html {
   margin-bottom: 0.5rem;
   font-size: 1rem;  
   text-align: center;
+  font-size: 0.8rem;
 }
 
 /* webmail section */
@@ -139,14 +141,6 @@ html {
   text-align: center;
 }
 
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem; 
-}
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -197,7 +191,7 @@ html {
   text-decoration: underline;
   color: #fff;
 }
-.sidebar-nav-item.active {
+.sidebar-nav-item a:active {
   font-weight: bold;
 }
 
@@ -223,22 +217,22 @@ html {
  */
 
 
- .content {
+.content {
   padding-top:    2rem;
   padding-bottom: 2rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 46em;
-    margin-left: 24rem;
+    max-width: 48em;
+    margin-left: 20rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 24rem;
+    margin-left: 20rem;
     margin-right: 2rem;
   }
 }

@@ -5,7 +5,8 @@
 # my domain
 base_url = "https://guerinpe.com/"
 title = "Pierre-Edouard Guerin"
-description = "Computer scientist"
+description = "Bioinformatics & Software development"
+
 
 # The default language, used in RSS
 default_language = "en"
