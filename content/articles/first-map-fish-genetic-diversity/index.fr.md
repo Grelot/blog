@@ -8,8 +8,6 @@ tags = ["sciences"]
 +++
 
 
-## Introduction
-
 En ce début d’année 2020, notre équipe* a publié la première carte mondiale de la diversité génétique des poissons d’eau de mer et d’eau douce. C’est un instrument important pour la préservation des espèces. Cette première carte est publiée dans la revue [Nature Communications](https://doi.org/10.1038/s41467-020-14409-7). Comme j’ai réalisé l’ensemble des analyses bio-informatiques, je me suis dit que je pourrais vous en parler un peu plus en détail, avec le point de vue qui est le mien c’est-à-dire celui du bio-informaticien. En effet, ce travail a nécessité la collaboration d’un large panel de métiers : écologue, océanographe, statisticien et généticien.
 
 <small> *Equipe "Biogéographie des Vertébrés" de l'Ecole pratique des Hautes Etudes integrée à l'Unité de Recherche Mixte du CNRS de Montpellier "Centre d'Ecologie Fonctionnelle et Evolutive" en parternariat avec l'IFREMER et l'Ecole Polytechnique Fédérale de Zurich</small>
