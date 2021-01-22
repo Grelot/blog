@@ -9,8 +9,6 @@ tags = ["omics", "tech"]
 +++
 
 
-
-
 The [OBITools](https://doi.org/10.1111/1755-0998.12428) software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information. <!-- more -->They are distributed as an open source software available on the following website: http://metabarcoding.org/obitools.
 
 

@@ -1,10 +1,10 @@
 +++
 template = "page.html"
-title = "OBITools: traiter les données de sequençage du metabarcodage"
+title = "OBITools: traiter les données de sequençage metabarcoding"
 date =  2020-06-27
 draft = false
+description= "Toutes les informations utiles pour analyser des données de metabarcoding d'ADN environnemental avec les obitools."
 tags = ["omics", "tech"]
-lang = "fr"
 +++
 
 
