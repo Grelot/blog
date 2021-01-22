@@ -146,8 +146,16 @@ html {
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
+  
+}
+
+@media (min-width: 48em) {
+  .sidebar-nav {
+    text-align: right;
+    
+  }
 }
 .sidebar-nav-item {
   display: block;
@@ -186,8 +194,16 @@ html {
 
 .sidebar-nav-item a {
   color: #f1f1f1;
-  font-size: 1rem;  
+  font-size: 1.25rem;
 }
+
+@media (min-width: 48em) {
+  .sidebar-nav-item a {
+    font-size: 1rem;  
+  }
+}
+
+
 
 .sidebar-nav-item a:hover,
 .sidebar-nav-item a:focus {
