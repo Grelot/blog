@@ -8,15 +8,8 @@ description= "Description of a metatranscriptomics approach to capture expressed
 tags = ["omics", "sciences"]
 +++
 
-
-
-## Introduction
-
-
-
-
-
-
+Single-celled microeukaryotes and small multicellular zooplankton account for most of the planktonic biomass in the world’s ocean. Seawater samples were collected from the global ocean during the Tara Oceans expedition to generate a global ocean reference catalog of genes from planktonic eukaryotes sampled RNA and to explore the expression patterns of community at different microscopic scales with respect to biogeography and environmental conditions.
+<!-- more -->
 
 ## RNA sequencing
 
