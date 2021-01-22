@@ -49,6 +49,7 @@ a:focus {
   font-size: 0.85rem;
   ul {
     margin-left: -2.25rem;
+    margin-bottom: 0rem;
   }
   li {
     display: inline-flex;
@@ -318,7 +319,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 1rem;
 }
 
 /* Blog post or page title */
