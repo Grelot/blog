@@ -10,9 +10,9 @@ tags = ["omics", "tech"]
 
 
 
-## Introduction
 
-The [OBITools](https://doi.org/10.1111/1755-0998.12428) software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information. It is distributed as an open source software available on the following website: http://metabarcoding.org/obitools.
+The [OBITools](https://doi.org/10.1111/1755-0998.12428) software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information. <!-- more -->They are distributed as an open source software available on the following website: http://metabarcoding.org/obitools.
+
 
 
 ## Data description: a bit of biology
@@ -24,22 +24,20 @@ Deoxyribonucleic acid (DNA) is a molecule composed of two polynucleotide chains 
 
 
 * DNA molecules are composed of four nucleotides:
-  * <p style="color:red">thymine (T)</p>
-  * <p style="color:green">adenine (A)</p>
-  * <p style="color:orange">cytosine (C)</p>
-  * <p style="color:blue">guanine (G)</p>  
-* Thymine and adenine are complementary: <strong style="color:red">T</strong>==<strong style="color:green">A</strong>
-* Cytosine and guanine are complementary: <strong style="color:orange">C</strong>==<strong style="color:blue">G</strong>
-* Each strand of the double helix can be described as a sequence of nucleotides (*e.g.* **ATTCGCT**)
-* One strand is the reversed complementary version of the second one (*e.g.* **AGCGAAT** is the reverse complementary sequence of **ATTCGCT**)
+  * <font color="red">thymine (T)</font>
+  * <font color="green">adenine (A)</font>
+  * <font color="orange">cytosine (C)</font>
+  * <font color="blue">guanine (G)</font>  
+* Thymine and adenine are complementary: <font color="red">T</font>==<font color="green">A</font>
+* Cytosine and guanine are complementary: <font color="orange">C</font>==<font color="blue">G</font>
+* Each strand of the double helix can be described as a sequence of nucleotides (*e.g.* ATTCGCT)
+* One strand is the reversed complementary version of the second one (*e.g.* AGCGAAT is the reverse complementary sequence of ATTCGCT)
 * *Sense* of a DNA strand can be:
-   * positive (**+**) "sense strand" from **5'** to **3'**
-   * negative (**-**) "antisense strand" from **3'** to **5'**
-* The **5'**-end designates the end of the DNA strand that has the fifth carbon in the sugar-ring of the deoxyribose or ribose at its terminus.
-* The **3'**-end designates the end of the DNA strand that has the hydroxyl group of the third carbon in the sugar-ring free, and is known as the tail end.
+   * positive (+) "sense strand" from 5' to 3'
+   * negative (-) "antisense strand" from 3' to 5'
+* The 5'-end designates the end of the DNA strand that has the fifth carbon in the sugar-ring of the deoxyribose or ribose at its terminus.
+* The 3'-end designates the end of the DNA strand that has the hydroxyl group of the third carbon in the sugar-ring free, and is known as the tail end.
 
-
-<img width="480rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DNA_chemical_structure-1-.fr.svg/1024px-DNA_chemical_structure-1-.fr.svg.png?1601388990848">
 
 By convention, we write and read a DNA sequence from 5' to 3'. To describe a whole DNA molecule, we write the sequence of the positive sense strand (the negative antisense strand sequence can be deduced from the positive sense sequence as it is the reverse complementary).
 
