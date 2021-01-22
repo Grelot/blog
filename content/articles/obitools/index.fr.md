@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "OBITools: traiter les données de sequençage du metabarcodage"
-date =  2020-09-19
+date =  2020-06-27
 draft = false
 tags = ["omics", "tech"]
 lang = "fr"

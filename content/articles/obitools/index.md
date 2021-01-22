@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "OBITools: processing DNA metabarcoding data"
-date =  2020-09-19
+date =  2020-06-27
 draft = false
 description= "All the information needed to process metabarcoding data using OBITools software."
 [taxonomies]
