@@ -46,7 +46,10 @@ a:focus {
   min-height: 0.5rem;
   display: flex;
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.85rem;
+  ul {
+    margin-left: -2.25rem;
+  }
   li {
     display: inline-flex;
     overflow: hidden;
@@ -329,12 +332,16 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
+
+
 /* Meta data line below post title */
 .post-date {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 
 /* Related posts */
