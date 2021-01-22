@@ -57,8 +57,6 @@ To assign a taxonomic group to each unigene, a reference database is built from 
 Protein *domain* prediction is performed using [HMMER](http://hmmer.org/). HMMER is used for searching sequence databases for sequence homologs, and for making sequence alignments. Unigenes were seeked in the profile database **Pfam**. So that a protein domain is assigned to each unigene. Unigenes without assigned protein domain are not kept.
 
 
-
-
 <div style="background: #91DC7F; ">
 
 ## Protein and profile database
@@ -75,20 +73,23 @@ Protein *domain* prediction is performed using [HMMER](http://hmmer.org/). HMMER
 
 
 
-
-
 ## Expression and abundance of unigenes
 
-In order to estimate the abundance and expression of each unigene in each sample, reads were mapped against the gene catalog. Unigene expression values and genomic occurences are computed in RPKM (reads per kilobase covered per million of mapped reads). RPKM values for each UNigenes in each
+In order to estimate the abundance (a proxy of expression) of each unigene in each sample, reads were mapped against the gene catalog. Unigene expression values and genomic occurences are computed in **RPKM**. Then the abundance of each unigene was normalized and formulated in two different ways.
+* the gene abundance relative to the abundance of all genes from the same taxon in percentage.
+* the fraction of the gene abundance attributed to a particular taxonomic group.
 
 
-gebe exoressuib abbybdabce$$tge fraction of the gene expression to a particualar taxonomic group
-....
+<div style="background: #f1f1f1 ;">
 
-
+**Reads Per Kilobase of transcript, per Million mapped reads (RPKM)** is a normalized unit of transcript expression. It scales by transcript length to compensate for the fact that most RNA-seq protocols will generate more sequencing reads from longer RNA molecules
+</div>
 
 ## Conclusion
 
-
+The global ocean transcript catalog reported here represents a first resource to study extensively and uniformly the gene content of eukaryotes and the dynamics of their expression in the environment. Metatranscriptomics is an effective approach to observe functionnal ecology of planktonic communities in the ocean.
 
 ## References
+
+* **A global ocean atlas of eukaryotic genes** ([Nature Communication 2018](https://doi.org/10.1038/s41467-017-02342-1))
+
