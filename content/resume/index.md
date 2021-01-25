@@ -227,7 +227,7 @@ I'm an active member of the [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn
 <img align="center" width="264rem" height="247rem" src="usnm.png">
 
 
-_______________________________________________________________________________
+
 
 
 

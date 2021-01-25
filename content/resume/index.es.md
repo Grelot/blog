@@ -36,7 +36,7 @@ categorie="CV"
             <mark>Nextflow</mark>
             <mark>Jupyter notebook</mark>
 	</div>	
-	<div class="timeline-item" date-is='*De enero a agosto de 2016'>
+	<div class="timeline-item" date-is='De enero a agosto de 2016'>
 		<h3>Aprendiz de bioinformática</h3>
         <h6>INSERM UMR S598, Genética de las diabetes, París</h6>
 		<p>
@@ -174,9 +174,9 @@ _______________________________________________________________________________
 
 * **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (principal contribuyente) : mapa interactivo de la diversidad genética de los peces del mundo.
 * **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)** (principal contribuyente) : software codificado en python para la detección de variantes genéticas sinónimas a partir de datos de secuenciación y anotación del genoma.
-* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (principal contribuyente) : package R pour télécharger, préparer et aligner des séquences ADN géoréférencés sur Genbank afin de calculer la diversité génétique à différentes échelles géographiques. 
-* **[Workflow analyse metabarcoding ADN environnemental](https://gitlab.mbb.univ-montp2.fr/edna)** (principal contribuyente y mantenedor):  Paquete R para descargar, preparar y alinear secuencias de ADN georreferenciadas en Genbank para calcular la diversidad genética a diferentes escalas geográficas. 
-* **[Workflow génotypage génomes réduits RAD-seq](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (principal contribuyente y mantenedor) : análisis de más de 3000 genomas de especies de peces p4 para el proyecto europeo RESERVEBENEFIT en colaboración con el Helmholtz-Zentrum für Ozeanforschung Kiel y el Instituto Español de Oceanografía. 
+* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (principal contribuyente) :Paquete R para descargar, preparar y alinear secuencias de ADN georreferenciadas en Genbank para calcular la diversidad genética a diferentes escalas geográficas. 
+* **[Workflow analyse metabarcoding ADN environnemental](https://gitlab.mbb.univ-montp2.fr/edna)** (principal contribuyente y mantenedor): es utilizado por la empresa SPYGEN, el instituto ETH de Zúrich y la misión de exploración marina de Mónaco.   
+* **[Workflow génotypage génomes réduits RAD-seq](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (principal contribuyente y mantenedor) : análisis de más de 3000 genomas de peces para el proyecto europeo RESERVEBENEFIT en colaboración con el Helmholtz-Zentrum für Ozeanforschung Kiel y el Instituto Español de Oceanografía. 
 * **[Genbar2](https://github.com/Grelot/genbar)** (principal contribuyente) : continuación del programa informático Genbar1 desarrollado en los años 90, que originalmente permitía asignar poblaciones genéticas a partir de datos de microsatélites. La versión 2 que desarrollé en C++ puede analizar datos de secuenciación de nueva generación gracias a la biblioteca *htslib*.
 * **[ExAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)** (contribuyente) : software python con interfaz gráfica que analiza automáticamente las secuencias de exones para anotar variantes. El programa informático fue utilizado por los médicos de nuestro laboratorio para acelerar sus análisis genéticos.
 * **[ORION](https://www.dsimb.inserm.fr/ORION/)** (contribuyente) : método para detectar los patrones de estructura de las proteínas.
@@ -224,4 +224,3 @@ Soy un triatleta y miembro de l'**U**nion **S**portive des **N**ageurs de Montpe
 <img align="center" width="264rem" height="247rem" src="usnm.png">
 
 
-_______________________________________________________________________________
