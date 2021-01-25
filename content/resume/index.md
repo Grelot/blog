@@ -7,28 +7,63 @@ tags = ["resume"]
 +++
 
 
-My name is Pierre-Edouard **GUERIN**. I'm currently working as a computer scientist for CNRS at Montpellier, France.
-
-_______________________________________________________________________________
-
-# Contact
+## Contact
 
 * **Mail:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Phone:** (+33) 04 67 61 32 35
 
-# Experience
-
-**February 2017 to present: Computer scientist**, CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier
-- I develop softwares for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
 
-**January 2016 to august 2016: Software ingineer** (Master internship), INSERM UMR S598, Genetics of Diabetes, Paris
-- I developed and integrated a functionnality and its graphical interface to a medical software. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data. *(python, mySQL, qt4 )*
+## Experience
 
+<div class="timeline-item" date-is='Feb 2017 to present'>
+		<h3>Software Development engineer (Bioinformatics)</h3>
+        <h6>CNRS UMR 5175, Center of Functional Ecology and Evolution, Montpellier</h6> 
+		<p>            
+			I develop softwares for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility.
+        </p> 
+            <mark>python</mark>            
+            <mark>R</mark>
+            <mark>C++</mark>
+            <mark>Singularity</mark>
+            <mark>Docker</mark>
+            <mark>SGE</mark>
+            <mark>SLURM</mark>
+            <mark>Snakemake</mark>
+            <mark>Nextflow</mark>
+            <mark>Jupyter notebook</mark>
+	</div>	
+	<div class="timeline-item" date-is='Jan to Aug 2016'>
+		<h3>Bioinformatics engineer internship</h3>
+        <h6>INSERM UMR S598, Genetics of Diabetes, Paris</h6>
+		<p>
+			I developed and integrated a functionnality and its graphical interface to a medical software. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data.
+		</p>
+            <mark>python</mark>            
+            <mark>Qt</mark>
+            <mark>mySQL</mark>
+            <mark>Docker</mark>
+	</div>	
+	<div class="timeline-item" date-is='Feb to June 2015'>
+		<h3>Bioinformatics engineer internship</h3>
+        <h6>INSERM UMR S1134, Dynamics of Structures and Interactions of Macromolecules in Biology, Paris</h6>
+		<p>
+			Implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
+		</p>
+            <mark>C</mark>            
+            <mark>C++</mark>
+            <mark>postgreSQL</mark>
+            <mark>HTML</mark>
+            <mark>CSS</mark>
+            <mark>Javascript</mark>
+	</div>
+	
+## Education
 
-**February 2015 to June 2015: Computational biologist** (Master internship), INSERM UMR S1134, Dynamics of Structures and Interactions of Macromolecules in Biology Paris  
-- Implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution *(python, R, C, C++, bash, CSS, HTML, Javascript)*
+* **2016: M.Sc. in Bioinformatics**, Université Paris Diderot, France
+* **2014: Licence in Bioinformatics**, Université Paris Diderot, France
 
+_______________________________________________________________________________
 
 # Projects
 
@@ -129,17 +164,24 @@ _______________________________________________________________________________
 </div>
 
 
-
+_______________________________________________________________________________
  
 
 # Softwares
 
-* **[wfgd](https://shiny.cefe.cnrs.fr/wfgd/)**: interactive worldmap of fish genetic diversity
-* **[Genbar2](https://github.com/Grelot/genbar2)**: identify genetic boundaries between populations using individual spatial coordinates and genetic variants
-* **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
-* **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
-* **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: a COverage Analysis Tool for exome sequencing data
-* **[ORION](http://www.dsimb.inserm.fr/ORION/)**: a sensivitve method for protein template detection
+* **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)**(main contributor): interactive worldmap of fish genetic diversity.
+* **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)**(main contributor): identify coding variant who are synonymous from annotated genome information and VCF.
+* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)**(main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
+* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)**(main contributor, maintainer): this workflow is open-source and it is used by SPYGEN company, IFREMER, ETH Zurich and the marine explorations of Monaco.
+* **[Workflow to genotype reduced genome sequencing data](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)**(main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.
+* **[Genbar2](https://github.com/Grelot/genbar2)**(main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.
+* **[DEMORT](https://pypi.org/project/demort/)**(main contributor): a DEmultiplexing MOnitoring Report Tool
+* **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**(contributor): a whole exome sequencing analysis and its graphical interface
+* **[ORION](http://www.dsimb.inserm.fr/ORION/)**(contributor): a sensivitve method for protein template detection
+
+
+_______________________________________________________________________________
+
 
 
 # Publications
@@ -152,10 +194,6 @@ _______________________________________________________________________________
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 2016](https://doi.org/10.1038/srep28268))
 
 
-# Education
-
-* **2016: Master's degree of Bioinformatics**, Université Paris Diderot, France
-* **2014: Licence's degree of Bioinformatics**, Université Paris Diderot, France
 
 
 _______________________________________________________________________________

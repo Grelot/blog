@@ -8,27 +8,66 @@ lang = "fr"
 +++
 
 
-Je m'appelle Pierre-Edouard **GUERIN**. Informaticien de formation, après quelques missions au sein des unités de l'INSERM à Paris, je suis maintenant en CDD au CNRS de Montpellier depuis 2017.
-
-_______________________________________________________________________________
-
-# Coordonnées
+## Coordonnées
 
 * **Courriel:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Téléphone:** (+33) 04 67 61 32 35
 
-# Experience
+_______________________________________________________________________________
 
-**De février 2017 à aujourd'hui: Ingénieur d'étude en calcul scientifique**, CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier
-- Développement de logiciels et réalisation de chaînes de traitement de données en calcul intensif pour l’analyse et la visualisation des mégadonnées issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
-
-
-**De janvier 2016 à août 2016: Développeur logiciel** (Stage de Master), INSERM UMR S598, Génétique des Diabètes, Paris
-- Développement de nouvelles fonctionnalités pour un logiciel dédié au diagnostic médical automatisé en exploitant les données de variants génétiques rares détectés sur les séquences de génomes humains. *(python, mySQL, qt4 )*
+## Experience
 
 
-**De février 2015 à juin 2015: Bioinformaticien** (Stage de Master), INSERM UMR S1134, Dynamtique des Structures et Interactions des Macromolécules en Biologie, Paris  
-- Conception et développement d'un nouvel algorithme pour améliorer la prédiction de modélisation 3D des structures des protéines à résolution atomique. *(python, R, C, C++, bash, CSS, HTML, Javascript)*
+<div class="timeline-item" date-is="Février 2017 à aujourd'hui">
+		<h3>Bio-informaticien ingénieur d’étude</h3>
+        <h6>CNRS UMR 5175, Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier</h6> 
+		<p>            
+			Développement de logiciels et réalisation de chaînes de traitement de données en calcul intensif pour l’analyse et la visualisation de données massives issues du séquençage ADN haut-débit (génomique, ADN environnemental). J’assure également la veille technologique pour mettre en place de nouvelles méthodes de traitement des données et optimiser la reproductibilité scientifique.
+        </p> 
+            <mark>python</mark>            
+            <mark>R</mark>
+            <mark>C++</mark>
+            <mark>Singularity</mark>
+            <mark>Docker</mark>
+            <mark>SGE</mark>
+            <mark>SLURM</mark>
+            <mark>Snakemake</mark>
+            <mark>Nextflow</mark>
+            <mark>Jupyter notebook</mark>
+	</div>	
+	<div class="timeline-item" date-is='Janvier à Août 2016'>
+		<h3>Bio-informaticien stagiaire</h3>
+        <h6>INSERM UMR S598, Génétique des Diabètes, Paris</h6>
+		<p>
+			Développement de nouvelles fonctionnalités pour un logiciel dédié au diagnostic médical automatisé en exploitant les données de variants génétiques rares détectés sur les séquences de génomes humains.
+		</p>
+            <mark>python</mark>            
+            <mark>Qt</mark>
+            <mark>mySQL</mark>
+            <mark>Docker</mark>
+	</div>	
+	<div class="timeline-item" date-is='Février à Juin 2015'>
+		<h3>Bio-informaticien stagiaire</h3>
+        <h6>INSERM UMR S1134, Dynamique des Structures et Interactions des Macromolécules en Biologie, Paris</h6>
+		<p>
+			Conception et développement d'un nouvel algorithme pour améliorer la prédiction de modélisation 3D des structures des protéines à résolution atomique.
+		</p>
+            <mark>C</mark>            
+            <mark>C++</mark>
+            <mark>postgreSQL</mark>
+            <mark>HTML</mark>
+            <mark>CSS</mark>
+            <mark>Javascript</mark>
+	</div>
+	
+
+## Formation
+
+* **2016: Master Bioinformatique, Biologie, Informatique**, Université Paris Diderot, France
+* **2014: Licence Bioinformatique, Biologie, Informatique**, Université Paris Diderot, France
+
+_______________________________________________________________________________
+
 
 
 # Projects
@@ -129,6 +168,7 @@ _______________________________________________________________________________
 
 </div>
 
+_______________________________________________________________________________
 
 # Logiciels
 
@@ -139,6 +179,16 @@ _______________________________________________________________________________
 * **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: Reporte les régions codantes de génomes humains, potentiellement liées à un diabète et avec une mauvaise qualité de séquençage.
 * **[ORION](http://www.dsimb.inserm.fr/ORION/)**: une méthode de détection des modèles de structure de protéines
 
+* **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (contributeur principal) : carte interactive de la diversité génétique des poissons dans le monde.
+* **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)** (contributeur principal) : logiciel codé en python pour la détection des variants génétiques synonymes à partir de données de séquençage et de l’annotation des génomes.
+* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (contributeur principal) : package R pour télécharger, préparer et aligner des séquences ADN géoréférencés sur Genbank afin de calculer la diversité génétique à différentes échelles géographiques. 
+* **[Workflow analyse metabarcoding ADN environnemental](https://gitlab.mbb.univ-montp2.fr/edna)** (contributeur principal et mainteneur): mon worklow est utilisé par la compagnie SPYGEN, l’institut ETH Zurich et la mission d’exploration marine de Monaco.
+* **[Workflow génotypage génomes réduits RAD-seq](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (contributeur principal et mainteneur) : mon workflow a analysé plus de 3000 génomes de poissons parmis 4 espèces pour le projet européen RESERVEBENEFIT en collaboration avec le Helmholtz-Zentrum für Ozeanforschung Kiel et Instituto Español de Oceanografía. 
+* **[Genbar2](https://github.com/Grelot/genbar)** (contributeur principal) : suite du logiciel Genbar1 développé dans les années 90 qui permettait à l’origine d’assigner des populations génétiques à partir de données microsatellites. La version 2 que j’ai developpé en C++ peut analyser les données de séquençage nouvelle génération grâce à la librairie *htslib*. 
+* **[ExAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)** (contributeur) : logiciel en python avec une interface graphique qui analyse automatiqument les séquençages d’exon pour annoter les variants. Le logiciel était utilisé par les médecins de notre laboratoire pour accélérer leurs analyses génétiques.
+* **[ORION](https://www.dsimb.inserm.fr/ORION/)** (contributeur) : outil interactif pour la prédiction des structures de protéines à partir des séquences amino-acides (réalisé 4 ans avant *Alphafold* qui a depuis révolutionné ce domaine). 
+
+_______________________________________________________________________________
 
 # Publications scientifiques
 
@@ -148,11 +198,6 @@ _______________________________________________________________________________
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))
 
-
-# Formation
-
-* **2016: Master double compétence informatique et biologie**, Université Paris Diderot, France
-* **2014: Licence double compétence informatique et biologie**, Université Paris Diderot, France
 
 
 _______________________________________________________________________________

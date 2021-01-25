@@ -8,26 +8,67 @@ lang = "es"
 categorie="CV"
 +++
 
-Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después de algunas misiones en unidades del INSERM en París, estoy ahora trabajo en el CNRS en Montpellier (Francia).
 
 
-# Coordenadas
+## Coordenadas
 
 * **E-mail:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Teléfono:** (+33) 04 67 61 32 35
 
 
-# Experiencia profesional
+## Experiencia profesional
 
-**Desde febrero de 2017 hasta hoy: Bioinformático**, CNRS UMR 5175, Centro de Ecología Funcional y Evolutiva, Montpellier, Francia  
-- Desarrollo informatico para el análisis y la visualización de mega-datos de la secuenciación de ADN de alto rendimiento (genómica, ADN ambiental). También aseguro la vigilancia tecnológica para implementar nuevos métodos de procesamiento de datos y optimizar la reproducibilidad científica. *(python, R, bash, snakemake, julia, C++, SLURM, Docker, Singularity, univa grid engine)*
 
-**De enero de 2016 a agosto de 2016: Desarrollador de software** (pasantía de master), INSERM UMR S598, Genética de las diabetes, París
-- Desarrollo de nuevas funcionalidades para un programa informático dedicado a la detección y anotación de variantes genéticas raras a partir de datos de secuenciación del genoma humano. *(python, mySQL, qt4 )*
+<div class="timeline-item" date-is="Desde febrero de 2017 hasta hoy">
+		<h3>Ingeniero en bioinformática</h3>
+        <h6>CNRS UMR 5175, Centro de Ecología Funcional y Evolutiva, Montpellier, Francia</h6> 
+		<p>            
+			Desarrollo informatico para el análisis y la visualización de mega-datos de la secuenciación de ADN de alto rendimiento (genómica, ADN ambiental). También aseguro la vigilancia tecnológica para implementar nuevos métodos de procesamiento de datos y optimizar la reproducibilidad científica.
+        </p> 
+            <mark>python</mark>            
+            <mark>R</mark>
+            <mark>C++</mark>
+            <mark>Singularity</mark>
+            <mark>Docker</mark>
+            <mark>SGE</mark>
+            <mark>SLURM</mark>
+            <mark>Snakemake</mark>
+            <mark>Nextflow</mark>
+            <mark>Jupyter notebook</mark>
+	</div>	
+	<div class="timeline-item" date-is='*De enero a agosto de 2016'>
+		<h3>Aprendiz de bioinformática</h3>
+        <h6>INSERM UMR S598, Genética de las diabetes, París</h6>
+		<p>
+			Desarrollo de nuevas funcionalidades para un programa informático dedicado a la detección y anotación de variantes genéticas raras a partir de datos de secuenciación del genoma humano.
+		</p>
+            <mark>python</mark>            
+            <mark>Qt</mark>
+            <mark>mySQL</mark>
+            <mark>Docker</mark>
+	</div>	
+	<div class="timeline-item" date-is='De febrero a junio de 2015'>
+		<h3>Aprendiz de bioinformática</h3>
+        <h6>INSERM UMR S1134, Estructura, dinámica e interacciones de las macromoléculas en biología, París</h6>
+		<p>
+			Diseño y desarrollo de un nuevo algoritmo para mejorar la predicción del modelado 3D de las estructuras proteínicas a resolución atómica.
+		</p>
+            <mark>C</mark>            
+            <mark>C++</mark>
+            <mark>postgreSQL</mark>
+            <mark>HTML</mark>
+            <mark>CSS</mark>
+            <mark>Javascript</mark>
+	</div>
 
-**De febrero de 2015 a junio de 2015: Bioinformático** (pasantía de master), INSERM UMR S1134, Dynamique des Structures et Interactions des Macromolécules en Biologie, París.  
-- Diseño y desarrollo de un nuevo algoritmo para mejorar la predicción del modelado 3D de las estructuras proteínicas a resolución atómica *(python, R, C, C++, bash, CSS, HTML, Javascript)*.
 
+
+## Educación
+
+* **2016: Master de Bioinformática**, Universidad Paris Diderot Paris 7, Francia  
+* **2014: Licencia de Bioinformática**, Universidad de París Diderot París 7, Francia
+
+_______________________________________________________________________________
 
 # Proyectos
 
@@ -127,7 +168,7 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 
 </div>
 
-
+_______________________________________________________________________________
 
 # Softwares
 
@@ -139,6 +180,8 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 * **[ORION](http://www.dsimb.inserm.fr/ORION/)**: método para detectar los patrones de estructura de las proteínas
 
 
+_______________________________________________________________________________
+
 # Publicaciones científicas
 
 * **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal agusto 2020](https://doi.org/10.1111/ecog.05049))
@@ -147,11 +190,6 @@ Mi nombre es Pierre-Edouard **GUERIN**. Bioinformático de formación, después 
 * **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology, mayo 2018](https://doi.org/10.1111/mec.14723))
 * **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports, juno 2016](https://doi.org/10.1038/srep28268))
 
-
-# Educación
-
-* **2016: Master de Bioinformática**, Universidad Paris Diderot Paris 7, Francia  
-* **2014: Licencia de Bioinformática**, Universidad de París Diderot París 7, Francia
 
 
 _______________________________________________________________________________
