@@ -13,7 +13,6 @@ lang = "fr"
 * **Courriel:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
 * **Téléphone:** (+33) 04 67 61 32 35
 
-_______________________________________________________________________________
 
 ## Experience
 
@@ -171,13 +170,6 @@ _______________________________________________________________________________
 _______________________________________________________________________________
 
 # Logiciels
-
-* **[wfgd](https://shiny.cefe.cnrs.fr/wfgd/)**: carte mondiale de la diversité génétique des poissons
-* **[Genbar2](https://github.com/Grelot/genbar2)**: logiciel C++ détection et assignation des individus à des populations génétiques à partir de données ADN type génotypage
-* **[DEMORT](https://pypi.org/project/demort/)**: a DEmultiplexing MOnitoring Report Tool
-* **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**: a whole exome sequencing analysis and its graphical interface
-* **[COAT](https://github.com/Grelot/diabetesGenetics--COAT)**: Reporte les régions codantes de génomes humains, potentiellement liées à un diabète et avec une mauvaise qualité de séquençage.
-* **[ORION](http://www.dsimb.inserm.fr/ORION/)**: une méthode de détection des modèles de structure de protéines
 
 * **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (contributeur principal) : carte interactive de la diversité génétique des poissons dans le monde.
 * **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)** (contributeur principal) : logiciel codé en python pour la détection des variants génétiques synonymes à partir de données de séquençage et de l’annotation des génomes.
