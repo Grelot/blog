@@ -522,6 +522,63 @@ a.pagination-item:hover {
 
 }
 
+/* the timeline */
+
+$border-time-color: #515151;
+
+
+
+.timeline-item {
+  margin-left: 1rem;
+	padding: 0.5rem 0.5rem 0.5rem;
+	position: relative;
+	color:  #515151;
+	border-left: 2px solid $border-time-color;
+	
+  h6 {
+    color: #515151;
+    margin-top: -0.5rem;
+    font-weight: lighter;
+  }
+  mark {
+    color: #fff;
+    background-color: orange;
+    padding: 1px 8px 1px 8px;
+  }
+
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 0.5rem;
+		font-weight: bold;
+		top: 0.5rem;
+		display: block;
+		font-weight: 700;
+		font-size: .785rem;
+	}
+
+	&::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 0.5rem;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid $border-time-color;
+		background: white;
+	}
+
+	&:last-child {
+		border-image: linear-gradient(
+			to bottom,
+			$border-time-color 60%,
+			rgba($border-time-color, 0)) 1 100%
+		;
+	}
+}
+
 /*
  * footer
  *
