@@ -58,28 +58,44 @@ Pour chaque groupe de contigs, le contig le plus long est conservé en tant que 
 Pour assigner un groupe taxonomique à chaque unigène, une base de référence est construite à partir d'**UniRef**. Les similarités de séquence entre les gènes du catalogue et la base de références sont calculés par [DIAMOND](http://www.diamondsearch.org/index.php). DIAMOND est un aligneur de séquences traduites (comparer des séquences ADN qui sont des chaînes de nucléotides avec des séquences de protéine qui sont des chaînes d'acides aminés). DIAMOND est particulièrement indiqué pour traiter efficacement des jeux de données massives tel que ceux générés dans le cadre de la metatranscriptomique. Pour avoir une idée de sa vitesse, ils permet l'alignement de séquences ADN traduites à 20,000 fois la vitesse d'un BLAST classique. L'assignation taxonomique suit la méthode du dernier ancêtre commun. Pour chaque unigène, la meilleure séquence référence avec une similarité d'au moins 90% est conservée. Cette séquence référence permet alors d'assigner le taxon correspondant à l'unigène.
 
 
-## Functionnal characterization of unigenes
-
-Protein *domain* prediction is performed using [HMMER](http://hmmer.org/). HMMER is used for searching sequence databases for sequence homologs, and for making sequence alignments. Unigenes were seeked in the profile database **Pfam**. So that a protein domain is assigned to each unigene. Unigenes without assigned protein domain are not kept.
-
-
 ## Caractérisation fonctionnelle des unigènes
 
-Les domaines protéiques sont prédits avec [HMMER](http://hmmer.org/). HMMER est un outil pour la recherche de relation d'homologie entre des séquences par alignement des séquences. Les séquences homologues des unigènes sont recherchés sur la base de données de profils de séquences *Pfam**. Ainsi un domaine protéique est assigné à chaque unigène. Les unigènes qui n'ont pas d'assignment de fonctions protéiques sont supprimés.
-
+Les domaines protéiques sont prédits avec [HMMER](http://hmmer.org/). HMMER est un outil pour la recherche de relation d'homologie entre des séquences en comparant non pas les séquences entre elles mais des profils de séquences (alignement multiple de séquences similaires). Les séquences homologues des unigènes sont recherchées dans la banque de profils de séquences de domaines protéiques **Pfam**. Ainsi un domaine protéique est prédit pour chaque unigène.
 
 
 <div style="background: #91DC7F; ">
 
-## Protein and profile database
+## Banque de données de protéines et de profils de séquences
 
-**UniProt:** the database of protein sequence and functional information, many entries being derived from genome sequencing projects.
+**UniProt :** banque de données de séquences de protéines et leurs fonctions associées.
 
-**UniGene:** partition of sequences into a non-redundant set of gene-oriented clusters. Each UniGene cluster contains sequences that represent a unique gene, as well as related information such as the tissue types in which the gene has been expressed and map location.
+**Unigène :** regroupement de séquences non-redondantes centrées sur un gène. Chaque unigène est un groupe qui contient des séquences représentatives d'un seul gène. 
 
-**UniRef:** **Uni**Prot **Ref**erence Clusters provide clustered sets of sequences from UniProt in order to obtain complete coverage of the [sequence space](https://en.wikipedia.org/wiki/Sequence_space_(evolution)) at several resolutions.
+**UniRef:** **Uni**Prot **Ref**erence propose des groupements de séquences extraites de la banque UniProt une couverture totale de [l'espace de sequence](https://fr.qaz.wiki/wiki/Sequence_space_(evolution)).
 
-**Pfam:** the database of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs). Proteins are generally composed of one or more functional regions, commonly termed *domains*. Different combinations of domains give rise to the diverse range of proteins found in nature. Pfam entry data are based on UniProt reference proteomes.
+**Pfam:** la banque de données des familles de protéines, chacune représentée par des alignements de séquences multiples ou profils de séquences. Les protéines sont généralement composées d'une ou plusieurs régions fonctionnelles, communément appelées *domaines*. Différentes combinaisons de domaines donnent naissance à la gamme diversifiée de protéines que l'on trouve dans la nature. Les requêtes Pfam sont basées sur les référencede la banque UniProt.
+
 
 </div>
 
+## Expression et abondances des unigènes
+
+Pour estimer l'abondance (un proxy de l'expression) de chaque unigène dans chaque échantillon environnemental, les lectures sont alignées sur le catalogue d'unigènes. Ainsi à partir du nombre d'occurences de chaque unigène dans chaque échantillon observé, le **RPKM** est calculé. L'abondance de chaque unigène est formulée selon deux grandeurs :
+* L'abondance relative du gène par rapport à l'abondance de tous les gènes dans un même taxon
+* La fraction que représente un taxon sur l'ensemble des abondances de gènes
+
+
+<div style="background: #f1f1f1 ;">
+
+**Reads Per Kilobase of transcript, per Million mapped reads (RPKM)** est une unité normalisée de l'expression d'un transcript. Elle est calculée en fonction de la longueur du transcript pour compenser le fait que les protocoles de séquençage ARN génèrent une profondeur de séquençage plus élevée pour les molécules ARN plus longues.
+</div>
+
+
+## Conclusion
+
+Nous avons présenter le catalogue mondial des transcripts ARN de la mer. C'est une ressource interessante pour étudier de manière approfondie la génétique des eucaryotes et la dynamique de leur expression dans l'environnement. La métatranscriptomique est donc une approche efficace pour observer l'écologie fonctionnelle des communautés planctoniques dans l'océan.
+
+
+## References
+
+* **A global ocean atlas of eukaryotic genes** ([Nature Communication 2018](https://doi.org/10.1038/s41467-017-02342-1))
