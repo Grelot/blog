@@ -103,7 +103,7 @@ a:focus {
   }
 
 .readmore-btn:active {
-  font-weight: bold;
+  font-weight: 600;
   color: #2c3e50 !important;
   text-decoration: none;
   background: #4bcbb5;
@@ -116,33 +116,26 @@ a:focus {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.25;
   color: #2c3e50;
   text-rendering: optimizeLegibility;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.8rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.75rem;
-  font-weight: bold;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.5rem;
 }
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
-  font-weight: bold;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
-  font-weight: bold;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Body text */
