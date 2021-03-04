@@ -63,6 +63,6 @@ links = [
 ]
 
 tags_color = [
-    { tech = "#e1b501", sciences = "#dd0100", omics = "#24b900" }
+    { tech = "#f39c12", sciences = "#e74c3c", omics = "#27ae60" }
     ]
 
