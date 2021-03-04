@@ -184,12 +184,37 @@ _______________________________________________________________________________
 
 # Publications scientifiques
 
-* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal en auguste 2020](https://doi.org/10.1111/ecog.05049))
-* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics en juillet 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
-* **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications en février 2020](https://www.nature.com/articles/s41467-020-14409-7))
-* **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology en mai 2018](https://doi.org/10.1111/mec.14723))
-* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports en juin 2016](https://doi.org/10.1038/srep28268))
 
+> **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences**
+>
+> *Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean*
+>
+> Ecography. 2020 Aug 04. DOI: [10.1111/ecog.05049](https://doi.org/10.1111/ecog.05049)
+
+> **New genomic ressources for three exploited Mediterranean fishes**
+>
+> *Katharina Fietz Elena Trofimenkoa Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
+>
+> Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
+
+> **Global determinants of freshwater and marine fish genetic diversity**
+>
+> *Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy & Loic Pellissier*
+>
+> Nature communications. 2020 Feb 10. DOI: [10.1038/s41467-020-14409-7](https://doi.org/10.1038/s41467-020-14409-7)
+
+> **Predicting genotype environmental range from genome–environment associations**
+>
+> *Stephanie Manel, Marco Andrello, Karine Henry, Daphne Verdelet, Aude Darracq, Pierre‐Edouard Guerin, Bruno Desprez, Pierre Devaux*
+>
+> Molecular Ecology. 2018 May 17. DOI: [10.1111/mec.14723](https://doi.org/10.1111/mec.14723)
+
+
+> **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles**
+>
+> *Yassine Ghouzam, Guillaume Postic, Pierre-Edouard Guerin, Alexandre G. de Brevern & Jean-Christophe Gelly* 
+>
+> Scientific Reports. 2016 Jun 20. DOI: [10.1038/srep28268](https://doi.org/10.1038/srep28268)
 
 
 _______________________________________________________________________________

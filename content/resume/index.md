@@ -170,6 +170,7 @@ _______________________________________________________________________________
 # Softwares
 
 * **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)**(main contributor): interactive worldmap of fish genetic diversity.
+* **[ANVAGE](https://github.com/Grelot/anvage)** (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.
 * **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)**(main contributor): identify coding variant who are synonymous from annotated genome information and VCF.
 * **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)**(main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
 * **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)**(main contributor, maintainer): this workflow is open-source and it is used by SPYGEN company, IFREMER, ETH Zurich and the marine explorations of Monaco.
@@ -186,14 +187,36 @@ _______________________________________________________________________________
 
 # Publications
 
+> **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences**
+>
+> *Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean*
+>
+> Ecography. 2020 Aug 04. DOI: [10.1111/ecog.05049](https://doi.org/10.1111/ecog.05049)
 
-* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal in august 2020](https://doi.org/10.1111/ecog.05049))
-* **New genomic ressources for three exploited Mediterranean fishes** ([Genomics in july 2020](https://doi.org/10.1016/j.ygeno.2020.06.041))
-* **Global determinants of freshwater and marine fish genetic diversity** ([Nature Communications in february 2020](https://www.nature.com/articles/s41467-020-14409-7))
-* **Predicting genotype environmental range from genome–environment associations** ([Molecular Ecology in may 2018](https://doi.org/10.1111/mec.14723))
-* **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles** ([Scientific Reports in june 2016](https://doi.org/10.1038/srep28268))
+> **New genomic ressources for three exploited Mediterranean fishes**
+>
+> *Katharina Fietz Elena Trofimenkoa Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
+>
+> Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
+
+> **Global determinants of freshwater and marine fish genetic diversity**
+>
+> *Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy & Loic Pellissier*
+>
+> Nature communications. 2020 Feb 10. DOI: [10.1038/s41467-020-14409-7](https://doi.org/10.1038/s41467-020-14409-7)
+
+> **Predicting genotype environmental range from genome–environment associations**
+>
+> *Stephanie Manel, Marco Andrello, Karine Henry, Daphne Verdelet, Aude Darracq, Pierre‐Edouard Guerin, Bruno Desprez, Pierre Devaux*
+>
+> Molecular Ecology. 2018 May 17. DOI: [10.1111/mec.14723](https://doi.org/10.1111/mec.14723)
 
 
+> **ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles**
+>
+> *Yassine Ghouzam, Guillaume Postic, Pierre-Edouard Guerin, Alexandre G. de Brevern & Jean-Christophe Gelly* 
+>
+> Scientific Reports. 2016 Jun 20. DOI: [10.1038/srep28268](https://doi.org/10.1038/srep28268)
 
 
 _______________________________________________________________________________
