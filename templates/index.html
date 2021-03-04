@@ -39,7 +39,7 @@
           {% endfor %}         
           {% endblock sidebar_nav_brand %}
       </div>   
-      <div class="sidebar-name"><p>{{config.extra.mytown | upper}}  <b><a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a> </b></p></div>
+      <div class="sidebar-name"><p>{{config.extra.mytown | upper}}  <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a> </p></div>
       <hr>      
       <ul class="sidebar-nav">
         {% block sidebar_nav_infos %}
@@ -50,7 +50,7 @@
         <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
         <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
         <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#publications">Publications</a></li>
-        <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" style="color:orange">Machine learning</a></li>
+        <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" >Machine learning</a></li>
         {% endblock sidebar_nav_infos %}                    
       </ul>
     </div>

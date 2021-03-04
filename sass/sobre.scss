@@ -7,7 +7,7 @@ html {
 }
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -18,20 +18,20 @@ html {
 
 @media (min-width: 52em) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 
 @media (min-width: 58em) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 90em) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -50,7 +50,7 @@ html {
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
   color: #f1f1f1;
-  background-color: #202020;
+  background-color: #2c3e50;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -69,6 +69,11 @@ html {
 }
 
 
+.sidebar a:hover,
+.sidebar a:hover {
+  text-decoration: none;
+  color: #4bcbb5;
+}
 /************************************/
 
 
@@ -79,7 +84,7 @@ html {
 .sidebar-lang a {
   width: 1.33333333em;
   line-height: 1em;
-  color: #515151;
+  color: #2c3e50;
 }
 
 
@@ -87,7 +92,7 @@ html {
   width: 1.33333333em;
   line-height: 1em;
   color: #fff;
-  background-color: #515151;
+  background-color: #2c3e50;
 
 }
 
@@ -207,8 +212,8 @@ html {
 
 .sidebar-nav-item a:hover,
 .sidebar-nav-item a:focus {
-  text-decoration: underline;
-  color: #fff;
+  text-decoration: none;
+  color: #4bcbb5;
 }
 .sidebar-nav-item a:active {
   font-weight: bold;

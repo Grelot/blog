@@ -9,29 +9,31 @@ html,
 body {
   margin: 0;  
   padding: 0;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
   line-height: 1.2;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
 body {
-  color: #515151;  
+  color: #2c3e50;  
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #4bcbb5;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
@@ -82,9 +84,9 @@ a:focus {
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #202020;
+  background: #2c3e50;
   padding: 18px;
-  border: 3px solid #202020 !important;
+  border: 3px solid #2c3e50 !important;
   display: inline-block;
   transition: all 0.4s ease 0s;
   }
@@ -92,20 +94,20 @@ a:focus {
 
 .readmore-btn:hover {
   font-weight: bold;
-  color: #202020 !important;
+  color: #2c3e50 !important;
   text-decoration: none;
-  background: orange;
-  border-color: orange !important;
+  background: #4bcbb5;
+  border-color: #4bcbb5 !important;
   transition: all 0.4s ease 0s;
   padding: 24px
   }
 
 .readmore-btn:active {
   font-weight: bold;
-  color: #202020 !important;
+  color: #2c3e50 !important;
   text-decoration: none;
-  background: orange;
-  border-color: orange !important;
+  background: #4bcbb5;
+  border-color: #4bcbb5 !important;
   transition: all 0.4s ease 0s;
   padding: 24px
   }
@@ -116,31 +118,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #2c3e50;
   text-rendering: optimizeLegibility;
 }
 h1 {
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h2 {
   margin-top: 1rem;
   font-size: 1.75rem;
   font-weight: bold;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
   font-weight: bold;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
   font-weight: bold;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Body text */
@@ -150,7 +152,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #2c3e50;
 }
 
 
@@ -196,7 +198,7 @@ code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
+  background-color: #ecf0f1;
   border-radius: 3px;
 }
 pre {
@@ -207,7 +209,7 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   overflow-x: scroll;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 pre code {
   padding: 0;
@@ -227,8 +229,8 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #2c3e50;
+  border-left: .25rem solid #ecf0f1;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -251,13 +253,13 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #ecf0f1;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #ecf0f1;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
@@ -297,10 +299,10 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #2c3e50;
 }
 .masthead-title a {
-  color: #505050;
+  color: #2c3e50;
 }
 .masthead-title small {
   font-size: 75%;
@@ -326,7 +328,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #2c3e50;
 }
 .page-title,
 .post-title {
@@ -340,7 +342,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #2c3e50;
   font-weight: lighter;
   font-size: 1rem;
 }
@@ -363,7 +365,7 @@ tbody tr:nth-child(odd) th {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  color: #4bcbb5;
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -396,7 +398,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -482,40 +484,40 @@ a.pagination-item:hover {
 .project {
   background-color: #fff;
   border: solid;
-  color: #515151;
-  border: 1px solid #e5e5e5;
+  color: #2c3e50;
+  border: 1px solid #ecf0f1;
   padding: 1rem 1rem;
   text-align: left;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  height: 18em;
+  height: 24em;
   position:relative;
 }
 
 .project:hover {
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
 }
 
 .project .title {
   font-weight: 600;
-  color: #313131;
+  color: #2c3e50;
 }
 
 .project .description {
-  color: #515151;
+  color: #2c3e50;
   font-size: small;
 }
 
 .project .skills {
-  color: #515151;
+  color: #2c3e50;
   font-size: small;
   font-style: italic;
 }
 
 .project .duration {
-  color: #515151;
+  color: #2c3e50;
   font-size: small;
   position: absolute;
   bottom: 1rem;
@@ -524,7 +526,7 @@ a.pagination-item:hover {
 
 /* the timeline */
 
-$border-time-color: #515151;
+$border-time-color: #2c3e50;
 
 
 
@@ -532,17 +534,17 @@ $border-time-color: #515151;
   margin-left: 1rem;
 	padding: 0.5rem 0.5rem 0.5rem;
 	position: relative;
-	color:  #515151;
+	color:  #2c3e50;
 	border-left: 2px solid $border-time-color;
 	
   h6 {
-    color: #515151;
+    color: #2c3e50;
     margin-top: -0.5rem;
     font-weight: lighter;
   }
   mark {
     color: #fff;
-    background-color: orange;
+    background-color: #4bcbb5;
     padding: 1px 8px 1px 8px;
   }
 
@@ -593,12 +595,12 @@ $border-time-color: #515151;
   overflow: auto; 
   bottom: 0;
   width: 100%;
-  background-color: orange;
-  color: #202020;
+  background-color: #4bcbb5;
+  color: #2c3e50;
   text-align: center;
 }
 
 .footer a {
-  color: #202020 ;
+  color: #2c3e50 ;
   
 }
