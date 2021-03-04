@@ -36,10 +36,11 @@
           {% block sidebar_nav_brand %}          
           {% for link in config.extra.links %}
           <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a>
-          {% endfor %}         
+          {% endfor %}
+          <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a>         
           {% endblock sidebar_nav_brand %}
+
       </div>   
-      <div class="sidebar-name"><p>{{config.extra.mytown | upper}}  <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a> </p></div>
       <hr>      
       <ul class="sidebar-nav">
         {% block sidebar_nav_infos %}
