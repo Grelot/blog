@@ -106,7 +106,7 @@ En combinant ces assignations aux descripteurs environnementaux, nous pouvons al
 * Si vous êtes intéressés par un cas d'étude réel de génomique du paysage dans un environnement marin, alors je vous recommande [l'article de Laura Benestan sur le homard d'Amérique au Canada](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13811).
 * Si vous n'aimez pas la mer et que vous avez une préférence pour les plantes, alors je vous recommande plutôt [l'article de Jimena Guerrero sur la luzerne tronquée en Méditerranée](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15171).
 
-# Conclusion
+## Conclusion
 
 La génomique du paysage est une discipline qui intègre des concepts et des outils pour tester l’effet du paysage sur la dispersion des individus et les flux de gènes. Elle permet d'estimer la capacité adaptative des individus aux changements de leur environnement.
 Nous avons vu que la bioinformatique apportait de la puissance à ces méthodes à la croisée entre écologie, statistiques, informatique et génomique.
@@ -117,16 +117,46 @@ Ces approches sont utiles à la fois pour les laboratoires de recherche, mais au
 Actuellement en Méditerranée occidentale, le projet RESERVEBENEFIT vise à évaluer la connexion entre les aires marines protégées pour les poissons pêchés. Cette évaluation s'appuie sur une approche de génomique des paysages et vise à terme à optimiser le placement des futures aires marines protégées en Méditerranée dans le but de pérenniser les stocks de poissons. Les fruits de ce travail, collaboration entre pêcheurs et scientifiques dont j'ai l'honneur de réaliser la bioinformatique, sont diffusés sur un [compte twitter dédié](https://twitter.com/reservebenefit).
 
 
-_______________________________________________________________________________
 
 
-# Références
 
-* Manel, Stéphanie, et al. "Landscape genetics: combining landscape ecology and population genetics." Trends in ecology & evolution
-* Guerrero, Jimena, et al. "Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics." New Phytologist
-* Benestan, Laura Marilyn, et al. "Conservation genomics of natural and managed populations: building a conceptual and practical framework." Molecular ecology
-* Gaggiotti, O. "What is a population? An empirical evaluation of some genetic methods for identifying the number of gene pools and their degree of connectivity." Molecular Ecology
-* Rochette, Nicolas C., Angel G. Rivera-Colón, and Julian M. Catchen. "Stacks 2: Analytical Methods for Paired-end Sequencing Improve RADseq-based Population Genomics." Molecular Ecology
-* Puritz, Jonathan B., Christopher M. Hollenbeck, and John R. Gold. "dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms." PeerJ
+## Références
 
-_______________________________________________________________________________
+> **Landscape genetics: combining landscape ecology and population genetics**
+>
+> *Stephanie Manel, Michael Schwartz, Gordon Luikart, Pierre Taberlet*
+>
+> Trends in ecology & evolution. 2003 Apr 27. DOI: [10.1016/S0169-5347(03)00008-9](https://doi.org/10.1016/S0169-5347(03)00008-9)
+
+> **Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics**
+>
+> *Jimena Guerrero, Marco Andrello Concetta, Burgarella, Stephanie Manel*
+>
+> New Phytologist. 2018 April 26. DOI: [10.1111/nph.15171](https://doi.org/10.1111/nph.15171)
+
+> **Conservation genomics of natural and managed populations: building a conceptual and practical framework**
+>
+> *Laura Benestan, Anne‐Laure Ferchaud, Paul Hohenlohe, Brittany Garner, Gavin Naylor, Iliana Baums, Michael Schwartz, Joanna Kelley,Gordon Luikart*
+>
+> Molecular Ecology. 2016 April 17. DOI: [10.1111/mec.13647](https://doi.org/10.1111/mec.13647)
+
+> **What is a population? An empirical evaluation of some genetic methods for identifying the number of gene pools and their degree of connectivity**
+>
+> *Robin Waples, Oscar Gaggiotti*
+>
+> Molecular Ecology. 2006 May 15. DOI: [10.1111/j.1365-294X.2006.02890.x](https://doi.org/10.1111/j.1365-294X.2006.02890.x)
+
+> **Stacks 2: Analytical Methods for Paired-end Sequencing Improve RADseq-based Population Genomics**
+>
+> *Nicolas Rochette, Angel Rivera-Colon, Julian Catchen*
+>
+> Molecular Ecology. 2019 Sep 24. DOI: [10.1111/mec.15253](https://doi.org/10.1111/mec.15253)
+
+> **dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms**
+>
+> *Jonathan Puritz, Christopher Hollenbeck, John Gold*
+>
+> PeerJ. 2014 Jun 10. DOI: [10.7717/peerj.431](https://doi.org/10.7717/peerj.431)
+
+
+

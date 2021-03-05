@@ -25,7 +25,7 @@ In the context of our study, **genetic diversity** is the variety of genes withi
 Recent years have seen the emergence of large public databases containing the DNA sequences of several million individuals of different species from thousands of scientific studies around the world. One of these databases is the **BOLD** (Barcode of Life), which gathers produced, reported and annotated DNA barcodes from hundreds of scientific missions. DNA barcodes are DNA sequences which are characteristic of the species. These sequences allow rapid and reliable identification of the individual to its species. In the case of the BOLD project, the DNA barcode corresponds to the sequence of a mitochondrial gene such as Cytochrome Oxidase I. Since mitochondria are not subject to selection forces unlike their host cells, differences in mitochondrial DNA sequences observed between different individuals or species result from genetic drift alone. It is therefore possible to use these mitochondrial DNA sequences, judiciously named DNA barcodes, as identifiers of the species or even the individual. The particular interest of BOLD is to provide a large number of geo-referenced DNA barcodes. It is then possible to calculate not only the intraspecific genetic diversity but also its geographical distribution. By coupling these two features we have generated a map of genetic diversity.
 
 
-<div style="background: #f1f1f1 ;">
+<div style="background: #ecf0f1 ;">
 
 ##  Key words
 
@@ -80,10 +80,15 @@ In order to ease the access of the map, I realised an interactive map of fish ge
 
 ## References and notes
 
-* Manel, S., **Guerin, P.E.**, Mouillot, D. et al. Global determinants of freshwater and marine fish genetic diversity. Nat Commun 11, 692 (2020). https://doi.org/10.1038/s41467-020-14409-7
-* Nei, M. & Li, W. H. Mathematical model for studying genetic variation in terms of restriction endonucleases. Proc. Natl Acad. Sci. USA 76, 5269 (1979).
-* Miraldo, Andreia, et al. "An Anthropocene map of genetic diversity." Science 353.6307 (2016). 
+> **Global determinants of freshwater and marine fish genetic diversity**
+>
+> *Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy & Loic Pellissier*
+>
+> Nature communications. 2020 Feb 10. DOI: [10.1038/s41467-020-14409-7](https://doi.org/10.1038/s41467-020-14409-7)
 
+> **An Anthropocene map of genetic diversity**
+> 
+> *Andreia Miraldo, Sen Li, Michael Borregaard, Alexander Florez-Rodriguez, Shyam Gopalakrishnan, Mirnesa Rizvanovic, Zhiheng Wang,Carsten Rahbek, Katharine Marske, David Nogues-Bravo*
+>
+> Science. 2016 Sep 30. DOI: [10.1126/science.aaf4381](https://doi.org/10.1126/science.aaf4381)
 
-
-_______________________________________________________________________________

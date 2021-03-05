@@ -112,3 +112,43 @@ Landscape genomics is a discipline that integrates concepts and tools to test th
 <img align="left" src="reservebenefit.jpg">
 
 Currently in the western Mediterranean sea, the RESERVEBENEFIT project aims to assess the connection between marine protected areas. This assessment is based on a landscape genomics approach and aims ultimately at optimizing the placement of future marine protected areas in the Mediterranean sea in order to sustain fish stocks. The fruits of this work, a collaboration between fishermen and scientists for which I have the honor of carrying out the bioinformatics part, are disseminated on a [dedicated twitter account](https://twitter.com/reservebenefit).
+
+
+
+## References
+
+> **Landscape genetics: combining landscape ecology and population genetics**
+>
+> *Stephanie Manel, Michael Schwartz, Gordon Luikart, Pierre Taberlet*
+>
+> Trends in ecology & evolution. 2003 Apr 27. DOI: [10.1016/S0169-5347(03)00008-9](https://doi.org/10.1016/S0169-5347(03)00008-9)
+
+> **Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics**
+>
+> *Jimena Guerrero, Marco Andrello Concetta, Burgarella, Stephanie Manel*
+>
+> New Phytologist. 2018 April 26. DOI: [10.1111/nph.15171](https://doi.org/10.1111/nph.15171)
+
+> **Conservation genomics of natural and managed populations: building a conceptual and practical framework**
+>
+> *Laura Benestan, Anne‐Laure Ferchaud, Paul Hohenlohe, Brittany Garner, Gavin Naylor, Iliana Baums, Michael Schwartz, Joanna Kelley,Gordon Luikart*
+>
+> Molecular Ecology. 2016 April 17. DOI: [10.1111/mec.13647](https://doi.org/10.1111/mec.13647)
+
+> **What is a population? An empirical evaluation of some genetic methods for identifying the number of gene pools and their degree of connectivity**
+>
+> *Robin Waples, Oscar Gaggiotti*
+>
+> Molecular Ecology. 2006 May 15. DOI: [10.1111/j.1365-294X.2006.02890.x](https://doi.org/10.1111/j.1365-294X.2006.02890.x)
+
+> **Stacks 2: Analytical Methods for Paired-end Sequencing Improve RADseq-based Population Genomics**
+>
+> *Nicolas Rochette, Angel Rivera-Colon, Julian Catchen*
+>
+> Molecular Ecology. 2019 Sep 24. DOI: [10.1111/mec.15253](https://doi.org/10.1111/mec.15253)
+
+> **dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms**
+>
+> *Jonathan Puritz, Christopher Hollenbeck, John Gold*
+>
+> PeerJ. 2014 Jun 10. DOI: [10.7717/peerj.431](https://doi.org/10.7717/peerj.431)

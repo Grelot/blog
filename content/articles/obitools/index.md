@@ -188,5 +188,14 @@ Thanks to OBItools we were able to process eDNA raw sequencing data in order to 
 
 ## References
 
-* **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences** ([Ecography Journal in 2020](https://doi.org/10.1111/ecog.05049))
-* **OBItools: a unix‐inspired software package for DNA metabarcoding** ([Molecular Ecology Resources in 2016](https://doi.org/10.1111/1755-0998.12428))
+> **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences**
+>
+> *Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean*
+>
+> Ecography. 2020 Aug 04. DOI: [10.1111/ecog.05049](https://doi.org/10.1111/ecog.05049)
+
+> **OBItools: a unix‐inspired software package for DNA metabarcoding**
+>
+> *Frederic Boyer, Celine Merciern, Aurelie Bonin, Yvan Le Bras, Pierre Taberlet, Eric Coissac*
+>
+> Molecular Ecology Resources. 2015 May 09. DOI: [10.1111/1755-0998.12428](https://doi.org/10.1111/1755-0998.12428))

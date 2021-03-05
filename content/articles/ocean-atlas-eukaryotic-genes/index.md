@@ -91,5 +91,8 @@ The global ocean transcript catalog reported here represents a first resource to
 
 ## References
 
-* **A global ocean atlas of eukaryotic genes** ([Nature Communication 2018](https://doi.org/10.1038/s41467-017-02342-1))
-
+> **A global ocean atlas of eukaryotic genes**
+>
+> *Quentin Carradec, Eric Pelletier, [...] Patrick Wincker*
+>
+> Nature Communications. 2018 Jan 25. DOI: [10.1038/s41467-017-02342-1](https://doi.org/10.1038/s41467-017-02342-1)

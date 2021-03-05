@@ -22,7 +22,7 @@ Dans le contexte de notre étude, la diversité génétique est simplement la va
 Ces dernières années ont vu l’émergence de grandes banques de données publiques rassemblant notamment les séquences ADN de plusieurs millions d'individus d'espèces différentes issues de milliers d’études scientifiques à travers le monde. L’une de ces banques de données est la BOLD (Barcode of Life) qui rassemble les codes-barres ADN produits, rapportés et annotés par des centaines de missions scientifiques. Les codes-barres ADN sont des séquences ADN caractéristique de l’espèce. Ces séquences permettent une identification rapide et fiable de l'individu à son espèce. Dans le cas du projet BOLD, le code-barre ADN correspond à la séquence d'un gène de la mitochondrie (Cytochrome Oxydase I pour les connaisseurs). Les mitochondries n’étant pas soumises aux forces de sélection contrairement à leurs cellules hôtes, les différences entre les séquences ADN mitochondriales observées entre différents individus ou espèces résultent de la dérive génétique seule. Il est donc possible d’utiliser ces séquences d'ADN mitochondrial judicieusement nommées code-barres ADN comme des identifiants de l’espèce voire de l’individu. L’intérêt tout particulier de BOLD, c’est de fournir un grand nombre de codes-barres ADN géo-référencés. Il est alors possible non seulement de calculer la diversité génétique intraspécifique mais également sa distribution géographique. En couplant ces deux caractéristiques nous avons généré une carte de la diversité génétique.
 
 
-<div style="background: #f1f1f1 ;">
+<div style="background: #ecf0f1 ;">
 
 ##  Mots Clés
 
@@ -74,10 +74,15 @@ Pour rendre mon projet plus accessible grâce à Shiny (ici je vous recommande l
 
 ## Références
 
-* Manel, S., **Guerin, P.E.**, Mouillot, D. et al. Global determinants of freshwater and marine fish genetic diversity. Nat Commun 11, 692 (2020). https://doi.org/10.1038/s41467-020-14409-7
-* Nei, M. & Li, W. H. Mathematical model for studying genetic variation in terms of restriction endonucleases. Proc. Natl Acad. Sci. USA 76, 5269 (1979).
-* Miraldo, Andreia, et al. "An Anthropocene map of genetic diversity." Science 353.6307 (2016). 
+> **Global determinants of freshwater and marine fish genetic diversity**
+>
+> *Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy & Loic Pellissier*
+>
+> Nature communications. 2020 Feb 10. DOI: [10.1038/s41467-020-14409-7](https://doi.org/10.1038/s41467-020-14409-7)
 
+> **An Anthropocene map of genetic diversity**
+> 
+> *Andreia Miraldo, Sen Li, Michael Borregaard, Alexander Florez-Rodriguez, Shyam Gopalakrishnan, Mirnesa Rizvanovic, Zhiheng Wang,Carsten Rahbek, Katharine Marske, David Nogues-Bravo*
+>
+> Science. 2016 Sep 30. DOI: [10.1126/science.aaf4381](https://doi.org/10.1126/science.aaf4381)
 
-
-_______________________________________________________________________________
