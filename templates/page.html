@@ -7,10 +7,10 @@
   <p><i> {{page.description}}</i></p>
 
   <div class="sidebar-lang"> 
-    <a href="{{config.base_url}}/{{ page.relative_path | split(pat='index') | first }}" style="content: url({{config.base_url}}/flags/4x3/{{config.default_language}}.svg)"></a>
+    <a href="{{config.base_url}}/{{ page.relative_path | split(pat='index') | first }}" style="content: url({{config.base_url}}/flags/{{config.default_language}}.svg)"></a>
     {% for langue in config.languages %} 
             
-      <a href="{{config.base_url}}{{ langue.code }}/{{page.relative_path | split(pat='index') | first}}" style="content: url({{config.base_url}}/flags/4x3/{{langue.code}}.svg)"></a> 
+      <a href="{{config.base_url}}{{ langue.code }}/{{page.relative_path | split(pat='index') | first}}" style="content: url({{config.base_url}}/flags/{{langue.code}}.svg)"></a> 
 
     {% endfor %}
     
