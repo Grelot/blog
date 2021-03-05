@@ -80,7 +80,7 @@ In order to estimate the abundance (a proxy of expression) of each unigene in ea
 * the fraction of the gene abundance attributed to a particular taxonomic group.
 
 
-<div style="background: #f1f1f1 ;">
+<div style="background: #ecf0f1 ;">
 
 **Reads Per Kilobase of transcript, per Million mapped reads (RPKM)** is a normalized unit of transcript expression. It scales by transcript length to compensate for the fact that most RNA-seq protocols will generate more sequencing reads from longer RNA molecules
 </div>

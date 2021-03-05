@@ -85,7 +85,7 @@ Pour estimer l'abondance (un proxy de l'expression) de chaque unigène dans chaq
 * La fraction que représente un taxon sur l'ensemble des abondances de gènes
 
 
-<div style="background: #f1f1f1 ;">
+<div style="background: #ecf0f1 ;">
 
 **Reads Per Kilobase of transcript, per Million mapped reads (RPKM)** est une unité normalisée de l'expression d'un transcript. Elle est calculée en fonction de la longueur du transcript pour compenser le fait que les protocoles de séquençage ARN génèrent une profondeur de séquençage plus élevée pour les molécules ARN plus longues.
 </div>
