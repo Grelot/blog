@@ -34,5 +34,3 @@ I defined two types of usage for `git` (front and back). The front part correspo
 
 
 
-_______________________________________________________________________________
-
