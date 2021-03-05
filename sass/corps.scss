@@ -185,12 +185,12 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Menlo", "Monaco", "Courier New", "monospace";
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #cb4b61;
   background-color: #ecf0f1;
   border-radius: 3px;
 }
@@ -201,8 +201,9 @@ pre {
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  overflow-x: scroll;
-  background-color: #fff;
+  overflow-x: hidden;
+  background-color: #ecf0f1;
+
 }
 pre code {
   padding: 0;
@@ -215,7 +216,7 @@ pre code {
   border-radius: 4px;
 }
 .highlight pre {
-  margin-bottom: 0;
+  background-color: #ecf0f1;
 }
 
 /* Quotes */
