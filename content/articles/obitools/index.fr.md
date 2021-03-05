@@ -123,4 +123,4 @@ test
 >
 > *Frederic Boyer, Celine Merciern, Aurelie Bonin, Yvan Le Bras, Pierre Taberlet, Eric Coissac*
 >
-> Molecular Ecology Resources. 2015 May 09. DOI: [10.1111/1755-0998.12428](https://doi.org/10.1111/1755-0998.12428))
+> Molecular Ecology Resources. 2015 May 09. DOI: [10.1111/1755-0998.12428](https://doi.org/10.1111/1755-0998.12428)
