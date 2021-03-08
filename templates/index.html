@@ -30,7 +30,7 @@
     {% block sidebar %}   
     <div class="sidebar">       
       <a href="{{config.base_url}}"><span class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></span></a>
-      <div class="sidebar-name"><p> PIERRE-EDOUARD GUERIN </p></div>
+      <div class="sidebar-name"><p> {{config.title}} </p></div>
       <div class="sidebar-description"><p> {{config.description}} </p></div>      
       <div class="sidebar-nav-brand">
           {% block sidebar_nav_brand %}          
