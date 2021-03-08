@@ -1,0 +1,247 @@
+<html lang=""> 
+  <head>
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" type="image/x-icon" href="https:&#x2F;&#x2F;guerinpe.com&#x2F;/peguerin.ico"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <!-- social media card -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN">
+      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics.">
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com&#x2F;/avatar.png">
+      <meta property="og:url" content="https://guerinpe.com">
+
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN">
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics.">
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com&#x2F;/avatar.png">
+      <meta name="twitter:card" content="pierre_edouard_guerin_avatar">
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN">
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=6">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;guerinpe.com&#x2F;print.css" media="print">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;guerinpe.com&#x2F;corps.css">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;guerinpe.com&#x2F;sobre.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  </head>
+    <body>
+       
+    <div class="sidebar">       
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;"><span class="avatar" style="background-image:url('https:&#x2F;&#x2F;guerinpe.com&#x2F;/avatar.png')"></span></a>
+      <div class="sidebar-name"><p> Pierre-Edouard Guerin </p></div>
+      <div class="sidebar-description"><p> Bioinformatics &amp; Software development </p></div>      
+      <div class="sidebar-nav-brand">
+                    
+          
+          <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/brands/linkedin.svg)">linkedin</a>
+          
+          <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/brands/twitter.svg)">twitter</a>
+          
+          <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/brands/github.svg)">github</a>
+          
+          <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/brands/gitlab.svg)">gitlab</a>
+          
+          <a href=https:&#x2F;&#x2F;www.cefe.cnrs.fr&#x2F;fr&#x2F;recherche&#x2F;bc&#x2F;bev&#x2F;884-it&#x2F;3594-pierre-edouard-guerin>CNRS</a>         
+          
+
+      </div>   
+      <hr>      
+      <ul class="sidebar-nav">
+        
+                            
+          <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles">Blog</a></li>
+          <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;resume/#">Curriculum Vitae</a></li>
+        
+        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;resume/#projects">Projects</a></li>
+        <li class="sidebar-nav-item"><a href=" https:&#x2F;&#x2F;guerinpe.com&#x2F;resume/#softwares">Softwares</a></li>
+        <li class="sidebar-nav-item"><a href=" https:&#x2F;&#x2F;guerinpe.com&#x2F;resume/#publications">Publications</a></li>
+        <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" >Machine learning</a></li>
+                            
+      </ul>
+    </div>
+
+    
+    <div class="content container">    
+
+      
+<div class="post">
+       
+  <h1 class="post-title">Step-by-Step Guide to Creating R packages</h1>
+  <p><i> How to create an R package with Rstudio and devtools.</i></p>
+
+  <div class="sidebar-lang"> 
+    <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;/articles&#x2F;guide-to-creating-r-package&#x2F;" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/flags/en.svg)"></a>
+     
+            
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;fr/articles&#x2F;guide-to-creating-r-package&#x2F;" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/flags/fr.svg)"></a> 
+
+     
+            
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;es/articles&#x2F;guide-to-creating-r-package&#x2F;" style="content: url(https:&#x2F;&#x2F;guerinpe.com&#x2F;/flags/es.svg)"></a> 
+
+    
+    
+  </div>
+  <br>
+  <span class="post-date">March 30th, 2019. Pierre-Edouard GUERIN</span>
+  <br>
+  <hr>
+  <p>In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others. <span id="continue-reading"></span>As of June 2019, there were over 14,000 packages available on the Comprehensive R Archive Network, or CRAN, the public clearing house for R packages. In this article I describe how to create a R package step-by-step so that others can easily download and use your code.</p>
+<div style="background: #f1f1f1; ">
+<p><em>&quot;In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others.&quot;</em> Hadley Wickham</p>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="softwares">Softwares</h3>
+<ul>
+<li><a href="https://www.r-project.org/">R</a></li>
+<li><a href="https://rstudio.com/">Rstudio IDE</a></li>
+<li><a href="https://git-scm.com/">git</a></li>
+</ul>
+<h3 id="r-packages">R packages</h3>
+<ul>
+<li>roxygen2</li>
+<li>devtools</li>
+<li>usethis</li>
+</ul>
+<h2 id="host-your-package-on-github">Host your package on github</h2>
+<p>To register your package on CRAN or bioconductor can be long and requires your project to be mature enough. You can still share your project with project by hosting it on github.</p>
+<ol>
+<li>Sign up/in to <a href="https://github.com/">github</a> and <strong>create a new repository</strong>.</li>
+<li>Check the <code>github repository address</code> on the github quick set up page.</li>
+<li>On Rstudio open a new project as <code>new folder</code> <code>R package</code>. Activate the <code>use git</code> option. For instance, I call the package <code>mon_premier_package</code>. This will create a ready-to-use empty R package.</li>
+<li>Connect your local R package to the github repository. Go to <code>terminal</code> in Rstudio and type:</li>
+</ol>
+<pre>
+git init
+git add .
+git commit -m "init R package"
+git remote add origin < github repository address >
+git push origin master
+</pre>
+<ol start="5">
+<li>That's it ! Your R package is hosted as an online github repository.</li>
+</ol>
+<p>This automatically creates the bare bone files and directories needed to define our R package called <code>mon_premier_package</code>.</p>
+<pre>
+mon_premier_package
+├── R
+├── man
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<ul>
+<li><code>R</code> folder will eventually contain our R code.</li>
+<li><code>man</code> folder will eventually contain documentation.</li>
+<li><code>mon_premier_package.Rproj</code> file is specific to the RStudio IDE.</li>
+<li><code>DESCRIPTION</code> folder holds our package’s metadata.</li>
+<li><code>NAMSPACE</code> is a file that ensures our library plays nicely with others, and is more of a CRAN requirement.</li>
+</ul>
+<h2 id="build-the-package">Build the package</h2>
+<p>In Rstudio, click on <code>Check</code> then <code>Install and restart</code>. These commands will automatically install your package. Alternatively, you can run these commands  from the terminal:</p>
+<pre>
+devtools::check()
+devtools::install()
+</pre>
+<p>Then your package is ready-to-use and available. It can be installed in any R session with devtools using <code>install_github</code> function:</p>
+<pre>
+if (!requireNamespace("devtools", quietly = TRUE)) { install.packages("devtools") }
+library(devtools)
+devtools::install_github("Pierre/mon_premier_package")
+library(mon_premier_package)
+</pre>
+<p>Now you can share the skeleton of your package to anybody, so let's add muscle and skin to it.</p>
+<h2 id="add-functions">Add Functions</h2>
+<h3 id="write-r-file-in-r-folder">Write R file in R Folder</h3>
+<p>Our package wouldn’t do much without functions. Let’s add a function. Here the R file <code>hello_world.R</code> contains the code source for the function <code>hellow_world</code>:</p>
+<pre>
+#' @title Say Hello
+#'
+#' @description Creates a string with hello word
+#'
+#' @param name A string
+#' @return a string
+#' @export
+#' @example
+
+hello_world <- function(name) {
+    res <- "hello "+name
+    return(res)
+}
+</pre>
+<ul>
+<li>Lines beginning with a <code>#'</code> are mandatory to generate <strong>documentation</strong> describing the function.</li>
+<li>We have to add our function to the <code>R</code> folder, since this is where R looks for any functions inside a library.</li>
+</ul>
+<pre>
+mon_premier_package
+<b>├── R
+│   ├── hello_world.R</b>
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<h3 id="write-documentation">Write documentation</h3>
+<p>To create <strong>documentation</strong> describing your function.</p>
+<pre>
+devtools::document()
+roxygen2::roxygenize()
+</pre>
+<p>This will generate a <code>man</code> folder and <code>.Rd</code> documentation files describing functions in <code>R</code> folder.</p>
+<pre>
+mon_premier_package
+├── R
+│   ├── hello_world.R
+<b>├── man
+│   ├── hello_world.Rd </b>
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<p>Check the documentation is working well:</p>
+<pre>
+help(hello_world)
+</pre>
+<p>This command returns:</p>
+<pre>
+<b>Say Hello</b>
+<b>Description</b>
+Creates a string with hello word
+
+<b>Usage</b>
+hello_world(name)
+<b>Arguments</b>
+name
+A string
+
+<b>Value</b>
+a string
+</pre>
+<h2 id="continuous-integration-with-travis">Continuous integration with travis</h2>
+<p><a href="https://docs.travis-ci.com/user/status-images/"><img src="https://api.travis-ci.com/travis-ci/travis-web.svg?branch=master" alt="Build Status" /></a></p>
+<p>The idea behind continuous integration is that CI will automatically run R CMD <code>check</code> (along with your tests, etc.) every time you push a commit to GitHub. CI automatically checks the code after every commit and return you if the build is a succes or not. See <a href="https://juliasilge.com/blog/beginners-guide-to-travis/">blog post by Julia Silge</a> for a beginner's guide to Travis-CI for R.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Here we learnt how to quickly build a R package. Creating R package is a critical skill for any scientist, and something I encourage others to do regularly. Package help isolate our work inside useful abstractions, improves reproducibility, makes our work shareable, and is the first step towards designing better software.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Book on R packages (<a href="http://r-pkgs.had.co.nz/">Hadley Wickham</a>)</li>
+<li>Presentation on R packages (<a href="https://github.com/nschiett/rladies_package_workshop_2020">Nina Schiettekatte</a>)</li>
+<li>Guidebook to git and GitHub (<a href="https://happygitwithr.com/">Jenny Bryan</a>)</li>
+<li>Beginners guide to travis (<a href="https://juliasilge.com/blog/beginners-guide-to-travis/">Julia Silge</a>)</li>
+</ul>
+
+  <hr>
+</div>
+
+    </div>
+ 
+    <div class="footer"> 
+      Campus CNRS, 1919, route de Mende. Montpellier, France<br>
+      <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a> (+33) 04 67 61 32 35
+      <br><br><br><br>
+      <small> Copyright © 2019-2020 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
+    </div>
+    </body>
+</html>
