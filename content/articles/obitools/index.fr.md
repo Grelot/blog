@@ -16,7 +16,7 @@ Les [OBITools](https://doi.org/10.1111/1755-0998.12428) sont une boîte à outil
 
 ## Description de la donnée : petit rappel de biologie
 
-<img align="right" width="360rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/1024px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png">
+<img align="right" width="320rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/1024px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png">
 
 
 L'Acide DesoxyriboNucléique (ADN) est une molécule composée de deux chaînes polynucléotidiques qui forment ensemble une structure en double hélice. L'ADN est la molécule qui porte l'information pour le développement de toutes les formes de vies.
@@ -37,8 +37,6 @@ L'Acide DesoxyriboNucléique (ADN) est une molécule composée de deux chaînes 
 * L'extremité **5'** designe le début du brin ADN. Il correspond au cinquième carbone du sucre dexosyribose.
 * L'extremité **3'** designe la fin du brin ADN. Il correspond au groupe hydroxyle du troisième carbone du dexosyribose.
 
-<img width="480rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DNA_chemical_structure-1-.fr.svg/1024px-DNA_chemical_structure-1-.fr.svg.png?1601388990848">
-
 Par convention, nous écrivons et lisons une séquence ADN de l'extremité 5' à 3'. Pour décrire une molécule ADN complète, nous écrivons la séquence du brin sens positif (en effet, la séquence du brin ADN antisens négatif est déductible de la séquence du brin sens positif car il est son reverse complément)
 
 ## Le contexte du metabarcodage
@@ -51,7 +49,7 @@ région conservée             région hypervariable              région conser
 ===================|||||||||||||||||||||||||||||||||||||||||===================
 </pre>
 
-La région conservée est caractéristique d'un groupe taxonomique que nous souhaitons cibler (*e.g.* teleostei). La région conservée est utilisée comme *primer* pour initier une PCR ([Polymerase chain reaction](https://fr.wikipedia.org/wiki/R%C3%A9action_en_cha%C3%AEne_par_polym%C3%A9rase)). La région hypervariable est la séquence du barcode. Elle permet d'identifier une classe, une espèce, voire un individu dans le groupe taxonomique ciblé (on parle alors de *résolution taxonomique* du primer). Dans le **metabarcodage**, les séquences de barcode d'un échantillon sont ciblées puis amplifiées par PCR en utilisant des primer. Ainsi isolés, les barcodes ADN sont regroupés avec d'autres barcodes ADN extraits de d'autres échantillons. Une séquence *tag* de 8 nucléotides est ajoutée à chaque fragment ADN de chaque échantillon. De cette manière, il est possible de retrouver l'échantillon d'origine de chaque fragment ADN au moment du séquençage.
+La région conservée est caractéristique d'un groupe taxonomique que nous souhaitons cibler (*e.g.* teleostei). La région conservée est utilisée comme *amorce* pour initier une PCR ([Polymerase chain reaction](https://fr.wikipedia.org/wiki/R%C3%A9action_en_cha%C3%AEne_par_polym%C3%A9rase)). La région hypervariable est la séquence du barcode. Elle permet d'identifier une classe, une espèce, voire un individu dans le groupe taxonomique ciblé (on parle alors de *résolution taxonomique* du primer). Dans le **metabarcodage**, les séquences de barcode d'un échantillon sont ciblées puis amplifiées par PCR en utilisant des amorces. Ainsi isolés, les barcodes ADN sont regroupés avec d'autres barcodes ADN extraits de d'autres échantillons. Une séquence *tag* de 8 nucléotides est ajoutée à chaque fragment ADN de chaque échantillon. De cette manière, il est possible de retrouver l'échantillon d'origine de chaque fragment ADN au moment du séquençage.
 
 
 ### Séquençage haut-débit
@@ -79,7 +77,7 @@ GGTAAA​
 Un fichier FASTA peut contenir plusieurs séquences qui peuvent être alignées.
 </div>
 <br>
-<div style="background: #e1b501 ;">
+<div style="background: #f1f1f1 ;">
 
 ### FASTQ files
 
@@ -99,16 +97,106 @@ TCAACTACGCCTTCCGGTACACTTACCATGTTACGACTTGCCTCCCCTCGTCAGCGCTT
 
 </div>
 
-## Metabarcoding data processing workflow
+## Chaîne de traitement de données de séquençage ADNe metabarcodage
 
-Ici nous décrivons le workflow bio-informatique utilisé par la compagnie [SPYGEN](http://www.spygen.com/) pour produire des matrices présence/absence des espèces dans l'environnement à partir de données de séquençage ADN de métabarcoding. Ce workflow s'appuie sur le recours des OBItools.
+Ici nous décrivons le workflow bio-informatique utilisé par la compagnie [SPYGEN](http://www.spygen.com/) pour produire des matrices présence/absence des espèces dans l'environnement à partir de données de séquençage ADNe de metabarcodage. Ce workflow s'appuie sur le recours des OBItools.
 
 <img align="right" width="520rem" src="https://gitlab.mbb.univ-montp2.fr/edna/snakemake_only_obitools/-/raw/master/schema_only_obitools.png">
 
-### Assemble reads
 
-test
+### 1. Assemblage des lectures
 
+`illuminapairedend` aligne et assemble les deux lectures 5'->3' et 3'->5' d'une même paire de séquences. Lorsque les deux séquences des lectures se chevauchent avec un score d'alignement satisfaisant, une séquence composée des deux lectures est alors produite.
+
+### 2. Demultiplexing
+
+Nous avons vu que pendant le séquençage, les séquences étaient multiplexés afin de traiter plusieurs échantillons dans le séquenceur. Les échantillons sont identifiables grâce à un petit morceau d'ADN incorporé aux extremités 5' et 3' de chaque séquence. Ce petit morceau d'ADN est appellé une étiquette ou *tag* en anglais. L'étape de *demultiplexing* consiste à identifier l'échantillon d'origine de chaque séquence à partir des étiquettes.
+
+`ngsfilter` recherche des séquences *tag* et *amorces* dans les directions 5' et 3' de chaque séquence consensus. Les amorces et les étiquettes sont enlevées et l'échantillon d'origine est annotée sur chaque séquence.
+
+### 3. Filtrer et regrouper
+
+Les séquences barcodes identiques sont regroupés par `obiuniq`. Alors les séquences barcodes avec une faible profondeur de couverture (signifiant que l'amplification PCR a échoué sur le fragment ADN correspondant lors de la préparation de la librairie pour le séquençage) sont éliminées avec `obigrep`. Enfin,
+
+`obiclean` recherche les clones PCR. L'algorithme de detection est le suivant: une séquence *S1* est définie comme variante d'une autre séquence *S2* lorsque :
+  * *S2* est plus abondant que *S1*. Le rapport des profondeurs de couverture *S1 S2* est inférieur à un seuil donné.
+  * *S1* et *S2* sont similaires. La distance nucléotidique (nombre de nucléotides différents) sur l'alignement *S1 S2* est faible
+
+Les séquences sont alors classifiées ainsi :
+* Une séquence qui est un variante d'une autre séquence est un **clone PCR**.
+* Une séquence qui n'est pas une variante mais ne possède pas de variant est une **erreur de séquençage**.
+* Une séquence qui n'est pas une variante et qui possède des variantes est une **séquence originale**.
+
+Seule les séquences originales sont conservées pour la suite du traitement.
+
+<div style="background: #f1f1f1 ;">
+
+### Clones PCR
+
+A chaque cycle PCR, l'ADN est dupliqué. Ici avec l'exemple d'une séquence originale AAAAATGC. A chaque cycle, il  ya une probabilité (faible) qu'une erreur de réplication (une mutation) se produise. Par exemple ici il y a une mutation sur le premier nucléotide **T**AAAATGC au troisième cycle.
+
+```
+                                    +- TAAAATGC
+                       +- AAAAATGC -+  
+                       |            +- AAAAATGC
+          +- AAAAATGC -+
+          |            |            +- AAAAATGC
+          |            +- AAAAATGC -+
+          |                         +- AAAAATGC
+AAAAATGC -+
+          |                         +- AAAAATGC
+          |            +- AAAACTGC -+
+          |            |            +- AAAAATGC
+          +- AAAAATGC -+
+                       |            +- CGAAATGC
+                       +- CAAAATGC -+
+                                    +- CAAAATGC
+```                 
+
+| Sequence | Profondeur de couverture (~abondance) |
+|----------|----------------|
+| AAAAATGC | 10X            |
+| CAAAATGC | 2X |
+| CGAAATGC | 1X |
+| TAAAATGC | 1X |
+
+
+A la fin de l'amplification PCR (dans cet exemple il y a eu 3 cycles), nous constatons que la séquence originale est toujours la plus abondante. Les séquences mutées sont beaucoup moins abondante car elles sont apparues dans les cycles suivants et produiront donc moins de clones qui eux même sont suseptibles de muter.
+
+
+Tout l'enjeu du traitement informatique est d'éliminer les clones PCR qui contiennent une information corrompue pour ne conserver que la séquence originale.
+
+</div>
+
+
+### 4. Base de Réference
+
+La base de référence est un ensemble de séquences représentatives d'un groupe de taxons tels que les espèces. Chaque taxon est situé sur l'arbre vivant selon la taxonomie NCBI.
+
+Pour construire une base de référence pour le metabarcodage :
+
+* Télécharger les séquences d'ADN d'espèces connues. Ces séquences sont des gènes mitochondriaux (*e.g.* 12S ou 16S pour le groupe taxonomique des téléostéens).
+* Concevoir une séquence d'amorce capable de cibler le taxon d'intérêt.
+* `ecopcr` est un logiciel qui simule une digestion PCR *in silico*. Nous utilisons donc l'amorce pour extraire les séquences du barcodes.
+* Ensuite, nous utilisons la [taxonomie NCBI](ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz) pour attribuer à chaque séquence de barcodes une branche de l'arbre du vivant.
+
+### 5. Assignation taxonomique
+
+`ecotag` associe les séquences du barcodes aux taxons correspondant de la base de référence. Elle compare chaque séquence aux séquences connues representatives des taxons. La séquence la plus similaire est assignée au taxon correspondant dans la base. Les informations suivantes sont enregistrées : 
+* la séquence de la base de données de référence qui correspond le mieux
+* le score d'identité
+* un taxid entier unique faisant souvent référence à un taxon dans la taxonomie du NCBI et le nom scientifique lié au taxid entier. Il permet d'identifier l'ancêtre commun le plus récent de chaque séquence.
+
+Dans le cas où il y a ambiguité entre deux séquences de la base, alors le parent dans l'arbre du vivant est assigné. Par exemple si il y a une ambiguité entre deux espèces, alors c'est le genre de ces deux espèces qui sera attribué au barcode de l'échantillon.
+
+
+### 6. Tables présence/absence des espèces pour chaque échantillon
+
+Les informations inutiles sont supprimées. Les séquences de barcodes sont triées par ordre décroissant d'abondance. Enfin, un fichier délimité par des tabulations qui peut être ouvert par Excel ou R est produit. Le tableau est une matrice avec en ligne les différents barcodes identifiés et en colonne l'abondance mesurée pour chaque barcode parmis les échantillons ainsi que l'assignation taxonomique.
+
+## Conclusion
+
+Grâce aux OBItools, nous avons été capable de traiter des données brutes de séquençage ADNe de type metabarcodage. D'abord, les fragments d'ADN ont été assemblés pour reconstituer les barcodes. Ensuite, chaque barcode a été assigné à son échantillon d'origine (demultiplexing). Troisièmement, les barcodes ont été filtrés et regroupés par similarité. Alors, un taxon a été assigné à chaque barcode. Enfin, une table de la présence/absence des espèces pour chaque échantillon est produite. Cette table servira de base pour les prochaines analyses réalisées en laboratoire.
 
 
 ## References
