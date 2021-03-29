@@ -95,7 +95,7 @@ There are two popular methods for processing this RAD-seq data: STACKS and freeb
 
 ### Population assignment
 
-Individual genotypes can be retrieved as a `VCF` file. Software such as [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) or [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) allows, using a hierarchical clustering approach, to perform a population assignment test for each individual based on the genotypes. The allelic frequencies observed for each locus make it possible to infer genetic populations to which individuals are assigned according to their alleles. Each iteration of this operation makes it possible to refine the assignment. The final result is a probability of belonging to one or more genetic populations for each individual.
+Individual genotypes can be retrieved as a `VCF` file. Software such as [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) or [ADMIXTURE](https://dalexander.github.io/admixture/index.html) allows, using a hierarchical clustering approach, to perform a population assignment test for each individual based on the genotypes. The allelic frequencies observed for each locus make it possible to infer genetic populations to which individuals are assigned according to their alleles. Each iteration of this operation makes it possible to refine the assignment. The final result is a probability of belonging to one or more genetic populations for each individual.
 
 ### Analysis of populations in relation to environmental descriptors
 

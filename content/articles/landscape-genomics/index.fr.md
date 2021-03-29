@@ -97,7 +97,7 @@ Il existe deux méthodes populaires pour le traitement de ces données RAD-seq :
 
 ### Assignation des individus à une population génétique
 
-Les génotypes des individus peuvent être récupérés sous la forme de fichier `VCF`. Des logiciels tel que [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) ou [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) permettent avec une approche dite de regroupement hiérarchique de réaliser un test d’assignation à une population pour chaque individu à partir des génotypes. Les fréquences alléliques observées pour chaque locus permettent d’inférer des populations génétiques auxquels les individus sont assignés selon leurs allèles. Chaque itération de cette opération permet de raffiner l’assignation. Le résultat final est une probabilité d’appartenance à une ou plusieurs populations génétiques pour chaque individu.
+Les génotypes des individus peuvent être récupérés sous la forme de fichier `VCF`. Des logiciels tel que [STRUCTURE](https://web.stanford.edu/group/pritchardlab/structure.html) ou [ADMIXTURE](https://dalexander.github.io/admixture/index.html) permettent avec une approche dite de regroupement hiérarchique de réaliser un test d’assignation à une population pour chaque individu à partir des génotypes. Les fréquences alléliques observées pour chaque locus permettent d’inférer des populations génétiques auxquels les individus sont assignés selon leurs allèles. Chaque itération de cette opération permet de raffiner l’assignation. Le résultat final est une probabilité d’appartenance à une ou plusieurs populations génétiques pour chaque individu.
 
 ### Analyse des populations par rapport aux descripteurs environnementaux
 

@@ -50,7 +50,7 @@ For each cluster of contig, the longest contig is kept as the representative seq
 
 ## Taxonomic assignment
 
-To assign a taxonomic group to each unigene, a reference database is built from **UniRef**. Sequence similarities between metatranscriptomic gene catalog and reference database is handled by [DIAMOND](http://www.diamondsearch.org/index.php). DIAMOND is a sequence aligner for protein and translated DNA searches, designed for high performance analysis of big sequence data. It allows pairwise alignment of proteins and translated DNA at 100x-20,000x speed of BLAST. Taxonomic affiliation uses a weighted lowest common ancestor approach. For each unigene only taxon reference sequences with at least 90% similarity were kept.
+To assign a taxonomic group to each unigene, a reference database is built from **UniRef**. Sequence similarities between metatranscriptomic gene catalog and reference database is handled by [DIAMOND](https://github.com/bbuchfink/diamond). DIAMOND is a sequence aligner for protein and translated DNA searches, designed for high performance analysis of big sequence data. It allows pairwise alignment of proteins and translated DNA at 100x-20,000x speed of BLAST. Taxonomic affiliation uses a weighted lowest common ancestor approach. For each unigene only taxon reference sequences with at least 90% similarity were kept.
 
 ## Functionnal characterization of unigenes
 
