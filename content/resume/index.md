@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Curriculum Vitae"
-date =  2019-08-20
+date =  2021-04-19
 draft = false
 tags = ["resume"]
 +++
