@@ -69,13 +69,23 @@ _______________________________________________________________________________
 
 <div class="all_proj">
 
-<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2'">
-<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
-<div class="title">Population genomics</div>
-<div class="description">I genotyped 1200 individuals belonging to 3 fish species. I worked with restriction enzyme-based data such as RAD-seq.</div>
-<div class="skills"> (illumina paired-end, STACKS, vcftools, bedtools, bwa, python, snakemake, singularity, Univa Grid Engine, bash)</div>
+
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/genbar2'">
+<img align="center" width="48rem" height="48rem" src="cnrs.png">
+<div class="title"> Genbar 2 </div>
+<div class="description"> I programmed a software to identify genetic boundaries between populations from individual spatial coordinates and genetic variants data.</div>
+<div class="skills"> (C, C++, htslib)</div>
 <hr width="31%"> 
-<div class="duration"> From april 2017 to december 2018 </div>
+<div class="duration"> From may 2019 to february 2020 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/edna'">
+<img align="center" width="128rem" height="48rem" src="monaco.png">
+<div class="title">Metabarcoding</div>
+<div class="description">I programmed several workflow to process metabarcoding environmental DNA data from MONACO MARINE WORLDWIDE EXPEDITION.</div>
+<div class="skills"> (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> From january 2019 to present <mark> WIP</mark></div>
 </div>
 
 <div role="button" class="project" onclick="location.href='https://github.com/lmathon/eDNA--benchmark_pipelines'">
@@ -84,53 +94,16 @@ _______________________________________________________________________________
 <div class="description">I did a modularized workflow in order to process metabarcoding data with different combination of softwares. Then we designed the workflow with the best performances.</div>
 <div class="skills"> (obitools, vsearch, cutadapt, bash, python, singularity, Univa Grid Engine)</div>
 <hr width="31%"> 
-<div class="duration"> From februrary 2019 to march 2020 </div>
+<div class="duration"> From march 2018 to present <mark> WIP</mark></div>
 </div>
 
-<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
-<img align="center" width="224rem" height="48rem" src="ephe.png">
-<div class="title">First Global Map of Fish Genetic Diversity</div>
-<div class="description"> I built a database containing over 50,000 DNA sequences representing 3,815 species of marine fish and 1,611 species of freshwater fish. I estimated the average genetic diversity at different geographical scales.</div>
-<div class="skills"> (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)</div>
-<hr width="31%"> 
-<div class="duration"> From may 2017 to february 2020 </div>
-</div>
-
-<div role="button" class="project" onclick="location.href='https://github.com/Grelot/genbar2'">
-<img align="center" width="48rem" height="48rem" src="cnrs.png">
-<div class="title">Genbar 2</div>
-<div class="description"> I programmed a software to identify genetic boundaries between populations from individual spatial coordinates and genetic variants data.</div>
-<div class="skills"> (C, C++, htslib)</div>
-<hr width="31%"> 
-<div class="duration"> From may 2017 to february 2020 </div>
-</div>
-
-
-<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/genomic_resources_for_med_fishes'">
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2'">
 <img align="center" width="48rem" height="48rem" src="reservebenefit.png">
-<div class="title">Genome assembly</div>
-<div class="description">I did the sequencing and assembly of 3 new fish species nuclear and mitochondrial genomes.</div>
-<div class="skills"> (illumina paired-end, mate-pair, 10X genomics chromium, Abyss, Platanus, QUAST, SLURM, bash)</div>
+<div class="title">Population genomics</div>
+<div class="description">I genotyped 1200 individuals belonging to 3 fish species. I worked with restriction enzyme-based data such as RAD-seq.</div>
+<div class="skills"> (illumina paired-end, STACKS, vcftools, bedtools, bwa, python, snakemake, singularity, Univa Grid Engine, bash)</div>
 <hr width="31%"> 
-<div class="duration"> From January 2017 to Novembrer 2019 </div>
-</div>
-<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/edna'">
-<img align="center" width="128rem" height="48rem" src="monaco.png">
-<div class="title">Metabarcoding</div>
-<div class="description">I programmed several workflow to process metabarcoding environmental DNA data from MONACO MARINE WORLDWIDE EXPEDITION.</div>
-<div class="skills"> (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)</div>
-<hr width="31%"> 
-<div class="duration"> From march 2018 to present </div>
-</div>
-
-
-<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/seaconnect'">
-<img align="center" width="136rem" height="48rem" src="total.png">
-<div class="title">Landscape genomics</div>
-<div class="description">I processed low-coverage RAD-seq data from 1800 individuals belonging to 2 fish species collected from all over the Mediterranean sea.</div>
-<div class="skills"> (dDocent, freebayes, vcftools, samtools, trimmomatic, bash, python, singularity, snakemake)</div>
-<hr width="31%"> 
-<div class="duration"> From june 2017 to present </div>
+<div class="duration"> From june 2017 to october 2019 </div>
 </div>
 
 <div role="button" class="project" onclick="location.href='https://github.com/Grelot/aker--beetGenomeEnvironmentAssociation'">
@@ -142,6 +115,32 @@ _______________________________________________________________________________
 <div class="duration"> From may 2017 to may 2018 </div>
 </div>
 
+<div role="button" class="project" onclick="location.href='https://github.com/Grelot/global_fish_genetic_diversity'">
+<img align="center" width="224rem" height="48rem" src="ephe.png">
+<div class="title">First Global Map of Fish Genetic Diversity</div>
+<div class="description"> I built a database containing over 50,000 DNA sequences representing 3,815 species of marine fish and 1,611 species of freshwater fish. I estimated the average genetic diversity at different geographical scales.</div>
+<div class="skills"> (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)</div>
+<hr width="31%"> 
+<div class="duration"> From may 2017 to february 2020 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/seaconnect'">
+<img align="center" width="136rem" height="48rem" src="total.png">
+<div class="title">Landscape genomics</div>
+<div class="description">I processed low-coverage RAD-seq data from 1800 individuals belonging to 2 fish species collected from all over the Mediterranean sea.</div>
+<div class="skills"> (dDocent, freebayes, vcftools, samtools, trimmomatic, bash, python, singularity, snakemake)</div>
+<hr width="31%"> 
+<div class="duration"> From february 2017 to march 2021 </div>
+</div>
+
+<div role="button" class="project" onclick="location.href='https://gitlab.mbb.univ-montp2.fr/reservebenefit/genomic_resources_for_med_fishes'">
+<img align="center" width="48rem" height="48rem" src="reservebenefit.png">
+<div class="title">Genome assembly</div>
+<div class="description">I did the sequencing and assembly of 3 new fish species nuclear and mitochondrial genomes.</div>
+<div class="skills"> (illumina paired-end, mate-pair, 10X genomics chromium, Abyss, Platanus, QUAST, SLURM, bash)</div>
+<hr width="31%"> 
+<div class="duration"> From january 2017 to novembrer 2019 </div>
+</div>
 
 <div role="button" class="project" onclick="location.href='https://github.com/Grelot/diabetesGenetics--COAT'">
 <img align="center" width="136rem" height="32rem" src="inserm.png">
@@ -169,16 +168,15 @@ _______________________________________________________________________________
 
 # Softwares
 
-* **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)**(main contributor): interactive worldmap of fish genetic diversity.
+* **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (main contributor): interactive worldmap of fish genetic diversity.
 * **[ANVAGE](https://github.com/Grelot/anvage)** (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.
-* **[vcfsynonymous](https://github.com/Grelot/vcfsynonymous)**(main contributor): identify coding variant who are synonymous from annotated genome information and VCF.
-* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)**(main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
-* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)**(main contributor, maintainer): this workflow is open-source and it is used by SPYGEN company, IFREMER, ETH Zurich and the marine explorations of Monaco.
-* **[Workflow to genotype reduced genome sequencing data](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)**(main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.
-* **[Genbar2](https://github.com/Grelot/genbar2)**(main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.
-* **[DEMORT](https://pypi.org/project/demort/)**(main contributor): a DEmultiplexing MOnitoring Report Tool
+* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
+* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)** (main contributor, maintainer): this workflow is open-source and it is used by SPYGEN company, IFREMER, ETH Zurich and the marine explorations of Monaco.
+* **[Workflow to genotype reduced genome sequencing data](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.
+* **[Genbar2](https://github.com/Grelot/genbar2)** (main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.
+* **[DEMORT](https://pypi.org/project/demort/)** (main contributor): a DEmultiplexing MOnitoring Report Tool
 * **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**(contributor): a whole exome sequencing analysis and its graphical interface
-* **[ORION](http://www.dsimb.inserm.fr/ORION/)**(contributor): a sensivitve method for protein template detection
+* **[ORION](http://www.dsimb.inserm.fr/ORION/)** (contributor): a sensivitve method for protein template detection
 
 
 _______________________________________________________________________________
@@ -195,7 +193,7 @@ _______________________________________________________________________________
 
 > **New genomic ressources for three exploited Mediterranean fishes**
 >
-> *Katharina Fietz Elena Trofimenkoa Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
+> *Katharina Fietz, Elena Trofimenkoa, Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
 >
 > Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
 

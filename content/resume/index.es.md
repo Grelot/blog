@@ -195,7 +195,7 @@ _______________________________________________________________________________
 
 > **New genomic ressources for three exploited Mediterranean fishes**
 >
-> *Katharina Fietz Elena Trofimenkoa Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
+> *Katharina Fietz, Elena Trofimenkoa, Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
 >
 > Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
 
