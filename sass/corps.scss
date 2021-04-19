@@ -498,6 +498,13 @@ a.pagination-item:hover {
   cursor: pointer;
   height: 24em;
   position:relative;
+  
+  mark {  
+    color: #fff;
+    background-color: #f39c12;
+    padding: 1px 8px 1px 8px;
+  
+  }
 }
 
 .project:hover {
@@ -527,6 +534,8 @@ a.pagination-item:hover {
   bottom: 1rem;
 
 }
+
+
 
 /* the timeline */
 
