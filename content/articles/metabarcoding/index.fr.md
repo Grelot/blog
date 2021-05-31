@@ -51,28 +51,51 @@ Si le barcoding s'applique à une espèce ciblée dans un environnement donné, 
 Les méthodes de séquençage haut débit permettent d’obtenir rapidement des centaines de millions de métabarcodes à partir d’un environnement complexe. A partir de cette information, il devient possible de mesurer la biodiversité dans l'environnement. En effet, la quasi-totalité des organismes présents dans l'environnement sont detectés.
 
 
-### 1. Echantillonnage et capture de l'ADN environnemental
+### Echantillonnage et capture de l'ADN environnemental
 
-reprendre la video de Lola
 
-### 2. Préparation des librairies et séquençage haut-débit de l'ADNe
+reprendre la video de Lola et photo Emilie
 
-### 3. Traitement bioinformatique
+### Préparation des librairies et séquençage haut-débit de l'ADNe
+
+L'ADN présent dans l'échantillon est découpé aléatoirement en fragments par sonification. Des tailles précises de fragments sont ensuite selectionnés. Des amorces ADN sont ensuites incorporés aux extremités 3' et 5' des fragments ADN selectionnés. Ces amorces permettent la fixation de la librairie (les fragments ADN selectionnés) sur une surface solide. Les fragments ADN fixés ainsi sont alors amplifiés par PCR. 
+
+Le séquençage est effectué à l'aide d'amorces, d'ADN polymérase et de quatre nucléotides de terminaison réversibles marqués par un fluorophore. Après l'incorporation d'un nucléotide, l'image est capturée par une camera et l'identité de la première base est enregistrée par un robot. Les terminateurs et les fluorophores sont ensuite retirés et les étapes d'incorporation, de détection et d'identification sont répétées. La longueur moyenne des lectures est d'environ 150 paires de bases. Le séquençage par synthese ADN est une opération parallélisée, ainsi en une course, des millions de lectures sont générées.
+
+
+Il est à noter que des erreurs de réplication peuvent survenir pendant la PCR. Le taux d'erreur du séquençage est néanmoins assez faible. Enfin, il est possible de séquencer les fragments par leurs deux extrémités pour accroîte la précision du séquençage. Cette méthode est appelée «séquençage pairé» de l'anglais *paired-end sequencing*.
+
+
+### Traitement bioinformatique
 
 #### Assemblage
 
+Le séquençage ADN a produit des lectures courtes des séquences ADN. De plus, bien que le taux d'erreur du séquençage soit faible, les lectures ADN en sortie de séquençage ne sont pas encore assez fiable pour l'identification des espèces. Les lectures complémentaires d'un même fragment ADN sont donc assemblées ensemble. Aini, la séquence complète du barre-code est reconstituée tout en augmentant la fiabilité de la séquence lue.
+
 #### Demultiplexage
+
+A la sortie du séquenceurs, les séquences ADN issus des différents échantillons sont mélangées. Le demultiplexage consiste à réassigner chaque séquence ADN lue à son échantillon d'origine. Pour identifier l'échantillon d'origine d'une séquence lue, un court fragment ADN appellé *étiquette* a été incorporé en amont du séquençage. Il suffit de detecter l'*étiquette* sur la séquence pour retrouver son échantillon d'origine. Si une séquence n'a pas d'*étiquette* à ce stade alors elle est éliminée de l'étude.
 
 #### Groupements
 
+Les séquences identiques sont regroupées et comptées pour chaque échantillon. Certaines séquences ne différent que de quelques bases entre elles. En effet, lors de l'amplification des fragments ADN qui précède le séquençage, des mutations surviennent aléatoirement sur certaines copies. En sortie de séquençage, beaucoup de séquences sont en fait des versions legerement erronnées de la séquence original. Pour éliminer le bruit de l'amplification, on utilise des algorithmes pour regrouper les séquences similaires entre elles. L'abondance relative permet de distinguer la séquence d'origine du bruit.
+
 #### Assignation taxonomique
 
-
-### 4. Analyses et applications
-
+Cette étape requiert une base de données de référence. C'est-à-dire une liste de séquences de barres-code correspondant à des espèces connues. Si une séquence s’aligne sur une référence, son assignation dans l'arbre du vivant est obtenue en utilisant la taxonomie du NCBI (National Center for Biotechnology Information). Si une séquence s'aligne sur plusieurs références l'algorithme du *Lowest Common Ancestor* (LCA) est appliqué. Le LCA recherche le dernier noeud commun de l'arbre phylogénétique à partir duquel divergent les branches de chacune des lignées références impliquées. Le LCA permet donc d’assigner la séquence au dernier ancêtre commun. Finalement, chaque code-barre de chaque échantillon est assigné à un taxon. On obtient donc une liste des taxons présents dans les différents échantillons environnementaux.
 
 
-Le séquençage des codes-barres  environnementaux  est  réalisé.  Celui-ci consiste dans un premier temps à utiliser des amorces universelles pour amplifier massivement par  PCR  les  régions  génomiques  conservées  dans  un groupe  d’organismes.  Cela  peut,  par exemple, être une région du gène del’ARN 16S pour les bactéries ou encore de l’ARN 18S pour les eucaryotes. Le produit de l’amplification de ces barcodes est ensuite séquencé pour générer les  courtes  séquences  d’ADN  spécifiques  aux  différents  micro-organismes  présents dans l’échantillon. Couplée à l’utilisation de librairies de références de codes-barres  à  ADN,  cette méthode permet d’obtenir l’identité d’une partie des espèces présentes dans les échantillons. En effet, selon l’écosystème étudié, une plus ou moins grandefraction des micro-organismes n’est pas référencée dans les bases de données publiques. Ainsi, certains métabarcodes n’auront pas d’assignation taxonomiqu
+
+### Analyses et applications : l'exemple des poissons en milieu marin
+
+
+??????
+
+
+### Pour aller plus loin
+
+Lola Romant
+{{ youtube(id="8b97UV6lXSk") }}
 
 
 
@@ -119,7 +142,7 @@ Le séquençage des codes-barres  environnementaux  est  réalisé.  Celui-ci co
 > Structure et dynamique des systèmes vivants. Université Paris Saclay, 2017. NNT: [2017SACLE002](https://www.biblio.univ-evry.fr/theses/2017/2017SACLE002.pdf).
 
 
-> **Nécessité, potentiel et limitations de l’approche enunités taxonomiques moléculaires pour analyser labiodiversité de l’ADN environnemental des poissons**
+> **Nécessité, potentiel et limitations de l’approche en unités taxonomiques moléculaires pour analyser la biodiversité de l’ADN environnemental des poissons**
 >
 > *Virginie Marques*
 >
