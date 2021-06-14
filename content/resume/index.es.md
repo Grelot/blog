@@ -187,6 +187,13 @@ _______________________________________________________________________________
 # Publicaciones científicas
 
 
+> **Benchmarking bioinformatic tools for fast and accurate eDNA metabarcoding species identification**
+>
+> *Laetitia Mathon, Alice Valentini, Pierre-Edouard Guerin, Eric Normandeau, Cyril Noel, Clément Lionnet, Emilie Boulanger, Wilfried Thuiller, Louis Bernatchez, David Mouillot, Tony Dejean, Stephanie Manel*
+>
+> Molecular Ecology Resources. 2021 May 18. DOI [10.1111/1755-0998.13430](https://doi.org/10.1111/1755-0998.13430)
+
+
 > **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences**
 >
 > *Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean*
@@ -195,7 +202,7 @@ _______________________________________________________________________________
 
 > **New genomic ressources for three exploited Mediterranean fishes**
 >
-> *Katharina Fietz, Elena Trofimenkoa, Pierre-Edouard Guerin Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
+> *Katharina Fietz, Elena Trofimenkoa, Pierre-Edouard Guerin, Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
 >
 > Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
 
