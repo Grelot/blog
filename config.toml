@@ -59,8 +59,7 @@ links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
     {url = "https://twitter.com/guerin_pe", name = "twitter"},
     {url = "https://github.com/Grelot", name = "github"},
-    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"},
-    {url = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin", name = "cnrs"}
+    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
 
 tags_color = [
