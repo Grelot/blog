@@ -1,12 +1,11 @@
 +++
 template = "page.html"
 title = "Curriculum Vitae"
-date =  2021-04-19
+date =  2021-10-21
 draft = false
 tags = ["resume"]
 +++
 
-<img align="right" width="48rem" height="48rem" src="florimond.png">
 
 # Computational Biologist
 FLORIMOND DESPREZ GROUP
@@ -121,8 +120,8 @@ My projects for the company are **confidentials**. Please contact me for more in
 <div role="button" class="project" onclick="location.href='https://github.com/lmathon/eDNA--benchmark_pipelines'">
 <img align="center" width="114rem" height="48rem" src="spygen.png">
 <div class="title">Benchmarking of metabarcoding workflows</div>
-<div class="description">I did a modularized workflow in order to process metabarcoding data with different combination of softwares. Then we designed the workflow with the best performances.</div>
-<div class="skills"> (obitools, vsearch, cutadapt, bash, python, singularity, Univa Grid Engine)</div>
+<div class="description">We tested some combinations of softwares to improve performances of metabarcoding data processing.</div>
+<div class="skills"> (obitools, vsearch, qiime, python, singularity, Univa Grid Engine)</div>
 <hr width="31%"> 
 <div class="duration"> Mar 2018 - Jul 2021</div>
 </div>
@@ -207,7 +206,7 @@ _______________________________________________________________________________
 * **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (main contributor): interactive worldmap of fish genetic diversity.
 * **[ANVAGE](https://github.com/Grelot/anvage)** (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.
 * **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
-* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)** (main contributor): this workflow is open-source and was co-developped by the CEFE (main invistigator) and the company Spygen (data and tests), including interactions IFREMER, ETH Zurich and the marine explorations of Monaco.
+* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)** (main contributor): this workflow is open-source and was co-developped by the CEFE (main invistigator) and the company SPYGEN (data and tests), including interactions IFREMER, ETH Zurich and the marine explorations of Monaco.
 * **[Workflow to genotype reduced genome sequencing data](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.
 * **[Genbar2](https://github.com/Grelot/genbar2)** (main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.
 * **[DEMORT](https://pypi.org/project/demort/)** (main contributor): a DEmultiplexing MOnitoring Report Tool
