@@ -48,18 +48,19 @@ languages = [
 # Put all your custom variables here
 
 webmail = "pierre.edouard.guerin@gmail.com"
-myjob_name = "CNRS"
-myjob_site = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin"
-mytown = "Montpellier"
+myjob_name = "FD"
+myjob_site = "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+mytown = "Lille"
 mycountry= "France"
-myjob_address= "Campus CNRS, 1919, route de Mende."
+myjob_address= "Site FLORIMOND DESPREZ, 3 Rue Florimond Desprez, 59242 Cappelle-en-Pevele"
 myjob_tel="(+33) 04 67 61 32 35"
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
     {url = "https://twitter.com/guerin_pe", name = "twitter"},
     {url = "https://github.com/Grelot", name = "github"},
-    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
+    {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"},
+    {url = "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/884-it/3594-pierre-edouard-guerin", name = "cnrs"}
 ]
 
 tags_color = [
