@@ -52,7 +52,7 @@ myjob_name = "FD"
 myjob_site = "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
 mytown = "Lille"
 mycountry= "France"
-myjob_address= "Site FLORIMOND DESPREZ, 3 Rue Florimond Desprez, 59242 Cappelle-en-Pevele"
+myjob_address= "Site FLORIMOND DESPREZ, 3 Rue Florimond Desprez, 59242 Cappelle-en-Pevele,"
 myjob_tel="(+33) 04 67 61 32 35"
 
 links = [
