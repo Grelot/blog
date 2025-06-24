@@ -26,44 +26,43 @@
       <!-- CSS -->
       <link rel="stylesheet" href="{{ get_url(path='print.css', trailing_slash=false) }}" media="print" />
       <link rel="stylesheet" href="{{ get_url(path='corps.css', trailing_slash=false) }}" />
-      <link rel="stylesheet" href="{{ get_url(path='sobre.css', trailing_slash=false) }}" />      
+      <link rel="stylesheet" href="{{ get_url(path='navbar.css', trailing_slash=false) }}" />      
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Abril+Fatface&display=swap" rel="stylesheet" />
-
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 
   </head>
     <body>
-    {% block sidebar %}   
-    <div class="sidebar">       
+    {% block navbar %}   
+    <div class="navbar">       
       <a href="{{config.base_url}}"><span class="avatar" style="background-image:url('{{config.base_url}}/avatar.png')"></span></a>
-      <div class="sidebar-name"><p> {{config.title}} </p></div>
-      <div class="sidebar-description"><p> {{config.description}} </p></div>      
-      <div class="sidebar-nav-brand">
-          {% block sidebar_nav_brand %}          
+      <div class="navbar-name"><p> {{config.title}} </p></div>
+      <div class="navbar-description"><p> {{config.description}} </p></div>      
+      <div class="navbar-nav-brand">
+          {% block navbar_nav_brand %}          
           {% for link in config.extra.links %}
           <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a>
           {% endfor %}
           <a href={{config.extra.myjob_site}}>{{config.extra.myjob_name}}</a>         
-          {% endblock sidebar_nav_brand %}
+          {% endblock navbar_nav_brand %}
 
       </div>   
       <hr>      
-      <ul class="sidebar-nav">
-        {% block sidebar_nav_infos %}
+      <ul class="navbar-nav">
+        {% block navbar_nav_infos %}
         {% if config.description %}                    
-          <li class="sidebar-nav-item"><a href="{{ get_url(path="articles") }}">Blog</a></li>
-          <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#">Curriculum Vitae</a></li>
+          <li class="navbar-nav-item"><a href="{{ get_url(path="articles") }}">Blog</a></li>
+          <li class="navbar-nav-item"><a href="{{ get_url(path="resume") }}/#">Curriculum Vitae</a></li>
         {% endif %}
-        <li class="sidebar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
-        <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
-        <li class="sidebar-nav-item"><a href=" {{ get_url(path="resume") }}/#publications">Publications</a></li>
-        <li class="sidebar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" >Machine learning</a></li>
-        {% endblock sidebar_nav_infos %}                    
+        <li class="navbar-nav-item"><a href="{{ get_url(path="resume") }}/#projects">Projects</a></li>
+        <li class="navbar-nav-item"><a href=" {{ get_url(path="resume") }}/#softwares">Softwares</a></li>
+        <li class="navbar-nav-item"><a href=" {{ get_url(path="resume") }}/#publications">Publications</a></li>
+        <li class="navbar-nav-item"><a href="https://github.com/Grelot/machine_learning_demo#machine_learning_demo" >Machine learning</a></li>
+        {% endblock navbar_nav_infos %}                    
       </ul>
     </div>
 
-    {% endblock sidebar %}
+    {% endblock navbar %}
     <div class="content container">    
 
       {% block content %}
@@ -72,12 +71,7 @@
       <h1>About</h1>
            {% include "extra/about.html" %}
      
-     <br>
-
-     <div align="center"><a class="readmore-btn" href="{{ get_url(path="articles") }}" target="_self" rel="nofollow noopener">READ MORE</a></div>
-
-     
-     <br>
+     <br>     
      <hr>
     </div>   
 
@@ -88,7 +82,7 @@
       {{config.extra.myjob_address}} {{config.extra.mytown}}, {{config.extra.mycountry}}<br>
       <a href="mailto:{{config.extra.webmail}}"> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a> {{config.extra.myjob_tel}}
       <br><br><br><br>
-      <small> Copyright © 2019-2026 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
+      <small> Copyright © 2017-2026 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
     </div>
     </body>
 </html>
