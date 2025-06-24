@@ -6,17 +6,8 @@ draft = false
 tags = ["resume"]
 +++
 
-
-# Bioinformatician
-FLORIMOND DESPREZ GROUP
-
-
-
-## Contact
-
-* **Mail:** <a href="mailto:pierre.edouard.guerin@gmail.com"> pierre.edouard.guerin [at] gmail.com</a>
-* **Phone:** (+33) 04 67 61 32 35
-
+## Bioinformatician at FLORIMOND DESPREZ GROUP
+<a href="mailto:pierre.edouard.guerin@gmail.com"> E-mail: pierre.edouard.guerin [at] gmail.com</a>
 
 
 ## Experience

@@ -31,6 +31,12 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 
+      <!--FEEDS-->
+      {% block rss %}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+      {% endblock %}
+
+
   </head>
     <body>
     {% block navbar %}   
@@ -78,11 +84,9 @@
     {% endblock content %}
     </div>
  
-    <div class="footer"> 
-      {{config.extra.myjob_address}} {{config.extra.mytown}}, {{config.extra.mycountry}}<br>
-      <a href="mailto:{{config.extra.webmail}}"> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a> {{config.extra.myjob_tel}}
-      <br><br><br><br>
-      <small> Copyright © 2017-2026 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
+    <div class="footer">
+      Copyright © 2017-2026 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA | <a href="{{ get_url(path='atom.xml') }}">RSS feed</a>
+      <br>
     </div>
     </body>
 </html>

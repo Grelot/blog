@@ -240,3 +240,20 @@ html {
     margin-right: 2rem;
   }
 }
+
+.footer {
+  font-size: small;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow: auto; 
+  bottom: 0;
+  width: 100%;
+  background-color: colours.$main_colour;
+  color: colours.$anti_colour;
+  text-align: center;
+}
+
+.footer a {
+  color: colours.$anti_colour ;
+  
+}
