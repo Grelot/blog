@@ -1,30 +1,21 @@
-name: Deploy Zola site
-
-on:
-  push:
-    branches:
-      - master
-
+on: push
+name: Build and deploy GH Pages
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
+    if: github.ref == 'refs/heads/main'
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Zola
-        run: |
-          ZOLA_VERSION=0.20.0
-          curl -sL https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz | tar xz -C /usr/local/bin --strip-components=1 zola
-
-      - name: Build the site
-        run: zola build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_TOKEN }}
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@master
+        env:
+          # Target branch
+          PAGES_BRANCH: gh-pages
+          # Provide personal access token
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Or if publishing to the same repo, use the automatic token
+          #TOKEN: 
           publish_dir: ./public
           cname: guerinpe.com
 
