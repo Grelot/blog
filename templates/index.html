@@ -1,29 +1,36 @@
 <html lang=""> 
-  <head>
-      <title> {{config.title}} </title>
-      <link rel="shortcut icon" type="image/x-icon" href="{{config.base_url}}/peguerin.ico"/>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
-      <!-- social media card -->
-      <meta property="og:title" content="Pierre-Edouard GUERIN">
-      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics.">
-      <meta property="og:image" content="{{config.base_url}}/avatar.png">
-      <meta property="og:url" content="https://guerinpe.com">
-
-      <meta name="twitter:title" content="Pierre-Edouard GUERIN">
-      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics.">
-      <meta name="twitter:image" content="{{config.base_url}}/avatar.png">
-      <meta name="twitter:card" content="pierre_edouard_guerin_avatar">
-      <meta property="og:site_name" content="Pierre-Edouard GUERIN">
-      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN">
-
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <!-- Enable responsiveness on mobile devices-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=6">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6" />
+
+      <title> {{config.title}} </title>
+      <link rel="shortcut icon" href="{{ config.base_url }}/peguerin.ico" type="image/x-icon" />
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta property="og:image" content="{{ config.base_url }}/avatar.png" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="{{ config.base_url }}/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
+
+
       <!-- CSS -->
-      <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
-      <link rel="stylesheet" href="{{ get_url(path="corps.css", trailing_slash=false) }}">
-      <link rel="stylesheet" href="{{ get_url(path="sobre.css", trailing_slash=false) }}">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+      <link rel="stylesheet" href="{{ get_url(path='print.css', trailing_slash=false) }}" media="print" />
+      <link rel="stylesheet" href="{{ get_url(path='corps.css', trailing_slash=false) }}" />
+      <link rel="stylesheet" href="{{ get_url(path='sobre.css', trailing_slash=false) }}" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Abril+Fatface&display=swap" rel="stylesheet" />
+
 
   </head>
     <body>
@@ -62,36 +69,15 @@
       {% block content %}
       <div>
           
-      <h1> About</h1>
-      
-      <p>
-      I was interested in computer science applied to life sciences.
-       Under the supervision of Dr. Yassine GHOUZAM and Dr. Jean-Christophe GELLY, my initiation focused on the modeling of the structures of living molecules such as proteins and their applications in medical research but also in the pharmaceutical industry.
-     </p>
-      <p>
-      I then became interested in algorithms and methods for processing high-throughput DNA sequencing data. I worked for medical research under the direction of Dr. Anne PHILIPPI and Dr. Cecile JULIER to sharpen my skills in this field.
-      </p>    
-      <p>
-      In 2017, I integrate CNRS as a computational biologist. During 5 years, under the direction of Dr. Stephanie MANEL, I collaborated in many European projects such as AKER, SEACONNECT, RESERVEBENEFIT or MEGAFAUNA.
-      </p>
-      <p>
-      Today I work for the Florimond Desprez group, a ​seed breeding company determined to discover new varieties fitted to climate changes.
-      </p>
-      <p>
-      I bring to the "Research & Innovation" department my programming skills for numerous scientific projects in collaboration with breeders and international research partners.
-      </p>
-      <p>
-      My main computational languages are Bash, Python and R. However I also realise projects using C, C++, Rust or Julia.
-      See my <a href="{{ get_url(path="resume") }}">Curriculum Vitae</a> for more details.
-     </p>
-     <br>
+      <h1>About</h1>
+           {% include "extra/about.html" %}
+     
      <br>
 
      <div align="center"><a class="readmore-btn" href="{{ get_url(path="articles") }}" target="_self" rel="nofollow noopener">READ MORE</a></div>
 
      
-     </br>
-     </br>
+     <br>
      <hr>
     </div>   
 
@@ -102,7 +88,7 @@
       {{config.extra.myjob_address}} {{config.extra.mytown}}, {{config.extra.mycountry}}<br>
       <a href="mailto:{{config.extra.webmail}}"> {{config.extra.webmail | replace(from="@", to=" [at] ") }}</a> {{config.extra.myjob_tel}}
       <br><br><br><br>
-      <small> Copyright © 2019-2022 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
+      <small> Copyright © 2019-2026 Pierre-Edouard GUERIN. All Rights Reserved | Powered by ZOLA</small>
     </div>
     </body>
 </html>
