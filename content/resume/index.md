@@ -1,13 +1,13 @@
 +++
 template = "page.html"
 title = "Curriculum Vitae"
-date =  2021-10-21
+date =  2025-06-25
 draft = false
 tags = ["resume"]
 +++
 
 
-# Computational Biologist
+# Bioinformatician
 FLORIMOND DESPREZ GROUP
 
 
@@ -23,25 +23,25 @@ FLORIMOND DESPREZ GROUP
 
 
 <div class="timeline-item" date-is='Jul 2021 to present'>
-    <h3>Computational biologist</h3>
-    <h6>FLORIMOND DESPREZ Research Unit Applied Genetics and Biometry, Cappelle-en-Pevele</h6> 
+    <h3>Bioinformatician</h3>
+    <h6>FLORIMOND DESPREZ GROUP Research Unit, Cappelle-en-Pevele</h6> 
     <p>            
         I bring my skills and support to the field crops selection department by improving or designing methods to process
         omics data.
     </p> 
-        <mark>python</mark>            
+        <mark>python</mark>
+        <mark>SQL</mark>            
         <mark>R</mark>
         <mark>C++</mark>
-        <mark>rust</mark>
-        <mark>Singularity</mark>
         <mark>Docker</mark>
-        <mark>SLURM</mark>
         <mark>Nextflow</mark>
-        <mark>Jupyter notebook</mark>
+        <mark>Azure cloud</mark>
+        <mark>Databricks</mark>
+        <mark>Elastic stack</mark>
 </div>
 
 <div class="timeline-item" date-is='Feb 2017 to Jul 2021'>
-    <h3>Software Development engineer (Bioinformatics)</h3>
+    <h3>Bioinformatician</h3>
     <h6>CNRS Research Unit 5175, Center of Functional Ecology and Evolution, Montpellier</h6> 
     <p>            
         I develop softwares for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility.
@@ -50,35 +50,29 @@ FLORIMOND DESPREZ GROUP
         <mark>R</mark>
         <mark>C++</mark>
         <mark>Singularity</mark>
-        <mark>Docker</mark>
-        <mark>SGE</mark>
-        <mark>SLURM</mark>
         <mark>Snakemake</mark>
         <mark>Jupyter notebook</mark>
+        <mark>SGE</mark>
+        <mark>SLURM</mark>
 </div>	
 <div class="timeline-item" date-is='Jan to Aug 2016'>
-    <h3>Bioinformatics engineer internship</h3>
+    <h3>Bioinformatics internship</h3>
     <h6>INSERM Research Unit S598, Genetics of Diabetes, Paris</h6>
     <p>
         I developed and integrated a functionnality and its graphical interface to a medical software. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data.
     </p>
+        <mark>SQL</mark>
         <mark>python</mark>            
         <mark>Qt</mark>
-        <mark>mySQL</mark>
-        <mark>Docker</mark>
 </div>	
 <div class="timeline-item" date-is='Feb to June 2015'>
-    <h3>Bioinformatics engineer internship</h3>
+    <h3>Bioinformatics internship</h3>
     <h6>INSERM Research Unit S1134, Dynamics of Structures and Interactions of Macromolecules in Biology, Paris</h6>
     <p>
-        Implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
+        Improvement and implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
     </p>
         <mark>C</mark>            
-        <mark>C++</mark>
-        <mark>postgreSQL</mark>
-        <mark>HTML</mark>
-        <mark>CSS</mark>
-        <mark>Javascript</mark>
+        <mark>python</mark>
 </div>
 	
 ## Education
@@ -220,6 +214,43 @@ _______________________________________________________________________________
 
 # Publications
 
+*Full list of publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=hj1ClrsAAAAJ)*
+
+
+> **The distribution of coastal fish eDNA sequences in the Anthropocene**
+>
+> *Laetitia Mathon, Virginie Marques, Stéphanie Manel, Camille Albouy, Marco Andrello, Emilie Boulanger, Julie Deter, Régis Hocdé, Fabien Leprieur, Tom B Letessier, Nicolas Loiseau, Eva Maire, Alice Valentini, Laurent Vigliola, Florian Baletaud, Sandra Bessudo, Tony Dejean, Nadia Faure, Pierre‐edouard Guerin, Meret Jucker, Jean‐baptiste Juhel, Kadarusman, Andrea Polanco F, Laurent Pouyaud, Dario Schwörer, Kirsten F Thompson, Marc Troussellier, Hagi Yulia Sugeha, Laure Velez, Xiaowei Zhang, Wenjun Zhong, Loïc Pellissier, David Mouillot*
+> 
+> Global Ecology and Biogeography. 2023 August 08. DOI: [10.1111/geb.13698](https://doi.org/10.1111/geb.13698)
+
+
+> **Contrasting influence of seascape, space and marine reserves on genomic variation in multiple species**
+>
+> *Laura Benestan, Nicolas Loiseau, Pierre‐edouard Guérin, Angel Pérez‐Ruzafa, Aitor Forcada, Esther Arcas, Philippe Lenfant, Sandra Mallol, Raquel Goñi, Laure Velez, David Mouillot, Oscar Puebla, Stéphanie Manel*
+>
+> Ecography. 2023 January 01. DOI: [10.1111/ecog.06127](https://doi.org/10.1111/ecog.06127)
+
+
+> **Evaluating bioinformatics pipelines for population‐level inference using environmental DNA**
+>
+> *Bastien Macé, Régis Hocdé, Virginie Marques, Pierre‐Edouard Guerin, Alice Valentini, Véronique Arnal, Loïc Pellissier, Stéphanie Manel*
+>
+> Environmental DNA. 2022 February 08. DOI: [10.1002/edn3.269](https://doi.org/10.1002/edn3.269)
+
+
+> **Cross-ocean patterns and processes in fish biodiversity on coral reefs through the lens of eDNA metabarcoding**
+>
+> *Laetitia Mathon, Virginie Marques, David Mouillot, Camille Albouy, Marco Andrello, Florian Baletaud, Giomar H Borrero-Pérez, Tony Dejean, Graham J Edgar, Jonathan Grondin, Pierre-Edouard Guerin, Régis Hocdé, Jean-Baptiste Juhel, Kadarusman, Eva Maire, Gael Mariani, Matthew Mclean, Andrea Polanco F, Laurent Pouyaud, Rick D Stuart-Smith, Hagi Yulia Sugeha, Alice Valentini, Laurent Vigliola, Indra B Vimono, Loïc Pellissier, Stéphanie Manel*
+>
+> Proceedings of the Royal Society B. 2022 April 20. DOI: [10.1098/rspb.2022.0162](https://doi.org/10.1098/rspb.2022.0162)
+
+
+> **Climate differently influences the genomic patterns of two sympatric marine fish species**
+>
+> *Emilie Boulanger, Laura Benestan, Pierre‐Edouard Guerin, Alicia Dalongeville, David Mouillot, Stéphanie Manel*
+> 
+> Journal of Animal Ecology. 2021 October 30. DOI: [10.1111/1365-2656.13623]( https://doi.org/10.1111/1365-2656.13623)
+
 
 > **Use of environmental DNA in assessment of fish functional and phylogenetic diversity**
 >
@@ -233,11 +264,13 @@ _______________________________________________________________________________
 >
 > Proceedings of the Royal Society B. 2021 May 18. DOI: [10.1098/rspb.2021.0458](https://doi.org/10.1098/rspb.2021.0458)
 
+
 > **Benchmarking bioinformatic tools for fast and accurate eDNA metabarcoding species identification**
 >
 > *Laetitia Mathon, Alice Valentini, Pierre-Edouard Guerin, Eric Normandeau, Cyril Noel, Clément Lionnet, Emilie Boulanger, Wilfried Thuiller, Louis Bernatchez, David Mouillot, Tony Dejean, Stephanie Manel*
 >
 > Molecular Ecology Resources. 2021 May 17. DOI: [10.1111/1755-0998.13430](https://doi.org/10.1111/1755-0998.13430)
+
 
 > **Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences**
 >
@@ -245,17 +278,20 @@ _______________________________________________________________________________
 >
 > Ecography. 2020 Aug 04. DOI: [10.1111/ecog.05049](https://doi.org/10.1111/ecog.05049)
 
+
 > **New genomic ressources for three exploited Mediterranean fishes**
 >
 > *Katharina Fietz, Elena Trofimenko, Pierre-Edouard Guerin, Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla*
 >
 > Genomics. 2020 July 03. DOI: [10.1016/j.ygeno.2020.06.041](https://doi.org/10.1016/j.ygeno.2020.06.041)
 
+
 > **Global determinants of freshwater and marine fish genetic diversity**
 >
 > *Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy & Loic Pellissier*
 >
 > Nature communications. 2020 Feb 10. DOI: [10.1038/s41467-020-14409-7](https://doi.org/10.1038/s41467-020-14409-7)
+
 
 > **Predicting genotype environmental range from genome–environment associations**
 >
@@ -276,30 +312,11 @@ _______________________________________________________________________________
 # Other activities
 
 
-## Sciences
-
 * My scientific [blog](https://guerinpe.com/articles/)
 * Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
 * Author on french bioinformatics participative blog [bioinfo-fr](https://bioinfo-fr.net/author/pierre-edouard-guerin)
 * My [data science skills demo](https://github.com/Grelot/machine_learning_demo) *(linear regression, random forest, neural network, bayesian, deep learning)* using python ecosystem for machine learning *(pandas, numpy, tensorflow, scikit-learn)* training on [kaggle](https://www.kaggle.com/pierreedouardguerin).
 
-
-## Personnal projects
-
-<img align="right" width="60px" height="60px" src="costa_walk.png">
-
-* **[speckyman](https://github.com/Grelot/speckyman)**: a platform game developed in JavaScript
-* **[fromdnatomusic](https://github.com/Grelot/fromdnatomusic)**: convert DNA sequences into MIDI track and listen to it
-* **[Nos data ont du talent](https://www.youtube.com/channel/UCvjBNumU6EvJiiGfxqNfd7Q)**: a youtube channel dedicated to data visualisation
-
-
-
-## Triathlon
-
-
-I'm an active member of the [USN-MONTPELLIER](https://www.usn-montpellier.fr/usn-web/view/index.php) sportive club since 2017. Join us !
-
-<img align="center" width="264rem" height="247rem" src="usnm.png">
 
 
 
