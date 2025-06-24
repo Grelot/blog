@@ -1,0 +1,13 @@
+{% set video_id = args.id | default(value="") %}
+{% if video_id != "" %}
+  <div class="responsive-iframe">
+    <iframe
+      src="https://www.youtube.com/embed/{{ video_id }}"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+{% else %}
+  <p><strong>Error:</strong> YouTube ID missing in shortcode.</p>
+{% endif %}
