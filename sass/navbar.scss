@@ -1,3 +1,5 @@
+@use 'colours';
+@use 'fonts';
 
 /**
  * Smooth scrolling on the whole document
@@ -7,7 +9,7 @@ html {
 }
 
 html {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: fonts.$main_font;
 }
 @media (min-width: 48em) {
   html {
@@ -39,13 +41,13 @@ html {
 
 
 /*
- * Sidebar
+ * navbar
  *
  * Flexible banner for housing site name, intro, and "footer" content. Starts
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-.sidebar {
+.navbar {
 
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
@@ -53,7 +55,7 @@ html {
   background-color: #2c3e50;
 }
 @media (min-width: 48em) {
-  .sidebar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -63,36 +65,22 @@ html {
   }
 }
 
-/* Sidebar links */
-.sidebar a {
+/* navbar links */
+.navbar a {
   color: #fff;
 }
 
 
-.sidebar a:hover,
-.sidebar a:hover {
+.navbar a:hover,
+.navbar a:hover {
   text-decoration: none;
-  color: #4bcbb5;
+  color: colours.$secondary_colour;
 }
 /************************************/
 
 
 
 
-/* Lang section */
-
-.sidebar-lang a {
-  width: 1.33333333em;
-  line-height: 1em;
-  color: #2c3e50;
-}
-
-
-.sidebar-lang a:hover, .siderbar-lang a:focus {
-  width: 1.33333333em;
-  line-height: 1em;  
-
-}
 
 
 /* mail button */
@@ -116,7 +104,7 @@ html {
 
 
 /* name section */
-.sidebar-name p {
+.navbar-name p {
   color: #fff;
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -126,7 +114,7 @@ html {
 
 /* description section */
 
-.sidebar-description p {
+.navbar-description p {
   margin-top: 0rem;
   margin-bottom: 0.5rem;
   font-size: 1rem;  
@@ -138,8 +126,8 @@ html {
 
 
 
-/* Sidebar nav */
-.sidebar-nav {
+/* navbar nav */
+.navbar-nav {
   padding-left: 0;
   list-style: none;
   text-align: center;
@@ -148,12 +136,12 @@ html {
 }
 
 @media (min-width: 48em) {
-  .sidebar-nav {
+  .navbar-nav {
     text-align: right;
     
   }
 }
-.sidebar-nav-item {
+.navbar-nav-item {
   display: block;
 }
 
@@ -179,46 +167,46 @@ html {
 }
 
 /* icon brand section */
-.sidebar-nav-brand {
+.navbar-nav-brand {
   text-align: center;
 }
 
-.sidebar-nav-brand a {
+.navbar-nav-brand a {
   width: 1em;
   line-height: 1em;
 }
 
-.sidebar-nav-item a {
+.navbar-nav-item a {
   color: #f1f1f1;
   font-size: 1.25rem;
 }
 
 @media (min-width: 48em) {
-  .sidebar-nav-item a {
+  .navbar-nav-item a {
     font-size: 1rem;  
   }
 }
 
 
 
-.sidebar-nav-item a:hover,
-.sidebar-nav-item a:focus {
+.navbar-nav-item a:hover,
+.navbar-nav-item a:focus {
   text-decoration: none;
-  color: #4bcbb5;
+  color: colours.$secondary_colour;
 }
-.sidebar-nav-item a:active {
+.navbar-nav-item a:active {
   font-weight: bold;
 }
 
 
-/* Sticky sidebar
+/* Sticky navbar
  *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
+ * Add the `navbar-sticky` class to the navbar's container to affix it the
+ * contents to the bottom of the navbar in tablets and up.
  */
 
 @media (min-width: 48em) {
-  .sidebar-sticky {
+  .navbar-sticky {
     position: absolute;
     right:  1rem;
     bottom: 1rem;
@@ -229,7 +217,7 @@ html {
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
+ * with a 25%-wide `.navbar`.
  */
 
 
