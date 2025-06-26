@@ -1,0 +1,15 @@
+@use 'fonts';
+@use 'colours';
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: colours.$main_colour;
+  background-color: colours.$lightshade_colour;
+}

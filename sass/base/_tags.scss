@@ -1,0 +1,29 @@
+.tags-article {
+  min-height: 0.5rem;
+  display: flex;
+  display: inline-block;
+  font-size: 0.85rem;
+  ul {
+    margin-left: -2.25rem;
+    margin-bottom: 0rem;
+  }
+  li {
+    display: inline-flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    a {
+      color: #f9f9f9;
+      display: block;
+      overflow: hidden;
+      padding: 0.25rem;
+      text-overflow: ellipsis;
+      text-decoration: none;
+
+      a:hover {
+        border: solid #f9f9f9;
+        border-width: medium;        
+      }       
+    }
+  }
+}

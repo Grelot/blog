@@ -1,0 +1,19 @@
+@use 'colours';
+
+a {
+  color: colours.$secondary_colour;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+::selection {
+  color: #fff;
+  background: colours.$secondary_colour;
+}
+::-moz-selection {
+  color: #fff;
+  background: colours.$secondary_colour;
+}

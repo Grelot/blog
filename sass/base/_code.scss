@@ -1,0 +1,36 @@
+@use 'fonts';
+
+code,
+pre {
+  font-family: fonts.$code_font;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #cb4b61;
+  background-color: #ecf0f1;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  overflow-x: hidden;
+  background-color: #ecf0f1;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  background-color: #ecf0f1;
+}

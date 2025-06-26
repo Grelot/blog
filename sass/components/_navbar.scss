@@ -1,0 +1,31 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+.navbar {
+  font-family: fonts.$main_font;
+  background-color: colours.$main_colour;
+  border-top: 1px solid colours.$anti_colour;
+  justify-content: center;
+  z-index: 1000;
+
+
+  a {
+    color: colours.$anti_colour;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+
+
+
+
+    &:hover,
+    &:focus {
+      background-color: #fff;
+      color: #bbb;
+      outline: none;
+    }
+  }
+}
+

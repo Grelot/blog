@@ -1,0 +1,82 @@
+
+/*
+ * box projects into markdown
+ *
+ */
+
+ .all_proj {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 1px;
+}
+
+
+
+@media (min-width: 38em) {
+  .all_proj {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+  
+}
+
+@media (min-width: 75em) {
+  .all_proj {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+  }
+  
+}
+
+
+.project {
+  background-color: #fff;
+  border: solid;
+  color: #2c3e50;
+  border: 1px solid #ecf0f1;
+  padding: 1rem 1rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 24em;
+  position:relative;
+  
+  mark {  
+    color: #fff;
+    background-color: #f39c12;
+    padding: 1px 8px 1px 8px;
+  
+  }
+}
+
+.project:hover {
+  background-color: #ecf0f1;
+}
+
+.project .title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.project .description {
+  color: #2c3e50;
+  font-size: small;
+}
+
+.project .skills {
+  color: #2c3e50;
+  font-size: small;
+  font-style: italic;
+}
+
+.project .duration {
+  color: #2c3e50;
+  font-size: small;
+  position: absolute;
+  bottom: 1rem;
+
+}

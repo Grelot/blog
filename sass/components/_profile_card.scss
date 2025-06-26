@@ -1,0 +1,71 @@
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: nowrap;
+}
+
+.profile-card-left {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.profile-card-right  {
+  flex: 1 1 auto;
+  min-width: 0;
+  p {    
+    text-align: justify;
+     overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+   .profile-card {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .profile-card-left, .profile-card-right {    
+    flex: 1 1 100%;  // full width on small screens
+  }
+}
+
+
+.profile-card-rect {
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  width: fit-content;
+  text-align: center;
+}
+
+.profile-card-img-container {
+  background: white;
+  width: fit-content;
+  border: 8px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+    display: block;
+  }
+}
+
+.profile-card-brands {
+  text-align: center;
+
+  a {
+  width: 1.25em;
+  line-height: 1.25em;
+  }
+}
