@@ -23,8 +23,8 @@
                  <span class="tags-article">              
                   <ul>  
                     {% for tag in page.taxonomies.tags %}                
-                    <li style="background: {{config.extra.tags_color.0[tag]}}">
-                      <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>&nbsp;
+                    <li style="background: {{ config.extra.tags_colour[tag] }}">
+                      <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
                     </li> 
                     {% endfor %}
                   

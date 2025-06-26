@@ -1,39 +1,36 @@
 {% extends "index.html" %}
 
-<div class="content container">
 {% block content %}
-    <div >
-        {% for page in section.pages %}
-          <div class="post">
-            <h1 class="post-title">
-              <a href="{{ page.permalink }}">
-                {{ page.title }}                
-              </a>
-            </h1>
-              {{ page.summary | safe }}
-              <h1 class="post-title">
-              {% if page.taxonomies.tags %} 
-                 <span class="tags-article">              
-                  <ul>  
-                    {% for tag in page.taxonomies.tags %}                
-                    <li style="background: {{config.extra.tags_color.0[tag]}}">
-                      <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>&nbsp;
-                    </li> 
-                    {% endfor %}
-                  
-                    {% endif %} 
-                    <li class="post-date">  {{ page.date | date(format="%B %eth, %Y") }} </li>
-                  </ul>     
-                </span>              
-              </h1>
-
-                   
-          <hr>
-          </div>
-        {% endfor %}
-    {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
-    {% if paginator.next and paginator.previous %}|{% endif %}
-    {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
+<div >
+  {% for page in section.pages %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ page.permalink }}">
+          {{ page.title }}                
+        </a>
+      </h1>
+        {{ page.summary | safe }}
+        <h1 class="post-title">
+        {% if page.taxonomies.tags %} 
+            <span class="tags-article">              
+            <ul>  
+              {% for tag in page.taxonomies.tags %}                        
+              <li style="background: {{ config.extra.tags_colour[tag] }}">
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
+              </li> 
+              {% endfor %}
+            
+              {% endif %} 
+              <li class="post-date">  {{ page.date | date(format="%B %eth, %Y") }} </li>
+            </ul>     
+          </span>              
+        </h1>
+              
+    <hr>
     </div>
-  </div>
+  {% endfor %}
+  {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
+  {% if paginator.next and paginator.previous %}|{% endif %}
+  {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
+</div>
 {% endblock content %}
