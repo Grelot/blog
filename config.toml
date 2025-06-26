@@ -1,11 +1,10 @@
 # The URL the site will be built for
-#base_url = "http://127.0.0.1:1111/"
+#base_url = "http://127.0.0.1:1111"
 # github page
-#base_url = "https://grelot.github.io/blog/"
+#base_url = "https://grelot.github.io/blog"
 # my domain
-base_url = "https://guerinpe.com/"
+base_url = "https://guerinpe.com"
 title = "Pierre-Edouard Guerin"
-description = "Bioinformatics & Software development"
 
 
 # The default language, used in RSS
@@ -15,13 +14,19 @@ generate_feeds = true
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 [markdown]
 highlight_code = false
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+
+
+[search]
+index_format = "elasticlunr_json"
 
 
 # The taxonomies to be rendered for that site and their configuration
@@ -41,9 +46,6 @@ feed = true
 # Put all your custom variables here
 
 webmail = "pierre.edouard.guerin@gmail.com"
-myjob_name = "FD"
-myjob_site = "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
-
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
@@ -52,7 +54,7 @@ links = [
     {url = "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups", name = "gitlab"}
 ]
 
-tags_color = [
-    { tech = "#f39c12", sciences = "#e74c3c", omics = "#27ae60" }
-    ]
-
+[extra.tags_colour]
+tech = "#f39c12"
+sciences = "#e74c3c"
+omics = "#27ae60"
