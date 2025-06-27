@@ -1,17 +1,19 @@
 @use '../base/colours';
 
 .footer {
-  bottom: 0;
+  
   padding: 1rem 1rem;
   font-size: small;
   overflow: auto;
   width: 100%;
-  max-width: 1024px;
   background-color: colours.$main_colour;
   color: colours.$lightshade_colour;
   text-align: center;
 
   a {
     color: colours.$lightshade_colour;
+  }
+  a:hover {
+    color: colours.$shadow_colour; 
   }
 }
