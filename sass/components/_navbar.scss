@@ -3,10 +3,12 @@
 
 .navbar {
   font-family: fonts.$main_font;
+  font-size: 1.2em;
   background-color: colours.$main_colour;
   border-top: 1px solid colours.$anti_colour;
   justify-content: center;
   z-index: 1000;
+  margin-bottom: 1rem;
 
 
   a {
