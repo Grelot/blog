@@ -1,3 +1,5 @@
+@use '../base/colours';
+
 .profile-card {
   display: flex;
   flex-direction: row;
@@ -21,7 +23,7 @@
   min-width: 0;
   p {    
     text-align: justify;
-     overflow-wrap: break-word;
+    overflow-wrap: break-word;
     word-wrap: break-word;
     max-width: 100%;
   }
@@ -41,7 +43,8 @@
 
 .profile-card-rect {
   align-items: center;
-  background-color: #f0f0f0;
+  justify-content: center;
+  background-color: colours.$lightshade_colour;
   padding: 1rem;
   width: fit-content;
   text-align: center;
@@ -49,10 +52,13 @@
 
 .profile-card-img-container {
   background: white;
+  margin-left: auto;
+  margin-right: auto;
   width: fit-content;
   border: 8px solid white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 1rem;
+  margin-top: 1rem;
   img {
     max-width: 100%;
     height: auto;
@@ -62,10 +68,24 @@
 }
 
 .profile-card-brands {
-  text-align: center;
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+  gap: 0.5em; 
+}
 
-  a {
-  width: 1.25em;
-  line-height: 1.25em;
-  }
+.brand-icon {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  color: colours.$main_colour;
+  transition: color 0.3s;
+  overflow: visible; 
+}
+
+   
+
+
+.brand-icon:hover {
+  color: colours.$secondary_colour;
 }

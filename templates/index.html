@@ -56,6 +56,7 @@
     </header>    
     {% endblock %}
 
+
     <br>
     
     {% block content %}
@@ -68,12 +69,13 @@
           <div class="profile-card-brands">
             {% block nav_brand %}
             {% for link in config.extra.links %}
-            <a href="{{link.url}}" style="content: url({{config.base_url}}/brands/{{link.name}}.svg)">{{link.name}}</a>
-            {% endfor %}
-            {% endblock nav_brand %}
-            <br>
-
+            <a href="{{link.url}}"> {{ load_data(path="static/brands/" ~ link.name ~ ".svg") | safe }} </a>
+            {% endfor %}           
+            {% endblock nav_brand %}                     
           </div>
+          <br>
+          <a href="mailto:{{ config.extra.webmail }}" >E-mail: {{ config.extra.webmail }}</a>
+          <br>  
         </div>   
       </div>
       <div class="profile-card-right">
@@ -83,12 +85,15 @@
     {% endblock %}
 
     <br>
+    <br>
 
     <div class="footer">
       Copyright © 2017-2026 Pierre-Edouard GUERIN. All Rights Reserved | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="{{ get_url(path='atom.xml') }}">RSS feed</a>
       <br>
     </div>
 
-
   </body>
+
+
+
 </html>
