@@ -45,7 +45,7 @@ feed = true
 [extra]
 # Put all your custom variables here
 
-webmail = "pierre.edouard.guerin@gmail.com"
+webmail = "pierre-edouard.guerin@groupefd.com"
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},
