@@ -8,7 +8,6 @@ tags = ["publications"]
 +++
 
 
-# Publications
 
 * Publications on [ORCiD](https://orcid.org/0000-0001-7909-3729)
 * Publications on [ResearchGate](https://www.researchgate.net/profile/Pierre-Edouard-Guerin)

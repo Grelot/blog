@@ -5,6 +5,3 @@ draft = false
 tags = ["search"]
 +++
 
-# Activity
-
-blabla

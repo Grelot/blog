@@ -6,8 +6,7 @@ draft = false
 tags = ["resume"]
 +++
 
-# Curriculum Vitae
-## Bioinformatician at FLORIMOND DESPREZ GROUP
+
 
 * [E-mail contact](mailto:pierre.edouard.guerin@gmail.com)
 * [Linkedin profile](https://www.linkedin.com/in/pierre-edouard-guerin/)
