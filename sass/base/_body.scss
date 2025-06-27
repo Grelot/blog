@@ -5,19 +5,19 @@ html {
   scroll-behavior: smooth;
   font-family: fonts.$main_font;
   font-size: 14px;       // Taille de base confortable pour un blog
-  line-height: 1.5;      // Hauteur de ligne plus lisible
+  line-height: 1.4;      // Hauteur de ligne plus lisible
 
   @media (max-width: 600px) {  // smartphone
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.2;
   }
   
-  @media (min-width: 601px) and (max-width: 1024px) {  // tablette / laptop petit
+  @media (min-width: 601px) and (max-width: 1920px) {  // tablette / laptop petit
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.4;
   }
 
-  @media (min-width: 1025px) {  // écran large / desktop large
+  @media (min-width: 1921px) {  // écran large / desktop large
     font-size: 18px;
     line-height: 1.6;
   }
@@ -30,19 +30,18 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  min-height: 100vh;
   
     @media (max-width: 600px) {  // smartphone
     max-width: 600px;
     left: 10%; 
   }
   
-  @media (min-width: 601px) and (max-width: 1919px) {  // tablette / laptop petit
-    max-width: 1280px;
+  @media (min-width: 601px) and (max-width: 1920px) {  // tablette / laptop petit
+    max-width: 1024px;
     left: 50%; 
   }
 
-  @media (min-width: 1920px) {  // écran large / desktop large
+  @media (min-width: 1921px) {  // écran large / desktop large
     max-width: 1920px;
     left: 40%; 
   }
