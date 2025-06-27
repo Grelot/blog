@@ -6,10 +6,11 @@
  * page is wrapped in `.page` and is only used on the page layout.
  */
 .page,
-.post {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+.post,
+.post-preview {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Blog post or page title */
@@ -31,6 +32,12 @@
   color: colours.$main_colour;
   font-weight: 300;
   font-size: 1rem;
+}
+
+
+
+.post-preview:hover {
+  background-color: colours.$lightshade_colour;  // couleur gris clair au survol
 }
 
 
