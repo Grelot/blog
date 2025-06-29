@@ -1,3 +1,6 @@
+@use 'colours';
+@use 'fonts';
+
 img {
   display: block;
   margin: 0 0 1rem;
@@ -20,32 +23,32 @@ hr {
   position: relative;
   margin: 0.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid colours.$lightshade_colour;
+  border-bottom: 1px solid colours.$anti_colour;
 }
 
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: colours.$shadow_colour;
   text-transform: uppercase;
 }
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+  border-bottom: 1px dotted colours.$shadow_colour;
 }
 
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #ecf0f1;
+  border: 1px solid colours.$shadow_colour;
   border-collapse: collapse;
 }
 td, th {
   padding: .25rem .5rem;
-  border: 1px solid #ecf0f1;
+  border: 1px solid colours.$shadow_colour;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: colours.$lightshade_colour;
 }

@@ -86,6 +86,7 @@
    
 
 
-.brand-icon:hover {
-  color: colours.$secondary_colour;
+.brand-icon:hover, .brand-icon:focus {
+  color: colours.$highlight_colour;
 }
+

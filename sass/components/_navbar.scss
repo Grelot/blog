@@ -24,8 +24,8 @@
 
     &:hover,
     &:focus {
-      background-color: #fff;
-      color: #bbb;
+      background-color: colours.$anti_colour;
+      color: colours.$shadow_colour;
       outline: none;
     }
   }

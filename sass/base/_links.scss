@@ -7,13 +7,14 @@ a {
 a:hover,
 a:focus {
   text-decoration: underline;
+  color: colours.$highlight_colour;
 }
 
 ::selection {
-  color: #fff;
-  background: colours.$secondary_colour;
+  color: colours.$anti_colour;
+  background: colours.$highlight_colour;
 }
 ::-moz-selection {
-  color: #fff;
-  background: colours.$secondary_colour;
+  color: colours.$anti_colour;
+  background: colours.$highlight_colour;
 }
