@@ -1,0 +1,134 @@
+<html lang=""> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6" />
+
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
+
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+
+
+  </head>
+  <body>
+    
+    <header class="header-container">
+      <div class="site-title"> Pierre-Edouard Guerin </div>
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume/">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+        <a href="https://guerinpe.com/search">Search</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">Linux System Administration Basics</h1>
+  <p><i> Here a collection of basic but useful commands to admin a linux system.</i></p>
+
+  <span class="post-date">March 24th, 2018. Pierre-Edouard GUERIN</span>
+  <hr>
+  <p>Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine.</p>
+ <span id="continue-reading"></span>
+<p>At the same time, it is to be expected that two or more users may need to share access to certain system resources, such as directories and files. User and group management in Linux allows us to accomplish both objectives.</p>
+<h1 id="managing-users-and-groups">Managing users and groups</h1>
+<h2 id="add-new-users">Add new users</h2>
+<p>It creates an user <code>thisuser</code> belonging to the group <code>thisgroup</code> and using <code>/bin/bash</code> as default shell. By default on ubuntu it's <code>/bin/sh</code>.</p>
+<pre><code>useradd -G thisgroup -s &#x2F;bin&#x2F;bash thisuser
+</code></pre>
+<p>Modify the password of an user named <code>thisuser</code></p>
+<pre><code>passwd thisuser
+</code></pre>
+<p>Check password of <code>thisuser</code> on the user list</p>
+<pre><code>grep thisuser &#x2F;etc&#x2F;passwd
+</code></pre>
+<p>Modify the default shell of an user named <code>thisuser</code></p>
+<pre><code>chsh -s &#x2F;bin&#x2F;bash thisuser
+</code></pre>
+<p>It displays the list of all users on the system</p>
+<pre><code>awk -F&#x27;:&#x27; &#x27;{ print $1}&#x27; &#x2F;etc&#x2F;passwd
+</code></pre>
+<h2 id="add-new-groups-to-an-user">Add new groups to an user</h2>
+<p>It creates a group <code>thisgroup</code></p>
+<pre><code>groupadd thisgroup
+</code></pre>
+<p>It defines <code>premiergroup</code> as the primary group of user <code>thisuser</code></p>
+<pre><code>usermod -g premiergroup thisuser 
+</code></pre>
+<p>It defines <code>secondgroup</code> as a supplementary group of user <code>thisuser</code></p>
+<pre><code>usermod -a -G secondgroup thisuser
+</code></pre>
+<p>It displays members of the group <code>thisgroup</code></p>
+<pre><code>getent group thisgroup
+</code></pre>
+<p>It displays the list of all groups on the system</p>
+<pre><code>cut -d: -f1 &#x2F;etc&#x2F;group | sort
+</code></pre>
+<h2 id="grant-sudo-privileges-to-an-user">Grant sudo privileges to an user</h2>
+<p>It adds the user <code>thisuser</code> to the <code>sudo</code> group. Members of this group can execute any command as <em>root</em> via <code>sudo</code> and prompted to authenticate themselves with their password when using <code>sudo</code></p>
+<pre><code>usermod -a -G sudo thisuser
+</code></pre>
+<h2 id="delete-users-and-groups">delete Users and groups</h2>
+<p>It deletes an user called <code>thisuser</code></p>
+<pre><code>deluser thisuser
+</code></pre>
+<p>It delete a group called <code>thisgroup</code></p>
+<pre><code>groupdel thisgroup
+</code></pre>
+
+  <hr>
+</div>
+
+
+    <br>
+    <br>
+
+    <div class="footer">
+      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+      <br>
+    </div>
+
+  </body>
+
+
+
+</html>

@@ -1,0 +1,230 @@
+<html lang=""> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6" />
+
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
+
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+
+
+  </head>
+  <body>
+    
+    <header class="header-container">
+      <div class="site-title"> Pierre-Edouard Guerin </div>
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume/">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+        <a href="https://guerinpe.com/search">Search</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">Step-by-Step Guide to Creating R packages</h1>
+  <p><i> How to create an R package with Rstudio and devtools.</i></p>
+
+  <span class="post-date">March 30th, 2019. Pierre-Edouard GUERIN</span>
+  <hr>
+  <p>In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others. <span id="continue-reading"></span>As of June 2019, there were over 14,000 packages available on the Comprehensive R Archive Network, or CRAN, the public clearing house for R packages. In this article I describe how to create a R package step-by-step so that others can easily download and use your code.</p>
+<div style="background: #f1f1f1; ">
+<p><em>"In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others."</em> Hadley Wickham</p>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="softwares">Softwares</h3>
+<ul>
+<li><a href="https://www.r-project.org/">R</a></li>
+<li><a href="https://rstudio.com/">Rstudio IDE</a></li>
+<li><a href="https://git-scm.com/">git</a></li>
+</ul>
+<h3 id="r-packages">R packages</h3>
+<ul>
+<li>roxygen2</li>
+<li>devtools</li>
+<li>usethis</li>
+</ul>
+<h2 id="host-your-package-on-github">Host your package on github</h2>
+<p>To register your package on CRAN or bioconductor can be long and requires your project to be mature enough. You can still share your project with project by hosting it on github.</p>
+<ol>
+<li>Sign up/in to <a href="https://github.com/">github</a> and <strong>create a new repository</strong>.</li>
+<li>Check the <code>github repository address</code> on the github quick set up page.</li>
+<li>On Rstudio open a new project as <code>new folder</code> <code>R package</code>. Activate the <code>use git</code> option. For instance, I call the package <code>mon_premier_package</code>. This will create a ready-to-use empty R package.</li>
+<li>Connect your local R package to the github repository. Go to <code>terminal</code> in Rstudio and type:</li>
+</ol>
+<pre>
+git init
+git add .
+git commit -m "init R package"
+git remote add origin < github repository address >
+git push origin master
+</pre>
+<ol start="5">
+<li>That's it ! Your R package is hosted as an online github repository.</li>
+</ol>
+<p>This automatically creates the bare bone files and directories needed to define our R package called <code>mon_premier_package</code>.</p>
+<pre>
+mon_premier_package
+├── R
+├── man
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<ul>
+<li><code>R</code> folder will eventually contain our R code.</li>
+<li><code>man</code> folder will eventually contain documentation.</li>
+<li><code>mon_premier_package.Rproj</code> file is specific to the RStudio IDE.</li>
+<li><code>DESCRIPTION</code> folder holds our package’s metadata.</li>
+<li><code>NAMSPACE</code> is a file that ensures our library plays nicely with others, and is more of a CRAN requirement.</li>
+</ul>
+<h2 id="build-the-package">Build the package</h2>
+<p>In Rstudio, click on <code>Check</code> then <code>Install and restart</code>. These commands will automatically install your package. Alternatively, you can run these commands  from the terminal:</p>
+<pre>
+devtools::check()
+devtools::install()
+</pre>
+<p>Then your package is ready-to-use and available. It can be installed in any R session with devtools using <code>install_github</code> function:</p>
+<pre>
+if (!requireNamespace("devtools", quietly = TRUE)) { install.packages("devtools") }
+library(devtools)
+devtools::install_github("Pierre/mon_premier_package")
+library(mon_premier_package)
+</pre>
+<p>Now you can share the skeleton of your package to anybody, so let's add muscle and skin to it.</p>
+<h2 id="add-functions">Add Functions</h2>
+<h3 id="write-r-file-in-r-folder">Write R file in R Folder</h3>
+<p>Our package wouldn’t do much without functions. Let’s add a function. Here the R file <code>hello_world.R</code> contains the code source for the function <code>hellow_world</code>:</p>
+<pre>
+#' @title Say Hello
+#'
+#' @description Creates a string with hello word
+#'
+#' @param name A string
+#' @return a string
+#' @export
+#' @example
+
+hello_world <- function(name) {
+    res <- "hello "+name
+    return(res)
+}
+</pre>
+<ul>
+<li>Lines beginning with a <code>#'</code> are mandatory to generate <strong>documentation</strong> describing the function.</li>
+<li>We have to add our function to the <code>R</code> folder, since this is where R looks for any functions inside a library.</li>
+</ul>
+<pre>
+mon_premier_package
+<b>├── R
+│   ├── hello_world.R</b>
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<h3 id="write-documentation">Write documentation</h3>
+<p>To create <strong>documentation</strong> describing your function.</p>
+<pre>
+devtools::document()
+roxygen2::roxygenize()
+</pre>
+<p>This will generate a <code>man</code> folder and <code>.Rd</code> documentation files describing functions in <code>R</code> folder.</p>
+<pre>
+mon_premier_package
+├── R
+│   ├── hello_world.R
+<b>├── man
+│   ├── hello_world.Rd </b>
+├── mon_premier_package.Rproj
+├── DESCRIPTION
+├── NAMESPACE
+</pre>
+<p>Check the documentation is working well:</p>
+<pre>
+help(hello_world)
+</pre>
+<p>This command returns:</p>
+<pre>
+<b>Say Hello</b>
+<b>Description</b>
+Creates a string with hello word
+
+<b>Usage</b>
+hello_world(name)
+<b>Arguments</b>
+name
+A string
+
+<b>Value</b>
+a string
+</pre>
+<h2 id="continuous-integration-with-travis">Continuous integration with travis</h2>
+<p><a href="https://docs.travis-ci.com/user/status-images/"><img src="https://api.travis-ci.com/travis-ci/travis-web.svg?branch=master" alt="Build Status" /></a></p>
+<p>The idea behind continuous integration is that CI will automatically run R CMD <code>check</code> (along with your tests, etc.) every time you push a commit to GitHub. CI automatically checks the code after every commit and return you if the build is a succes or not. See <a href="https://juliasilge.com/blog/beginners-guide-to-travis/">blog post by Julia Silge</a> for a beginner's guide to Travis-CI for R.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Here we learnt how to quickly build a R package. Creating R package is a critical skill for any scientist, and something I encourage others to do regularly. Package help isolate our work inside useful abstractions, improves reproducibility, makes our work shareable, and is the first step towards designing better software.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Book on R packages (<a href="http://r-pkgs.had.co.nz/">Hadley Wickham</a>)</li>
+<li>Presentation on R packages (<a href="https://github.com/nschiett/rladies_package_workshop_2020">Nina Schiettekatte</a>)</li>
+<li>Guidebook to git and GitHub (<a href="https://happygitwithr.com/">Jenny Bryan</a>)</li>
+<li>Beginners guide to travis (<a href="https://juliasilge.com/blog/beginners-guide-to-travis/">Julia Silge</a>)</li>
+</ul>
+
+  <hr>
+</div>
+
+
+    <br>
+    <br>
+
+    <div class="footer">
+      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+      <br>
+    </div>
+
+  </body>
+
+
+
+</html>

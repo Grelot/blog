@@ -1,0 +1,241 @@
+<html lang=""> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6" />
+
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
+
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+
+
+  </head>
+  <body>
+    
+    <header class="header-container">
+      <div class="site-title"> Pierre-Edouard Guerin </div>
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume/">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+        <a href="https://guerinpe.com/search">Search</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">SGE user commands</h1>
+  <p><i> Understand SGE and queueing system. Submit batch jobs to SGE cluster.</i></p>
+
+  <span class="post-date">September 17th, 2017. Pierre-Edouard GUERIN</span>
+  <hr>
+  <p>Using a cluster environment is similar to using linux environments for your job submission. The difference is that you need to specify needed resources beforehand. The cluster is controlled by a SGE (Sun Grid Engine Software) that organizes the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many. Here I show how to use Sun Grid Engine for job submission, monitoring and troubleshooting.</p>
+ <span id="continue-reading"></span><h2 id="sun-grid-engine">Sun Grid Engine</h2>
+<p>Cluster environment such as <a href="https://mbb.univ-montp2.fr/MBB/index.php">MBB</a> is similar as unix/linux environments for job submission (e.g. running your scripts or other software). The difference is that you need to specify needed resources beforehand. The cluster is controlled by a <strong>SGE</strong> (<strong>S</strong>un <strong>G</strong>rid <strong>E</strong>ngine software) that orders the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many.</p>
+<p>SGE will do the <em>job scheduling</em>. That means you can submit all your jobs and SGE will queue them and run them when resources you requested becomes available. SGE will also achieve <em>load balancing</em> where the jobs will be distributed so that specific nodes do not get overloaded. In addition, SGE will allow you to do <em>job monitoring</em> which will be useful when you want to check if your job is running ,and if it failed it will help you understand what went wrong.</p>
+<h2 id="access-and-use-the-cluster">Access and use the cluster</h2>
+<p>The SSH protocol (also referred to as Secure Shell) is a method for secure remote login from one computer to another. It provides several alternative options for strong authentication, and it protects the communications security and integrity with strong encryption.</p>
+<p>To access to a cluster, you need your administrator creates your account first. Then you can acces via SSH.</p>
+<pre><code>ssh &lt;yourUserName&gt;@&lt;clusterAdress&gt;
+</code></pre>
+<h2 id="job-scheduling-command-to-submit-a-job">Job scheduling: command to submit a job</h2>
+<p>Here an example of bash script <code>submitBatchJob.sh</code> to submit a batch job via SGE:</p>
+<pre><code># Job name
+#$ -N myjob_1
+# Using current working directory (otherwise, you will have to use &#x27;#$ wd &#x2F;path&#x2F;to&#x2F;run&#x27;)
+#$ -cwd
+# job time limits (h_rt is required [s_rt == software time limit &#x2F; h_rt == hardware time limit])
+#$ -l s_rt=999:55:00
+#$ -l h_rt=920:00:00
+# choose to run on a specific queue
+#$ -q cemeb20.q
+# Get a mail when the job begins, ends or is suspended
+#$ -m ebs
+#$ -M me@mail.com
+# Redirects the standard output to the named file.
+#$ -o submitjob_sge_cluster&#x2F;qsub_outputs&#x2F;myjob_20190903-110055.out
+##$ -e submitjob_sge_cluster&#x2F;qsub_outputs&#x2F;myjob_20190903-110055.err
+# merge standard and error outputs
+#$ -j yes
+# choose a parallel environment and run on 60 slots (use $PE_HOSTFILE)
+# -pe mpi 16
+# Export all my environment variables into job runtime context
+#$ -V
+################### job to submit #############################################
+bash myjob.sh
+</code></pre>
+<ul>
+<li>
+<p>The job to run into a Grid Engine queue is the the non-commentary line.</p>
+</li>
+<li>
+<p>Lines starting with <code>#$</code> are dedicated to <code>qsub</code>'s parameters:</p>
+<ul>
+<li><code>-N</code> defines the name of the job</li>
+<li><code>-q</code> defines cluster queues which may be used to execute this job.</li>
+<li><code>-l</code> launches the job in a Grid Engine queue meeting the given resource request list</li>
+<li><code>-m</code> defines or redefines under which circumstances mail is to be sent. The option arguments have the following  meaning:
+<ul>
+<li><code>b</code> Mail is sent at the beginning of the job.</li>
+<li><code>e</code> Mail is sent at the end of the job.</li>
+<li><code>a</code> Mail is sent when the job is aborted.</li>
+<li><code>s</code> Mail is sent when the job is suspended.</li>
+</ul>
+</li>
+<li><code>-M</code> defines the list of users to which the server that executes the job has to send mail</li>
+<li><code>-o</code> defines the path used for the standard output stream of the job</li>
+<li><code>-e</code> defines the path used for the standard error stream of the job</li>
+<li><code>-j</code> specifies <em>yes</em> or <em>no</em> whether or not the standard error stream of the job is merged into the standard output stream.</li>
+<li><code>-pe</code> parallel programming environment (PE) to instantiate.</li>
+<li><code>-V</code> exports all environment variables into job runtime context</li>
+</ul>
+</li>
+</ul>
+<p>To submit the job with these parameters, simply use the <code>qsub</code> command:</p>
+<pre><code>qsub submitBatchJob.sh
+</code></pre>
+<h2 id="job-monitoring-check-the-current-status-of-my-submitted-job">Job monitoring: check the current status of my submitted job</h2>
+<p>You can see the current status of the available Grid Engine queues and the jobs associated with the queues with <code>qstat</code>:</p>
+<pre><code>qstat
+</code></pre>
+<p>It returns:</p>
+<pre><code>job-ID  prior   name       user         state submit&#x2F;start at     queue                          slots ja-task-ID 
+-----------------------------------------------------------------------------------------------------------------
+2041601 0.53741 myjob_1    peguerin     r     09&#x2F;17&#x2F;2020 12:08:30 cemeb20.q@mbbnode-0-30.local       1        
+2041602 0.54128 myjob_2    peguerin     qw    09&#x2F;17&#x2F;2017 12:07:12                                    1       
+</code></pre>
+<ul>
+<li>job-ID: the ID number of the job, useful to kill the job</li>
+<li>prior: priority of the job. The higher a job's priority value, the earlier it gets dispatched.</li>
+<li>name: the name of the job you submitted with <code>qsub</code></li>
+<li>user: the user name of the owner of the job</li>
+<li>state(s):
+<ul>
+<li><code>q</code>: queued</li>
+<li><code>w</code>: waiting</li>
+<li><code>s</code>: suspended</li>
+<li><code>r</code>: running</li>
+<li><code>e</code>: error</li>
+</ul>
+</li>
+<li>submit/start at: the date the job was submitted</li>
+<li>queue: the name of the queue the job is using (defined with <code>qsub</code>)</li>
+<li>slots: the number of slot the job is taking.</li>
+<li>ja-task-ID -- The job array task ID</li>
+</ul>
+<p>Specifies a full format display of information:</p>
+<pre><code>qstat -f
+</code></pre>
+<p>See jobs owned by the user <code>$USER</code>:</p>
+<pre><code>qstat | grep $USER
+</code></pre>
+<p>See a specific job status with a given job-ID <code>&lt;job-ID&gt;</code>:</p>
+<pre><code>qstat -j &lt;job-ID&gt;
+</code></pre>
+<p>To delete Grid Engine job with a given job-ID <code>&lt;job-ID&gt;</code> from queues:</p>
+<pre><code>qdel -j &lt;job-ID&gt;
+</code></pre>
+<h2 id="queue-information">Queue information</h2>
+<p>This command displays a list of available queues in a cluster:</p>
+<pre><code>qconf -sql
+</code></pre>
+<p>This command shows the status of Grid Engine hosts, queues, jobs</p>
+<pre><code>qhost
+</code></pre>
+<p>To manage the queues of the system, we use <code>qconf</code>. Let's print information about the queue named <code>&lt;queue&gt;</code></p>
+<pre><code>qconf -sq &lt;queue&gt;
+</code></pre>
+<p>Finally, this <code>qstat</code> command displays a cluster queue summary:</p>
+<pre><code>qstat -g c
+</code></pre>
+<p>It returns:</p>
+<pre><code>CLUSTER QUEUE                   CQLOAD   USED    RES  AVAIL  TOTAL aoACDS  cdsuE  
+--------------------------------------------------------------------------------
+cemeb.q                           0.70     64      0     39    104      8      0 
+cemeb20.q                         1.17    121      0     20    176     40     48 
+mbb.q                             0.00      0      0     40     40      0      0 
+mem.q                             0.08      3      0     37     40      0      0 
+</code></pre>
+<ul>
+<li>CLUSTER QUEUE: the cluster queue name.</li>
+<li>CQLOAD:  an average of the normalized load average of all queue hosts.</li>
+<li>USED: the number of currently used slots.</li>
+<li>RES: the number of slots reserved in advance.</li>
+<li>AVAIL: the number of currently available slots.</li>
+<li>TOTAL:  the total number of slots.</li>
+<li>aoACDS: the number of slots which is in at least one of the states <code>aoACDS</code>
+<ul>
+<li><code>a</code>: Load threshold alarm</li>
+<li><code>o</code>: Orphaned</li>
+<li><code>A</code>: Suspend threshold alarm</li>
+<li><code>C</code>: Suspended by calendar</li>
+<li><code>D</code>: Disabled by calendar</li>
+</ul>
+</li>
+<li>cdsuE: the number of slots which are in one of these states or in any combination of them: <code>cdsuE</code>
+<ul>
+<li><code>c</code>: Configuration ambiguous</li>
+<li><code>d</code>: Disabled</li>
+<li><code>s</code>: suspended</li>
+<li><code>u</code>: Unknown</li>
+<li><code>E</code>: Error</li>
+</ul>
+</li>
+</ul>
+<hr />
+
+  <hr>
+</div>
+
+
+    <br>
+    <br>
+
+    <div class="footer">
+      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+      <br>
+    </div>
+
+  </body>
+
+
+
+</html>
