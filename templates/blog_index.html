@@ -2,10 +2,8 @@
 
 {% block content %}
 <div class="post">
-  <h1 class="post-title">Latest</h1>
-</div>
+  <h1 class="page-title">Latest</h1>
 
-<div >
   {% for page in section.pages %}
     <div class="post-preview">
       <h2 class="post-title">
@@ -13,7 +11,7 @@
           {{ page.title }}                
         </a>
       </h2>
-        <h5 class="post-title">
+        <h4 class="post-title">
                   
           <div class="tags-article">              
             <ul>
@@ -27,7 +25,7 @@
               <li class="post-date">  {{ page.date | date(format="%B %eth, %Y") }} </li>
             </ul>    
           </div>               
-        </h5>
+        </h4>
               
     <hr>
     </div>
@@ -37,3 +35,4 @@
   {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
 </div>
 {% endblock content %}
+<br>

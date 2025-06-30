@@ -7,18 +7,20 @@
   {{ term.name ~ " Articles" }}
 {% endblock header_title %}
 
+
 {% block content %}
+<div class="post">
+  <h1 class="page-title">{{ term.name | capitalize }}</h1>
   {% set section = term %}
-  <div>
     {% for page in section.pages %}
-    <div class="post">
+    <div class="post-preview">      
       <h2 class="post-title">
         <a href="{{ page.permalink }}">
           {{ page.title }}                
         </a>
       </h2>
 
-      <h5 class="post-title">
+      <h4 class="post-title">
         <div class="tags-article">              
           <ul>
           {% if page.taxonomies.tags %} 
@@ -31,10 +33,11 @@
           <li class="post-date">  {{ page.date | date(format="%B %eth, %Y") }} </li>
           </ul>     
         </div>              
-        </h5>
+      </h4>
                             
     <hr>
     </div>
     {% endfor %}
-  </div>
-{% endblock %}}
+</div>
+{% endblock %}
+<br>
