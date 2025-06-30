@@ -4,10 +4,9 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
   color: colours.$title_colour;
-  line-height: 1.25;
   text-rendering: optimizeLegibility;
   font-family: fonts.$main_font;
 }

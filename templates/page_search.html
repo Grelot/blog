@@ -2,24 +2,25 @@
 {% block content %}
 
 <div class="post">
-  <h1 class="post-title">Need a new search?</h1>
+  <h1 class="page-title">Need a new search?</h1>
   If you didn't find what you were looking for, try a new search!
-</div>
-<div class="search-container">
-  <form role="search" onsubmit="return false;" class="search-form">
-    <input
-      id="search"
-      type="search"
-      class="search-input"
-      placeholder="Search..."
-      autocomplete="off"
-      aria-label="Search the site"
-    />
-  </form>
+
+  <div class="search-container">
+    <form role="search" onsubmit="return false;" class="search-form">
+      <input
+        id="search"
+        type="search"
+        class="search-input"
+        placeholder="Search..."
+        autocomplete="off"
+        aria-label="Search the site"
+      />
+    </form>
 
 
-  <div class="search-results">
-    <ul class="search-results__items"></ul>
+    <div class="search-results">
+      <ul class="search-results__items"></ul>
+    </div>
   </div>
 </div>
 

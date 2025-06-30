@@ -8,20 +8,35 @@
 .page,
 .post,
 .post-preview {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  max-width: 81ch;
+  margin: 0 auto 4rem auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (max-width: 640px) {  // smartphone
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 41ch;
+  }
+}
+
+.post-preview {
+  margin-bottom: 1rem;
 }
 
 /* Blog post or page title */
 .page-title,
 .post-title,
 .post-title a {
-  color: colours.$main_colour;
+  color: colours.$title_colour;
 }
 .page-title,
 .post-title {
-  margin-top: 0;
+  margin-top: 0;  
+}
+
+.page-title {
+  margin-bottom: 2rem;
 }
 
 /* Meta data line below post title */
