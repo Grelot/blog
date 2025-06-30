@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Disk management on linux"
+title = "Disk management on Linux"
 date =  2019-07-27
 draft = false
 description="Commands such as checking, adding or removing storage devices, creating and deleting partitions."

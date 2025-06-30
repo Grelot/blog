@@ -5,7 +5,7 @@ date =  2021-08-12
 draft = false
 description= "This is a lesson series about how to get a research position in industry by making a great resume."
 [taxonomies]
-tags = ["tech"]
+tags = ["career"]
 +++
 
 The resume is the first thing the recruiter will read about you. I revised my resume multiple times already and continue to sharpen it. Here I describe the structure and overall basics tips to make a competitive resume.

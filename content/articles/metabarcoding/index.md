@@ -5,7 +5,7 @@ date =  2019-02-09
 draft = false
 description = "Next-generation sequencing of environmental barcodes-DNA."
 [taxonomies]
-tags = ["omics"]
+tags = ["omics", "biotech"]
 +++
 
 

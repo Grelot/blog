@@ -19,10 +19,9 @@ _______________________________________________________________________________
 
 <div class="timeline-item" date-is='Jul 2021 to present'>
     <h3>Bioinformatician</h3>
-    <h6>FLORIMOND DESPREZ GROUP Research Unit, Cappelle-en-Pevele</h6> 
+    <h6>Florimond Desprez Group Research Unit, Cappelle-en-Pevele</h6> 
     <p>            
-        I bring my skills and support to the field crops selection department by improving or designing methods to process
-        omics data.
+    Develop and optimise software, workflows and database to support plant and molecular breeders in the analysis and interpretation of their data.
     </p> 
         <mark>python</mark>
         <mark>SQL</mark>            
@@ -39,7 +38,7 @@ _______________________________________________________________________________
     <h3>Bioinformatician</h3>
     <h6>CNRS Research Unit 5175, Center of Functional Ecology and Evolution, Montpellier</h6> 
     <p>            
-        I develop softwares for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA). I also ensure technology watch to implement new data processing methods and optimize scientific reproducibility.
+        Develop and optimise software, workflows and database to support marine biologist for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA).
     </p> 
         <mark>python</mark>            
         <mark>R</mark>
@@ -54,7 +53,7 @@ _______________________________________________________________________________
     <h3>Bioinformatics internship</h3>
     <h6>INSERM Research Unit S598, Genetics of Diabetes, Paris</h6>
     <p>
-        I developed and integrated a functionnality and its graphical interface to a medical software. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data.
+        Developed a module and its interface for a medical application. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data.
     </p>
         <mark>SQL</mark>
         <mark>python</mark>            
@@ -64,7 +63,7 @@ _______________________________________________________________________________
     <h3>Bioinformatics internship</h3>
     <h6>INSERM Research Unit S1134, Dynamics of Structures and Interactions of Macromolecules in Biology, Paris</h6>
     <p>
-        Improvement and implementation of an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
+        Optimise an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
     </p>
         <mark>C</mark>            
         <mark>python</mark>
@@ -76,6 +75,9 @@ _______________________________________________________________________________
 * **2014: Licence in Bioinformatics**, Université Paris Diderot, France
 
 _______________________________________________________________________________
+
+<br>
+<br>
 
 # Projects
 

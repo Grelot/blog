@@ -15,7 +15,7 @@ It is multidisciplinary, bringing together biologists, computer scientists, math
 
 ## Missions
 
-In FLORIMOND DESPREZ GROUP, the missions of the bioinformatician are the following:
+In Florimond Desprez Group, the missions of the bioinformatician are the following:
 
 ###  Implement bioinformatics solution
 

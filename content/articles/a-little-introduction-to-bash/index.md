@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "A little introduction to BASH (Born Again Shell)"
+title = "A little introduction to BASH (Born Again SHell)"
 date =  2017-06-23
 draft = false
 in_search_index = true
