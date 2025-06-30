@@ -1,29 +1,33 @@
 .tags-article {
   min-height: 0.5rem;
-  display: flex;
   display: inline-block;
-  font-size: 0.85rem;
   ul {
-    margin-left: -2.25rem;
+    margin-left: -2rem;
     margin-bottom: 0rem;
+    overflow: visible;
   }
   li {
-    display: inline-flex;
-    overflow: hidden;
+    display: inline-flex;    
+    overflow: visible;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-right: 0.25rem;
+    margin-right: 0.25rem;
+    transition: transform 0.1s ease;
     a {
       color: #f9f9f9;
       display: block;
       overflow: hidden;
-      padding: 0.25rem;
       text-overflow: ellipsis;
       text-decoration: none;
-
-      a:hover {
-        border: solid #f9f9f9;
-        border-width: medium;        
-      }       
+      transition: transform 0.1s ease;
+      padding: 0.25rem;
     }
+    a:hover, a:active {
+      transform: scale(1.1);
+    }    
+  }
+  li:hover, li:active {
+    transform: scale(1.1);
   }
 }

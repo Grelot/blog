@@ -16,12 +16,12 @@
     font-weight: 300;
   }
   mark {
-   display: inline-block;        // pour que le mark ait la taille du contenu
-   padding: 0.1rem 0.1rem;       // plus d'espace horizontal
-   margin-right: 0.1rem;         // espacement entre les bulles
+   display: inline-block;
+   padding: 0.1rem 0.1rem;
+   margin-right: 0.1rem;
    color: colours.$anti_colour;
    background-color: colours.$secondary_colour;
-   white-space: nowrap;          // éviter le retour à la ligne dans la bulle
+   white-space: nowrap;
    }
 	&::before {
 		content: attr(date-is);

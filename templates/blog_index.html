@@ -4,7 +4,7 @@
 <div class="post">
   <h1 class="post-title">Latest</h1>
 </div>
-<hr>
+
 <div >
   {% for page in section.pages %}
     <div class="post-preview">
@@ -13,21 +13,21 @@
           {{ page.title }}                
         </a>
       </h2>
-        <h2 class="post-title">
-        {% if page.taxonomies.tags %} 
-            <span class="tags-article">              
-            <ul>  
-              {% for tag in page.taxonomies.tags %}                        
-              <li style="background: {{ config.extra.tags_colour[tag] }}">
-                <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
-              </li> 
-              {% endfor %}
-            
-              {% endif %} 
+        <h5 class="post-title">
+                  
+          <div class="tags-article">              
+            <ul>
+              {% if page.taxonomies.tags %} 
+                {% for tag in page.taxonomies.tags | sort %}                        
+                <li style="background: {{ config.extra.tags_colour[tag] }}">
+                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
+                </li> 
+                {% endfor %}
+              {% endif %}        
               <li class="post-date">  {{ page.date | date(format="%B %eth, %Y") }} </li>
-            </ul>     
-          </span>              
-        </h2>
+            </ul>    
+          </div>               
+        </h5>
               
     <hr>
     </div>
