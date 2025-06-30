@@ -58,3 +58,7 @@ links = [
 tech = "#f39c12"
 sciences = "#e74c3c"
 omics = "#27ae60"
+biotech = "#d8519f"
+career = "#0c63ed"
+data-sciences = "#18b3c3"
+data-engineering = "#ff4901"
