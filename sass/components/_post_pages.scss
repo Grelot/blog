@@ -9,7 +9,7 @@
 .post,
 .post-preview {
   max-width: 81ch;
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 2rem auto;
   padding-left: 2rem;
   padding-right: 2rem;
 
@@ -40,13 +40,13 @@
 }
 
 /* Meta data line below post title */
-.post-date {
+.post-info {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: colours.$main_colour;
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 100;
+
 }
 
 

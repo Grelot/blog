@@ -6,11 +6,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
-  padding: 4rem 4rem 8rem 4rem;
+  padding: 4rem 4rem 4rem 4rem;
   flex-wrap: nowrap;
 
   @media (max-width: 640px) {  // smartphone
-    padding: 2rem 2rem 8rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
 }
 

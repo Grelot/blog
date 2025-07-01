@@ -13,7 +13,7 @@
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: fonts.$main_font;
-  color: #ccc;
+  color: colours.$shadow_colour;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 1px solid colours.$shadow_colour;;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -29,7 +29,7 @@
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: colours.$highlight_colour;
 }
 
 @media (min-width: 30em) {
