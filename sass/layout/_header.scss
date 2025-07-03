@@ -10,6 +10,12 @@
   background-color: colours.$main_colour;
   color: colours.$anti_colour;
 
+  background-image:
+    linear-gradient(to top, colours.$main_colour 45%, rgba(0,0,0,0)),
+    url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Wellcome_genome_bookcase.png/686px-Wellcome_genome_bookcase.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .site-title {
@@ -18,5 +24,11 @@
   margin: 0;
   font-size: 1.5rem;
   text-align: left;
-  padding: 2.5rem 0 1.5rem 1.5rem;
+  padding: 4rem 0 2rem 2rem;
+
+   @media (max-width: 640px) {  // smartphone    
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem 0 2rem 0rem;
+   }
 }
