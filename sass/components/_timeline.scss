@@ -1,58 +1,72 @@
 @use '../base/colours';
 
 /* the timeline */
-
-
-.timeline-item {
+.timeline-entry {
+  margin-top: 4rem;
   margin-left: 1rem;
-	padding: 0.5rem 0.5rem 0.5rem;
-	position: relative;
-	color:  colours.$main_colour;
-	border-left: 2px solid colours.$border-time-color;
-	
-  h6 {
-    color: colours.$main_colour;
-    margin-top: -0.5rem;
-    font-weight: 300;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+
+  .timeline-date {
+    position: relative;
+    font-size: 0.9rem;
+    color: colours.$darkshadow_colour;
+	margin-bottom: -1.5rem;
+	margin-top: -1.5rem;
+
+    &::before {
+      content: '';
+	  display: inline-block;
+      width: 12px;
+      height: 12px;	  
+	  margin-left: -0.45rem;
+	  margin-right: 1.05rem;
+      border-radius: 50%;
+      background-color: colours.$secondary_colour;
+      border: 2px solid colours.$secondary_colour;
+    }
   }
-  mark {
-   display: inline-block;
-   padding: 0.1rem 0.1rem;
-   margin-right: 0.1rem;
-   color: colours.$anti_colour;
-   background-color: colours.$secondary_colour;
-   white-space: nowrap;
-   }
-	&::before {
-		content: attr(date-is);
-		position: absolute;
-		left: 0.5rem;
-		font-weight: bold;
-		top: 0.5rem;
-		display: block;
-		font-weight: 700;
-		font-size: .785rem;
-	}
 
-	&::after {
-		width: 10px;
-		height: 10px;
-		display: block;
-		top: 0.5rem;
-		position: absolute;
-		left: -7px;
-		border-radius: 10px;
-		content: '';
-		border: 2px solid colours.$border-time-color;
-		background: white;
-	}
+  .timeline-item {
+    position: relative;
+    padding-left: 1.5rem;
+	padding-bottom: 4rem;
+    border-left: 2px solid colours.$darkshadow_colour;
+    flex: 1;
+    color: colours.$main_colour;
 
-	&:last-child {
-		border-image: linear-gradient(
-			to bottom,
-			colours.$border-time-color 60%,
-			rgba(colours.$border-time-color, 0)) 1 100%
-		;
+	    h3 {
+			margin-top: -0.1rem;
+		}
+
+		h5 {
+			margin-top: -0.5rem;
+			font-weight: 400;
+		}
+		
+		h6 {
+			font-weight: 200;
+			font-style: italic;
+			color: colours.$darkshadow_colour;
+			font-size: 0.9rem;	
+		}
+
+		mark {
+			display: inline-block;
+			padding-left: clamp(4px, 0.1rem, 100vw);
+			padding-right: clamp(4px, 0.1rem, 100vw);
+			padding-top: 0.1rem;
+			padding-bottom: 0.1rem;
+			margin-right: 0.1rem;
+			margin-bottom: 0.1rem;
+			color: colours.$anti_colour;
+			background-color: colours.$secondary_colour;
+			white-space: nowrap;
+			border-radius: 5%;
+		}
 	}
 }
 

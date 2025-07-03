@@ -15,64 +15,60 @@ tags = ["resume"]
 _______________________________________________________________________________
 
 ## Experience
-
-
-<div class="timeline-item" date-is='Jul 2021 to present'>
+<div class="timeline-entry">
+  <div class="timeline-date">July 2021 to present</div>
+  <div class="timeline-item">
     <h3>Bioinformatician</h3>
-    <h6>Florimond Desprez Group Research Unit, Cappelle-en-Pevele</h6> 
-    <p>            
-    Develop and optimise software, workflows and database to support plant and molecular breeders in the analysis and interpretation of their data.
-    </p> 
-        <mark>python</mark>
-        <mark>SQL</mark>            
-        <mark>R</mark>
-        <mark>C++</mark>
-        <mark>Docker</mark>
-        <mark>Nextflow</mark>
-        <mark>Azure cloud</mark>
-        <mark>Databricks</mark>
-        <mark>Elastic stack</mark>
+    <h5>Florimond Desprez Group Research Unit</h5>
+    <h6>Cappelle-en-Pévèle, France</h6>
+    <p>
+      Developed and optimised software, workflows, and databases to support plant and molecular breeders in analyzing and interpreting their data.
+    </p>
+      <mark>Python</mark><mark>SQL</mark><mark>R</mark><mark>C++</mark><mark>Docker</mark>
+      <mark>Nextflow</mark><mark>Azure</mark><mark>Databricks</mark><mark>Elastic Stack</mark>
+  </div>
+
+  <div class="timeline-date">January 2017 to July 2021</div>
+  <div class="timeline-item">
+    <h3>Bioinformatician</h3>
+    <h5>CNRS Research Unit 5175, Center of Functional Ecology and Evolution</h5>
+    <h6>Montpellier, France</h6>
+    <p>
+      Developed and optimised pipelines and tools to help marine biologists analyze and visualize high-throughput sequencing data (genomics, metagenomics, environmental DNA).
+    </p>
+      <mark>Python</mark><mark>R</mark><mark>C++</mark><mark>Singularity</mark><mark>Snakemake</mark>
+      <mark>Jupyter</mark><mark>SGE</mark><mark>SLURM</mark>
+  </div>
+
+  <div class="timeline-date">January to August 2016</div>
+  <div class="timeline-item">
+    <h3>Bioinformatics Internship</h3>
+    <h5>INSERM Unit S598, Genetics of Diabetes</h5>
+    <h6>Paris, France</h6>
+    <p>
+      Developed a module and user interface for a medical app to detect and annotate rare variants in human genome sequences related to diabetes.
+    </p>
+      <mark>SQL</mark><mark>Python</mark><mark>Qt</mark>
+  </div>
+
+  <div class="timeline-date">January to June 2015</div>
+  <div class="timeline-item">
+    <h3>Bioinformatics Internship</h3>
+    <h5>INSERM Unit S1134, Macromolecular Biology</h5>
+    <h6>Paris, France</h6>
+    <p>
+      Optimised an algorithm to predict protein 3D structure at atomic resolution.
+    </p>
+      <mark>C</mark><mark>Python</mark>
+  </div>
 </div>
 
-<div class="timeline-item" date-is='Feb 2017 to Jul 2021'>
-    <h3>Bioinformatician</h3>
-    <h6>CNRS Research Unit 5175, Center of Functional Ecology and Evolution, Montpellier</h6> 
-    <p>            
-        Develop and optimise software, workflows and database to support marine biologist for the analysis and visualization of data from high-throughput DNA sequencing (genomics, metagenomics, environmental DNA).
-    </p> 
-        <mark>python</mark>            
-        <mark>R</mark>
-        <mark>C++</mark>
-        <mark>Singularity</mark>
-        <mark>Snakemake</mark>
-        <mark>Jupyter notebook</mark>
-        <mark>SGE</mark>
-        <mark>SLURM</mark>
-</div>	
-<div class="timeline-item" date-is='Jan to Aug 2016'>
-    <h3>Bioinformatics internship</h3>
-    <h6>INSERM Research Unit S598, Genetics of Diabetes, Paris</h6>
-    <p>
-        Developed a module and its interface for a medical application. It aims to detect and annotate rare genetic variants related to diabetes on human genome sequence data.
-    </p>
-        <mark>SQL</mark>
-        <mark>python</mark>            
-        <mark>Qt</mark>
-</div>	
-<div class="timeline-item" date-is='Feb to June 2015'>
-    <h3>Bioinformatics internship</h3>
-    <h6>INSERM Research Unit S1134, Dynamics of Structures and Interactions of Macromolecules in Biology, Paris</h6>
-    <p>
-        Optimise an algorithm to predict 3D-modelisation of protein structure at atomic resolution.
-    </p>
-        <mark>C</mark>            
-        <mark>python</mark>
-</div>
+
 	
 ## Education
 
-* **2016: M.Sc. in Bioinformatics**, Université Paris Diderot, France
-* **2014: Licence in Bioinformatics**, Université Paris Diderot, France
+* **2016: M.Sc. in Bioinformatics**, Paris University, France
+* **2014: Licence in Bioinformatics**, Paris University, France
 
 _______________________________________________________________________________
 
@@ -81,7 +77,7 @@ _______________________________________________________________________________
 
 # Projects
 
-## FLORIMOND DESPREZ Group
+## Florimond Desprez Group
 
 My projects for the company are **confidentials**. Please contact me for more information.
 
