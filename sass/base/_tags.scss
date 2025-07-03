@@ -5,7 +5,7 @@
   display: inline-block;
   ul {
     margin-left: -2rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     overflow: visible;
   }
   li {
@@ -15,6 +15,7 @@
     white-space: nowrap;
     border-radius: 5%;
     margin-right: 0.25rem;
+    margin-bottom: 0.1rem;
     padding: 0.2rem 0.25rem;
     transition: transform 0.1s ease;
     a {
