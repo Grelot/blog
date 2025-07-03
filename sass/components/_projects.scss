@@ -3,6 +3,7 @@
  * box projects into markdown
  *
  */
+@use '../base/colours';
 
  .all_proj {
   display: grid;
@@ -32,10 +33,9 @@
 
 
 .project {
-  background-color: #fff;
+  background-color: colours.$anti_colour;
   border: solid;
-  color: #2c3e50;
-  border: 1px solid #ecf0f1;
+  border: 1px solid colours.$lightshade_colour;
   padding: 1rem 1rem;
   text-align: left;
   text-decoration: none;
@@ -54,27 +54,23 @@
 }
 
 .project:hover {
-  background-color: #ecf0f1;
+  background-color: colours.$lightshade_colour;
 }
 
 .project .title {
   font-weight: 600;
-  color: #2c3e50;
 }
 
 .project .description {
-  color: #2c3e50;
   font-size: small;
 }
 
 .project .skills {
-  color: #2c3e50;
   font-size: small;
   font-style: italic;
 }
 
 .project .duration {
-  color: #2c3e50;
   font-size: small;
   position: absolute;
   bottom: 1rem;

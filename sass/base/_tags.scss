@@ -1,3 +1,5 @@
+@use 'colours';
+
 .tags-article {
   min-height: 0.5rem;
   display: inline-block;
@@ -15,7 +17,7 @@
     padding: 0.25rem 0.25rem;
     transition: transform 0.1s ease;
     a {
-      color: #f9f9f9;
+      color: colours.$anti_colour;
       display: block;
       overflow: hidden;
       text-overflow: ellipsis;
