@@ -13,8 +13,9 @@
     overflow: visible;
     text-overflow: ellipsis;
     white-space: nowrap;
+    border-radius: 5%;
     margin-right: 0.25rem;
-    padding: 0.25rem 0.25rem;
+    padding: 0.2rem 0.25rem;
     transition: transform 0.1s ease;
     a {
       color: colours.$anti_colour;
