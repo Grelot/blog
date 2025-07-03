@@ -24,8 +24,15 @@ _______________________________________________________________________________
     <p>
       Developed and optimised software, workflows, and databases to support plant and molecular breeders in analyzing and interpreting their data.
     </p>
-      <mark>Python</mark><mark>SQL</mark><mark>R</mark><mark>C++</mark><mark>Docker</mark>
-      <mark>Nextflow</mark><mark>Azure</mark><mark>Databricks</mark><mark>Elastic Stack</mark>
+      <mark>Python</mark>
+      <mark>SQL</mark>
+      <mark>R</mark>
+      <mark>C++</mark>
+      <mark>Docker</mark>
+      <mark>Nextflow</mark>
+      <mark>Azure</mark>
+      <mark>Databricks</mark>
+      <mark>Elastic Stack</mark>
   </div>
 
   <div class="timeline-date">January 2017 to July 2021</div>
@@ -36,8 +43,14 @@ _______________________________________________________________________________
     <p>
       Developed and optimised pipelines and tools to help marine biologists analyze and visualize high-throughput sequencing data (genomics, metagenomics, environmental DNA).
     </p>
-      <mark>Python</mark><mark>R</mark><mark>C++</mark><mark>Singularity</mark><mark>Snakemake</mark>
-      <mark>Jupyter</mark><mark>SGE</mark><mark>SLURM</mark>
+      <mark>Python</mark>
+      <mark>R</mark>
+      <mark>C++</mark>
+      <mark>Singularity</mark>
+      <mark>Snakemake</mark>
+      <mark>Jupyter</mark>
+      <mark>SGE</mark>
+      <mark>SLURM</mark>
   </div>
 
   <div class="timeline-date">January to August 2016</div>
@@ -48,7 +61,9 @@ _______________________________________________________________________________
     <p>
       Developed a module and user interface for a medical app to detect and annotate rare variants in human genome sequences related to diabetes.
     </p>
-      <mark>SQL</mark><mark>Python</mark><mark>Qt</mark>
+      <mark>SQL</mark>
+      <mark>Python</mark>
+      <mark>Qt</mark>
   </div>
 
   <div class="timeline-date">January to June 2015</div>
@@ -59,7 +74,8 @@ _______________________________________________________________________________
     <p>
       Optimised an algorithm to predict protein 3D structure at atomic resolution.
     </p>
-      <mark>C</mark><mark>Python</mark>
+      <mark>C</mark>
+      <mark>Python</mark>
   </div>
 </div>
 
