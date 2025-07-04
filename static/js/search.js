@@ -130,6 +130,10 @@ function formatSearchResultItem(item, terms) {
 
 function initSearch() {
   var $searchInput = document.getElementById("search");
+  if (!$searchInput) {
+    // This page doesn't have the search input, skip initialization
+    return;
+  }
   var $searchResults = document.querySelector(".search-results");
   var $searchResultsItems = document.querySelector(".search-results__items");
   var MAX_ITEMS = 10;
