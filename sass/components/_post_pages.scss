@@ -42,18 +42,16 @@
 /* Meta data line below post title */
 .post-info {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: colours.$darkshadow_colour;
   font-weight: 100;
+  font-size: 0.8rem;
   text-align: center;
 
 }
 
-
-
 .post-preview:hover {
-  background-color: colours.$lightshade_colour;  // couleur gris clair au survol
+  background-color: colours.$shadow_colour;
 }
 
 
