@@ -6,27 +6,26 @@
 
   {% for page in section.pages %}
     <div class="post-preview">
-      <h2 class="post-title">
+
+      <h2 class="post-preview-title">
         <a href="{{ page.permalink }}">
           {{ page.title }}                
         </a>
       </h2>
-        <h4 class="post-title">
-                  
-          <div class="tags-article">              
-            <ul>
-              {% if page.taxonomies.tags %} 
-                {% for tag in page.taxonomies.tags | sort %}                        
-                <li style="background: {{ config.extra.tags_colour[tag] }}">
-                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
-                </li> 
-                {% endfor %}
-              {% endif %}        
-              <li class="post-preview-info">  {{ page.date | date(format="%B %-d, %Y") }} </li>
-            </ul>    
-          </div>               
-        </h4>
-              
+           
+      <div class="tags-article">
+        <ul>
+          {% if page.taxonomies.tags %} 
+            {% for tag in page.taxonomies.tags | sort %}
+            <li style="background: {{ config.extra.tags_colour[tag] }}">
+              <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
+            </li> 
+            {% endfor %}
+          {% endif %}        
+          <li class="post-preview-info">  {{ page.date | date(format="%B %-d, %Y") }} </li>
+        </ul>    
+      </div>
+
     <hr>
     </div>
   {% endfor %}

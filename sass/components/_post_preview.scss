@@ -1,0 +1,42 @@
+@use '../base/colours';
+/*
+ * preview of posts in blog_index
+ */
+
+.post-preview {
+  max-width: 81ch;
+  margin: 0 auto 1rem auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (max-width: 640px) {  // smartphone
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 41ch;
+  }
+  &:hover,
+  &:focus {
+    background-color: colours.$shadow_colour;
+  }
+}
+
+.post-preview-title,
+.post-preview-title a {
+    color: colours.$title_colour;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+}
+
+.post-preview-info {
+  display: block;
+  margin-bottom: 2rem;
+  color: colours.$darkshadow_colour;
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-align: center;
+
+}
+
+
+

@@ -5,8 +5,8 @@
   display: inline-block;
   font-size: 0.9rem;
   ul {
-    margin-left: -2.25rem;
-    margin-top: -0.25rem;
+    margin-left: 0;
+    padding-left: 0;
     margin-bottom: 1rem;
     overflow: visible;
   }
@@ -14,9 +14,8 @@
     display: inline-flex;
     overflow: visible;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    border-radius: 5%;
-    margin-right: 0.1rem;
+    white-space: nowrap;    
+    border-radius: 5%;    
     margin-bottom: 0.1rem;
 		padding-left: clamp(4px, 0.1rem, 100vw);
 		padding-right: clamp(4px, 0.1rem, 100vw);
@@ -29,6 +28,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       text-decoration: none;
+      font-weight: 600;
       transition: transform 0.1s ease;
     }
     a:hover, a:active {
