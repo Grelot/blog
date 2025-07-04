@@ -8,7 +8,7 @@ tags = ["resume"]
 
 
 
-* [E-mail contact](mailto:pierre.edouard.guerin@gmail.com)
+* [E-mail contact](mailto:pierre-edouard.guerin@groupefd.com)
 * [Linkedin profile](https://www.linkedin.com/in/pierre-edouard-guerin/)
 * [ORCiD profile](https://orcid.org/0000-0001-7909-3729)
 
