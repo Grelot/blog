@@ -26,7 +26,38 @@
       <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
       <meta name="twitter:image" content="{{ config.base_url }}/avatar.png" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist specializing in data engineering, genetics, and biotechnology. Developer of innovative software and workflows for omics data analysis in industrial crop breeding."
+      }
+      </script>
 
       <!-- CSS -->
       <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}" />      
