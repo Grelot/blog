@@ -1,4 +1,4 @@
-<html lang=""> 
+<html lang="en"> 
   <head>      
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,10 +10,11 @@
 
       <!-- Open Graph -->
       <meta property="og:title" content="Pierre-Edouard GUERIN" />
-      <meta property="og:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
-      <meta property="og:image" content="{{ config.base_url }}/avatar.png" />
+      <meta property="og:description" content="Computer science, machine learning, omics data analysis, computational biology, bioinformatics pipelines, data integration, systems biology." />      <meta property="og:image" content="{{ config.base_url }}/avatar.png" />
+      <meta property="og:image:alt" content="Pierre-Edouard Guerin Bioinformatician Data Scientist Profile Avatar" />
       <meta property="og:url" content="https://guerinpe.com" />
       <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
 
       <!-- Twitter Card -->
       <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
@@ -21,7 +22,6 @@
       <meta name="twitter:image" content="{{ config.base_url }}/avatar.png" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />      
-
 
       <!-- CSS -->
       <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}" />      
@@ -60,11 +60,13 @@
     <br>
     
     {% block content %}
-    <div class="profile-card">
+    <div class="profile-card">      
       <div class="profile-card-left">
         <div class="profile-card-rect">
+          <h1>{{ config.title }}</h1>
+          <h2><a href={{config.extra.job_url}}>{{config.description}}</a></h2>
           <div class="profile-card-img-container">
-            <img src="{{config.base_url}}/avatar.png" />
+            <img src="{{config.base_url}}/avatar.png" alt="Pierre-Edouard Guerin Bioinformatician Data Scientist Profile Avatar"/>
           </div>
           <div class="profile-card-brands">
             {% block nav_brand %}

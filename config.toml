@@ -5,6 +5,7 @@
 # my domain
 base_url = "https://guerinpe.com"
 title = "Pierre-Edouard Guerin"
+description = "Bioinformatician Florimond Desprez"
 
 
 # The default language, used in RSS
@@ -46,6 +47,7 @@ feed = true
 # Put all your custom variables here
 
 webmail = "pierre-edouard.guerin@groupefd.com"
+job_url = "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
 
 links = [
     {url = "https://www.linkedin.com/in/pierre-edouard-guerin", name = "linkedin"},

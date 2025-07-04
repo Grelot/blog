@@ -26,12 +26,15 @@
 .profile-card-right  {
   flex: 1 1 auto;
   min-width: 0;
-  p {    
+}
+.profile-card-right p {    
     overflow-wrap: break-word;
     word-wrap: break-word;
     max-width: 100%;
-  }
 }
+
+
+
 
 @media (max-width: 640px) {
    .profile-card {
@@ -52,7 +55,25 @@
   padding: 1rem;
   width: fit-content;
   text-align: center;
+  
 }
+.profile-card-rect h1 {
+    color: colours.$main_colour;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0.5rem;
+}
+.profile-card-rect h2 {
+    color: colours.$secondary_colour;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 0;
+    margin: 0.5rem;
+}
+.profile-card-rect a {
+    font-size: 0.9rem;
+}
+
 
 .profile-card-img-container {
   background: white;
