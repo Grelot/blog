@@ -17,16 +17,17 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: .9rem;
   line-height: 1.4;
   overflow-x: hidden;
   background-color: colours.$lightshade_colour;
+  border-radius: 5px;
 }
 pre code {
   padding: 0;
   font-size: 100%;
-  color: inherit;
-  background-color: colours.$lightshade_colour;
+  color: colours.$main_colour;
+  background-color: colours.$lightshade_colour;  
 }
 .highlight {
   margin-bottom: 1rem;

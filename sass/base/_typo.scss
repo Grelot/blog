@@ -10,10 +10,14 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   font-family: fonts.$main_font;
 }
-h1 { font-size: 2.5rem; }
-h2 { margin-top: 1rem; font-size: 1.5rem; }
-h3 { margin-top: 1.5rem; font-size: 1.25rem; }
-h4, h5, h6 { margin-top: 1rem; font-size: 1rem; }
+h1 { 
+  font-size: 2.7rem;
+  text-align: center;
+ }
+h2 { margin-top: 1rem; font-size: 1.6rem; }
+h3 { margin-top: 1.5rem; font-size: 1.3rem; }
+h4 {  margin-top: 1rem; font-size: 1.1rem; }
+h5, h6 { margin-top: 1rem; font-size: 1rem; }
 
 p {
   margin-top: 0;
@@ -27,10 +31,10 @@ strong {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: colours.$main_colour;
-  border-left: .25rem solid colours.$lightshade_colour;
+  border-left: 0.25rem solid colours.$lightshade_colour;
 }
 blockquote p:last-child {
   margin-bottom: 0;
