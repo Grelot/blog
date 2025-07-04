@@ -3,8 +3,10 @@
 .tags-article {
   min-height: 0.5rem;
   display: inline-block;
+  font-size: 0.9rem;
   ul {
-    margin-left: -2rem;
+    margin-left: -2.25rem;
+    margin-top: -0.25rem;
     margin-bottom: 1rem;
     overflow: visible;
   }
@@ -14,9 +16,12 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     border-radius: 5%;
-    margin-right: 0.25rem;
+    margin-right: 0.1rem;
     margin-bottom: 0.1rem;
-    padding: 0.2rem 0.25rem;
+		padding-left: clamp(4px, 0.1rem, 100vw);
+		padding-right: clamp(4px, 0.1rem, 100vw);
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     transition: transform 0.1s ease;
     a {
       color: colours.$anti_colour;
