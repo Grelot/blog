@@ -23,6 +23,10 @@
 .post-preview {
   margin-bottom: 1rem;
 }
+.post-preview:hover {
+  background-color: colours.$shadow_colour;
+}
+
 
 /* Blog post or page title */
 .page-title,
@@ -40,19 +44,21 @@
 }
 
 /* Meta data line below post title */
-.post-info {
+.post-info,
+.post-preview-info {
   display: block;
   margin-bottom: 2rem;
   color: colours.$darkshadow_colour;
   font-weight: 100;
   font-size: 0.8rem;
   text-align: center;
-
 }
 
-.post-preview:hover {
-  background-color: colours.$shadow_colour;
+.post-preview-info {
+  font-size: 1rem;
 }
+
+
 
 
 /* Related posts */
