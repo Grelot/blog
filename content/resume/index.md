@@ -22,7 +22,7 @@ _______________________________________________________________________________
     <h5>Florimond Desprez Group Research Unit</h5>
     <h6>Cappelle-en-Pévèle, France</h6>
     <p>
-      Developed and optimised software, workflows, and databases to support plant and molecular breeders in analyzing and interpreting their data.
+      Developed and optimised software, workflows, and databases to support plant breeders in the analysis and interpretation of their data.
     </p>
       <mark>Python</mark>
       <mark>SQL</mark>
@@ -41,7 +41,7 @@ _______________________________________________________________________________
     <h5>CNRS Research Unit 5175, Center of Functional Ecology and Evolution</h5>
     <h6>Montpellier, France</h6>
     <p>
-      Developed and optimised pipelines and tools to help marine biologists analyze and visualize high-throughput sequencing data (genomics, metagenomics, environmental DNA).
+      Developed and optimised software and workflows to process DNA sequences data for the analysis of genetic populations of fishes.
     </p>
       <mark>Python</mark>
       <mark>R</mark>
@@ -59,7 +59,7 @@ _______________________________________________________________________________
     <h5>INSERM Unit S598, Genetics of Diabetes</h5>
     <h6>Paris, France</h6>
     <p>
-      Developed a module and user interface for a medical app to detect and annotate rare variants in human genome sequences related to diabetes.
+      Developed a module and user interface for a medical software to detect and annotate rare variants in human genome sequences related to diabetes.
     </p>
       <mark>SQL</mark>
       <mark>Python</mark>
