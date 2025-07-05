@@ -22,7 +22,7 @@ _______________________________________________________________________________
     <h5>Florimond Desprez Group Research Unit</h5>
     <h6>Cappelle-en-Pévèle, France</h6>
     <p>
-      Developed and optimised software, workflows, and databases to support plant breeders in the analysis and interpretation of their data.
+      Developed and optimised software, workflows, and databases to support plant breeders in the analysis and interpretation of omics data.
     </p>
       <mark>Python</mark>
       <mark>SQL</mark>
@@ -41,7 +41,7 @@ _______________________________________________________________________________
     <h5>CNRS Research Unit 5175, Center of Functional Ecology and Evolution</h5>
     <h6>Montpellier, France</h6>
     <p>
-      Developed and optimised software and workflows to process DNA sequences data for the analysis of genetic populations of fishes.
+      Processed DNA sequence data for population genetics studies of various fish species, enabling marine biologists to assess their conservation status.
     </p>
       <mark>Python</mark>
       <mark>R</mark>
