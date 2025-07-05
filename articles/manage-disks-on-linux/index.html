@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by the computational biologist Pierre-Edouard Guerin. His expertises lies into data engineering, machine learning, genetics, data visualization, biotechnology, population genomics.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics data, computational biology, bioinformatics, data visualization, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+
+
+  </head>
+  <body>
+    
+    <header class="header-container">
+      <div class="site-title"> Pierre-Edouard Guerin </div>
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume/">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+        <a href="https://guerinpe.com/search">Search</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">Disk management on Linux</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 2 min read · Published on July 27, 2019 
+  </div>
+  <hr>
+  <p>In this article, I resume some bash commands to check up or manage partitions on a linux system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc.</p>
+<span id="continue-reading"></span><h1 id="list-block-devices-lsblk">List block devices lsblk</h1>
+<p><code>lsblk</code> lists the different partitions and block devices in the system with their ids. The  command  prints all block devices (except RAM disks) in a tree-like format.</p>
+<pre><code>lsblk
+</code></pre>
+<h1 id="mount-a-disk">Mount a disk</h1>
+<p>We have to create a directory which will be the mount point for the device. The command <code>mount</code> mounts the device to the mount point.</p>
+<pre><code>sudo mkdir &#x2F;{your directory name here}
+sudo mount &#x2F;dev&#x2F;{specific device id} &#x2F;{your directory name here that is already created}
+</code></pre>
+<h1 id="unmount-a-disk">unmount a disk</h1>
+<p><code>umount</code> command unmounts any mounted filesystem on your system. It requires disk name or mount point name to unmount currently mounted disk.</p>
+<pre><code>sudo umount &#x2F;dev&#x2F;sdb
+</code></pre>
+<h1 id="permanently-mount-a-disk">Permanently mount a disk</h1>
+<p>Set the system so that your devices will be automatically mounted. All information about device, format and mountpoint can be checked on <code>/etc/fstab</code></p>
+<pre><code>cat &#x2F;etc&#x2F;fstab
+</code></pre>
+<p>To add a new drive to the mounted devices, edit <code>/etc/fstab</code></p>
+<pre><code>sudo vi &#x2F;etc&#x2F;fstab
+</code></pre>
+<p>This file is a table of 6 columns, each row describes a mounted devices.</p>
+<ol>
+<li><strong>Device</strong> specifies the mount device. These are usually device filenames. Most distributions now specify partitions by their labels or UUIDs.</li>
+<li><strong>Mount point</strong> specifies the mount point, the directory where the partition or disk will be mounted. This should usually be an empty directory in another file system.</li>
+<li><strong>File system type</strong> specifies the file system type <em>i.e.</em> ext4</li>
+<li><strong>Options</strong> specifies the mount options. Most file systems support several mount options, which modify how the kernel treats the file system. You may specify multiple mount options, separated by commas.</li>
+<li><strong>Backup operation</strong> contains a 1 if <code>dump</code> should back up a partition or a 0 if it shouldn’t. If you never use <code>dump</code> you can ignore this option.</li>
+<li><strong>File system check order</strong> specifies the order in which <code>fsck</code> checks the device/partition for errors at boot time. A 0 means that fsck should not check a file system. Higher numbers represent the check order. The root partition should have a value of 1 , and all others that need to be checked should have a value of 2.</li>
+</ol>
+<p>Once, fstab is filled, we have to test it.</p>
+<pre><code>sudo mount -a
+</code></pre>
+<p>If this command works, then we can reboot the system. By experience, errors returned by <code>mount</code> is often due to a bad file system type.</p>
+<pre><code>sudo reboot
+</code></pre>
+
+  <br>
+  <hr>
+</div>
+
+
+    <br>
+
+    <div class="footer">
+      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+      <br>
+    </div>
+
+  </body>
+
+
+
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin </title>
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by the computational biologist Pierre-Edouard Guerin. His expertises lies into data engineering, machine learning, genetics, data visualization, biotechnology, population genomics.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Computer science, machine learning, omics data, computational biology, bioinformatics, data visualization, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Computer science, machine learning, omics, computational biology and bioinformatics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+
+
+  </head>
+  <body>
+    
+    <header class="header-container">
+      <div class="site-title"> Pierre-Edouard Guerin </div>
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume/">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+        <a href="https://guerinpe.com/search">Search</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">A little introduction to BASH (Born Again SHell)</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 9 min read · Published on June 23, 2017 
+  </div>
+  <hr>
+  <p>This is some hints about shell script programming based on examples. I provide here some little scripts which will hopefully help to understand the very basics.</p>
+<span id="continue-reading"></span>
+<p>The <strong>shell</strong> or terminal is a command line interpreter.</p>
+<p>A <strong>command</strong> is a set of instructions or computer tasks.</p>
+<p>The interest to work with command line instead of an user graphical interface is to automate a computer task or a complex set of tasks.</p>
+<h1 id="files-directories-symbolic-links">Files, directories, symbolic links</h1>
+<p>The <strong>file</strong> or more accurately the name of the file is a pointer. A pointer stores memory address on the hard drive from where the file can be read.</p>
+<p>It is possible to read, write or execute a file. To do these actions, you need to provide the pointer <em>i.e.</em> the name of the file.</p>
+<p>The <strong>directory</strong> is also a pointer but not pointing at a file. Actually the directory point at a list of other pointers. A directory "contains" (more accurately "point at") files (more accurately "names of files"). As a directory is also a pointer, a directory can contain others directories.</p>
+<p><strong>Symbolic links</strong> are pointers which are pointing at other pointers. Broadly, they are copies of pointers. To use a symbolic link remains the same as using the name of a file/directory at which it points.</p>
+<h1 id="browse-files-and-directories">Browse files and directories</h1>
+<h2 id="change-directory-cd">Change Directory cd</h2>
+<p>To change the current working directory to a specified one.</p>
+<h3 id="commands">Commands</h3>
+<p>Switch to the directory <code>root</code>. (This is the last parent directory)</p>
+<pre><code>cd &#x2F;
+</code></pre>
+<p>Switch to the directory <code>home</code>. (This is the directory reserved for the user)</p>
+<pre><code>cd ~
+</code></pre>
+<p>OU</p>
+<pre><code>cd &#x2F;home&#x2F;user
+</code></pre>
+<p>Switch to the current working directory (This command is useless because you are already working on this directory)</p>
+<pre><code>cd .
+</code></pre>
+<p>Switch to the parent directory. (very useful)</p>
+<pre><code>cd ..
+</code></pre>
+<p>Switch you to the previous directory</p>
+<pre><code>cd -
+</code></pre>
+<p>Put you in a subdirectory called <code>mon_dossier</code>.</p>
+<pre><code>cd mon_dossier
+</code></pre>
+<p>Switch to the sub-subdirectory called <code>mon_dossier_dans_le_dossier</code> which is in the subdirectory called <code>mon_dossier</code>.</p>
+<pre><code>## 2 commands
+cd mon_dossier
+cd mon_dossier_dans_le_dossier
+## single command
+cd mon_dossier&#x2F;mon_dossier_dans_le_dossier
+</code></pre>
+<h3 id="concept-of-absolute-path-and-relative-path">Concept of absolute path and relative path</h3>
+<ul>
+<li>The absolute path starts from <code>root</code>, <em>e.g.</em> <code>cd /path/to/my/file</code></li>
+<li>The reslative path start from current working directory, <em>e.g.</em> I am at <code>/path/to</code>, i can write: <code>cd ./my/file</code></li>
+</ul>
+<p>Frequently, one begin to use the shell (and even after), most of errors comes from wrong path. (using the relative path is less daunting but more perilous.)</p>
+<p>When you type path to a file, speeds up it by using autocompletion with the keypad <code>TAB</code>.</p>
+<h1 id="print-name-of-working-directory-pwd">Print name of Working Directory pwd</h1>
+<p>To give you the absolute path(<em>i.e.</em> the path from <code>root</code>) of current working directory.</p>
+<h3 id="command">Command</h3>
+<pre><code>pwd
+</code></pre>
+<h3 id="output">Output</h3>
+<pre><code>&#x2F;the&#x2F;directory&#x2F;where&#x2F;i&#x2F;am
+</code></pre>
+<p>I'm currently working into the directory  <code>/the/directory/where/i/am</code></p>
+<h1 id="list-ls">List ls</h1>
+<p>To give you the list of names of files and directories which are located into the designated directory. (by default, the designated directory is your current working directory)</p>
+<h2 id="command-1">Command</h2>
+<h3 id="to-list-files-directories-links-into-current-directory">To list files/directories/links into current directory</h3>
+<pre><code>ls
+</code></pre>
+<h3 id="output-1">Output</h3>
+<pre><code>file_into_my_current_dir.txt
+</code></pre>
+<h3 id="to-list-files-directories-links-into-directory-called-my-dir">To list files/directories/links into directory called <code>my_dir</code></h3>
+<pre><code>ls my_dir
+</code></pre>
+<h3 id="output-2">Output</h3>
+<pre><code>file_into_my_dir.txt
+</code></pre>
+<h3 id="to-display-long-format-list-of-my-dir-content">To display long format list of <code>my_dir</code> content</h3>
+<pre><code>ls -l my_dir
+</code></pre>
+<h3 id="output-3">Output</h3>
+<pre><code>-rwxrw-r-- 1 user teamBI 697 jan. 23 11:09 file_into_my_dir.txt
+</code></pre>
+<p><code>-l</code> option displays details of files located into the directory called <code>my_dir</code>.<br />
+<code>-rwxrw-r--</code><br />
+<code>-</code> <code>rwx</code> <code>rw-</code> <code>r--</code></p>
+<ul>
+<li>The first character indicates if it's a file (<code>-</code>) or a directory (<code>d</code>) or a link (<code>l</code>)</li>
+<li><code>r</code> means right to read this file</li>
+<li><code>w</code> means right to write this file (modify or delete)</li>
+<li><code>x</code> means right to execute this file</li>
+<li><code>-</code> means no right
+They are 3 triplets of characters. Each character indicates if right to read/write/execute is granted or not for respectively the owner-user of this file (first triplet), the owner-group of this file (second triplet) and a foreigner (last triplet).</li>
+</ul>
+<p>For instance here, my file(<code>-</code>) <code>file_into_my_dir.txt</code> can be read and written and executed by the user <code>user</code> (first triplet: <code>rwx</code>) who is the owner of this file. People who belongs to the group <code>teamBI</code> can also read and write but no execute this file (second triplet: <code>rw-</code>) and foreigners can only read the file (last triplet: <code>r--</code>). This file size is 697 bytes. This file was created january the 23th at 11:09.</p>
+<h1 id="some-useful-commands">Some useful commands</h1>
+<h2 id="manual-man">Manual man</h2>
+<p>Print the manual of a shell program</p>
+<h3 id="commmand">Commmand</h3>
+<pre><code>man ls
+</code></pre>
+<ul>
+<li>Print manual of the program List <code>ls</code>.</li>
+<li>type keypad <code>q</code> to quit manual session.</li>
+<li>Browse the manual using directional keys and up/down pagination arrows keys.</li>
+</ul>
+<h2 id="head">head</h2>
+<p>Print the first 15 rows of a file.</p>
+<h3 id="command-2">Command</h3>
+<pre><code>head mon_fichier
+</code></pre>
+<p>Will print the first 15 rows of the file <code>mon_fichier</code> into the shell.</p>
+<h2 id="tail">tail</h2>
+<p>Print the last 15 rows of a file.</p>
+<h3 id="command-3">Command</h3>
+<pre><code>tail mon_fichier
+</code></pre>
+<p>Will print the last 15 rows of the file <code>mon_fichier</code> into the shell.</p>
+<h2 id="file-viewing-more">File viewing more</h2>
+<p>To view the content of a file into the shell. <code>more</code> is especially primitive.</p>
+<h3 id="command-4">Command</h3>
+<pre><code>more mon_fichier
+</code></pre>
+<p>Will show the content of <code>mon_fichier</code> into the shell.</p>
+<h2 id="advanced-file-viewing-less">Advanced file viewing less</h2>
+<p>Display the content of a file into a session with more features than <code>more</code>.</p>
+<h3 id="command-5">Command</h3>
+<pre><code>less mon_fichier
+</code></pre>
+<p>Will show the content of <code>mon_fichier</code> into an instance.</p>
+<ul>
+<li>Type <code>G</code> to go to the end of the file.</li>
+<li>Type twice <code>g</code> to got at the beginning of the file.</li>
+<li>Use arrows keys to browse the file upward or downward.</li>
+<li>Type <code>/</code> and a word or an expression to seek it. Type <code>n</code> (next) to seek the next occurence of this expression into the file.</li>
+<li>Finally, type <code>q</code> to exit the current <code>less</code> session.</li>
+</ul>
+<h2 id="text-editor-vi">Text editor vi</h2>
+<p>To read, write and edit a file a bit like a notepad in windows. They are a lot of text editor under LINUX: my favorite is <code>vi</code> (<code>vim</code> is its improved version), <code>nano</code> is also very popular.</p>
+<h3 id="command-6">Command</h3>
+<pre><code>vi mon_fichier
+</code></pre>
+<p>Will load a text editor session to edit <code>mon_fichier</code>. By default, <code>vi</code> only allow you to read a file.</p>
+<ul>
+<li>Type <code>i</code> to activate the insert mode edition. In this mode, you can modify the text.</li>
+<li>Type <code>esc</code> to exit the insert mode. (They are other modes into <code>vi</code> but I will focus only on insert mode this time. <code>vi</code> is actually very rich in options and I show here only basic commands.)</li>
+<li>In insert mode, <code>vi</code> behaviour is like an editor text.</li>
+</ul>
+<p>You must exit insert mode to execute commands which are not text typing.</p>
+<ul>
+<li>Outside insert mode :
+<ul>
+<li>To exit the programn type <code>:q</code>, to force to exit, type <code>:q!</code></li>
+<li>To save <code>:w</code>, to force to save <code>:w!</code></li>
+<li>To save and exit <code>:wq</code> to force to save and exit <code>:wq!</code></li>
+<li>To delete a whole row, type <em>twice</em> <code>d</code></li>
+<li>To undo, type <code>u</code></li>
+<li>To redo, type <code>ctrl</code> + <code>R</code></li>
+<li>Commands described in <code>less</code> also works in <code>vi</code></li>
+</ul>
+</li>
+</ul>
+<p>Note : if <code>mon_fichier</code> don't exist at the moment I enter the command, then <code>vi</code> will create this file.</p>
+<h2 id="echo">echo</h2>
+<p>This command is useful associated with other commands because it returns its input as a text which can be interpreted by the shell.</p>
+<h3 id="command-7">Command</h3>
+<p>To return a shell string "coucou".</p>
+<pre><code>echo “coucou”
+</code></pre>
+<h3 id="output-4">Output</h3>
+<pre><code>coucou
+</code></pre>
+<h3 id="autre-exemple">Autre exemple</h3>
+<p>To return the name of a file <code>mon_fichier</code> as a string.</p>
+<pre><code>echo mon_fichier
+</code></pre>
+<h3 id="output-5">Output</h3>
+<pre><code>mon_fichier
+</code></pre>
+<h2 id="concatenate-cat">Concatenate cat</h2>
+<p>To concatenate files together.</p>
+<h3 id="command-8">Command</h3>
+<pre><code>cat mon_fichier
+</code></pre>
+<p>Will show content of <code>mon_fichier</code> into the shell.</p>
+<h3 id="concatenate-2-files-together">Concatenate 2 files together</h3>
+<p>Merge and print contents of <code>mon_fichier1</code> and <code>mon_fichier2</code> into the shell.</p>
+<pre><code>cat mon_fichier1 mon_fichier2
+</code></pre>
+<p>Merge and print contents of <code>mon_fichier2</code> and <code>mon_fichier1</code> into the shell.</p>
+<pre><code>cat mon_fichier2 mon_fichier1
+</code></pre>
+<h2 id="word-count-wc">Word Count wc</h2>
+<p>Print number of words into a file.</p>
+<h3 id="command-9">Command</h3>
+<pre><code>wc mon_fichier
+</code></pre>
+<h3 id="output-6">Output</h3>
+<pre><code>1    2    3 mon_fichier
+</code></pre>
+<p>Will print the number of rows (newline), number of words and number of characters for the file <code>mon_fichier</code>. Here, <code>mon_fichier</code> counts 1 row, 2 words and 3 characters. (a first word with 1 character and a second word with 2 characters.)</p>
+<h3 id="count-lines-for-a-file">Count lines for a file</h3>
+<p>The option <code>-l</code> print only the newline counts.</p>
+<pre><code>wc -l mon_fichier
+</code></pre>
+<h3 id="output-7">Output</h3>
+<p>The <code>mon_fichier</code> counts only one line.</p>
+<pre><code>1
+</code></pre>
+<h3 id="count-words-for-a-file">Count words for a file</h3>
+<p>The option <code>-w</code> print only the word counts.</p>
+<pre><code>wc -w mon_fichier
+</code></pre>
+<h3 id="output-8">Output</h3>
+<pre><code>2
+</code></pre>
+<h3 id="count-characters-for-a-file">Count characters for a file</h3>
+<p>The option <code>-c</code> print only character counts.</p>
+<pre><code>wc -c mon_fichier
+</code></pre>
+<h3 id="output-9">Output</h3>
+<pre><code>3
+</code></pre>
+<h1 id="combine-commands-together">Combine commands together</h1>
+<p>Most of LINUX programs are designed under the principle "Do one thing and do it well". For instance, <code>ls</code> print list of files into a directory and <code>wc</code> counts number of newlines or words for an input.</p>
+<p>We can resume a program as something as basic as:</p>
+<pre><code>input → program → output
+</code></pre>
+<ul>
+<li>
+<p>A program proceed an input (text, files, etc.) and return an output (result) as a text, files, etc.</p>
+</li>
+<li>
+<p>Power of shell is to give the output of a program as the input of another program and thus to combine both programs together.</p>
+</li>
+</ul>
+<h3 id="for-instance">For instance :</h3>
+<pre><code>ls .
+</code></pre>
+<p>ouput :</p>
+<pre><code>fichier1 fichier2 fichier3
+</code></pre>
+<p>This command prints a list of 3 files into my current working directory.</p>
+<h5 id="now-let-s-combine-2-programs-together-using">Now let's combine 2 programs together using <code>|</code></h5>
+<pre><code>ls . | wc -w
+</code></pre>
+<p>ouput :</p>
+<pre><code>3
+</code></pre>
+<ul>
+<li>
+<p>By redirecting the output of <code>ls</code> on the input of <code>wc</code> using <code>|</code>, I create a new function: to count the number of files for my current working directory.</p>
+</li>
+<li>
+<p>Output of <code>ls .</code> was a list of 3 words <code>fichier1 fichier2 fichier3</code>. <code>wc -w</code> prints word counts of the output of <code>ls .</code>. It returns the word counts <em>i.e.</em> file counts.</p>
+</li>
+<li>
+<p>By redirecting output of programs to input of other programs, we can create new functions.</p>
+</li>
+<li>
+<p>The <strong>pipe</strong> <code>|</code> redirect output of a command to the input of the next command. A <strong>pipeline</strong> in informatics is simply a chain of redirected instructions by <strong>pipes</strong>.</p>
+</li>
+<li>
+<p>To write the output of a command (because we want our results written in a file) you have to use <code>&gt;</code>. (By the way, some programs already write their output directly into a file )</p>
+</li>
+</ul>
+<p>note: <code>;</code> set the end of a command. You can use indifferently newlines or <code>;</code>.</p>
+<h5 id="for-example">For example</h5>
+<pre><code>echo “coucou” &gt; coucou.txt ; more coucou.txt
+</code></pre>
+<p>output :</p>
+<pre><code>coucou
+</code></pre>
+<p>I wrote the output of <code>echo</code> inside a file called <code>coucou.txt</code>. Next, I print the content of this file <code>coucou.txt</code> with <code>more</code>.</p>
+<h5 id="continued-from-example">Continued from example</h5>
+<pre><code>cat coucou.txt | wc -c &gt; nombre_carac_coucou.txt
+cat coucou.txt nombre_carac_coucou.txt &gt; coucou_nombre.txt
+more coucou.txt
+</code></pre>
+<p>output :</p>
+<pre><code>coucou
+</code></pre>
+<pre><code>more nombre_carac_coucou.txt
+</code></pre>
+<p>output :</p>
+<pre><code>7
+</code></pre>
+<pre><code>more coucou_nombre.txt
+</code></pre>
+<p>output :</p>
+<pre><code>coucou
+7
+</code></pre>
+<ul>
+<li>
+<p>I printed the content of <code>coucou.txt</code> and redirect his output to the input of <code>wc -c</code> which return the character counts for this file <code>coucou.txt</code>. This result has been written in the file <code>nombre_carac_coucou.txt</code></p>
+</li>
+<li>
+<p>Next, I concatenate <code>coucou.txt</code> and <code>nombre_carac_coucou.txt</code> using <code>cat</code> and written output of <code>cat</code> in the file <code>coucou_nombre.txt</code>. I read the file <code>coucou_nombre.txt</code> with <code>more</code>. This file contains a merge of contents of <code>coucou.txt</code> and <code>coucou_nombre.txt</code>.</p>
+</li>
+</ul>
+<p>note: why 7 characters for "coucou" which actually counts 6 characters ?
+Well, it is because the program also counted the jumpline as a character. Indeed, I wrote "coucou" but i redirected the output of <code>echo</code> and <code>echo</code> added a new line (it's nicer). So, <code>echo</code> sent to <code>wc</code> the character string <code>coucou\n</code> (with <code>\n</code> the jumpline character).</p>
+<p>If you are a perfectionnist, add the option <code>-n</code> to <code>echo</code>:</p>
+<pre><code>echo -n &quot;coucou&quot; | wc -c
+</code></pre>
+<p>Thus, <code>echo</code> will not add a jumpline and <code>wc -c</code> will count 6 characters.</p>
+<p>This is an example to tell you to remain vigilant about your results, and the behavior of your programs. Take the time to understand them well in order to pick the most appropriate program for what you want to do.</p>
+
+  <br>
+  <hr>
+</div>
+
+
+    <br>
+
+    <div class="footer">
+      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+      <br>
+    </div>
+
+  </body>
+
+
+
+</html>
