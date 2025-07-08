@@ -14,8 +14,6 @@ At the same time, it is to be expected that two or more users may need to share 
 
 
 
-# Managing users and groups
-
 ## Add new users
 
 It creates an user `thisuser` belonging to the group `thisgroup` and using `/bin/bash` as default shell. By default on ubuntu it's `/bin/sh`.

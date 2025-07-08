@@ -13,7 +13,7 @@ tags = ["tech"]
 I've been using `Git` for years, alone or in collaboration with my team. Over time, I developed habits that I present in this article.
  <!-- more -->
 
-# What's Git?
+## What's Git?
 
 When a programming project becomes more complex, you need to versionize it. Either a natural progression of the project over time or simply to add additional options. Managing these versions remains tedious as the project grows and even becomes risky when the project involves several collaborators.
 

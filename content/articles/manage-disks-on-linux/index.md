@@ -13,7 +13,7 @@ In this article, I resume some bash commands to check up or manage partitions on
 
 
 
-# List block devices lsblk
+## List block devices lsblk
 
 `lsblk` lists the different partitions and block devices in the system with their ids. The  command  prints all block devices (except RAM disks) in a tree-like format.
 
@@ -21,7 +21,7 @@ In this article, I resume some bash commands to check up or manage partitions on
 lsblk
 ```
 
-# Mount a disk
+## Mount a disk
 
 We have to create a directory which will be the mount point for the device. The command `mount` mounts the device to the mount point.
 
@@ -30,7 +30,7 @@ sudo mkdir /{your directory name here}
 sudo mount /dev/{specific device id} /{your directory name here that is already created}
 ```
 
-# unmount a disk
+## unmount a disk
 
 `umount` command unmounts any mounted filesystem on your system. It requires disk name or mount point name to unmount currently mounted disk.
 
@@ -38,7 +38,7 @@ sudo mount /dev/{specific device id} /{your directory name here that is already 
 sudo umount /dev/sdb
 ```
 
-# Permanently mount a disk
+## Permanently mount a disk
 
 
 Set the system so that your devices will be automatically mounted. All information about device, format and mountpoint can be checked on `/etc/fstab`

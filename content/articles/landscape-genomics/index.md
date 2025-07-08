@@ -105,7 +105,7 @@ By combining population assignments to environmental descriptors, we can then lo
 * If you are interested in a real case study of landscape genomics in a marine environment, then I recommend [Laura Benestan's article on American lobster in Canada](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13811).
 * If you don't like the sea and have a preference for plants, then I recommend [Jimena Guerrero's article on truncated alfalfa in the Mediterranean](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15171).
 
-# Conclusion
+## Conclusion
 
 Landscape genomics is a discipline that integrates concepts and tools to test the effect of landscape on individual dispersal and gene flow. It is used to estimate the adaptive capacity of individuals to changes in their environment. We have seen that bioinformatics brings power to these methods at the crossroads between ecology, statistics, computer science and genomics. These approaches are useful both for research laboratories and design offices. The numerous landscape genomics studies carried out during this decade have contributed to making informed choices for nature conservation policy. This has made it possible to maintain ecosystems and to prevent or correct any degradation they may suffer. 
 
