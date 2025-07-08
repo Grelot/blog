@@ -1,0 +1,26 @@
+{% set posts = get_section(path="articles/_index.md") %}
+{% set latest_posts = posts.pages | sort(attribute="date") | reverse | slice(end=3) %}
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  {% for post in latest_posts %}
+    <li class="home-article-item">
+      <a href="{{ post.permalink }}" class="home-article-link">
+        <h3 class="home-article-title">{{ post.title }}</h3>
+        <div class="home-article-summary">{{ post.summary | striptags | safe }}</div>
+        <div class="home-article-date">  {{ post.date | date(format="%b %Y") | upper }} · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  {% endfor %}
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="{{ config.base_url }}/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
