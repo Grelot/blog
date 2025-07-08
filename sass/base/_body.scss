@@ -25,29 +25,7 @@ html {
 
 
 html,
-body {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  
-    @media (max-width: 640px) {  // smartphone
-    max-width: 600px;
-    left: 10%; 
-  }
-  
-  @media (min-width: 641px) and (max-width: 1920px) {  // tablette / laptop petit
-    max-width: 1024px;
-    left: 50%; 
-  }
 
-  @media (min-width: 1921px) {  // écran large / desktop large
-    max-width: 1920px;
-    left: 40%; 
-  }
-
-
-}
 
 body {
   font-family: fonts.$main_font;
@@ -55,4 +33,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   height: 100%;
+  width: 100%;
+  margin: 0;
 }
