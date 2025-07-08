@@ -13,13 +13,17 @@
 
   .search-form {    
     width: 100%;
-    border: 1px solid colours.$shadow_colour;    
+    border: 1px solid colours.$shadow_colour;
+    border-radius: 8px;
+     background-color: colours.$lightshade_colour; 
 
     .search-input {
       width: 100%;
       border: none;
       padding: 0.5rem 0.5rem;
       font-size: 0.9rem;
+       border-radius: 8px;
+       background-color: transparent;
 
       &:focus {
         outline: 2px solid colours.$highlight_colour; // custom color
