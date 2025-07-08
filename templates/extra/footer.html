@@ -1,0 +1,53 @@
+<footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="{{ get_url(path='.') }}">Home</a>
+      <a href="{{ get_url(path='articles') }}">Blog</a>
+      <a href="{{ get_url(path='resume') }}/">CV</a>
+      <a href="{{ get_url(path='activity') }}">Activity</a>
+      <a href="{{ get_url(path='publications') }}">Publications</a>
+      <a href="{{ get_url(path='search') }}">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+  <mark>Biotechnology</mark>
+  <mark>Career</mark>
+  <mark>Data-sciences</mark>
+  <mark>Engineering</mark>
+  <mark>Omics</mark>
+  <mark>Sciences</mark>
+
+
+
+  <div class="footer-inner">
+
+    <h2>Social networks</h2>
+
+    <div class="footer-social">
+        {% block footer_nav_brand %}
+        {% for link in config.extra.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+          {{ load_data(path="static/brands/" ~ link.name ~ ".svg") | safe }}
+        </a>
+      {% endfor %}
+      {% endblock footer_nav_brand %}
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="{{ get_url(path='atom.xml') }}">RSS feed</a>
+    </p>
+  </div>
+</footer>
