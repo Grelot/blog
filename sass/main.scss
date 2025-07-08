@@ -1,6 +1,8 @@
 @use 'base/base';
 @use 'layout/header';
 @use 'layout/footer';
+@use 'components/mailchimp_form';
+@use 'components/home_latest_articles';
 @use 'components/navbar';
 @use 'components/pagination';
 @use 'components/post_pages';
@@ -9,3 +11,4 @@
 @use 'components/projects';
 @use 'components/search';
 @use 'components/timeline';
+@use 'components/topbar';
