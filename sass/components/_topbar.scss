@@ -1,0 +1,128 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+.top-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  
+  @media (max-width: 640px) {
+    justify-content: flex-start;   // align all to left
+    gap: 0.5rem;                   // small gap between items
+  }
+
+}
+
+.top-bar-left .top-avatar img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+
+.top-bar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media (max-width: 640px) {
+    position: static;    // reset absolute for mobile, so it aligns with others
+    transform: none;
+  }
+
+}
+
+.site-title a {
+  display: inline-block;
+  font-family: fonts.$main_font;
+  color: colours.$title_colour;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  padding-bottom: 0.75rem;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+
+   @media (max-width: 640px) {  // smartphone    
+    font-size: 0.9rem;
+  }
+}
+
+
+
+.top-bar-right {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+
+@media (max-width: 640px) {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0.5rem;
+  }
+
+
+
+  .top-icon-button {
+    background: none;
+    border: 0px;
+    border-radius: 8px;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+
+    svg {
+      stroke: colours.$main_colour;
+    }
+
+    &:hover {
+      background-color: colours.$shadow_colour;
+    }
+
+    @media (max-width: 767px) {
+       display: none;
+    }
+  
+  }
+
+  .top-contact-button {
+    background-color: colours.$secondary_colour;
+    color: colours.$anti_colour;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover, &:focus {
+      background-color: colours.$highlight_colour;
+    }
+    a {
+  color: inherit;
+  text-decoration: none;
+}
+  }
+}
+

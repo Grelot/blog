@@ -75,21 +75,26 @@
       <!--Javascript-->
       <script src="{{ get_url(path='js/elasticlunr.min.js') }}"></script>
       <script src="{{ get_url(path='js/search.js') }}"></script>
+      <script src="{{ get_url(path='js/active_nav.js') }}"></script>
+      <script src="{{ get_url(path='js/share.js') }}"></script>
+      <!--mailchip-->
+
 
 
   </head>
+
   <body>
     {% block navbar %}
     <header class="header-container">
-      <div class="site-title"> {{config.title}} </div>
+      {% include "extra/topbar.html" %}
+      
 
       <nav class="navbar">
         <a href="{{ get_url(path='.') }}">Home</a>             
         <a href="{{ get_url(path='articles') }}">Blog</a>
-        <a href="{{ get_url(path='resume') }}/">CV</a>
+        <a href="{{ get_url(path='resume') }}">CV</a>
         <a href="{{ get_url(path='activity') }}">Activity</a>
         <a href="{{ get_url(path='publications') }}">Publications</a>
-        <a href="{{ get_url(path='search') }}">Search</a>
       </nav>               
     </header>    
     {% endblock %}
@@ -120,17 +125,25 @@
       </div>
       <div class="profile-card-right">
         {% include "extra/about.html" %}
-      </div>
+      </div>      
     </div>
+    
+
+    <div class="home-content-wrapper">
+      <hr>
+
+      {% include "extra/home_latest_articles.html" %}
+
+      {% include "extra/mailchimp_form.html" %}
+
+      <hr>
+    </div>
+
     {% endblock %}
 
     <br>
 
-    <div class="footer">
-      guerinpe.com by Pierre-Edouard GUERIN is under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> | <a href="https://www.getzola.org/">Powered by ZOLA</a> | <a href="{{ get_url(path='atom.xml') }}">RSS feed</a>
-      <br>
-    </div>
-
+  {% include "extra/footer.html" %}
   </body>
 
 
