@@ -3,32 +3,8 @@
 
 .header-container {
   top: 0;
-  left: 50%;
   text-align: center;
   z-index: 1000;
-  padding-top: 1rem;
-  background-color: colours.$main_colour;
-  color: colours.$anti_colour;
-
-  background-image:
-    linear-gradient(to top, colours.$main_colour 33%, rgba(0,0,0,0)),
-    url('https://images.prismic.io/wellcomecollection%2F46669f20-43e9-4144-9684-0a6ee3612e27_genome_books_1600_900.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: colours.$anti_colour;
 }
 
-.site-title {
-  font-family: fonts.$main_font;
-  color: colours.$lightshade_colour;
-  margin: 0;
-  font-size: 1.5rem;
-  text-align: left;
-  padding: 4rem 0 2rem 2rem;
-
-   @media (max-width: 640px) {  // smartphone    
-    font-size: 2rem;
-    text-align: center;
-    padding: 4rem 0 2rem 0rem;
-   }
-}
