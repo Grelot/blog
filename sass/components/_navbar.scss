@@ -2,29 +2,54 @@
 @use '../base/fonts';
 
 .navbar {
+  display: flex;
   font-family: fonts.$main_font;
-  font-size: 1.2em;
-  background-color: colours.$main_colour;
-  border-top: 1px solid colours.$anti_colour;
+  font-size: 0.9rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: colours.$title_colour;
+  border-top: 1px solid colours.$shadow_colour;
+  border-bottom: 1px solid colours.$shadow_colour;
   justify-content: center;
   z-index: 1000;
+  gap: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 640px) {  // smartphone
+    justify-content: flex-start;
+    text-align: left;
+  }
 
 
   a {
-    color: colours.$anti_colour;
-    text-decoration: none;
-    text-align: center;
+    position: relative;
+    color: colours.$title_colour;
+    text-decoration: none;    
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 0.75rem;
     transition: background-color 0.3s, color 0.3s;
 
     &:hover,
     &:focus {
-      background-color: colours.$anti_colour;
-      color: colours.$shadow_colour;
+      background-color: colours.$shadow_colour;
+      color: colours.$title_colour;
       outline: none;
     }
   }
-}
+a.active {
+    font-weight: bold;
 
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+      right: 10%;
+      height: 3px;
+      background-color: colours.$title_colour;
+    }
+  }
+}
