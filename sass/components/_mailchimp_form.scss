@@ -1,0 +1,130 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+.home-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 2rem;
+  padding: 2rem 16rem 2rem 16rem;
+  flex-wrap: wrap;
+
+
+  @media (max-width: 640px) {  // smartphone
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
+.home-content-wrapper hr {
+  width: 100%; 
+  border: none; 
+  border-top: 1px solid colours.$shadow_colour;
+  margin: 0;
+  height: 1px;
+  background: transparent;
+  padding: 0;
+}
+
+
+.newsletter-signup {
+  width: calc(38% - 2rem); 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; // <-- aligne le texte à gauche dans la colonne
+  margin-left: auto;       // <-- pousse tout le bloc à droite
+  padding-bottom: 2rem;
+   @media (max-width: 640px) {
+      width: 100%;
+      
+    }
+
+}
+
+.newsletter-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+.newsletter-description {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: colours.$darkshadow_colour;
+}
+
+
+.newsletter-form {
+  width: 100%;
+  margin: 0;
+    @media (max-width: 640px) {
+      width: 100%;
+      
+    }
+
+
+ 
+
+  .side-by-side {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .email-input {
+    min-width: 0;    
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    border: 1px solid colours.$secondary_colour;
+    border-right: none;  // no right border, so it merges with button
+    border-top-left-radius: 8px;   // big radius to round left side
+    border-bottom-left-radius: 8px;
+    color: colours.$darkshadow_colour;
+    background: colours.$lightshade_colour;
+    outline-offset: 2px;
+    height: 2rem;
+    
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    &::placeholder {
+      color: colours.$shadow_colour;
+      
+    }
+ 
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      border-color: colours.$highlight_colour;
+      box-shadow: 0 0 0 2px rgba(colours.$highlight_colour, 0.2); // optional glow
+      outline: none;
+  }
+  }
+
+  .newletter-subscribe-button {
+    flex: 0 0 auto;  
+    background-color: colours.$secondary_colour;
+    border: 1px solid colours.$secondary_colour;
+    border-left: none;  // no left border, so it merges with input
+    border-top-right-radius: 8px;  // round right side
+    border-bottom-right-radius: 8px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 2rem;
+    color: colours.$anti_colour;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+      background-color: colours.$highlight_colour;
+      outline: none;
+    }
+  }
+}
