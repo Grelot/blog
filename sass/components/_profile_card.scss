@@ -9,8 +9,18 @@
   padding: 4rem 16rem 4rem 16rem;
   flex-wrap: nowrap;
 
-  @media (max-width: 640px) {  // smartphone
+  @media (max-width: 1024px) {  // smartphone
     padding: 2rem 2rem 2rem 2rem;
+
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1920px) {  // tablette / laptop petit
+    padding: 4rem 4rem 4rem 4rem;
+  }
+
+  @media (min-width: 1921px) {  // écran large / desktop large
+    padding: 4rem 16rem 4rem 16rem;
+
   }
 }
 

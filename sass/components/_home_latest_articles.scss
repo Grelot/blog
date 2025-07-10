@@ -48,8 +48,8 @@
   .home-article-summary {
     margin: 0.3rem 0 0;
     font-size: 0.9rem;
+    text-align: justify;
     color: colours.$main_colour;
-
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
