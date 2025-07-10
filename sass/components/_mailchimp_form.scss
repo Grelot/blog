@@ -6,25 +6,39 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 2rem;
-  padding: 2rem 16rem 2rem 16rem;
   flex-wrap: wrap;
+  gap: 2rem;
 
+  // Valeurs par défaut : écrans laptop/tablette
+  padding: 2rem 4rem;
 
-  @media (max-width: 1024px) {  // smartphone
-    padding: 2rem 2rem 2rem 2rem;
-
+  // Smartphones (<640px)
+  @media (max-width: 639px) {
+    padding: 1.5rem;
+    flex-direction: column; // Optionnel : mise en pile des éléments pour petits écrans
   }
-  
-  @media (min-width: 1025px) and (max-width: 1920px) {  // tablette / laptop petit
-    padding: 4rem 4rem 4rem 4rem;
+
+  // Laptops moyens (640px–1023px)
+  @media (min-width: 640px) and (max-width: 1023px) {
+    padding: 2rem;
   }
 
-  @media (min-width: 1921px) {  // écran large / desktop large
-    padding: 4rem 16rem 4rem 16rem;
+  // Laptops larges (1024px–1439px)
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    padding: 3rem 6rem;
+  }
 
+  // Desktops HD (1440px–1919px)
+  @media (min-width: 1440px) and (max-width: 1919px) {
+    padding: 4rem 8rem;
+  }
+
+  // Très grands écrans (≥1920px)
+  @media (min-width: 1920px) {
+    padding: 4rem 12rem;
   }
 }
+
 
 .home-content-wrapper hr {
   width: 100%; 
