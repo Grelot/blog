@@ -24,17 +24,17 @@
 
   // Laptops larges / desktops (1024px–1439px)
   @media (min-width: 1024px) and (max-width: 1439px) {
-    padding: 3rem 6rem;
+    padding: 2rem 6rem;
   }
 
   // Desktops HD (1440px–1919px)
   @media (min-width: 1440px) and (max-width: 1919px) {
-    padding: 4rem 8rem;
+    padding: 2rem 8rem;
   }
 
   // Très grands écrans (≥1920px)
   @media (min-width: 1920px) {
-    padding: 4rem 12rem;
+    padding: 2rem 12rem;
   }
 }
 
