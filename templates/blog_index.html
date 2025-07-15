@@ -22,7 +22,7 @@
             </li> 
             {% endfor %}
           {% endif %}        
-          <li class="post-preview-info">  {{ page.date | date(format="%B %-d, %Y") }} </li>
+          <li class="post-preview-info">  {{ page.date | date(format="%b %Y") | upper }} </li>
         </ul>    
       </div>
 
