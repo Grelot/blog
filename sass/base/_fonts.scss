@@ -1,2 +1,8 @@
-$main_font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$code_font: 'JetBrains Mono', monospace;
+$main_font: Inter, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif,
+            "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$fancy_font: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto,
+             "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+             "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$code_font: "JetBrains Mono", monospace;

@@ -7,7 +7,9 @@
       <!-- Enable responsiveness on mobile devices-->
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <title> {{config.title}} </title>
+      <title> {{config.title}} | {{ config.description }} </title>
+
+
       <link rel="shortcut icon" href="{{ config.base_url }}/peguerin.ico" type="image/x-icon" />
       <!-- SEO -->
       <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
@@ -65,8 +67,7 @@
       <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}" />      
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
       <!--FEEDS-->
       {% block rss %}
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
