@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - biotech</title>
+    <subtitle>Bioinformatician Research Scientist</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/biotech/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-02-09T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/biotech/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Metabarcoding</title>
+        <published>2019-02-09T00:00:00+00:00</published>
+        <updated>2019-02-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/metabarcoding/"/>
+        <id>https://guerinpe.com/articles/metabarcoding/</id>
+        
+        <summary type="html">&lt;p&gt;One of the most promising genetic techniques for improving biodiversity assessments is the &lt;em&gt;metabarcoding&lt;&#x2F;em&gt; of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>
