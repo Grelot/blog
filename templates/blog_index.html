@@ -2,36 +2,52 @@
 
 {% block content %}
 <div class="post">
-  <h1 class="page-title">Latest</h1>
+  
+
+  {% set current_year = "" %}
 
   {% for page in section.pages %}
-    <div class="post-preview">
+    {% set year = page.date | date(format="%Y") %}
 
-      <h2 class="post-preview-title">
-        <a href="{{ page.permalink }}">
-          {{ page.title }}                
-        </a>
-      </h2>
-           
+    {% if year != current_year %}
+      {% if current_year != "" %}
+        </div> <!-- fin du groupe précédent -->
+      {% endif %}
+      <h1 class="page-title">{{ year }}</h1></h2>
+      <div class="year-group">
+      {% set_global current_year = year %}
+    {% endif %}
+
+    <div class="post-preview">
+      <h3 class="post-preview-title">
+        <a href="{{ page.permalink }}">{{ page.title }}</a>
+      </h3>
+
       <div class="tags-article">
         <ul>
           {% if page.taxonomies.tags %} 
             {% for tag in page.taxonomies.tags | sort %}
-            <li style="background: {{ config.extra.tags_colour[tag] }}">
-              <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
-            </li> 
+              <li style="background: {{ config.extra.tags_colour[tag] }}">
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>
+              </li> 
             {% endfor %}
           {% endif %}        
-          <li class="post-preview-info">  {{ page.date | date(format="%b %Y") | upper }} </li>
+          <li class="post-preview-info">{{ page.date | date(format="%b %Y") | upper }}</li>
         </ul>    
       </div>
 
-    <hr>
+      <hr>
     </div>
   {% endfor %}
-  {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
+
+  </div> <!-- ferme le dernier groupe -->
+
+  {% if paginator.previous %}
+    <a href="{{ paginator.previous }}"><b>< < Back</b></a>
+  {% endif %}
   {% if paginator.next and paginator.previous %}|{% endif %}
-  {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
+  {% if paginator.next %}
+    <a href="{{ paginator.next }}"><b>Next > ></b></a>
+  {% endif %}
 </div>
 {% endblock content %}
-<br>
