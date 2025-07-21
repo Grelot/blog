@@ -202,6 +202,9 @@ mem.q                             0.08      3      0     37     40      0      0
     - `E`: Error
 
 
-_______________________________________________________________________________
+## References
 
-
+* Grid Engine manual pages ([Sun Grid Engine manuals](https://gridscheduler.sourceforge.net/htmlman/manuals.html))  
+* Documentation related to the Montpellier Bioinformatics Biodiversity HPC cluster ([Khalid Belkhir](https://kimura.univ-montp2.fr/calcul/))
+* Documentation related to the Occitanie regional datacenter ([MESO@LR](https://isdm.umontpellier.fr/))
+ 
