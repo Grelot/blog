@@ -1,8 +1,9 @@
 @use 'base/base';
 @use 'layout/header';
 @use 'layout/footer';
-@use 'components/mailchimp_form';
+@use 'components/encart_external_article';
 @use 'components/home_latest_articles';
+@use 'components/mailchimp_form';
 @use 'components/navbar';
 @use 'components/pagination';
 @use 'components/post_pages';
