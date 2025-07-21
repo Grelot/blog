@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Team working with Git"
-date =  2019-11-26
+date =  2018-11-26
 draft = false
 description = "A quick reference for basic Git commands to help students learn Git."
 [taxonomies]
@@ -33,4 +33,11 @@ I defined two types of usage for `Git` (front and back). The front part correspo
 </center>
 
 
+## References
+
+> **Pro Git**
+>
+> *Scott Chacon and Ben Straub*
+>
+> Pro Git, 2nd edition, Apress, 2014. [https://git-scm.com/book/](https://git-scm.com/book/en/v2)
 
