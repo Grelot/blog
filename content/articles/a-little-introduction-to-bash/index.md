@@ -459,6 +459,6 @@ This is an example to tell you to remain vigilant about your results, and the be
 >
 > *Cameron Newham and Bill Rosenblatt*
 >
-> O'Reilly Media, 2005. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)
+> O'Reilly Media, 1995. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)
 
 

@@ -92,6 +92,6 @@ The resume is the first thing the recruiter will read about you. I revised my re
 >
 > *Richard N. Bolles*
 >
-> A Practical Manual for Job-Hunters and Career-Changers, 2023 edition, Ten Speed Press. ISBN-13: [978-1984861207](https://openlibrary.org/isbn/978-1984861207)
+> A Practical Manual for Job-Hunters and Career-Changers, 1972. ISBN-13: [978-1984861207](https://openlibrary.org/isbn/978-1984861207)
 
 
