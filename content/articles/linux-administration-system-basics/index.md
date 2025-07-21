@@ -79,3 +79,10 @@ It delete a group called `thisgroup`
 groupdel thisgroup
 ```
 
+## References
+
+> **Learning the bash Shell: Unix Shell Programming**
+>
+> *Cameron Newham & Bill Rosenblatt*
+>
+> O'Reilly Media, 2005. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)

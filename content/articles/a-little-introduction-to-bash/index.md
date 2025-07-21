@@ -453,6 +453,12 @@ Thus, `echo` will not add a jumpline and `wc -c` will count 6 characters.
 This is an example to tell you to remain vigilant about your results, and the behavior of your programs. Take the time to understand them well in order to pick the most appropriate program for what you want to do.
 
 
+## References
 
+> **Learning the bash Shell: Unix Shell Programming**
+>
+> *Cameron Newham & Bill Rosenblatt*
+>
+> O'Reilly Media, 2005. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)
 
 
