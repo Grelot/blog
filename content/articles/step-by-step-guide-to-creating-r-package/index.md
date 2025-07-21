@@ -13,11 +13,10 @@ In R, the fundamental unit of shareable code is the package. A package bundles t
 
 
 
-<div style="background: #f1f1f1; ">
-
-*"In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others."* Hadley Wickham
-
-</div>
+>
+> *“In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others.”*
+>
+> ― Hadley Wickham
 
 
 ## Prerequisites
