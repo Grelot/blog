@@ -91,7 +91,7 @@ _______________________________________________________________________________
 * **2024: Elastic Stack Workshop**, [AMBIENT-IT](https://www.ambient-it.net/), France
 * **2023: Databricks Lakehouse Bootcamp**, [Databricks Academy](https://www.databricks.com/learn/training/home), Belgium
 * **2020: Landscape Genetics Distributed Graduate Seminar**, [IDGC](https://sites.google.com/site/landscapegeneticscourse/), USA
-* **2019: Nextflow Training**, [CRG](https://www.crg.eu/en/event/coursescrg-nextflow-2019), Catalunya
+* **2019: ReproHackathon**, [CIRAD](https://github.com/IFB-ElixirFr/ReproHackathon), France
 * **2018: Advanced Statistics for Data Sciences**, [EPHE](https://www.ephe.psl.eu/formations-conferences), France
 * **2017: High-Performance Computing Workshop**, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/), France
 
