@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "A little introduction to BASH (Born Again SHell)"
-date =  2017-06-23
+date =  2016-03-23
 draft = false
 in_search_index = true
 description = "A quick introduction to the very basics starting from the UNIX operating system."
@@ -457,7 +457,7 @@ This is an example to tell you to remain vigilant about your results, and the be
 
 > **Learning the bash Shell: Unix Shell Programming**
 >
-> *Cameron Newham & Bill Rosenblatt*
+> *Cameron Newham and Bill Rosenblatt*
 >
 > O'Reilly Media, 2005. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)
 

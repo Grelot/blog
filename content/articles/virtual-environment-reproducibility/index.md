@@ -193,3 +193,8 @@ Singularity is a container runtime, like Docker, but it starts from a very diffe
 * Docker has a bigger ecosystem than Singularity: it has Mac and Windows integration, lots and lots of tools support it. Singularity is a less popular tool, with for example beta Mac support but no Windows support at the moment.
 
 * However Docker (such as Windows and Mac) is a private corporation product while Singularity is a libre software. So even if Docker is distributed as a freeware with few restrictions, it may change over time. So if you are working for a public research lab it is better to favor a libre solution. Taxpayers' money should not be used to serve private interests when an equivalent solution is available for free.
+
+
+## References
+
+* Formation MESO@LR: reproductibility with container ([Gino Frazzoli](https://isdm.umontpellier.fr/events/etiquette/conteneurisation/))

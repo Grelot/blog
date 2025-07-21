@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Linux System Administration Basics"
-date =  2018-03-24
+date =  2017-04-24
 draft = false
 description="Here a collection of basic but useful commands to admin a linux system."
 [taxonomies]
@@ -83,6 +83,6 @@ groupdel thisgroup
 
 > **Learning the bash Shell: Unix Shell Programming**
 >
-> *Cameron Newham & Bill Rosenblatt*
+> *Cameron Newham and Bill Rosenblatt*
 >
 > O'Reilly Media, 2005. ISBN‑13: [978-0596009656](https://openlibrary.org/isbn/978-0596009656)
