@@ -198,32 +198,7 @@ My projects for the company are **confidentials**. Please contact me for more in
 _______________________________________________________________________________
  
 
-# Softwares
-
-## Florimond Desprez Group
-
-* My software developed for the company is **confidential**. Please contact me for more information.
-
-## Public research
-
-* **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (main contributor): interactive worldmap of fish genetic diversity.
-* **[ANVAGE](https://github.com/Grelot/anvage)** (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.
-* **[Rgeogendiv](https://github.com/Grelot/rgeogendiv)** (main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales 
-* **[Workflow to process environmental DNA sequencing data](https://gitlab.mbb.univ-montp2.fr/edna)** (main contributor): this workflow is open-source and was co-developped by the CEFE (main invistigator) and the company SPYGEN (data and tests), including interactions IFREMER, ETH Zurich and the marine explorations of Monaco.
-* **[Workflow to genotype reduced genome sequencing data](https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2)** (main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.
-* **[Genbar2](https://github.com/Grelot/genbar2)** (main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.
-* **[DEMORT](https://pypi.org/project/demort/)** (main contributor): a DEmultiplexing MOnitoring Report Tool
-* **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)**(contributor): a whole exome sequencing analysis and its graphical interface
-* **[ORION](http://www.dsimb.inserm.fr/ORION/)** (contributor): a sensivitive method for protein template detection
-
-
-_______________________________________________________________________________
-
-
-
-
 # Other activities
-
 
 * My scientific [blog](https://guerinpe.com/articles/)
 * Member of the association of Young French Bioinformaticians [Jebif](https://jebif.fr/en/)
