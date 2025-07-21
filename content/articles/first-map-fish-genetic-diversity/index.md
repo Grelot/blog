@@ -14,6 +14,14 @@ At the beginning of 2020, our team* has published the first global map of the ge
 
 <small> *Team "Biogéographie des Vertébrés" Ecole pratique des Hautes Etudes from UMR CNRS "Centre d'Ecologie Fonctionnelle et Evolutive" in collaboration with IFREMER  and ETH Zurich</small>
 
+<a href="https://bioinfo-fr.net/la-premiere-carte-de-la-diversite-genetique-des-poissons-publiee" 
+   class="external-article-box" 
+   target="_blank" 
+   rel="noopener noreferrer">
+  <img src="/flags/fr.svg" alt="Drapeau français" class="flag-icon">
+  <span>Cet article est publié en version française sur Bioinfo-fr.net</span>
+</a>
+
 ## Genetic diversity ?
 
 In the context of our study, **genetic diversity** is the variety of genes within a single species. Influenced by disease, living space or climate change, this factor is likely to decrease faster than the diversity between species. Of course, this is a definition of the subject of our study, but the issue here was to measure our magnitude (genetic diversity). In order to do this we compared the gene sequences of different individuals within the same species. From a sequence alignment it is possible to calculate the nucleotide diversity *П* described by Nei and Li in 1979. This measure specifies the average distance (the number of different nucleotides) between each pair of sequence pair comparisons.

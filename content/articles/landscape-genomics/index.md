@@ -12,7 +12,14 @@ tags = ["omics", "sciences"]
 Environmental conservation issues have urged a need to better understand and describe species and populations on Earth. Recently, progress in sequencing technologies made it possible to refine this understanding through genomics. Understanding and describing populations of living organisms in a given environment by exploiting sequencing data is the ultimate goal of landscape genomics. So this article is an introduction of this field.
  <!-- more -->
 
- 
+<a href="https://bioinfo-fr.net/genomique-des-paysages" 
+   class="external-article-box" 
+   target="_blank" 
+   rel="noopener noreferrer">
+  <img src="/flags/fr.svg" alt="Drapeau français" class="flag-icon">
+  <span>Cet article est publié en version française sur Bioinfo-fr.net</span>
+</a>
+
 « Landscape genomics » sounds like a work by Eduardo Kac. This somewhat post-modern term actually refers to a scientific field that has expanded over the past decade.
 
 

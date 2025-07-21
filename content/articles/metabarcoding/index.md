@@ -13,6 +13,14 @@ tags = ["omics", "biotech"]
 One of the most promising genetic techniques for improving biodiversity assessments is the *metabarcoding* of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.
 <!-- more -->
 
+<a href="https://bioinfo-fr.net/metabarcodes-de-ladn-environnemental" 
+   class="external-article-box" 
+   target="_blank" 
+   rel="noopener noreferrer">
+  <img src="/flags/fr.svg" alt="Drapeau français" class="flag-icon">
+  <span>Cet article est publié en version française sur Bioinfo-fr.net</span>
+</a>
+
 
 ### Overview: the necessity to assess marine biodiversity
 
