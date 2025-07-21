@@ -60,7 +60,7 @@ DNA sequencing is performed on the library of amplified DNA barcodes. The sequen
 The NGS technique produces millions of short sequences (typical read length of 125 bp)
 
 
-<div style="background: #f1f1f1 ;">
+<div class = "encart_inside_article">
 
 ### FASTA files
 
@@ -82,7 +82,7 @@ A FASTA file can stores many sequences. These sequences are generally aligned.
 
 </div>
 <br>
-<div style="background: #f1f1f1 ;">
+<div class = "encart_inside_article">
 
 ### FASTQ files
 

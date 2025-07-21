@@ -33,7 +33,7 @@ In the context of our study, **genetic diversity** is the variety of genes withi
 Recent years have seen the emergence of large public databases containing the DNA sequences of several million individuals of different species from thousands of scientific studies around the world. One of these databases is the **BOLD** (Barcode of Life), which gathers produced, reported and annotated DNA barcodes from hundreds of scientific missions. DNA barcodes are DNA sequences which are characteristic of the species. These sequences allow rapid and reliable identification of the individual to its species. In the case of the BOLD project, the DNA barcode corresponds to the sequence of a mitochondrial gene such as Cytochrome Oxidase I. Since mitochondria are not subject to selection forces unlike their host cells, differences in mitochondrial DNA sequences observed between different individuals or species result from genetic drift alone. It is therefore possible to use these mitochondrial DNA sequences, judiciously named DNA barcodes, as identifiers of the species or even the individual. The particular interest of BOLD is to provide a large number of geo-referenced DNA barcodes. It is then possible to calculate not only the intraspecific genetic diversity but also its geographical distribution. By coupling these two features we have generated a map of genetic diversity.
 
 
-<div style="background: #ecf0f1 ;">
+<div class = "encart_inside_article">
 
 ##  Key words
 

@@ -35,7 +35,7 @@ The resume is the first thing the recruiter will read about you. I revised my re
 * If the company activity is not well known, add a one line description of it
 * The most recent job experience must have the most bullet points
 
-<div style="background: #f1f1f1 ;">
+<div class="encart_inside_article">
 
 ### How to write good bullets
 
@@ -55,7 +55,7 @@ The resume is the first thing the recruiter will read about you. I revised my re
 
 
 
-<div style="background: #f1f1f1 ;">
+<div class="encart_inside_article">
 
 
 ### How do I show impact ?
@@ -86,6 +86,12 @@ The resume is the first thing the recruiter will read about you. I revised my re
 * Just to give some flesh to your personnality :)
 
 
+## References
 
+> **What Color Is Your Parachute?**
+>
+> *Richard N. Bolles*
+>
+> A Practical Manual for Job-Hunters and Career-Changers, 2023 edition, Ten Speed Press. ISBN-13: [978-1984861207](https://openlibrary.org/isbn/978-1984861207)
 
 

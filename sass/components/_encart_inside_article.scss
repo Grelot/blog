@@ -1,0 +1,12 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+
+
+.encart_inside_article {
+  background-color: colours.$shadow_colour;
+  padding: 1rem 1rem;
+  margin: 2rem 2rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+}

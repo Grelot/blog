@@ -30,7 +30,7 @@ Deoxyribonuclease (DNase) treatment is applied on RNA extractions. To target cod
 
 Once the library is prepared, and adapters added, cDNA library is sequenced on HiSeq instrument with a read length of 101 bp in a paired-end mode.
 
-<div style="background: #f1f1f1 ;">
+<div class="encart_inside_article">
 
 ##  Key words
 **Complementary DNA (cDNA):** a DNA synthesized from a RNA molecule (*e.g.*, messenger RNA (mRNA)) in a reaction catalyzed by the enzyme reverse transcriptase.
@@ -57,7 +57,7 @@ To assign a taxonomic group to each unigene, a reference database is built from 
 Protein *domain* prediction is performed using [HMMER](http://hmmer.org/). HMMER is used for searching sequence databases for sequence homologs, and for making sequence alignments. Unigenes were seeked in the profile database **Pfam**. So that a protein domain is assigned to each unigene. Unigenes without assigned protein domain are not kept.
 
 
-<div style="background: #91DC7F; ">
+<div class="encart_inside_article">
 
 ## Protein and profile database
 
