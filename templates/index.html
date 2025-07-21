@@ -116,8 +116,8 @@
             {% block nav_brand %}
             {% for link in config.extra.links %}
             <a href="{{link.url}}"> {{ load_data(path="static/brands/" ~ link.name ~ ".svg") | safe }} </a>
-            {% endfor %}           
-            {% endblock nav_brand %}                     
+            {% endfor %}
+            {% endblock nav_brand %}
           </div>
           <br>
 
