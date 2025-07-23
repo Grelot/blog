@@ -8,7 +8,7 @@ description= "My experience at CIRAD about bioimaging, biochemical and molecular
 tags = ["omics"]
 +++
 
-As part of the [MADICS working group](https://www.madics.fr/) on data science and plant phenotyping, I had the opportunity to visit the MP3 platform in Montpellier. During this workshop, I tested **Phenomenal**, a software pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I disovered a new omics called "Phenomics" and how high-thoughput bioimaging is used to generate phenome information at large-scale.
+As part of the [MADICS working group](https://www.madics.fr/) on data science and plant phenotyping, I had the opportunity to visit the MP3 platform in Montpellier. During this workshop, I tested **Phenomenal**, a software pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I discovered a new omics called "Phenomics" and how high-thoughput bioimaging is used to generate phenome information at large-scale.
 <!-- more -->
 
 ## Phenomics
@@ -56,7 +56,10 @@ Once the plant is reconstructed as a 3D grid of voxels we can turn this "blocky"
 
 ### 5. Skeletonization
 
-After voxel reconstruction and meshing, we extract the skeleton of the plant. The observed 3D shape is recudec into a simplified graph of connected lines. The algorithm convert the grid of voxels into a graph of connected positions defined in a 3D space. A starting node located on the plant is selected. From this starting node, all the shortest paths to other nodes are calculated. The longest path is the main skeleton branch. For each node in the skeleton, nodes in the perpandicular plane are tagged. All nodes connected to a tagged plane are added and considered part of the leave. We obtain the main branch, the secondary branches and the leaves of the skelevon. Finally, visited paths are pruned when they are circular *i.e.* one node in the path is visited twice.
+After voxel reconstruction and meshing, we extract the skeleton of the plant. The algorithm convert the grid of voxels into a graph of connected positions defined in a 3D space. A starting node located on the plant is selected. From this starting node, all the shortest paths to other nodes are calculated. The longest path is the main skeleton branch. For each node in the skeleton, nodes in the perpendicular plane are tagged. All nodes connected to a tagged plane are added and considered part of the leave. We obtain the main branch, the secondary branches and the leaves of the skeleton. Finally, visited paths are pruned when they are circular *i.e.* one node in the path is visited twice.
+
+
+![skeletonization algorithmn](skeletonization_algorithm.jpg)
 
 The skeleton is useful to calculate lot of information about the plant architecture:
 
