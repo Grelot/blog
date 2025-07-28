@@ -74,30 +74,6 @@ $$
 \text{Specificity} = \frac{TN}{TN + FP}
 $$
 
-## Accuracy
-
-The **accuracy** is how often the test correctly predicted the outcome for both `positive` and `negative` cases.
-
-$$
-\text{Accuracy} = \frac{TP + TN }{TN + TN + FP + FN}
-$$
-
-Accuracy can be expressed as the weighted mean of sensitivity and specificity, weighted by the number of observed `positive` and `negative` cases.
-
-$$
-\text{Accuracy} = \frac{P ⋅ Sensitivity + N ⋅ Specificity }{P + N}
-$$
-
-
-## Precision
-
-The **precision** or Positive Predictive Value is the ratio of correctly predicted `positive` cases.
-
-$$
-\text{Accuracy} = \frac{TP}{TP + FP}
-$$
-
-
 ## Type I Error
 
 The Type I Error or **False Positive Rate** impacts the precision of a test. It is the ratio of observed `negative` cases that the test failed to detect.
@@ -131,9 +107,20 @@ $$
 \text{False Negative Rate} = {1 - Sensitivity}
 $$
 
-## 
 
+## Accuracy
 
+The **accuracy** is how often the test correctly predicted the outcome for both `positive` and `negative` cases.
+
+$$
+\text{Accuracy} = \frac{TP + TN }{TN + TN + FP + FN}
+$$
+
+Accuracy can be expressed as the weighted mean of sensitivity and specificity, weighted by the number of observed `positive` and `negative` cases.
+
+$$
+\text{Accuracy} = \frac{P ⋅ Sensitivity + N ⋅ Specificity }{P + N}
+$$
 
 
 ## References
