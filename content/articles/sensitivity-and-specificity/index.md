@@ -3,7 +3,7 @@ template = "page.html"
 title = "Sensitivity and Specificity"
 date =  2015-04-06
 draft = false
-description = "ROC curve"
+description = "Definition of specificity and sensitivity"
 [taxonomies]
 tags = ["data-sciences"]
 +++
