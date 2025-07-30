@@ -8,7 +8,7 @@ description= "My experience at CIRAD about bioimaging, biochemical and molecular
 tags = ["omics"]
 +++
 
-As part of the [MaDICS working group](https://www.madics.fr/) on data science and plant phenotyping, I had the opportunity to visit the MP3 platform in Montpellier. During this workshop, I tested **Phenomenal**, a pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I discovered a new omics called "Phenomics" and how high-thoughput bioimaging is used to generate phenome information at large-scale.
+As part of the [MaDICS working group](https://www.madics.fr/) on data science and plant phenotyping, I had the opportunity to visit the Montpellier Plant Phenotyping Platform. During this workshop, I tested **Phenomenal**, a pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I discovered a new omics called "Phenomics" and how high-thoughput bioimaging is used to generate phenome information at large-scale.
 <!-- more -->
 
 ## Phenomics
