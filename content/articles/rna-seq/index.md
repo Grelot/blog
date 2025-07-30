@@ -3,7 +3,7 @@ template = "page.html"
 title = "RNA-Seq"
 date =  2022-08-22
 draft = false
-description= "RNAseq technology and bioinformatics workflow"
+description= "RNA-Seq technology and bioinformatics workflow"
 [taxonomies]
 tags = ["biotech", "omics"]
 +++
@@ -16,7 +16,7 @@ One of the approaches to study host–pathogen interactions at the molecular lev
 
 ## RNA molecules
 
-**Ribonucleic Acid (RNA)**, unlike Dexoyribonucleic Acid (DNA) is not a long double-stranded molecule. While DNA function is the long-term storage of genetic information and its transmission to new organisms, RNA is used to transcribe the genetic information within the organism. While DNA is self-replicating and has a very stable molecular structure, whereas RNA is synthesized from DNA and is highly reactive. RNA is constantly produced, used, degraded and recycled. The overall activity involving RNA is referred to as *gene expression*.
+**Ribonucleic Acid (RNA)**, unlike Desoxyribonucleic Acid (DNA) is not a long double-stranded molecule. While DNA function is the long-term storage of genetic information and its transmission to new organisms, RNA is used to transcribe the genetic information within the organism. While DNA is self-replicating and has a very stable molecular structure, whereas RNA is synthesized from DNA and is highly reactive. RNA is constantly produced, used, degraded and recycled. The overall activity involving RNA is referred to as *gene expression*.
 
 There are different types of RNA:
 * Ribosomal RNA (rRNA): Constitute the ribosome, agent of translation of the transcript.
@@ -51,7 +51,7 @@ RNA-sequencing is a High-Throughput Sequencing technique for identifying and qua
 
 After tissue extraction, for instance a leaf, the total RNA is isolated from sample. RNA quality is assessed. If RNA integrity is good enough, the RNA is purified to keep the selected type.
 
-The most typical library preparation protocol uses the poly-A selection strategy for purifying mRNA by filtering RNA with 3' polyadenylated (poly(A)) tails to include only mRNA. As a result, non polyadenylated transcripts such as rRNA, tRNA, lncRNAs, miRNA, histone mRNA, degraded RNA, bacterial transcripts, and many viral transcripts are removed.
+The most typical library preparation protocol uses the poly-A selection strategy for purifying mRNA by filtering RNA with 3' polyadenylated poly-A tails to include only mRNA. As a result, non polyadenylated transcripts such as rRNA, tRNA, lncRNAs, miRNA, histone mRNA, degraded RNA, bacterial transcripts, and many viral transcripts are removed.
 
 Further, the ribosomal depletion is conducted to remove rRNA as it represents over 90% of the RNA in a cell, which if kept would drown out other data in the transcriptome.
 
@@ -88,8 +88,6 @@ The sequencer reads the base sequence (A, T, C, G) of each cDNA fragment. Each o
 At the end of the read, the sequencing accuracy tends to drop. This is a common issue, especially in  Illumina sequencing due to signal decay. This bias is solved thanks to bioinformatics software that clean low quality tail of read sequence.
 
 The output of RNA-seq is first demultiplexed yielding either one FASTQ file per sample (for single-end reads protocol) or two fastq-files per sample (for paired-end reads protocol).
-
-
 
 
 ## RNA-Seq Bioinformatics Pipeline

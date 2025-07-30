@@ -8,7 +8,7 @@ description= "clean code principles"
 tags = ["career", "tech"]
 +++
 
-**Coding** refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. Since a program in a computer is a set of instructions to execute specific tasks. Therefore, a programmer is never alone, he is always working at the very least with the computer. Moreover, every program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, such programs are typically designed to transform raw biological data into formats that can be effectively used by other specialists for further analysis.
+**Coding** refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. Since a program in a computer is a set of instructions to execute specific tasks. Thus, a programmer is never alone, he is always working at the very least with the computer. Moreover, every program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, such programs are typically designed to transform raw biological data into formats that can be effectively used by other specialists for further analysis.
 <!-- more -->
 It's important to be aware that the program is not a static code but a living thing. The environment around it can evolve, requirements may change, and the program must adapt accordingly to remain relevant and useful. To keep the program *alive* and functional, it requires programmers, users and reviewers. Therefore, the code will need to be modified and tested by anyone as often as needed.
 
@@ -32,13 +32,22 @@ Best coding practices have been introduced to improve code readability (by other
 ## Unreadable code
 
 * A good code is comprehensible by anyone.
-* Divide code into small, manageable parts.
+* A good code is structured into **modules**. Divide code into small, manageable parts.
 * One single context for each part.
 * Variables must have clear, self-explanatory names.
 * Syntax is consistent:
   * `kebab-case`: Words are all lowercase and separated by dashes `-`.
   * `camelCase`: The first word is lowercase, and each subsequent word starts with a uppercase.
   * `snake_case`: Words are all lowercase and separated by underscore `_`.
+
+
+<div class = "encart_inside_article">
+
+### What is a module?
+
+A **module** is a subprogram. It is a file or a collection of files of written code. This code can be reused and invoked from other parts of the program. The term module is broad and may also be referred to as a *component*, *library*, *package*, or *assembly* depending on the programming language or context.
+
+</div>
 
 ## The code is too complicated!
 
@@ -58,6 +67,7 @@ for
 
 * Reduce coupling between functions as much as possible.
 * All functions must be easy to test.
+* Don't repeat yourself.
 
 
 ## References
