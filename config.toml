@@ -60,9 +60,10 @@ links = [
 [extra.tags_colour]
 biotech = "#d8519f"
 career = "#0c63ed"
-data-engineering = "#4a192c"
-data-sciences = "#18b3c3"
-engineering = "#ff4901"
+data-engineering = "#863a1d"
+data-science = "#18b3c3"
+engineering = "#ff4500"
 omics = "#27ae60"
+organisation = "#8a51d8"
 sciences = "#e74c3c"
 tech = "#f39c12"
