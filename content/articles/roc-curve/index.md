@@ -5,7 +5,7 @@ date =  2015-04-15
 draft = false
 description = "ROC curve"
 [taxonomies]
-tags = ["data-sciences"]
+tags = ["data-science"]
 +++
 
 intro

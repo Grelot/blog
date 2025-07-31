@@ -5,7 +5,7 @@ date =  2015-04-06
 draft = false
 description = "Definition of specificity and sensitivity"
 [taxonomies]
-tags = ["data-sciences"]
+tags = ["data-science"]
 +++
 
 How do we know if a test or classifier is reliable? In both medicine and machine learning, classifier are used to attribute a class to an input data. Therefore, *performance metrics* are necessary to assess the reliability of the resulting classification. <!-- more -->They help answer questions like:
