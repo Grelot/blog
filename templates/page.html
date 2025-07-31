@@ -11,10 +11,25 @@
   </div>
   <hr>
   {{ page.content | safe }}
-  <br>
-  <br>
+  <br>  
   <hr>
+  <center>Thanks for reading my article!<br>Hope you have a good day.</center>
+  <hr>
+  <br>
   <div class="post-content-wrapper">
+   <h2>Tags for this article</h2>
+    <div class="tags-article">
+        <ul>
+          {% if page.taxonomies.tags %} 
+            {% for tag in page.taxonomies.tags | sort %}
+              <li style="background: {{ config.extra.tags_colour[tag] }}">
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>
+              </li> 
+            {% endfor %}
+          {% endif %}        
+        </ul>    
+      </div>
+
     {% include "extra/home_latest_articles.html" %}
   </div>
 </div>
