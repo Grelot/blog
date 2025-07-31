@@ -12,7 +12,11 @@
   <hr>
   {{ page.content | safe }}
   <br>
+  <br>
   <hr>
+  <div class="post-content-wrapper">
+    {% include "extra/home_latest_articles.html" %}
+  </div>
 </div>
 {% endblock content %}
 

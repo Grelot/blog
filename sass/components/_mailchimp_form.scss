@@ -50,6 +50,23 @@
   padding: 0;
 }
 
+.post-content-wrapper {
+  @extend .home-content-wrapper;
+  flex-direction: column;
+  
+  gap: 0rem;
+  padding: 0;
+
+  .newsletter-signup {
+    width: 100%;
+  }
+  .home-latest-articles {
+    width: 100%;
+  }
+}
+
+
+
 
 .newsletter-signup {
   width: calc(38% - 2rem); 
