@@ -12,15 +12,11 @@
 </div>
 
   <h2>Tags</h2>
-  <mark>Biotechnology</mark>
-  <mark>Career</mark>
-  <mark>Data-engineering</mark>
-  <mark>Data-sciences</mark>
-  <mark>Engineering</mark>
-  <mark>Omics</mark>
-  <mark>Sciences</mark>
-  <mark>Tech</mark>
 
+
+  {% for tag, color in config.extra.tags_colour %}
+  <mark>{{ tag | capitalize }}</mark>
+  {% endfor %}  
 
 
   <div class="footer-inner">
