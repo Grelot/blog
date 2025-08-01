@@ -1,0 +1,43 @@
+<div class="post-content-wrapper">
+    <div class="post-info">
+    <small>Published on {{ page.date | date(format="%B %-d, %Y") }} </small>
+    </div>
+      
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                {% if page.taxonomies.tags %} 
+                {% for tag in page.taxonomies.tags | sort %}
+                    <li style="background: {{ config.extra.tags_colour[tag] }}">
+                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>
+                    </li> 
+                {% endfor %}
+                {% endif %}        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="{{config.base_url}}/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="{{config.base_url}}" class="author-name">{{ config.title }}</a>
+                    <div class="author-description">{{config.description}}</div>
+                    <div class="brand_nav">
+                        {% block nav_brand %}
+                        {% for link in config.extra.links %}
+                        <a href="{{link.url}}"> {{ load_data(path="static/brands/" ~ link.name ~ ".svg") | safe }} </a>
+                        {% endfor %}
+                        {% endblock nav_brand %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "extra/home_latest_articles.html" %}
+</div>
