@@ -10,7 +10,7 @@ tags = ["biotech", "omics"]
 
 
 
-One of the approaches to study host–pathogen interactions at the molecular level is **RNA sequencing (RNA-seq)**. This technology provides access to gene expression profiles in various conditions such as viral infection or environmental stress. I had the opportunity to process RNA-seq data from sugar beet plants to investigate transcriptional responses to virus yellows disease, a condition caused by a complex of aphid-transmissible viruses. Here, I describe transcriptomics and the methods used for RNA-seq data analysis.
+One of the approaches to study host–pathogen interactions at the molecular level is **RNA sequencing (RNA-Seq)**. This technology provides access to gene expression profiles in various conditions such as viral infection or environmental stress. I had the opportunity to process RNA-Seq data from sugar beet plants to investigate transcriptional responses to virus yellows disease, a condition caused by a complex of aphid-transmissible viruses. Here, I describe transcriptomics and the methods used for RNA-Seq data analysis.
 
 <!-- more -->
 
@@ -81,13 +81,13 @@ To save time and cost, sequencing often uses multiplexing, where multiple sample
 
 ## Sequencing
 
-The sequencer reads the base sequence (A, T, C, G) of each cDNA fragment. Each of these sequences is called a *read*. Depending on the technology and the protocol, RNA-seq can produce:
+The sequencer reads the base sequence (A, T, C, G) of each cDNA fragment. Each of these sequences is called a *read*. Depending on the technology and the protocol, RNA-Seq can produce:
 * In single-end sequencing, the machine reads from one end of each fragment. They are are used for gene expression quantification.
 * In paired-end sequencing, it reads from both ends of each fragment, higher precision.It is useful for detecting splicing events and refinement of transcriptome annotation.
 
 At the end of the read, the sequencing accuracy tends to drop. This is a common issue, especially in  Illumina sequencing due to signal decay. This bias is solved thanks to bioinformatics software that clean low quality tail of read sequence.
 
-The output of RNA-seq is first demultiplexed yielding either one FASTQ file per sample (for single-end reads protocol) or two fastq-files per sample (for paired-end reads protocol).
+The output of RNA-Seq is first demultiplexed yielding either one FASTQ file per sample (for single-end reads protocol) or two fastq-files per sample (for paired-end reads protocol).
 
 
 ## RNA-Seq Bioinformatics Pipeline
@@ -184,7 +184,7 @@ We can extract and purify RNA, then convert it into cDNA to sequence the mRNA. T
 > Nature Biotechnology. 2020 February 13. DOI: [10.1038/s41587-020-0439-x](https://doi.org/10.1038/s41587-020-0439-x)
 
 
-> **A survey of best practices for RNA-seq data analysis**
+> **A survey of best practices for RNA-Seq data analysis**
 >
 > *Ana Conesa, Pedro Madrigal, Sonia Tarazona, David Gomez-Cabrero, Alejandra Cervera, Andrew McPherson, Michał Wojciech Szcześniak, Daniel J. Gaffney, Laura L. Elo, Xuegong Zhang & Ali Mortazavi*
 >

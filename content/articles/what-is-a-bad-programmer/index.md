@@ -45,7 +45,7 @@ Best coding practices have been introduced to improve code readability (by other
 
 ### What is a module?
 
-A **module** is a subprogram. It is a file or a collection of files of written code. This code can be reused and invoked from other parts of the program. The term module is broad and may also refer to as *component*, *library*, *package*, or *assembly*.
+A **module** is a subprogram. It is a file or a collection of files of written code. This code can be reused and invoked from other parts of the program. The term module is broad and can refer to a *component*, *library*, *package*, or *assembly*.
 
 </div>
 
