@@ -1,72 +1,6 @@
 @use '../base/colours';
 @use '../base/fonts';
 
-.home-content-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 2rem;
-
-  // Valeurs par défaut : écrans laptop/tablette
-  padding: 2rem 4rem;
-
-  // Smartphones (<640px)
-  @media (max-width: 639px) {
-    padding: 1.5rem;
-    flex-direction: column; // Optionnel : mise en pile des éléments pour petits écrans
-  }
-
-  // Laptops moyens (640px–1023px)
-  @media (min-width: 640px) and (max-width: 1023px) {
-    padding: 2rem;
-  }
-
-  // Laptops larges (1024px–1439px)
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    padding: 3rem 6rem;
-  }
-
-  // Desktops HD (1440px–1919px)
-  @media (min-width: 1440px) and (max-width: 1919px) {
-    padding: 4rem 8rem;
-  }
-
-  // Très grands écrans (≥1920px)
-  @media (min-width: 1920px) {
-    padding: 4rem 12rem;
-  }
-}
-
-
-.home-content-wrapper hr {
-  width: 100%; 
-  border: none; 
-  border-top: 1px solid colours.$shadow_colour;
-  margin: 0;
-  height: 1px;
-  background: transparent;
-  padding: 0;
-}
-
-.post-content-wrapper {
-  @extend .home-content-wrapper;
-  flex-direction: column;
-  
-  gap: 0rem;
-  padding: 0;
-
-  .newsletter-signup {
-    width: 100%;
-  }
-  .home-latest-articles {
-    width: 100%;
-  }
-}
-
-
-
 
 .newsletter-signup {
   width: calc(38% - 2rem); 
@@ -81,14 +15,12 @@
       width: 100%;
       
     }
-
 }
 
 .newsletter-title {
   font-size: 1.25rem;
   font-weight: bold;
 }
-
 
 .newsletter-description {
   font-size: 0.8rem;
@@ -100,13 +32,11 @@
 .newsletter-form {
   width: 100%;
   margin: 0;
-    @media (max-width: 640px) {
-      width: 100%;
-      
-    }
+  @media (max-width: 640px) {
+    width: 100%;
+    
+  }
 
-
- 
 
   .side-by-side {
     display: flex;
@@ -140,7 +70,7 @@
       border-color: colours.$highlight_colour;
       box-shadow: 0 0 0 2px rgba(colours.$highlight_colour, 0.2); // optional glow
       outline: none;
-  }
+    }
   }
 
   .newletter-subscribe-button {

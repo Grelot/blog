@@ -1,0 +1,8 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+@import '../layout/content_wrapper';
+
+.home-content-wrapper {
+  @include content-wrapper;
+}

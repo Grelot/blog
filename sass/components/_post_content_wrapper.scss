@@ -1,0 +1,46 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+@import '../layout/content_wrapper';
+
+.post-content-wrapper {
+  @include content-wrapper;
+  flex-direction: column;
+
+  gap: 0rem;
+  padding: 0;
+
+  // Smartphones (<640px)
+  @media (max-width: 639px) {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  // Laptops moyens (640px–1023px)
+  @media (min-width: 640px) and (max-width: 1023px) {
+    padding: 0;
+  }
+
+  // Laptops larges (1024px–1439px)
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    padding: 0;
+  }
+
+  // Desktops HD (1440px–1919px)
+  @media (min-width: 1440px) and (max-width: 1919px) {
+    padding: 0;
+  }
+
+  // Très grands écrans (≥1920px)
+  @media (min-width: 1920px) {
+    padding: 0;
+  }
+
+
+  .newsletter-signup {
+    width: 100%;
+  }
+  .home-latest-articles {
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+@use '../base/colours';
+@use '../base/fonts';
+
+
+@mixin content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  // Valeurs par défaut : écrans laptop/tablette
+  padding: 2rem 4rem;
+
+  // Smartphones (<640px)
+  @media (max-width: 639px) {
+    padding: 1.5rem;
+    flex-direction: column; // Optionnel : mise en pile des éléments pour petits écrans
+  }
+
+  // Laptops moyens (640px–1023px)
+  @media (min-width: 640px) and (max-width: 1023px) {
+    padding: 2rem;
+  }
+
+  // Laptops larges (1024px–1439px)
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    padding: 3rem 6rem;
+  }
+
+  // Desktops HD (1440px–1919px)
+  @media (min-width: 1440px) and (max-width: 1919px) {
+    padding: 4rem 8rem;
+  }
+
+  // Très grands écrans (≥1920px)
+  @media (min-width: 1920px) {
+    padding: 4rem 12rem;
+  }
+
+
+
+  hr {
+  width: 100%; 
+  border: none; 
+  border-top: 1px solid colours.$shadow_colour;
+  margin: 0;
+  height: 1px;
+  background: transparent;
+  padding: 0;
+
+  &.bold {
+      border-top: none;
+      height: 4px;
+      background-color: colours.$title_colour;
+    }
+  }
+}

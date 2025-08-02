@@ -1,13 +1,16 @@
 @use 'base/base';
+@use 'layout/content_wrapper';
 @use 'layout/header';
 @use 'layout/footer';
 @use 'components/encart_external_article';
 @use 'components/encart_inside_article';
+@use 'components/home_content_wrapper';
 @use 'components/home_latest_articles';
 @use 'components/mailchimp_form';
 @use 'components/navbar';
 @use 'components/pagination';
 @use 'components/post_about_author_section';
+@use 'components/post_content_wrapper.scss';
 @use 'components/post_pages';
 @use 'components/post_preview';
 @use 'components/profile_card';
