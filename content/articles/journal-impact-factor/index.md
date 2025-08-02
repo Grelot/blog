@@ -5,7 +5,7 @@ date =  2016-10-20
 draft = false
 description= "Definition of journal impact factor"
 [taxonomies]
-tags = ["organisation"]
+tags = ["organizations"]
 +++
 
 <!-- more -->
