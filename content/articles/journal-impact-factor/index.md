@@ -102,7 +102,7 @@ However, on the larger scale of research centers, the concept of **critical mass
 >
 > JAMA. 2006 January 04. DOI: [10.1001/jama.295.1.90](https://doi.org/10.1001/jama.295.1.90)
 
-> **The Academic Man **
+> **The Academic Man**
 >
 > *Logan Wilson*
 >
