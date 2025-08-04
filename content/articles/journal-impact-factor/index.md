@@ -8,13 +8,13 @@ description= "Definition of journal impact factor"
 tags = ["organizations"]
 +++
 
-During the second world war, the USA and the UK create research centers. Their aim is to industrialize scientific discovery to increase the pace of innovation for military applications. From that point on, the figure of the lonesome wizard in his ivory tower give way to the salaryman working within a team, a laboratory and an Institute. The Research Unit was born.
+During the second world war, the USA and the UK create research centers. Their aim is to industrialize scientific discovery to increase the pace of innovation for military applications. From that point on, the figure of the lonesome wizard in his ivory tower gives way to the salaryman working within a team, a laboratory and an Institute. The Research Unit was born.
 
 In this modern structure, science evolves into a collective and standardized activity. The laboratory is no longer a cabinet of wonders or a private workshop, like those of Lavoisier or Newton. Instead, it becomes a production unit organized around teams, stakeholders, deliverables and measured outcomes.
 
-Institutions like the Massachusetts Institute of Technology (MIT) or the Los Alamos National Laboratory, created for the Manhattan Project, symbolized this transformation. In France, the Centre National de la Recherche Scientifique (CNRS) was created in 1939.
+Institutions like the Massachusetts Institute of Technology (MIT) or the Los Alamos National Laboratory, created for the Manhattan Project, symbolize this transformation. In France, the Centre National de la Recherche Scientifique (CNRS) is created in 1939.
 
-In this modern area, the successful scientist is, above all, a productive one. But what does productivity mean in science? Peer-reviewed publications in scientific journal. The more you publish, the more visible and fundable you become. In 1942, the sociologist **Logan Wilson** coined the mantra *Publish or Perish*, capturing the pressure on academics to continually produce papers. Later, in 1962, **Eugene Garfield** introduced the metrics to evaluate journal and indirectly their authors: the **Impact Factor**.
+In this modern area, the successful scientist is, above all, a productive one. But what does productivity mean in science? Peer-reviewed publications in scientific journal. The more you publish, the more visible and fundable you become. In 1942, the sociologist **Logan Wilson** coins the mantra *Publish or Perish*, capturing the pressure on academics to continually produce papers. Later, in 1962, **Eugene Garfield** introduces the metrics to evaluate journal and indirectly their authors: the **Impact Factor**.
 <!-- more -->
 
 ## Definition
