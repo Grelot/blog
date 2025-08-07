@@ -89,6 +89,22 @@ At the end of the read, the sequencing accuracy tends to drop. This is a common 
 
 The output of RNA-Seq is first demultiplexed yielding either one FASTQ file per sample (for single-end reads protocol) or two fastq-files per sample (for paired-end reads protocol).
 
+<div class = "encart_inside_article">
+
+### Biological replicates in an RNA-seq experiment
+
+To improve reliability differential gene expression detection, it is necessary to include multiple independent samples from each condition. Such **biological replicates** make it possible to capture the variability in gene expression within the same conditions.
+
+Indeed, with fewer than three replicates per condition, it becomes difficult to estimate variability within groups, making it difficult to detect significant differences of gene expression between conditions.
+
+As the number of replicates increases, the [sensitivy and specificy](/articles/sensitivity-and-specificity) of differential expression methods also improve. For robust detection of differential expression, at least six replicates per condition are recommended.
+
+For experiment with fewer than 12 replicates, use `edgeR`.
+For 12 or more replicates, use `DESeq2`.
+
+</div>
+
+
 
 ## RNA-Seq Bioinformatics Pipeline
 
@@ -182,6 +198,12 @@ We can extract and purify RNA, then convert it into cDNA to sequence the mRNA. T
 > *Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.*
 >
 > Nature Biotechnology. 2020 February 13. DOI: [10.1038/s41587-020-0439-x](https://doi.org/10.1038/s41587-020-0439-x)
+
+> **How many biological replicates are needed in an RNA-seq experiment and which differential expression tool should you use?**
+>
+> *Nicholas J Schurch, Pietá Schofield, Marek Gierliński, Christian Cole, Alexander Sherstnev, Vijender Singh, Nicola Wrobel, Karim Gharbi, Gordon G Simpson, Tom Owen-Hughes, Mark Blaxter, Geoffrey J Barton*
+>
+> RNA. 2016 June 22. DOI: [10.1261/rna.053959.115](https://doi.org/10.1261/rna.053959.115)
 
 
 > **A survey of best practices for RNA-Seq data analysis**
