@@ -93,11 +93,11 @@ The output of RNA-Seq is first demultiplexed yielding either one FASTQ file per 
 
 ### Biological replicates in an RNA-seq experiment
 
-To improve reliability differential gene expression detection, it is necessary to include multiple independent samples from each condition. Such **biological replicates** make it possible to capture the variability in gene expression within the same conditions.
+To improve reliability of differential gene expression detection, it is necessary to include multiple independent samples from each condition. These **biological replicates** capture the variability in gene expression within the same conditions.
 
 Indeed, with fewer than three replicates per condition, it becomes difficult to estimate variability within groups, making it difficult to detect significant differences of gene expression between conditions.
 
-As the number of replicates increases, the [sensitivy and specificy](/articles/sensitivity-and-specificity) of differential expression methods also improve. For robust detection of differential expression, at least six replicates per condition are recommended.
+As the number of replicates increases, the [sensitivy and specificy](/articles/sensitivity-and-specificity) of differential gene expression detection methods also improve. For robust detection of differential gene expression, at least six replicates per condition are recommended.
 
 For experiment with fewer than 12 replicates, use `edgeR`.
 For 12 or more replicates, use `DESeq2`.
