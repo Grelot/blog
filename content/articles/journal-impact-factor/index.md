@@ -83,11 +83,6 @@ They are 12,265 ranked journals with IF from 0.1 to 244.6.
 
 See the journals in which I have published in the **[publications](/publications/)** section.
 
-## The Theory of Critical Mass
-
-At the individual level, the Impact Factor can sometimes be limiting. Creativity, integrity and freedom are highly oriented by competition and  publications strategy of institutions. Scientists may feel pressured to prioritize quantity and trends over genuine ideas.
-
-However, on the larger scale of research centers, the concept of **critical mass** comes into play. Once a group reaches a certain threshold of number of scientists and publications, it begins to attract more talents, fundings, and attention. When a scientific field achieves this critical mass, the likelihood of significant discoveries increases, as resources and expertise converge to accelerate innovation. This is precisely what the Impact Factor measures.
 
 
 ## References
