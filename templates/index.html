@@ -118,7 +118,7 @@
     <br>
     
     {% block content %}
-    <div class="profile-card">      
+    <div class="home-content-wrapper">      
       <div class="profile-card-left">
         <div class="profile-card-rect">
           <h1>{{ config.title }}</h1>
@@ -140,17 +140,11 @@
       <div class="profile-card-right">
         {% include "extra/about.html" %}
       </div>      
-    </div>
-    
-
-    <div class="home-content-wrapper">
-      <hr>
-
+    </div>    
+   
+    <div class="home-content-wrapper">      
       {% include "extra/home_latest_articles.html" %}
-
       {% include "extra/mailchimp_form.html" %}
-
-      <hr>
     </div>
 
     {% endblock %}

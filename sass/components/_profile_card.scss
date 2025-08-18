@@ -1,42 +1,5 @@
 @use '../base/colours';
 
-.profile-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2rem;
-  flex-wrap: nowrap;
-
-  // Default: laptop/tablette
-  padding: 2rem 4rem;
-
-  // Smartphones (<640px)
-  @media (max-width: 639px) {
-    padding: 1.5rem 1.5rem;
-    flex-direction: column; // Optionnel : meilleur rendu mobile
-  }
-
-  // Laptops moyens (640px–1023px)
-  @media (min-width: 640px) and (max-width: 1023px) {
-    padding: 2rem 2rem;
-  }
-
-  // Laptops larges / desktops (1024px–1439px)
-  @media (min-width: 1024px) and (max-width: 1439px) {
-    padding: 2rem 6rem;
-  }
-
-  // Desktops HD (1440px–1919px)
-  @media (min-width: 1440px) and (max-width: 1919px) {
-    padding: 2rem 8rem;
-  }
-
-  // Très grands écrans (≥1920px)
-  @media (min-width: 1920px) {
-    padding: 2rem 12rem;
-  }
-}
 
 .profile-card-left {
   flex: 0 0 auto;
@@ -72,11 +35,6 @@
 
 
 @media (max-width: 640px) {
-   .profile-card {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
   .profile-card-left, .profile-card-right {    
     flex: 1 1 100%;  // full width on small screens
   }

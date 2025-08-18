@@ -7,7 +7,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap;
   gap: 2rem;
 
   // Valeurs par défaut : écrans laptop/tablette
@@ -16,7 +15,9 @@
   // Smartphones (<640px)
   @media (max-width: 639px) {
     padding: 1.5rem;
-    flex-direction: column; // Optionnel : mise en pile des éléments pour petits écrans
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   // Laptops moyens (640px–1023px)
@@ -26,17 +27,17 @@
 
   // Laptops larges (1024px–1439px)
   @media (min-width: 1024px) and (max-width: 1439px) {
-    padding: 3rem 6rem;
+    padding: 3rem 8rem;
   }
 
   // Desktops HD (1440px–1919px)
   @media (min-width: 1440px) and (max-width: 1919px) {
-    padding: 4rem 8rem;
+    padding: 4rem 12rem;
   }
 
   // Très grands écrans (≥1920px)
   @media (min-width: 1920px) {
-    padding: 4rem 12rem;
+    padding: 4rem 16rem;
   }
 
 
