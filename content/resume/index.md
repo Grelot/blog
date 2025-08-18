@@ -9,7 +9,7 @@ draft = false
 
 * [E-mail contact](mailto:pierre-edouard.guerin@groupefd.com)
 * [Linkedin profile](https://www.linkedin.com/in/pierre-edouard-guerin/)
-* [Kaggle portfolio]([kaggle](https://www.kaggle.com/pierreedouardguerin))
+* [Kaggle portfolio](https://www.kaggle.com/pierreedouardguerin)
 
 _______________________________________________________________________________
 
