@@ -214,8 +214,8 @@ And so the writer does not bother to...
 
 **How to overcome the curse?**
 
-1. Get a flesh and blood person to read your writting. It can be your mother or yourself several days later. 
-2. Allow your reader to form a mental image based on what you're writting.
+* Get a flesh and blood person to read your writting. It can be your mother or yourself several days later. 
+* Allow your reader to form a mental image based on what you're writting.
   * An idea is not a string of words, the mind must grasp it
   * Use concrete examples
   * Use visual metaphors and symboles instead of abstract terms
