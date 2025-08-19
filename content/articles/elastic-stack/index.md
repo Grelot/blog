@@ -8,7 +8,7 @@ description="My training Elastic Stack with Ambient IT"
 tags = ["tech"]
 +++
 
-In this article, I resume some bash commands to check up or manage partitions on a linux system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc.
+strange not working
 <!-- more -->
 
 
