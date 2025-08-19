@@ -5,7 +5,7 @@
 
 .post-preview {
   max-width: 81ch;
-  margin: 0 auto 1rem auto;
+  margin: 0;
   padding-left: 2rem;
   padding-right: 2rem;
 
@@ -25,6 +25,12 @@
     color: colours.$title_colour;
     margin-top: 0;
     margin-bottom: 0.5rem;
+
+    &:hover,
+    &:focus {
+      color: colours.$darkshadow_colour;
+      text-decoration: none;
+  }
 
 }
 

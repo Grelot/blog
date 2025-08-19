@@ -35,12 +35,10 @@
           <li class="post-preview-info">{{ page.date | date(format="%b %Y") | upper }}</li>
         </ul>    
       </div>
-
-      <hr>
     </div>
   {% endfor %}
 
-  </div> <!-- ferme le dernier groupe -->
+  </div>
 
   {% if paginator.previous %}
     <a href="{{ paginator.previous }}"><b>< < Back</b></a>
