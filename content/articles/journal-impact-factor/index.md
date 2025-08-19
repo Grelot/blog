@@ -5,7 +5,7 @@ date =  2016-10-20
 draft = false
 description= "Definition of journal impact factor"
 [taxonomies]
-tags = ["organizations"]
+tags = ["society"]
 +++
 
 During the second world war, the USA and the UK create research centers. Their aim is to industrialize scientific discovery to increase the pace of innovation for military applications. From that point on, the figure of the lonesome wizard in his ivory tower gives way to the salaryman working within a team, a laboratory and an Institute. The Research Unit was born.
