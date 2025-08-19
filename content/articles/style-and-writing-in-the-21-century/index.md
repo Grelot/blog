@@ -48,7 +48,7 @@ Why is it so hard to set the time on a digital alarm clock?
 
 ## The Problem with Traditional Style Advice
 
-As writting is the result of a work, we should follow rules from style advice book for instance *The Element of Style* from Edgar White (yes the author of the infamous *Stuart Little*). However such advices are useless to write in the style of the 21st century:
+As writting is the result of a work, we should follow rules from style advice book for instance *The Element of Style* from Elwyn Brooks White (yes the author of the infamous *Stuart Little*). However such advices are useless to write in the style of the 21st century:
 * Arbitrary list of dos and don'ts based on the tastes and peeves of the authors
 * No principled understanding of how language works
 
@@ -164,19 +164,6 @@ Any prose that violates this principles will be incoherent. Hopefully, English s
 Writers must choose the construction that introduces information to the reader in the order in which she can absorb them.
 
 
-## The Curse of Knowledge
-
-Does not occur to the writer that readers...
-* have learned their jargon
-* do know the intermediate steps that seem too obvious to mention
-* can visualize a scene currently in the writer's mind's eye
-
-And so the writer does not bother to...
-* explain the jargon
-* spell out the logic
-* supply the concrete details
-
-
 
 ## Minimize semantic distinction
 
@@ -213,6 +200,28 @@ Example: a *review* originally referred to a military inspection. Common usage h
 
 
 
+## The Curse of Knowledge
+
+Does not occur to the writer that readers...
+* have learned their jargon
+* do know the intermediate steps that seem too obvious to mention
+* can visualize a scene currently in the writer's mind's eye
+
+And so the writer does not bother to...
+* explain the jargon
+* spell out the logic
+* supply the concrete details
+
+**How to overcome the curse?**
+
+1. Get a flesh and blood person to read your writting. It can be your mother or yourself several days later. 
+2. Allow your reader to form a mental image based on what you're writting.
+  * An idea is not a string of words, the mind must grasp it
+  * Use concrete examples
+  * Use visual metaphors and symboles instead of abstract terms
+
+
+
 ## Conclusion
 
 Modern linguistic and cognitive science provide better ways of enhancing our writing. A model of prose communication, the **classic style** in which language is a window on the world. We better understand how language works as a way of converting a web of thoughts into a string of words. The main reason writing remains difficult, however, is the **curse of knowledge**. A challenge every writer must recognize and overcome.
@@ -234,8 +243,16 @@ Modern linguistic and cognitive science provide better ways of enhancing our wri
 >
 > The Thinking Person's Guide to Writing in the 21st Century, 2022. ISBN-13: [978-0143127796](https://openlibrary.org/isbn/978-0143127796)
 
+
 > **Politics and the English Language**
 >
 > *George Orwell*
 >
 > An essay, 1947. ISBN-13: [978-0141393063](https://openlibrary.org/isbn/978-0141393063)
+
+> **The Elements of Style**
+>
+> *Elwyn Brooks White and William Strunk Jr.*
+>
+> The English writting style manual, 1918. ISBN-13: [978-0205309023](https://openlibrary.org/isbn/978-0205309023)
+ 
