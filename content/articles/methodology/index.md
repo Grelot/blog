@@ -12,6 +12,7 @@ tags = ["career"]
 
 When I was in junior high school, I had the opportunity to take History and Geography classes with Professor Ben Fredj. Moreover, he taught us methodology and how to compose and articulate our thoughts and knowledge. I recently watched a MOOC he recorded for Lycée français international Louis-Massignon in Casablanca, Morroco. Although his methodology course focuses on social sciences, I believe that the fundamentals he teaches are valuable for anyone, particularly those in academia or industry.
 
+<!-- more -->
 
 ## To go further
 
