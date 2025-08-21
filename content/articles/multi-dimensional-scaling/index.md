@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = Multi Dimensional Scaling"
+title = "Multi Dimensional Scaling"
 date =  2022-04-03
 draft = false
 description = "Example case of MDS on genotypes"
