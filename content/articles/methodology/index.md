@@ -3,28 +3,18 @@ template = "page.html"
 title = "Methodology"
 date =  2022-02-15
 draft = false
-description = "Next-generation sequencing of environmental barcodes-DNA."
+description = "How to write"
 [taxonomies]
 tags = ["career"]
 +++
 
 
 
-One of the most promising genetic techniques for improving biodiversity assessments is the *metabarcoding* of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.
-<!-- more -->
+When I was in junior high school, I had the opportunity to take History and Geography classes with Professor Ben Fredj. Moreover, he taught us methodology and how to compose and articulate our thoughts and knowledge. I recently watched a MOOC he recorded for Lycée français international Louis-Massignon in Casablanca, Morroco. Although his methodology course focuses on social sciences, I believe most of his lessons are fundamental and valuable for anyone, particularly in academia or industry.
 
 
 ## To go further
 
 
-Lola Romant has made a beautiful documentary about marine eDNA metabarcoding methods and their applications in the Mediterranean sea.
+* MOOC Lycée français international Louis-Massignon: ["La langue dans la poche" par Nicolas Ben Fredj](https://www.youtube.com/watch?v=IxPyIlTKZnI)
 
-{{ youtube(id="8b97UV6lXSk") }}
-
-## References
-
-> **Molecules as documents of evolutionary history**
->
-> *Emile Zuckerkandl, Linus Pauling*
->
-> Journal of theoretical biology. 1965. DOI:[10.1016/0022-5193(65)90083-4](https://doi.org/10.1016/0022-5193(65)90083-4)
