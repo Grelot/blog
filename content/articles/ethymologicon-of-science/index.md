@@ -8,10 +8,43 @@ description = "Greek and Latin roots of scientific terms"
 tags = ["society", "sciences"]
 +++
 
-Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.
-
-
+Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin. 
 <!-- more -->
+
+## The Foundations of Western Science
+
+### Thales and Pythagore
+
+In 6th century BC, **Thales** and **Pythagore** established the first schools of *Mathematics*. Mathematics are composed of the following fields:
+
+| Field | Greek Root | Meaning of Root | Sense |
+| --- | --- | --- | --- |
+| School | `skole` | leisure | a place where you go to be educated |
+| Mathematics | `máthēma` + `ique` | knowledge + self | study of numbers, shapes, and space |
+| Geometry | `geo` + `metre` | ground + measure |  study of space and points, lines, curves, and surfaces |
+| Arithmetic | `arithmi` + `metre` | number + measure | adding and multiplying, etc. numbers |
+| Astronomy | `astro` + `nomia` | star + law | study of the universe and of objects that exist naturally in space |
+| Music | `muse` + `techne` | muse + craft | a pattern of sounds made by instruments intented to give pleasure to people listening to it |
+
+### The Academia and the Lyceus
+
+In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogues. In Athens, Plato taught philosophy and mathematics to a small group of students and founded his school: the *Academia*. **Aristotle**, one of the Plato's student, left the Academia after twenty years to become the tutor of **Alexander the Great** for three years. Upon his return to Athens, Aristotle founded his own school: the *Lyceus*. The followers of Aristotle and his school where known as *Peripatetics* named after the practice of walking while teaching. The Lyceum brought together teaching and research across many fields. Their method was to collect and classify knowledge and observations concerning the questions at hand before engaging in theoretical work. A practice similar to the *state of the art* in modern research. The scientific community was born.
+
+**Andronicos de Rhodes** at 1st century edited the corpus of Aristotle with the following classification:
+
+| Field | Greek Root | Meaning of Root | Sense |
+| --- | --- | --- | --- |
+| Logics | `logos` | reason, discourse | predictable sequence of events |
+| Biology | `bios` + `logos` | life + discourse | science of life |
+| Botanic | `botaniko` + `ique` | herbs + self | science of plants |
+| Zoology | `zoo` + `logos` | animals + discourse | science of animals |
+| Dialectic | `dia` + `legein` + `techne` | through + speak + craft | art of philosophical discussion |
+| Ethics | `ethos` + `techne` | character + craft |  study of what is morally right and what is not |
+| Politics | `pole` + `ique` | city + self | affairs of the cities |
+| Physics | `physis` + `ique` | nature + self | science of nature, matter and energy |
+| Metaphysics | `meta` + `physis` + `ique` | after + nature + self | the miscellaneous section after the Physics section |
+
+
 
 ## Greek Roots
 
@@ -131,7 +164,6 @@ Scientific terms are largely of Greco-Latin origin. This collection gather the r
 | Automate | `auto` + `matos` | self + action | self-running programs |
 | Cybernetics | `kybernetes` | steersman, governor | comparative study of automatic control systems |
 | Cryptography | `kryptos` + `graphein` | hidden + write | the computerized encoding and decoding of informatio |
-| Logic | `logos` | reason, discourse | predictable sequence of events |
 | Ontology | `onto` + `logos` | being + reason | formal representation of entity and their relationships |
 | Program | `pro` + `graphein` | before + write | Predetermined operations by computer programming |
 | Syntax | `syn` + `tassein` | together + arrange | harmonious arrangement of elements of coding |
