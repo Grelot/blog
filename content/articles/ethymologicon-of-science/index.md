@@ -8,7 +8,7 @@ description = "Greek and Latin roots of scientific terms"
 tags = ["society", "sciences"]
 +++
 
-Scientific terms are largely of Greco-Latin origin. These languages have shaped the technical vocabulary used every day in scientific disciplines across the world. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.
+Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.
 
 
 <!-- more -->
