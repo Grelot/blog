@@ -1,9 +1,9 @@
 +++
 template = "page.html"
-title = "Principal Component Analysis"
-date =  2016-09-03
+title = Multi Dimensional Scaling"
+date =  2022-04-03
 draft = false
-description = "PCA Study Guide"
+description = "Example case of MDS on genotypes"
 [taxonomies]
 tags = ["data-science"]
 +++
