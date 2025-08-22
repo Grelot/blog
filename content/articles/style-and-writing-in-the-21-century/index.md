@@ -161,8 +161,8 @@ Any prose that violates this principles will be incoherent. Hopefully, English s
 * Laius was killed by Oedipus
 * It was Laius whom Oedipus killed
 * It was Oedipus who killed Laius
-Writers must choose the construction that introduces information to the reader in the order in which she can absorb them.
 
+Writers must choose the construction that introduces information to the reader in the order in which she can absorb them.
 
 
 ## Minimize semantic distinction
