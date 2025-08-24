@@ -138,7 +138,7 @@ Aggregating everyone's ideas is a long process. There are usually dozens of song
 
 ### Balancing Egos
 
-Everybody in the band is taking great pride of his musician skills and even more on his ideas. Rejecting someone's idea can easily hurt their feelings, and they might want to leave the band or even sabotage the collective work.
+Everyone in the band is taking great pride of her musician skills and even more of his ideas. Rejecting someone's idea can hurt her feelings, and they might want to leave the band or even sabotage the collective work.
 
 How to select good ideas without hurting people?
 
