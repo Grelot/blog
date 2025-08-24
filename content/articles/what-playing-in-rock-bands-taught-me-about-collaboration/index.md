@@ -124,9 +124,9 @@ The beauty of a team is that while individuals may have flaws, when they come to
 
 ## The Alchemy
 
-### Aggregating ideas
+### Aggregating Ideas
 
-No one ever brings a fully finished, polished song. That is why a band tends to be collegial and not dictatorial because it is not possible to make a good song without the full engagement of everyone in the process of creation.
+No one ever brings a finished song. That is why a band tends to be collegial and not dictatorial because it is not possible to make a good song without the full engagement of everyone in the process of creation.
 
 Generally, everyone bring an idea: it can be a cool riff, a nice structure, a nice chord progression, a melody, a theme, a new instrument, a weird way to use a tone freak, or just a feeling to express, whatever! The other members will then add their own ideas or recall ideas previously discussed during other rehearsals.
 
@@ -134,31 +134,54 @@ Generally, everyone bring an idea: it can be a cool riff, a nice structure, a ni
 > Why do we not combine the riff of X with the melody of Y using the sound effect of Z? Mhm I'm not sure. Z do you have something else that could suit more with the theme of the song?
 >
 
-Aggregating everyone’s ideas is a long process. There are usually dozens of songs in progress, and some elements are often still missing to make a piece feel complete. Then, often over a drink, spending good times together someone got the spark, the missing piece of the puzzle that finish the song. I remember being on the train, having the epiphany, so excited that I called my guitarist friend and sang him the notes to play on the phone. And he was like "You found it! You're a genius!". Everyone on the train stared at me as if I were mad. Music and his creative process are somewhat captivating.
+Aggregating everyone's ideas is a long process. There are usually dozens of songs under construction, and some elements are often still missing to make a piece feel complete. Then, often over a drink, spending good times together someone got the spark, the missing piece that finish the song. I remember being on the train, having the epiphany, so excited that I called my guitarist friend and sang him the notes to play on the phone. And he was like "You found it! You're a genius!". Everyone on the train stared at me as if I were mad. Music and his creative process are somewhat captivating.
 
-### Balancing egos
+### Balancing Egos
 
-Everybody in the band is taking great pride of his musician skills, of his skills in matter of music and instrument and even more on his ideas of songs.
-
-Rejecting someone's idea can easily hurt their feelings, and they might want to leave the band or even sabotage the collective work.
+Everybody in the band is taking great pride of his musician skills and even more on his ideas. Rejecting someone's idea can easily hurt their feelings, and they might want to leave the band or even sabotage the collective work.
 
 How to select good ideas without hurting people?
 
-First, being good friends and spending enjoyable time together makes it easier to be honest and direct. If an idea is bad, I won’t lie to my friend. This help to fasten ideas selection.
+First, being good friends and spending enjoyable time together makes it easier to be honest and direct. If an idea is bad, I won’t lie to my friend. This help to fasten ideas selection. The downside is that when the same people's ideas are always accepted while others are always rejected. It creates resentment.
 
-The downside is that when the same people's ideas are always accepted while others never get a chance. It creates resentment.
-
-
-This is why we use "the bag of ideas". All ideas that aren't terrible go into the bag so they aren't forgotten. Ideas are used like bricks that can be assembled into different songs. It is hard to predict what will make a good song, so it is better if everyone has fun and feels contributing. In the end, the audience decides which song works best. Because we always involve everyone, no one takes it personally. It is not the song of X versus the song of Y. It is the song of the band.
+This is why we use "the bag of ideas". All ideas that aren't bad go into the bag so they can be used later. Ideas are used like bricks that can be assembled into different songs. It is hard to predict what will make a good song, so it is better if everyone has fun and feels contributing. In the end, the audience decides which song works best. Because we always involve everyone, no one takes it personally. It is not the song of X versus the song of Y. It is the song of the band.
 
 
-### Be pragmatical
+### Be Pragmatical
 
 Despite we are all friends and so on. It is important to keep in mind the goal: to play on stage and be ready. If a member did not show up for rehearsals, struggled technically without making progress, stole belongings  or created a negative vibe, then we had no choice but to split the band.
 
-### Spending a lot of time together
+### Spending a lot of time Together
 
-To achieve a high level of musical synchronization, you need to be very familiar with each other. This comes naturally, through imprinting, imitation, and rehearsals. You really have to spend a lot of time together. This is why it helps to love each other. However, the reward of such dedication is fantastic: when you manage to play in perfect sync, you feel a kind of shared magic power that give chills. And the audience feel it as well.
+To achieve a high level of musical synchronization, you need to be very familiar with each other. This comes naturally, through imprinting, imitation, and rehearsals. You really have to spend a lot of time together. This is why it helps to love each other. However, the reward of such dedication is fantastic: when you manage to play in perfect sync, you feel a kind of shared magic power that give chills. And the audience feels it as well.
+
+### Playing What you Love
+
+You have to choose wisely the song you will work on together. If the band don't have goose bumps at the early stage you have to throw it away. Why? Because you will spend a lot of time playing over and over this song, revisiting the same passages, and polishing every detail. To sustain that effort with passion and precision, you need to love the song.
+
+
+### Behavior is more important than Skills
+
+When I first started learning guitar, I also needed a bit of money. So, almost at the same time, I began giving guitar lessons. My students were usually just six months behind me in experience, but that was enough to make me the "teacher". When someone is less experienced, they can not say your true level.
+
+Now, imagine you are a guitarist and you need to recruit a drummer. You are in trouble, because you can not say the true level of the candidates. Every drummer you meet is more experienced on their instrument than you are.
+
+* In a band, one skilled musician is good enough. They are other roles. Scores can be adapted to match a musician's skill level.
+* Enthusiasm matters. Do the candidate inspires the rest of the band?
+* Motivation matters. Is the candidate ready to take the band all the way to the stage?
+* Reliability matters. Will the candidate show up on time for rehearsals?
+* Character matters. Will the candidate improve the mood in the band?
+* Creativity matters. Will the candidate inspiring ideas, or stay passive?
+* Flexibility matters. Can the candidate find solutions if a guitar is missing five minutes before going on stage?
+* Charisma matters. Will the candidate bring new fans to the band?
+* The big question. Will the candidate expand the spirit of the band or shrink it?
+
+### Learning from each others
+
+While practicing your instrument, they are two way: the hard way and the easy way. 
+
+* The hard way is what how you learn in a conservatoire. You repeat passages thousands of times until your fingers and brain are perfectly synchronized, reaching perfect execution.
+* The easy way is what you learn from other musicians.There are many shortcuts and tricks that produce the same effect with minimal effort. These tricks are usually discovered by those who have gone through the hard way, so by learning from your peers, you can spare yourself a lot of hard work. 
 
 
 ### Having an Outside Observer
@@ -169,8 +192,16 @@ It also kept arguments in checkmate. Disagreements quickly turned into jokes, sa
 
 We could also get feedback: whether an influence was too noticable in a composition; whether the sound balance was right or wether the suggestion from X or Y was relevant or not. Finally when our friends said "This rocks!" after a final play, it was pure joy.
 
+### Building Trust
 
-### Having fun
+Going on stage is intimidating. The fear of failing yourself, the fear of letting your friends down, the fear of being let down by them. I have realized that when everything is shared equally within the band, there is very little stress before a performance.
+
+On the contrary, in a more hierarchical band, with a leader at the top, fear is everywhere. The leader is anxious because, he is carrying the weight of the band. The other members are anxious because of the leader being anxious. The audience feels something is off. 
+
+Trust comes from sharing.
+
+
+### Having Fun
 
 To be honest, we spent so much time stressing over small things without interest that if we had taken ourselves too seriously, the whole experience would have felt sinister.
 
