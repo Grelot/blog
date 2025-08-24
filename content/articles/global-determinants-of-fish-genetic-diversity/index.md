@@ -24,8 +24,20 @@ At the beginning of 2020, our team* has published the first global map of the ge
 
 ## Genetic diversity ?
 
-In the context of our study, **genetic diversity** is the variety of genes within a single species. Influenced by disease, living space or climate change, this factor is likely to decrease faster than the diversity between species. Of course, this is a definition of the subject of our study, but the issue here was to measure our magnitude (genetic diversity). In order to do this we compared the gene sequences of different individuals within the same species. From a sequence alignment it is possible to calculate the nucleotide diversity *П* described by Nei and Li in 1979. This measure specifies the average distance (the number of different nucleotides) between each pair of sequence pair comparisons.
+In the context of our study, **genetic diversity** is the variety of genes within a single species. Influenced by disease, living space or climate change, this factor is likely to decrease faster than the diversity between species. Of course, this is a definition of the subject of our study, but the issue here was to measure our magnitude (genetic diversity). In order to do this we compared the gene sequences of different individuals within the same species. From a sequence alignment it is possible to calculate the nucleotide diversity ${\Pi}$ described by Nei and Li in 1979. This measure specifies the average distance (the number of different nucleotides) between each pair of sequence pair comparisons.
 
+
+$$
+\Pi = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{k_{ij}}{m_{ij}}
+$$
+<small>
+
+* Where ${n}$ the number of sequences
+* Where ${\binom{n}{2}}$ the number of pairs of two sequences to compare
+* Where ${k_{ij}}$ the number of nucleotides which differs between the sequences ${i}$ and ${j}$
+* Where ${m_{ij}}$ the number of shared nucleotides between the sequences ${i}$ and ${j}$
+
+</small>
 
 ## Barcode of Life
 
