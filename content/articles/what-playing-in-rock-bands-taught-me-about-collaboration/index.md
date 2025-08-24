@@ -181,4 +181,4 @@ Of course, we still had to be on time for rehearsals and organize concerts, whic
 
 I learned from my friends to do not worry and to live fully in the moment. Music is something *alive*. Collaboration is not about forcing a rational consensus. It is about feeling good with people, appreciating them, and understanding their flaws, strengths and most important what makes them extraordinary.
 
-Music taught me to combine open-mindedness with practical common sense: being flexible, tolerant of differences and free from preconceptions. Finally, enthusiasm and playing with the heart is only what matters.
+Music taught me to combine open-mindedness with practical common sense: being flexible, tolerant of differences and free from preconceptions. Finally, playing with soul is only what matters.
