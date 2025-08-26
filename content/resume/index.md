@@ -87,6 +87,7 @@ _______________________________________________________________________________
 
 ## Training
 
+* **2024: Generative AI workshop**, [Interactivity](https://www.interactivity.nl/), The Netherlands
 * **2024: Elastic Stack Workshop**, [AMBIENT-IT](https://www.ambient-it.net/), France
 * **2023: Databricks Lakehouse Bootcamp**, [Databricks Academy](https://www.databricks.com/learn/training/home), Belgium
 * **2020: Landscape Genetics Distributed Graduate Seminar**, [IDGC](https://sites.google.com/site/landscapegeneticscourse/), USA
