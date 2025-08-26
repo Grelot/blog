@@ -1,9 +1,9 @@
 +++
 template = "page.html"
-title = "Methodology"
+title = "Critical Thinking and analytical skills"
 date =  2022-02-15
 draft = false
-description = "How to write"
+description = "The method to compose a discourse articulating facts and knowledge to describe a problem."
 [taxonomies]
 tags = ["career"]
 +++
