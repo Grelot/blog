@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Critical Thinking and analytical skills"
+title = "Analytical Skill"
 date =  2022-02-15
 draft = false
 description = "The method to compose a discourse articulating facts and knowledge to describe a problem."
