@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Team working with Git"
+title = "Team Working with Git"
 date =  2018-11-26
 draft = false
 description = "A quick reference for basic Git commands to help students learn Git."

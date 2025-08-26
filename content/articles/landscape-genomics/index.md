@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Landscape genomics"
+title = "Landscape Genomics"
 date =  2019-11-14
 draft = false
 description = "An emerging research field that studies how genetic diversity distributes across space and how environmental features can modify this structure through local adaptation."
