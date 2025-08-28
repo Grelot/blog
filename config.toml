@@ -58,12 +58,12 @@ links = [
 ]
 
 [extra.tags_colour]
-biotech = "#d8519f"
-career = "#0c63ed"
-data-engineering = "#863a1d"
-data-science = "#18b3c3"
-engineering = "#ff4500"
-omics = "#27ae60"
-society = "#8a51d8"
-sciences = "#e74c3c"
-tech = "#f39c12"
+biotech = "#C6A6CC"
+career = "#4986E7"
+data-engineering = "#CCA6AC"
+data-science = "#2DA2BB"
+engineering = "#FF7537"
+omics = "#16A664"
+society = "#B99AFF"
+sciences = "#FB4C2F"
+tech = "#FFAD46"
