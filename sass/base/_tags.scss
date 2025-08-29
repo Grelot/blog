@@ -14,13 +14,13 @@
     display: inline-flex;
     overflow: visible;
     text-overflow: ellipsis;
-    white-space: nowrap;    
-    border-radius: 5%;    
-    margin-bottom: 0.1rem;
-		padding-left: clamp(4px, 0.1rem, 100vw);
+    white-space: nowrap;
+    border-radius: 5px;    
+    margin-bottom: 0.05rem;
+		padding-left: clamp(8px, 0.1rem, 100vw);
 		padding-right: clamp(4px, 0.1rem, 100vw);
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
     transition: transform 0.1s ease;
     a {
       color: colours.$anti_colour;
@@ -28,14 +28,14 @@
       overflow: hidden;
       text-overflow: ellipsis;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 550;
       transition: transform 0.1s ease;
     }
     a:hover, a:active {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }    
   }
   li:hover, li:active {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
