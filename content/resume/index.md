@@ -11,7 +11,6 @@ draft = false
 * [Linkedin profile](https://www.linkedin.com/in/pierre-edouard-guerin/)
 * [Kaggle portfolio](https://www.kaggle.com/pierreedouardguerin)
 
-_______________________________________________________________________________
 
 ## Experience
 <div class="timeline-entry">
@@ -78,21 +77,21 @@ _______________________________________________________________________________
   </div>
 </div>
 
+## Training
+
+* 2024: Generative AI workshop, [Interactivity](https://www.interactivity.nl/)
+* 2024: Elastic Stack Workshop, [AMBIENT-IT](https://www.ambient-it.net/)
+* 2023: Databricks Lakehouse Bootcamp, [Databricks Academy](https://www.databricks.com/learn/training/home)
+* 2020: Landscape Genetics Distributed Graduate Seminar, [IDGC](https://sites.google.com/site/landscapegeneticscourse/)
+* 2019: ReproHackathon, [CIRAD](https://github.com/IFB-ElixirFr/ReproHackathon)
+* 2018: Advanced Statistics for Data Sciences, [EPHE](https://www.ephe.psl.eu/formations-conferences)
+* 2017: High-Performance Computing Workshop, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/)
+
+
 
 	
 ## Education
 
-* **2016: M.Sc. in Bioinformatics**, [Paris University](https://u-paris.fr/), France
-* **2014: Licence in Bioinformatics**, [Paris University](https://u-paris.fr/), France
-
-## Training
-
-* **2024: Generative AI workshop**, [Interactivity](https://www.interactivity.nl/), The Netherlands
-* **2024: Elastic Stack Workshop**, [AMBIENT-IT](https://www.ambient-it.net/), France
-* **2023: Databricks Lakehouse Bootcamp**, [Databricks Academy](https://www.databricks.com/learn/training/home), Belgium
-* **2020: Landscape Genetics Distributed Graduate Seminar**, [IDGC](https://sites.google.com/site/landscapegeneticscourse/), USA
-* **2019: ReproHackathon**, [CIRAD](https://github.com/IFB-ElixirFr/ReproHackathon), France
-* **2018: Advanced Statistics for Data Sciences**, [EPHE](https://www.ephe.psl.eu/formations-conferences), France
-* **2017: High-Performance Computing Workshop**, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/), France
-
+* 2016: M.Sc. in Bioinformatics, [Paris University](https://u-paris.fr/), France
+* 2014: Licence in Bioinformatics, [Paris University](https://u-paris.fr/), France
 
