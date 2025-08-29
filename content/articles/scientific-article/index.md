@@ -5,7 +5,7 @@ date =  2015-03-20
 draft = false
 description="How to read and write a scientific article"
 [taxonomies]
-tags = ["sciences", "career"]
+tags = ["communication"]
 +++
 
 A **scientific article** is the report that serves for the dissemination of scientific findings to other researchers. Every scientific article has a title, summary, introduction, materials and methods, results and discussion.

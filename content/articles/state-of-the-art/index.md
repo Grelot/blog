@@ -5,7 +5,7 @@ date =  2017-05-11
 draft = false
 description = "Why and how to write the state-of-the-art."
 [taxonomies]
-tags = ["sciences", "career"]
+tags = ["communication"]
 +++
 
 The **state of the art** describes the current knowledge in a specific field through the analysis of a corpus of scientific publications. It serves as a basis for formulating the research question and developing related hypotheses.

@@ -5,7 +5,7 @@ date =  2020-04-02
 draft = false
 description="Does writing well matter in an age of instant communication? "
 [taxonomies]
-tags = ["society"]
+tags = ["communication"]
 +++
 
 I watched Steven Pinker’s talk on YouTube about writing style in the 21st century, and it was brilliant. Does writing well matter in an age of instant communication? According to Pinker, yes it does, but we must minimize the flaws of the post-modern style. Writing has never been natural for humans. Some difficulties are as old as writting itself, some are new, and some have only recently been revealed thanks to cognitive science and linguistics. Here, I have summarized the advices from Pinker on how to write in a better style.
