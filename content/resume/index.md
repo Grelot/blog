@@ -12,6 +12,10 @@ draft = false
 * [Kaggle portfolio](https://www.kaggle.com/pierreedouardguerin)
 
 
+## Summary
+
+I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. My tools process, store and integrate [omics data](/activity/) into databases linking genetic information with phenotypes and field conditions. I am interested in any technology that improves the processing, visualisation or mining of biodata.
+
 ## Experience
 <div class="timeline-entry">
   <div class="timeline-date">July 2021 to present</div>
