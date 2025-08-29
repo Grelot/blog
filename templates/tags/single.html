@@ -25,8 +25,9 @@
         <ul>
           {% if page.taxonomies.tags %} 
             {% for tag in page.taxonomies.tags | sort %}
-            <li style="background: {{ config.extra.tags_colour[tag] }}">
-              <a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
+            <li style="background: {{ config.extra.tags_colour[tag].bg }}">
+              <a style="color: {{ config.extra.tags_colour[tag].text }}"
+               href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}">{{ tag }}</a>&nbsp;
             </li> 
             {% endfor %}
           {% endif %}        

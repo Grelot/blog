@@ -58,12 +58,14 @@ links = [
 ]
 
 [extra.tags_colour]
-biotech = "#C6A6CC"
-career = "#4986E7"
-data-engineering = "#CCA6AC"
-data-science = "#2DA2BB"
-engineering = "#FF7537"
-omics = "#16A664"
-society = "#B99AFF"
-sciences = "#FB4C2F"
-tech = "#FFAD46"
+biotech = { bg = "#A2DCC1", text = "#04502E" }
+communication = { bg = "#B6CFF5", text = "#0D3472" }
+career = { bg = "#4986E7", text = "#ffffff" }
+data-engineering = { bg = "#EBDBDE", text = "#662E37" }
+data-science = { bg = "#98D7E4", text = "#0D3B44" }
+engineeering = { bg = "#FFAD46", text = "#ffffff" }
+management = { bg = "#98D7E4", text = "#0D3B44" }
+omics = { bg = "#16A664", text = "#ffffff" }
+society = { bg = "#E3D7FF", text = "#3D188E" }
+sciences = { bg = "#FB4C2F", text = "#ffffff" }
+tech = { bg = "#FBE983", text = "#594C05" }
