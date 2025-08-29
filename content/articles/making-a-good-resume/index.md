@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Making a good resume"
+title = "Making a Good Resume"
 date =  2021-08-12
 draft = false
 description= "This is a lesson series about how to get a research position in industry by making a great resume."
