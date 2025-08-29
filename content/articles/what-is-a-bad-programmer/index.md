@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "What is a bad programmer?"
+title = "What is a Bad Programmer?"
 date =  2023-12-23
 draft = false
 description= "clean code principles"
@@ -8,9 +8,9 @@ description= "clean code principles"
 tags = ["career", "tech"]
 +++
 
-**Coding** refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. Since a program in a computer is a set of instructions to execute specific tasks. Thus, a programmer is never alone, he is always working at the very least with the computer. Moreover, every program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, such programs are typically designed to transform raw biological data into formats that can be effectively used by other specialists for further analysis.
+**Coding** refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. Since a program in a computer is a set of instructions to execute specific tasks. The program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, programs are typically designed to transform raw biological data into formats that can be effectively used by other specialists for further analysis.
 <!-- more -->
-It's important to be aware that the program is not a static code but a living thing. The environment around it can evolve, requirements may change, and the program must adapt accordingly to remain relevant and useful. To keep the program *alive* and functional, it requires programmers, users and reviewers. Therefore, the code will need to be modified and tested by anyone as often as needed.
+The program is not a static code but a living thing. The environment around it can evolve, requirements may change, and the program must adapt accordingly to remain relevant and useful. To keep the program *alive* and functional, it requires programmers, users and reviewers. Therefore, the code will need to be modified and tested by anyone as often as needed. The code should be more than just a sequence of instructions for the computer to execute, it should also be a text that is easy for other humans to read.
 
 Best coding practices have been introduced to improve code readability (by other humans) and, consequently, ease program maintenance. In this context, *bad* or *good* code is, above all, code that either jeopardizes or saves the life of the program.
 
