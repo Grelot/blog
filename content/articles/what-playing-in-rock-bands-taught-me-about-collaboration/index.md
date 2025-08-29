@@ -23,7 +23,7 @@ Here are the lessons rock bands taught me about people and collaboration.
 
 ## Early Years
 
-I studied piano and music theory in the conservatoire. After the conservatoire, I specialized in jazz piano and the art of improvisation for one year. One summer in the countryside, a friend introduced me to the guitar, We were obsessed by *Nirvana*, *The Red Hot Chili Peppers* and *Gorillaz*. I continued playing piano exploring blues and jazz scores by *Tom Waits* and *John Coltrane*. Finally, an older pianist friend taught me about bal musette and how to play pop songs on the synthesizer.
+I studied piano and music theory in the conservatoire for five years. After the conservatoire, I specialized in jazz piano and the art of improvisation for one year. One summer in the countryside, a friend introduced me to the guitar, We were obsessed by *Nirvana*, *The Red Hot Chili Peppers* and *Gorillaz*. I continued playing piano exploring blues and jazz scores by *Tom Waits* and *John Coltrane*. Finally, an older pianist friend taught me about bal musette and how to play pop songs on the synthesizer.
 
 By high school, I started playing in rock band, performing covers of heavy metal and rock bands such as *Radiohead*, *Muse*, and *Metallica*. I progressively gave up piano to learn guitar and bass instead.
 
@@ -88,7 +88,7 @@ For fun I made caricatures of the different types of musicians based on people I
 
 #### :astronaut: The Gifted
 
-* Strenghts: Genius in improvisation, channels ideas from outer space.
+* Strenghts: Genius in improvisation, finds ideas from outer space.
 * Flaws: Chaotic, hard to repeat, does not communicate well.
 
 
@@ -171,9 +171,9 @@ Now, imagine you are a guitarist and you need to recruit a drummer. You are in t
 * Motivation matters. Is the candidate ready to take the band all the way to the stage?
 * Reliability matters. Will the candidate show up on time for rehearsals?
 * Character matters. Will the candidate improve the mood in the band?
-* Creativity matters. Will the candidate inspiring ideas, or stay passive?
+* Creativity matters. Will the candidate proposes ideas, or stay passive?
 * Flexibility matters. Can the candidate find solutions if a guitar is missing five minutes before going on stage?
-* Charisma matters. Will the candidate bring new fans to the band?
+* Sociability matters. Will the candidate bring new fans to the band?
 * The big question. Will the candidate expand the spirit of the band or shrink it?
 
 ### Learning from each others
