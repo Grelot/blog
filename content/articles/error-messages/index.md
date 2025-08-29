@@ -8,7 +8,7 @@ description="cli formatting error messages"
 tags = ["tech"]
 +++
 
-I am an anxious person. So **error messages** always makes my heart beat faster. Hopefully, following the Pareto law, 80% of error messages are mild while 20% are the really tough one. The point is to solve the first kind as quickly as possible and effortless. To do so, allow the user to solve the issue by himself with clear messages and hints (in the case of errors related to input files or parameters). Clear presentation of the context and precise localization of the error in the code will save a lot of useless and tedious work to the developer. The time spared on the easy errors just by having better messages, then can be reallocated to the second kind of errors, the troublemakers.
+I am an anxious person. So **error messages** always makes my heart beat faster. Hopefully, following the [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle), 80% of error messages are mild while 20% are the really tough one. The point is to solve the first kind as quickly as possible and effortless. To do so, allow the user to solve the issue by himself with clear messages and hints (in the case of errors related to input files or parameters). Clear presentation of the context and precise localization of the error in the code will save a lot of useless and tedious work to the developer. The time spared on the easy errors just by having better messages, then can be reallocated to the second kind of errors, the troublemakers.
 <!-- more -->
 
 ```
