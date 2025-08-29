@@ -133,6 +133,7 @@ In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogue
 | Diagnosis | `dia` + `gnosis` | through + knowledge | A technical description |
 | Energy | `en` + `ergon` | in + work | capacity to work |
 | Hypothesis | `hypo` + `thesis` | under + proposition | A proposition made as a basis for reasoning |
+| Lemma | `lemma` | assumption | intermediate theorem |
 | Method | `meta` + `hodos` | beyond + way | A way of doing something |
 | Parameter | `para` + `metre` | beside + measure | A value that characterizes a member of a system |
 | Phenomenom | `pheno` + `omenon` | appear + which | An observable fact or event |
@@ -141,7 +142,8 @@ In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogue
 | Synthesis | `syn` + `thesis` | together + proposition | Composition or combination of elements so as to form a whole |
 | Technique | `techne` + `ique` | craft + self | How to do something |
 | Technology | `techne` + `logia` | craft + study | Body of practical skills *e.g. biotechnology* |
-| Theory | `theoros` | spectactor, observer | body of principles offered to explain phenomena |
+| Theorem | `theoreo` + `ema` | observe + result |  a statement that has been proven |
+| Theory | `theoreo` + `ia` | observe + action | body of principles offered to explain phenomena, not necessarily proven |
 
 #### Biology
 
@@ -223,10 +225,11 @@ In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogue
 
 #### Sciences
 
-| English Word | Greek Root | Meaning of Root | Sense |
+| English Word | Latin Root | Meaning of Root | Sense |
 | --- | --- | --- | --- |
 | Control | `contra` + `rotulare` | against + record | to check by experiments |
 | Experiment | `experi` + `ment` | try + result | an operation under controlled conditions in order to test a hypothesis |
+| Exponential | `exponere` | to set forth | an operation related to an exponent |
 | Observation | `ob` + `servare` + `ion` | toward + watch + action | Report fact |
 | Result | `re` + `sultare` | back + leap | consequence of an action |
 | Specimen | `specere` + `ment` | look + result | a portion of material for use in study |
@@ -235,14 +238,14 @@ In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogue
 
 #### Biology
 
-| English Word | Greek Root | Meaning of Root | Sense |
+| English Word | Latin Root | Meaning of Root | Sense |
 | --- | --- | --- | --- |
 | Cell | `cella` | small room | unit of life |
 | Organ | `organum` | tool | functional unit of tissue in organims |
 
 #### Computer science
 
-| English Word | Greek Root | Meaning of Root | Sense |
+| English Word | Latin Root | Meaning of Root | Sense |
 | --- | --- | --- | --- |
 | Binary | `bi` + `ni` | two + peer  | a number system based only on the numerals 0 and 1 |
 | Data | `datum` | donation | information in digital form that can be transmitted or processed |
@@ -252,6 +255,7 @@ In 4th century BC, **Plato**, student of **Socrate** wrote the Socratic dialogue
 | Information | `informare` + `ion` | instruct + action | Structured knowledge |
 | Incrementation | `incrementum` + `ion` | increase + action | adding or increasing a value by a predetermined step or unit |
 | Input | `in` + `putare` | within + put | information fed into a program |
+| Integer | `integer` | whole |  a whole number |
 | Interface | `inter` + `facies` | between + faces | points of interaction between hardware and software components |
 | Iteration | `iterare` + `ion` | repeat + action | to repeat operations |
 | Recursion | `recurrere` + `ion` | run back + action | A function that call itself
