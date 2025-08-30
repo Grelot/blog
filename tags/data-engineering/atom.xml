@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - data-engineering</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/data-engineering/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-18T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/data-engineering/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Chado: the GMOD Database Schema</title>
+        <published>2025-01-18T00:00:00+00:00</published>
+        <updated>2025-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/chado-the-gmod-database-schema/"/>
+        <id>https://guerinpe.com/articles/chado-the-gmod-database-schema/</id>
+        
+        <summary type="html">&lt;p&gt;the &lt;a href=&quot;https:&#x2F;&#x2F;gmod.org&#x2F;&quot;&gt;Generic Model Organism Database&lt;&#x2F;a&gt; project or GMOD is a collection of open source software tools for managing, visualising, storing, and disseminating genetic and genomic data.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Entity Relationship Model</title>
+        <published>2021-01-23T00:00:00+00:00</published>
+        <updated>2021-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/entity-relationship-model/"/>
+        <id>https://guerinpe.com/articles/entity-relationship-model/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;Entity Relationship Model&lt;&#x2F;strong&gt; is a model for designing a database. Data is represented as &lt;strong&gt;entities&lt;&#x2F;strong&gt; with attributes. Entities are linked by &lt;strong&gt;relations&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

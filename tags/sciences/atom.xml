@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - sciences</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/sciences/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-09-19T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/sciences/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Global Ocean Atlas of Eukaryotic Genes</title>
+        <published>2020-09-19T00:00:00+00:00</published>
+        <updated>2020-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/"/>
+        <id>https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/</id>
+        
+        <summary type="html">&lt;p&gt;Single-celled microeukaryotes and small multicellular zooplankton account for most of the planktonic biomass in the world’s ocean. Seawater samples were collected from the global ocean during the Tara Oceans expedition to generate a global ocean reference catalog of genes from planktonic eukaryotes sampled RNA and to explore the expression patterns of community at different microscopic scales with respect to biogeography and environmental conditions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Global Determinants of Fish Genetic Diversity</title>
+        <published>2020-03-04T00:00:00+00:00</published>
+        <updated>2020-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/global-determinants-of-fish-genetic-diversity/"/>
+        <id>https://guerinpe.com/articles/global-determinants-of-fish-genetic-diversity/</id>
+        
+        <summary type="html">&lt;p&gt;At the beginning of 2020, our team* has published the first global map of the genetic diversity of marine and freshwater fishes. This is an important instrument for the preservation of species. This first map is published in the journal &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41467-020-14409-7&quot;&gt;Nature Communications&lt;&#x2F;a&gt;. As I have done all the bioinformatics analysis, I thought I could present this work from my point of view as a computer scientist. Indeed, this work required the collaboration of a wide range of professions: ecologist, oceanographer, statistician and geneticist.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape Genomics</title>
+        <published>2019-11-14T00:00:00+00:00</published>
+        <updated>2019-11-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/landscape-genomics/"/>
+        <id>https://guerinpe.com/articles/landscape-genomics/</id>
+        
+        <summary type="html">&lt;p&gt;Environmental conservation issues have urged a need to better understand and describe species and populations on Earth. Recently, progress in sequencing technologies made it possible to refine this understanding through genomics. Understanding and describing populations of living organisms in a given environment by exploiting sequencing data is the ultimate goal of landscape genomics. So this article is an introduction of this field.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Virtual Environments, Containers and Scientific Reproducibility</title>
+        <published>2018-01-19T00:00:00+00:00</published>
+        <updated>2018-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/virtual-environment-reproducibility/"/>
+        <id>https://guerinpe.com/articles/virtual-environment-reproducibility/</id>
+        
+        <summary type="html">&lt;p&gt;Containers provide an easy-to-use, secure, and reproducible environment for scientists to transport their studies between computational resources. As more communities are using Docker or Singularity, we enter into the age of high reproducibility or at least replicability so that the use of containers is mandatory for any study.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Ethymologicon of Science</title>
+        <published>2016-02-29T00:00:00+00:00</published>
+        <updated>2016-02-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/ethymologicon-of-science/"/>
+        <id>https://guerinpe.com/articles/ethymologicon-of-science/</id>
+        
+        <summary type="html">&lt;p&gt;Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>
