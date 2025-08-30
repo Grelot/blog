@@ -177,7 +177,6 @@ In any statement, you must identify key concepts by describing every components.
 
 ### Third Example of Analysis (Sociology)
 
-Quel est l'action de l'école sur les destins indv et l'evolution de la société?
 
 > How does the school shape individual life trajectories and contribute to the evolution of society?
 
@@ -208,7 +207,6 @@ Quel est l'action de l'école sur les destins indv et l'evolution de la sociét�
 
 ### Last Example of Analysis (Philosophy)
 
-Discuter, est ce renoncer à la violence?
 
 > To discuss, is it to renounce violence?
 
