@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Phasing"
-date =  2022-01-18
+date =  2022-07-18
 draft = false
 description="methods to phase genotypes based on SNPs data"
 [taxonomies]

@@ -1,11 +1,11 @@
 +++
 template = "page.html"
-title = "Generative AI"
+title = "Generative AI: Integrate openAI API with Python"
 date =  2024-05-27
 draft = false
 description="The technology behind LLMs and how they are used"
 [taxonomies]
-tags = ["data-science"]
+tags = ["tech", "data-science"]
 +++
 
 I was fortunate to follow the course of **Sven Warris** about software tools to integrate genAI into your own work and applications. The course is aimed at data scientists and bioinformaticians.
@@ -49,3 +49,5 @@ text
 ## References
 
 * Generative AI workshop: [Sven Warris doc](https://interactivity-bv.github.io/2024-05-27-genai/)
+
+https://www.planeks.net/open-ai-api-integration-guide/

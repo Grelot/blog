@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Global determinants of fish genetic diversity"
+title = "Global Determinants of Fish Genetic Diversity"
 date =  2020-03-04
 draft = false
 description= "Data mining on up to 70,000 georeferenced mitochondrial DNA barcode sequences for fish species unveils the correlation between genetic diversity and species diversity and their global distributions in relation to climate and geography."

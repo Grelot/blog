@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Principal Component Analysis"
-date =  2016-09-03
+date =  2017-01-02
 draft = false
 description = "PCA Study Guide"
 [taxonomies]

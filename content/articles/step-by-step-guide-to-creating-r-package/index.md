@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Step-by-Step Guide to Creating R packages"
-date =  2019-03-30
+date =  2019-02-27
 draft = false
 description= "How to create an R package with Rstudio and devtools."
 [taxonomies]

@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "State of the Art"
-date =  2017-05-11
+date =  2016-03-11
 draft = false
 description = "Why and how to write the state-of-the-art."
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Error Messages"
+title = "Error Messages with a CLI"
 date =  2024-11-28
 draft = false
 description="cli formatting error messages"
@@ -118,7 +118,7 @@ inversion <- function(number) {
 
 This way you code is shorter, cleaner and you can change all the error messages in a centralized way.
 
-## Command Line Interfaces 
+## Command Line Interfaces (CLI)
 
 Last but not least, you need to use a dedicated Command Line Interfaces (CLI) for error messages. Still with the example of R, the package [`cli`](https://github.com/r-lib/cli) provide the tools to build structured messages.
 

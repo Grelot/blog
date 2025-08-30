@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Online Reputation"
-date =  2017-01-02
+date = 2016-09-03
 draft = false
 description="Building online personal reputation"
 [taxonomies]

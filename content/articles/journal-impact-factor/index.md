@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Journal Impact Factor"
-date =  2016-10-20
+date =  2016-01-20
 draft = false
 description= "Definition of journal impact factor"
 [taxonomies]

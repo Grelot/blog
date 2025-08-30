@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Metabarcoding"
-date =  2019-02-09
+date =  2019-03-09
 draft = false
 description = "Next-generation sequencing of environmental barcodes-DNA."
 [taxonomies]
