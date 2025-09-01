@@ -186,8 +186,8 @@ inversion <- function(number) {
 
 ### CLI Libraries in Other Languages
 
-* **Python**: [Click](https://click.palletsprojects.com/en/stable/)
-* **C++**: [fmt](https://github.com/fmt)
+* **Python**: [Click](https://click.palletsprojects.com/en/stable/why/)
+* **C++**: [fmt](https://github.com/fmtlib/fmt)
 * **Php**: [Symfony CLI](https://symfony.com/doc/current/components/console.html)
 * **Java**: [Picocli](https://picocli.info/)
 
