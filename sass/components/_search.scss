@@ -13,20 +13,23 @@
 
   .search-form {    
     width: 100%;
-    border: 1px solid colours.$shadow_colour;
-    border-radius: 8px;
-     background-color: colours.$lightshade_colour; 
+    border: 1px solid colours.$darkshadow_colour;
+    border-radius: 2rem;
+    background-color: colours.$lightshade_colour; 
 
     .search-input {
       width: 100%;
       border: none;
-      padding: 0.5rem 0.5rem;
-      font-size: 0.9rem;
-       border-radius: 8px;
-       background-color: transparent;
+      border-radius: 2rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: transparent;
 
       &:focus {
-        outline: 2px solid colours.$highlight_colour; // custom color
+        outline: 2px solid colours.$highlight_colour;
+        -webkit-box-shadow: inset 0 4px 4px -4px colours.$darkshadow_colour;
+        -moz-box-shadow: inset 0 4px 4px -4px colours.$darkshadow_colour;
+        box-shadow: inset 0 4px 4px -4px colours.$darkshadow_colour;
       }
     }
   }
