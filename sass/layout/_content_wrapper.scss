@@ -32,14 +32,21 @@
 
   // Desktops HD (1440px–1919px)
   @media (min-width: 1440px) and (max-width: 1919px) {
-    padding: 4rem 12rem;
-  }
-
-  // Très grands écrans (≥1920px)
-  @media (min-width: 1920px) {
     padding: 4rem 16rem;
   }
 
+  // Très grands écrans (1920-2399px)
+  @media (min-width: 1920px) and (max-width: 2399px) {
+    padding: 4rem 24rem;
+  }
+  // 3K (2400-3000px)
+  @media (min-width: 2400px) and (max-width: 3999px){
+    padding: 4rem 32rem;
+  }
+  // 4K (≥3000px)
+  @media (min-width: 3000px) {
+    padding: 4rem 48rem;
+  }
 
 
   hr {
