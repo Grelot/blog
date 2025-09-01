@@ -68,7 +68,7 @@ Example:
 
 ### For simple program
 
-For a simple script, the simplest is just to write the error message directly where it happens.
+For a simple script, just write the error message where it happens.
 
 ```
 inversion <- function(number) {
@@ -116,7 +116,7 @@ inversion <- function(number) {
 }
 ```
 
-This way you code is shorter, cleaner and you can change all the error messages in a centralized way.
+This way your code is shorter, cleaner and you can change all the error messages in a centralized way.
 
 ## Command Line Interfaces (CLI)
 
@@ -128,6 +128,7 @@ Last but not least, you need to use a dedicated Command Line Interfaces (CLI) fo
 * Handle variables
 * Word pluralizing
 
+### Error and Warning messages Formatting
 
 The following command display a default format for Success, alert, warning, hint type messages. It also automatically generate the stack track to localize the where the error occurs.
 ```
@@ -136,26 +137,39 @@ cli_alert_danger("Alert.")
 cli_alert_warning("Warning.")
 cli_alert_info("Hint.")
 ```
-Text formatting
+
+### Stack Track
+
+```
+cli_abort(message = "Abort.")
+```
+
+
+### Text Formatting
+
 ```
 cli_h1("Heading 1")
 cli_h2("Heading 2")
 cli_li("Item 1")
 cli_li("Item 2")
 ```
-Using variable
+
+### Using Variable
+
 ```
 fruits <- c("banana", "orange", "strawberry")
 cli_alert_success("Recorded {length(user_names)} fruits.")
 ```
-Pluralize words
+
+### Pluralize words
+
 ```
 n_files = 3
 n_dirs = 1
 cli_alert_info("Found {n_files} file{?s} and {n_dirs} director{?y/ies}.")
 ```
 
-### Dictionnary of error messages combined with `cli`
+## Dictionnary of error messages combined with `cli`
 
 ```
 R/
@@ -184,7 +198,7 @@ inversion <- function(number) {
 }
 ```
 
-### CLI Libraries in Other Languages
+## CLI Libraries in Other Languages
 
 * **Python**: [Click](https://click.palletsprojects.com/en/stable/why/)
 * **C++**: [fmt](https://github.com/fmtlib/fmt)
@@ -193,7 +207,7 @@ inversion <- function(number) {
 
 ## Conclusion
 
-* Use short and consistent in style and format error messages.
+* Use short and consistent style and format.
 * Trace back and description of context is mandatory.
 * Use a dictionnary of error messages to centralize them and lighten your code.
 * Use CLI libraries to help you write formatted and standardized error messages.
