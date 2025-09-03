@@ -13,7 +13,6 @@ tags = ["publications"]
 * Publications on [ResearchGate](https://www.researchgate.net/profile/Pierre-Edouard-Guerin)
 * Publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=hj1ClrsAAAAJ)
 
-_______________________________________________________________________________
 
 ## Scientific articles
 
@@ -106,16 +105,16 @@ _______________________________________________________________________________
 >
 > Scientific Reports. 2016 Jun 20. DOI: [10.1038/srep28268](https://doi.org/10.1038/srep28268)
 
-_______________________________________________________________________________
 
 
-## Softwares
 
-### Florimond Desprez Group (2021-)
+# Software
+
+## Florimond Desprez Group (2021-)
 
 * My software developed for the company is **confidential**. Please contact me for more information.
 
-### Public research (2015-2021)
+## Public research (2015-2021)
 
 * **[WFGD](https://shiny.cefe.cnrs.fr/wfgd/)** (main contributor): interactive worldmap of fish genetic diversity.
 * **[ANVAGE](https://github.com/Grelot/anvage)** (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.
@@ -127,4 +126,3 @@ _______________________________________________________________________________
 * **[EXAM](https://sourceforge.net/projects/exam-exome-analysis-and-mining/)** (contributor): a whole exome sequencing analysis and its graphical interface
 * **[ORION](https://www.dsimb.inserm.fr/orion/)** (contributor): a sensivitive method for protein template detection
 
-_______________________________________________________________________________
