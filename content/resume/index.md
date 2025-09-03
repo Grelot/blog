@@ -14,7 +14,7 @@ draft = false
 
 ## Summary
 
-I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. My tools process, store and integrate [omics data](/activity/) into databases linking genetic information with phenotypes and field conditions. I am interested in any technology that improves the processing, visualization or mining of biodata.
+I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. My tools process, store and integrate [omics data](/activity/) into databases linking genetic information with phenotypes and field conditions. I am interested in any technology related to the processing, visualization or mining of biodata.
 
 ## Experience
 <div class="timeline-entry">
@@ -96,6 +96,6 @@ I am a bioinformatician who designs tools to help breeders improve the genetics 
 	
 ## Education
 
-* 2016: M.Sc. in Bioinformatics, [Paris University](https://u-paris.fr/), France
-* 2014: Licence in Bioinformatics, [Paris University](https://u-paris.fr/), France
+* **2016: M.Sc. in Bioinformatics**, [Paris University](https://u-paris.fr/), France
+* **2014: Licence in Bioinformatics**, [Paris University](https://u-paris.fr/), France
 
