@@ -61,10 +61,12 @@ links = [
 biotech = { bg = "#A2DCC1", text = "#04502E" }
 communication = { bg = "#B6CFF5", text = "#0D3472" }
 career = { bg = "#4986E7", text = "#ffffff" }
+computer-science = { bg = "#2DA2BB", text = "#ffffff" }
 data-engineering = { bg = "#EBDBDE", text = "#662E37" }
 data-science = { bg = "#98D7E4", text = "#0D3B44" }
 engineeering = { bg = "#FFAD46", text = "#ffffff" }
-management = { bg = "#98D7E4", text = "#0D3B44" }
+management = { bg = "#F691B2", text = "#994A64" }
+math = { bg = "#FFE3C7", text = "#9C3A00" }
 omics = { bg = "#16A664", text = "#ffffff" }
 society = { bg = "#E3D7FF", text = "#3D188E" }
 sciences = { bg = "#FB4C2F", text = "#ffffff" }
