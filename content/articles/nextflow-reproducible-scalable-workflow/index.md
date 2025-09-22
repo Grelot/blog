@@ -5,7 +5,7 @@ date =  2021-07-03
 draft = false
 description="Nextflow is a workflow system for creating scalable, portable, and reproducible workflows"
 [taxonomies]
-tags = ["tech"]
+tags = ["software-engineering", "omics"]
 +++
 
 In my work, I use **Nextflow** to design and implement bioinformatics pipelines that automate complex data analyses.

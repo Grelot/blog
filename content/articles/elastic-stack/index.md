@@ -5,7 +5,7 @@ date =  2024-04-23
 draft = false
 description="My training Elastic Stack with Ambient IT"
 [taxonomies]
-tags = ["tech"]
+tags = ["sys"]
 +++
 
 strange not working

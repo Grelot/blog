@@ -5,7 +5,7 @@ date =  2018-01-19
 draft = false
 description = "How to use Docker or Singularity to build containers in order to ease workflows dissemination."
 [taxonomies]
-tags = ["sciences", "tech"]
+tags = ["sciences", "sys"]
 +++
 
 

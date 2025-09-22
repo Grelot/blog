@@ -6,7 +6,7 @@ draft = false
 in_search_index = true
 description = "A quick introduction to the very basics starting from the UNIX operating system."
 [taxonomies]
-tags = ["tech"]
+tags = ["sys"]
 +++
 
 This is some hints about shell script programming based on examples. I provide here some little scripts which will hopefully help to understand the very basics. 

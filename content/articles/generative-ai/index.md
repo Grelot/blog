@@ -5,7 +5,7 @@ date =  2024-05-27
 draft = false
 description="The technology behind LLMs and how they are used"
 [taxonomies]
-tags = ["tech", "data-science"]
+tags = ["software-engineering"]
 +++
 
 I was fortunate to follow the course of **Sven Warris** about software tools to integrate genAI into your own work and applications. The course is aimed at data scientists and bioinformaticians.

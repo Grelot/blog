@@ -5,7 +5,7 @@ date =  2018-11-26
 draft = false
 description = "A quick reference for basic Git commands to help students learn Git."
 [taxonomies]
-tags = ["tech"]
+tags = ["software-engineering"]
 +++
 
 

@@ -5,7 +5,7 @@ date =  2019-02-27
 draft = false
 description= "How to create an R package with Rstudio and devtools."
 [taxonomies]
-tags = ["tech", "data-science"]
+tags = ["software-engineering", "data-science"]
 +++
 
 

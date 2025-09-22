@@ -5,7 +5,7 @@ date =  2017-04-24
 draft = false
 description="Here a collection of basic but useful commands to admin a linux system."
 [taxonomies]
-tags = ["tech"]
+tags = ["sys"]
 +++
 
 Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine.

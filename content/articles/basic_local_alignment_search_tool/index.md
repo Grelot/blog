@@ -5,7 +5,7 @@ date =  2015-01-14
 draft = false
 description="How works the algorithm of BLAST"
 [taxonomies]
-tags = ["omics", "tech"]
+tags = ["omics"]
 +++
 
 Published in 1990 and entitled **Basic Local Alignment Search Tool**, was the most highly cited publication of its time. The development of BLAST bridged Biology and Computer Science giving birth to the new field of **Bioinformatics**.

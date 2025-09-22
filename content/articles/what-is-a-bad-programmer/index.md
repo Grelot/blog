@@ -5,7 +5,7 @@ date =  2023-12-23
 draft = false
 description= "clean code principles"
 [taxonomies]
-tags = ["career", "tech"]
+tags = ["career", "software-engineering"]
 +++
 
 **Coding** refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. The program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, programs are designed to transform raw biological data into formats that can be used by other specialists for further analysis.

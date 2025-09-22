@@ -5,7 +5,7 @@ date =  2020-06-27
 draft = false
 description= "All the information needed to process metabarcoding data using OBITools software."
 [taxonomies]
-tags = ["omics", "tech"]
+tags = ["omics", "software-engineering"]
 +++
 
 

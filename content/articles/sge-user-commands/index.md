@@ -5,7 +5,7 @@ date =  2017-09-17
 draft = false
 description = "Understand SGE and queueing system. Submit batch jobs to SGE cluster."
 [taxonomies]
-tags = ["tech"]
+tags = ["sys"]
 +++
 
 Using a cluster environment is similar to using linux environments for your job submission. The difference is that you need to specify needed resources beforehand. The cluster is controlled by a SGE (Sun Grid Engine Software) that organizes the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many. Here I show how to use Sun Grid Engine for job submission, monitoring and troubleshooting.

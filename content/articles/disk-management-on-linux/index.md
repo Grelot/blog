@@ -5,7 +5,7 @@ date =  2017-07-27
 draft = false
 description="Commands such as checking, adding or removing storage devices, creating and deleting partitions."
 [taxonomies]
-tags = ["tech"]
+tags = ["sys"]
 +++
 
 In this article, I resume some bash commands to check up or manage partitions on a linux system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc.
