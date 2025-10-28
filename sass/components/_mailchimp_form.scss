@@ -80,8 +80,9 @@
     border-top-right-radius: 8px;  // round right side
     border-bottom-right-radius: 8px;
     padding: 0.25rem 0.75rem;
+    font-family: fonts.$main_font;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: bold;
     height: 2rem;
     color: colours.$anti_colour;
     cursor: pointer;

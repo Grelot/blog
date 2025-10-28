@@ -12,8 +12,8 @@
   
   
   @media (max-width: 640px) {
-    justify-content: flex-start;   // align all to left
-    gap: 0.5rem;                   // small gap between items
+    justify-content: flex-start;
+    gap: 0.5rem;
   }
 
 }
@@ -49,6 +49,7 @@
   text-align: center;
   user-select: none;
   padding-bottom: 0.75rem;
+  text-decoration: none;
 
   &:hover,
   &:focus {
@@ -110,8 +111,9 @@
     border: none;
     padding: 0.25rem 0.75rem;
     border-radius: 8px;
+    font-family: fonts.$main_font;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: bold;
     height: 2rem;
     cursor: pointer;
     transition: background-color 0.2s ease;
