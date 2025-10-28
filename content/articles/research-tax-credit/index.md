@@ -3,27 +3,27 @@ template = "page.html"
 title = "Research Tax Credit"
 date =  2025-10-07
 draft = false
-description = "How to write a research tax credit justification file in industry."
+description = "How to write a research tax credit justification report."
 [taxonomies]
 tags = ["communication"]
 +++
 
 
-The **Research Activities Tax Credit** is a tax credit that incentivizes businesses and organizations to increase their research and development.  Within my company, I have been tasked with writing the **Research Tax Credit (CIR) justification report** for France. Here, the method for writing such a report.
+The **Research Activities Tax Credit** is a tax credit that incentivizes private companies to increase their Research and Development (R&D).  Within my company, I have been tasked with writing the **Research Tax Credit (CIR) justification report** for France. Here, the method for writing such a report.
 <!-- more -->
 
 ## Plan
 
 1. List of R&D operations
 2. Identity card of operation
-3. Context and Objectives of R&D operation
+3. Context and Objectives of operation
 4. Research Indicators
-5. Object of the R&D operation
+5. Object of the operation
 6. Scientific, technical or technological contribution
 7. Description of the method & results
 8. Human resources
 9. Scientific partnership
-10. List of documents related to the R&D operation
+10. List of documents related to the operation
 
 ## List of R&D operations
 
