@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - communication</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/communication/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-07T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/communication/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Research Tax Credit</title>
+        <published>2025-10-07T00:00:00+00:00</published>
+        <updated>2025-10-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/research-tax-credit/"/>
+        <id>https://guerinpe.com/articles/research-tax-credit/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;Research Activities Tax Credit&lt;&#x2F;strong&gt; is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;amp;D).  Within my company, I have been tasked with writing the &lt;strong&gt;Research Tax Credit (CIR) justification report&lt;&#x2F;strong&gt; for France. Here, the method for writing such a report.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Project Report</title>
+        <published>2023-09-30T00:00:00+00:00</published>
+        <updated>2023-09-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/project-report/"/>
+        <id>https://guerinpe.com/articles/project-report/</id>
+        
+        <summary type="html">&lt;p&gt;intro&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Style and Writing in the 21st Century</title>
+        <published>2020-04-02T00:00:00+00:00</published>
+        <updated>2020-04-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/style-and-writing-in-the-21-century/"/>
+        <id>https://guerinpe.com/articles/style-and-writing-in-the-21-century/</id>
+        
+        <summary type="html">&lt;p&gt;I watched Steven Pinker’s talk on YouTube about writing style in the 21st century, and it was brilliant. Does writing well matter in an age of instant communication? According to Pinker, yes it does, but we must minimize the flaws of the post-modern style. Writing has never been natural for humans. Some difficulties are as old as writting itself, some are new, and some have only recently been revealed thanks to cognitive science and linguistics. Here, I have summarized the advices from Pinker on how to write in a better style.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>State of the Art</title>
+        <published>2016-03-11T00:00:00+00:00</published>
+        <updated>2016-03-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/state-of-the-art/"/>
+        <id>https://guerinpe.com/articles/state-of-the-art/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;state of the art&lt;&#x2F;strong&gt; describes the current knowledge in a specific field through the analysis of a corpus of scientific publications. It serves as a basis for formulating the research question and developing related hypotheses.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Internship Report</title>
+        <published>2015-05-13T00:00:00+00:00</published>
+        <updated>2015-05-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/internship-report/"/>
+        <id>https://guerinpe.com/articles/internship-report/</id>
+        
+        <summary type="html">&lt;p&gt;During my intership in &lt;a href=&quot;https:&#x2F;&#x2F;www.dsimb.inserm.fr&#x2F;&quot;&gt;INSERM Unit S1134, Macromolecular Biology&lt;&#x2F;a&gt;, my supervisors &lt;strong&gt;Yassine Ghouzam&lt;&#x2F;strong&gt; and &lt;strong&gt;Jean-Christophe Gelly&lt;&#x2F;strong&gt; explained to me the structure of a master internship report. Here is the structure to follow and what to include in each section.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scientific Article</title>
+        <published>2015-03-20T00:00:00+00:00</published>
+        <updated>2015-03-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/scientific-article/"/>
+        <id>https://guerinpe.com/articles/scientific-article/</id>
+        
+        <summary type="html">&lt;p&gt;A &lt;strong&gt;scientific article&lt;&#x2F;strong&gt; is the report that serves for the dissemination of scientific findings to other researchers. Every scientific article has a title, summary, introduction, materials and methods, results and discussion.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

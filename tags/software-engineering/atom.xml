@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - software-engineering</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/software-engineering/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-11-28T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/software-engineering/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Error Messages with a CLI</title>
+        <published>2024-11-28T00:00:00+00:00</published>
+        <updated>2024-11-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/error-messages/"/>
+        <id>https://guerinpe.com/articles/error-messages/</id>
+        
+        <summary type="html">&lt;p&gt;I am an anxious person. So &lt;strong&gt;error messages&lt;&#x2F;strong&gt; always makes my heart beat faster. Hopefully, following the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Pareto_principle&quot;&gt;Pareto Principle&lt;&#x2F;a&gt;, 80% of error messages are mild while 20% are the really tough one. The point is to solve the first kind as quickly as possible and effortless. To do so, allow the user to solve the issue by himself with clear messages and hints (in the case of errors related to input files or parameters). Clear presentation of the context and precise localization of the error in the code will save a lot of useless and tedious work to the developer. The time spared on the easy errors just by having better messages, then can be reallocated to the second kind of errors, the troublemakers.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generative AI: Integrate openAI API with Python</title>
+        <published>2024-05-27T00:00:00+00:00</published>
+        <updated>2024-05-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/generative-ai/"/>
+        <id>https://guerinpe.com/articles/generative-ai/</id>
+        
+        <summary type="html">&lt;p&gt;I was fortunate to follow the course of &lt;strong&gt;Sven Warris&lt;&#x2F;strong&gt; about software tools to integrate genAI into your own work and applications. The course is aimed at data scientists and bioinformaticians.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What is a Bad Programmer?</title>
+        <published>2023-12-23T00:00:00+00:00</published>
+        <updated>2023-12-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/what-is-a-bad-programmer/"/>
+        <id>https://guerinpe.com/articles/what-is-a-bad-programmer/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Coding&lt;&#x2F;strong&gt; refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. The program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, programs are designed to transform raw biological data into formats that can be used by other specialists for further analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nextflow: A Tool for Reproducible and Scalable Bioinformatics Workflows</title>
+        <published>2021-07-03T00:00:00+00:00</published>
+        <updated>2021-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/"/>
+        <id>https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/</id>
+        
+        <summary type="html">&lt;p&gt;In my work, I use &lt;strong&gt;Nextflow&lt;&#x2F;strong&gt; to design and implement bioinformatics pipelines that automate complex data analyses.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OBITools: Processing DNA Metabarcoding Data</title>
+        <published>2020-06-27T00:00:00+00:00</published>
+        <updated>2020-06-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/"/>
+        <id>https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;1755-0998.12428&quot;&gt;OBITools&lt;&#x2F;a&gt; software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Step-by-Step Guide to Creating R packages</title>
+        <published>2019-02-27T00:00:00+00:00</published>
+        <updated>2019-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/"/>
+        <id>https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/</id>
+        
+        <summary type="html">&lt;p&gt;In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Team Working with Git</title>
+        <published>2018-11-26T00:00:00+00:00</published>
+        <updated>2018-11-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/team-working-with-git/"/>
+        <id>https://guerinpe.com/articles/team-working-with-git/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve been using &lt;code&gt;Git&lt;&#x2F;code&gt; for years, alone or in collaboration with my team. Over time, I developed habits that I present in this article.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

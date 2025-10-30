@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">The Ethymologicon of Science</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 7 min read · Published on February 29, 2016 
+  </div>
+  <hr>
+  <p>Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.</p>
+<span id="continue-reading"></span><h2 id="the-foundations-of-western-science">The Foundations of Western Science</h2>
+<h3 id="thales-and-pythagore">Thales and Pythagore</h3>
+<p>In 6th century BC, <strong>Thales</strong> and <strong>Pythagore</strong> established the first schools of <em>Mathematics</em>. Mathematics are composed of the following fields:</p>
+<table><thead><tr><th>Field</th><th>Greek Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>School</td><td><code>skole</code></td><td>leisure</td><td>a place where you go to be educated</td></tr>
+<tr><td>Mathematics</td><td><code>máthēma</code> + <code>ique</code></td><td>knowledge + self</td><td>study of numbers, shapes, and space</td></tr>
+<tr><td>Geometry</td><td><code>geo</code> + <code>metre</code></td><td>ground + measure</td><td>study of space and points, lines, curves, and surfaces</td></tr>
+<tr><td>Arithmetic</td><td><code>arithmi</code> + <code>metre</code></td><td>number + measure</td><td>adding and multiplying, etc. numbers</td></tr>
+<tr><td>Astronomy</td><td><code>astro</code> + <code>nomia</code></td><td>star + law</td><td>study of the universe and of objects that exist naturally in space</td></tr>
+<tr><td>Music</td><td><code>muse</code> + <code>techne</code></td><td>muse + craft</td><td>a pattern of sounds made by instruments intented to give pleasure to people listening to it</td></tr>
+</tbody></table>
+<h3 id="the-academia-and-the-lyceus">The Academia and the Lyceus</h3>
+<p>In 4th century BC, <strong>Plato</strong>, student of <strong>Socrate</strong> wrote the Socratic dialogues. In Athens, Plato taught philosophy and mathematics to a small group of students and founded his school: the <em>Academia</em>. <strong>Aristotle</strong>, one of the Plato's student, left the Academia after twenty years to become the tutor of <strong>Alexander the Great</strong> for three years. Upon his return to Athens, Aristotle founded his own school: the <em>Lyceus</em>. The followers of Aristotle and his school where known as <em>Peripatetics</em> named after the practice of walking while teaching. The Lyceus brought together teaching and research across many fields. Their method was to collect and classify knowledge and observations concerning the questions at hand before engaging in theoretical work. A practice similar to the <a href="/articles/state-of-the-art/">state of the art</a> in modern research. The scientific community was born.</p>
+<p>In 1st century BC, <strong>Andronicos de Rhodes</strong> edited the corpus of Aristotle with the following classification:</p>
+<table><thead><tr><th>Field</th><th>Greek Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Logics</td><td><code>logos</code></td><td>reason, discourse</td><td>predictable sequence of events</td></tr>
+<tr><td>Biology</td><td><code>bios</code> + <code>logos</code></td><td>life + discourse</td><td>science of life</td></tr>
+<tr><td>Botanic</td><td><code>botaniko</code> + <code>ique</code></td><td>herbs + self</td><td>science of plants</td></tr>
+<tr><td>Zoology</td><td><code>zoo</code> + <code>logos</code></td><td>animals + discourse</td><td>science of animals</td></tr>
+<tr><td>Dialectic</td><td><code>dia</code> + <code>legein</code> + <code>techne</code></td><td>through + speak + craft</td><td>art of philosophical discussion</td></tr>
+<tr><td>Ethics</td><td><code>ethos</code> + <code>techne</code></td><td>character + craft</td><td>study of what is morally right and what is not</td></tr>
+<tr><td>Politics</td><td><code>pole</code> + <code>ique</code></td><td>city + self</td><td>affairs of the cities</td></tr>
+<tr><td>Physics</td><td><code>physis</code> + <code>ique</code></td><td>nature + self</td><td>science of nature, matter and energy</td></tr>
+<tr><td>Metaphysics</td><td><code>meta</code> + <code>physis</code> + <code>ique</code></td><td>after + nature + self</td><td>the miscellaneous section after the Physics section</td></tr>
+</tbody></table>
+<h2 id="greek-roots">Greek Roots</h2>
+<h3 id="greek-prefixes">Greek Prefixes</h3>
+<table><thead><tr><th>Greek prefix</th><th>English</th></tr></thead><tbody>
+<tr><td><code>a</code></td><td>not, without</td></tr>
+<tr><td><code>ana</code></td><td>apart</td></tr>
+<tr><td><code>amphi</code></td><td>both, around</td></tr>
+<tr><td><code>anti</code></td><td>against</td></tr>
+<tr><td><code>auto</code></td><td>self</td></tr>
+<tr><td><code>apo</code></td><td>from, away</td></tr>
+<tr><td><code>cata</code></td><td>down</td></tr>
+<tr><td><code>dia</code></td><td>through, across</td></tr>
+<tr><td><code>dys</code></td><td>faulty</td></tr>
+<tr><td><code>en</code></td><td>in</td></tr>
+<tr><td><code>epi</code></td><td>on, upon, over</td></tr>
+<tr><td><code>eu</code></td><td>true</td></tr>
+<tr><td><code>hemi</code></td><td>half</td></tr>
+<tr><td><code>hetero</code></td><td>different</td></tr>
+<tr><td><code>homo</code></td><td>same</td></tr>
+<tr><td><code>hyper</code></td><td>over, excessive</td></tr>
+<tr><td><code>hypo</code></td><td>under, below</td></tr>
+<tr><td><code>macro</code></td><td>big size</td></tr>
+<tr><td><code>meta</code></td><td>after, beyond</td></tr>
+<tr><td><code>mega</code></td><td>big quantity</td></tr>
+<tr><td><code>micro</code></td><td>small size</td></tr>
+<tr><td><code>mono</code></td><td>single</td></tr>
+<tr><td><code>nano</code></td><td>dwarf</td></tr>
+<tr><td><code>neo</code></td><td>new</td></tr>
+<tr><td><code>pan</code></td><td>all</td></tr>
+<tr><td><code>para</code></td><td>beside, near</td></tr>
+<tr><td><code>peri</code></td><td>around</td></tr>
+<tr><td><code>poly</code></td><td>multiple</td></tr>
+<tr><td><code>pro</code></td><td>before, forward</td></tr>
+<tr><td><code>syn</code></td><td>together</td></tr>
+</tbody></table>
+<h3 id="greek-suffixes">Greek Suffixes</h3>
+<table><thead><tr><th>Greek Suffixes</th><th>English</th></tr></thead><tbody>
+<tr><td><code>algia</code></td><td>pain</td></tr>
+<tr><td><code>bar</code></td><td>pressure</td></tr>
+<tr><td><code>bole</code></td><td>thrower</td></tr>
+<tr><td><code>carp</code></td><td>fruit</td></tr>
+<tr><td><code>cene</code></td><td>recent</td></tr>
+<tr><td><code>cephal</code></td><td>head</td></tr>
+<tr><td><code>cosmo</code></td><td>world</td></tr>
+<tr><td><code>cycle</code></td><td>wheel</td></tr>
+<tr><td><code>dactyl</code></td><td>finger</td></tr>
+<tr><td><code>dox</code></td><td>opinion</td></tr>
+<tr><td><code>drome</code></td><td>race</td></tr>
+<tr><td><code>edre</code></td><td>face</td></tr>
+<tr><td><code>gamie</code></td><td>marriage</td></tr>
+<tr><td><code>gene</code></td><td>produces, generates</td></tr>
+<tr><td><code>gone</code></td><td>angle</td></tr>
+<tr><td><code>gram</code></td><td>record</td></tr>
+<tr><td><code>graph</code></td><td>write</td></tr>
+<tr><td><code>ique</code></td><td>self</td></tr>
+<tr><td><code>logie</code></td><td>study</td></tr>
+<tr><td><code>manie</code></td><td>obsession</td></tr>
+<tr><td><code>metre</code></td><td>measure</td></tr>
+<tr><td><code>nomie</code></td><td>law, regulation</td></tr>
+<tr><td><code>oid</code></td><td>ressembling</td></tr>
+<tr><td><code>onyme</code></td><td>name</td></tr>
+<tr><td><code>phage</code></td><td>eater</td></tr>
+<tr><td><code>phile</code></td><td>friend</td></tr>
+<tr><td><code>phobe</code></td><td>fear</td></tr>
+<tr><td><code>phone</code></td><td>sound</td></tr>
+<tr><td><code>phore</code></td><td>bearer, carrier</td></tr>
+<tr><td><code>pode</code></td><td>foot</td></tr>
+<tr><td><code>pole</code></td><td>city</td></tr>
+<tr><td><code>sphere</code></td><td>globe</td></tr>
+<tr><td><code>therme</code></td><td>heat</td></tr>
+<tr><td><code>tomie</code></td><td>cutting, incision</td></tr>
+<tr><td><code>type</code></td><td>model</td></tr>
+</tbody></table>
+<h3 id="scientific-terms-derived-from-greek">Scientific Terms Derived from Greek</h3>
+<h4 id="sciences">Sciences</h4>
+<table><thead><tr><th>English Word</th><th>Greek Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Analysis</td><td><code>ana</code> + <code>lysis</code></td><td>apart + decomposition</td><td>Breaking something down into parts to understand it</td></tr>
+<tr><td>Diagnosis</td><td><code>dia</code> + <code>gnosis</code></td><td>through + knowledge</td><td>A technical description</td></tr>
+<tr><td>Energy</td><td><code>en</code> + <code>ergon</code></td><td>in + work</td><td>capacity to work</td></tr>
+<tr><td>Hypothesis</td><td><code>hypo</code> + <code>thesis</code></td><td>under + proposition</td><td>A proposition made as a basis for reasoning</td></tr>
+<tr><td>Lemma</td><td><code>lemma</code></td><td>assumption</td><td>intermediate theorem</td></tr>
+<tr><td>Method</td><td><code>meta</code> + <code>hodos</code></td><td>beyond + way</td><td>A way of doing something</td></tr>
+<tr><td>Parameter</td><td><code>para</code> + <code>metre</code></td><td>beside + measure</td><td>A value that characterizes a member of a system</td></tr>
+<tr><td>Phenomenom</td><td><code>pheno</code> + <code>omenon</code></td><td>appear + which</td><td>An observable fact or event</td></tr>
+<tr><td>Philosophy</td><td><code>phile</code> + <code>sophia</code></td><td>friend + wisdom</td><td>all learning exclusive of practical arts</td></tr>
+<tr><td>Process</td><td><code>pro</code> + <code>kinesis</code></td><td>forward + move</td><td>sequence of actions</td></tr>
+<tr><td>Synthesis</td><td><code>syn</code> + <code>thesis</code></td><td>together + proposition</td><td>Composition or combination of elements so as to form a whole</td></tr>
+<tr><td>Technique</td><td><code>techne</code> + <code>ique</code></td><td>craft + self</td><td>How to do something</td></tr>
+<tr><td>Technology</td><td><code>techne</code> + <code>logia</code></td><td>craft + study</td><td>Body of practical skills <em>e.g. biotechnology</em></td></tr>
+<tr><td>Theorem</td><td><code>theoreo</code> + <code>ema</code></td><td>observe + result</td><td>a statement that has been proven</td></tr>
+<tr><td>Theory</td><td><code>theoreo</code> + <code>ia</code></td><td>observe + action</td><td>body of principles offered to explain phenomena, not necessarily proven</td></tr>
+</tbody></table>
+<h4 id="biology">Biology</h4>
+<table><thead><tr><th>English Word</th><th>Greek Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Chromosome</td><td><code>khroma</code> + <code>soma</code></td><td>color + body</td><td>any of the threadlike DNA-containing structures of cellular organisms</td></tr>
+<tr><td>Genetics</td><td><code>genos</code> + <code>ique</code></td><td>origin + self</td><td>study of heredity and variation of organisms</td></tr>
+<tr><td>Genome</td><td><code>genos</code> + <code>soma</code></td><td>origin + body</td><td>complete genetic makeup of an organism</td></tr>
+<tr><td>Genotype</td><td><code>genos</code> + <code>type</code></td><td>origin + model</td><td>genetic variations of an individual</td></tr>
+<tr><td>Pericarp</td><td><code>peri</code> + <code>carp</code></td><td>around + fruit</td><td>walls of a plant ovary</td></tr>
+<tr><td>Phenotype</td><td><code>pheno</code> + <code>type</code></td><td>appear + model</td><td>observable traits of an individual</td></tr>
+<tr><td>Phylogeny</td><td><code>phylo</code> + <code>genos</code></td><td>tribe + origin</td><td>tree of life</td></tr>
+<tr><td>Protein</td><td><code>proteios</code></td><td>primary</td><td>Essential biological compounds made of amino-acid residues</td></tr>
+<tr><td>Omics</td><td><code>soma</code></td><td>body</td><td>genomics, proteomics, metabolomics, etc.</td></tr>
+</tbody></table>
+<h4 id="computer-science">Computer science</h4>
+<table><thead><tr><th>English Word</th><th>Greek Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Automate</td><td><code>auto</code> + <code>matos</code></td><td>self + action</td><td>self-running programs</td></tr>
+<tr><td>Cybernetics</td><td><code>kybernetes</code></td><td>steersman, governor</td><td>comparative study of automatic control systems</td></tr>
+<tr><td>Cryptography</td><td><code>kryptos</code> + <code>graphein</code></td><td>hidden + write</td><td>the computerized encoding and decoding of informatio</td></tr>
+<tr><td>Ontology</td><td><code>onto</code> + <code>logos</code></td><td>being + reason</td><td>formal representation of entity and their relationships</td></tr>
+<tr><td>Program</td><td><code>pro</code> + <code>graphein</code></td><td>before + write</td><td>Predetermined operations by computer programming</td></tr>
+<tr><td>Syntax</td><td><code>syn</code> + <code>tassein</code></td><td>together + arrange</td><td>harmonious arrangement of elements of coding</td></tr>
+</tbody></table>
+<h2 id="latin-roots">Latin Roots</h2>
+<h3 id="latin-prefixes">Latin Prefixes</h3>
+<table><thead><tr><th>Latin prefix</th><th>English</th></tr></thead><tbody>
+<tr><td><code>ab</code></td><td>away from</td></tr>
+<tr><td><code>ad</code></td><td>toward, to</td></tr>
+<tr><td><code>ante</code></td><td>before</td></tr>
+<tr><td><code>bi</code></td><td>two</td></tr>
+<tr><td><code>circum</code></td><td>around</td></tr>
+<tr><td><code>con</code></td><td>together</td></tr>
+<tr><td><code>contra</code></td><td>against</td></tr>
+<tr><td><code>de</code></td><td>down away, reverse</td></tr>
+<tr><td><code>dis</code></td><td>apart, not</td></tr>
+<tr><td><code>ex</code></td><td>out</td></tr>
+<tr><td><code>extra</code></td><td>beyond</td></tr>
+<tr><td><code>in</code></td><td>into, not</td></tr>
+<tr><td><code>inter</code></td><td>between</td></tr>
+<tr><td><code>intra</code></td><td>within</td></tr>
+<tr><td><code>multi</code></td><td>many</td></tr>
+<tr><td><code>post</code></td><td>after</td></tr>
+<tr><td><code>pre</code></td><td>before</td></tr>
+<tr><td><code>pro</code></td><td>forward</td></tr>
+<tr><td><code>re</code></td><td>again, back</td></tr>
+<tr><td><code>sub</code></td><td>under</td></tr>
+<tr><td><code>trans</code></td><td>across</td></tr>
+<tr><td><code>uni</code></td><td>one</td></tr>
+</tbody></table>
+<h3 id="latin-suffixes">Latin Suffixes</h3>
+<table><thead><tr><th>Latin Suffixes</th><th>English</th></tr></thead><tbody>
+<tr><td><code>aceus</code></td><td>made of</td></tr>
+<tr><td><code>arium</code></td><td>place for</td></tr>
+<tr><td><code>ate</code></td><td>having</td></tr>
+<tr><td><code>cide</code></td><td>killing</td></tr>
+<tr><td><code>culus</code></td><td>small</td></tr>
+<tr><td><code>ferous</code></td><td>bearing</td></tr>
+<tr><td><code>ine</code></td><td>related to</td></tr>
+<tr><td><code>ion</code></td><td>action</td></tr>
+<tr><td><code>esis</code></td><td>process</td></tr>
+<tr><td><code>ive</code></td><td>capable</td></tr>
+<tr><td><code>or</code></td><td>agent, doer</td></tr>
+<tr><td><code>mentum</code></td><td>result</td></tr>
+<tr><td><code>ose</code></td><td>full of</td></tr>
+<tr><td><code>tude</code></td><td>state</td></tr>
+<tr><td><code>tity</code></td><td>state</td></tr>
+</tbody></table>
+<h3 id="scientific-terms-derived-from-latin">Scientific Terms Derived from Latin</h3>
+<h4 id="sciences-1">Sciences</h4>
+<table><thead><tr><th>English Word</th><th>Latin Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Control</td><td><code>contra</code> + <code>rotulare</code></td><td>against + record</td><td>to check by experiments</td></tr>
+<tr><td>Experiment</td><td><code>experi</code> + <code>ment</code></td><td>try + result</td><td>an operation under controlled conditions in order to test a hypothesis</td></tr>
+<tr><td>Exponential</td><td><code>exponere</code></td><td>to set forth</td><td>an operation related to an exponent</td></tr>
+<tr><td>Observation</td><td><code>ob</code> + <code>servare</code> + <code>ion</code></td><td>toward + watch + action</td><td>Report fact</td></tr>
+<tr><td>Result</td><td><code>re</code> + <code>sultare</code></td><td>back + leap</td><td>consequence of an action</td></tr>
+<tr><td>Specimen</td><td><code>specere</code> + <code>ment</code></td><td>look + result</td><td>a portion of material for use in study</td></tr>
+<tr><td>Structure</td><td><code>structura</code></td><td>building</td><td>the arrangement of parts in a body</td></tr>
+<tr><td>Variable</td><td><code>variare</code> + <code>abilis</code></td><td>change + ability</td><td>something able to change</td></tr>
+</tbody></table>
+<h4 id="biology-1">Biology</h4>
+<table><thead><tr><th>English Word</th><th>Latin Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Cell</td><td><code>cella</code></td><td>small room</td><td>unit of life</td></tr>
+<tr><td>Organ</td><td><code>organum</code></td><td>tool</td><td>functional unit of tissue in organims</td></tr>
+</tbody></table>
+<h4 id="computer-science-1">Computer science</h4>
+<table><thead><tr><th>English Word</th><th>Latin Root</th><th>Meaning of Root</th><th>Sense</th></tr></thead><tbody>
+<tr><td>Binary</td><td><code>bi</code> + <code>ni</code></td><td>two + peer</td><td>a number system based only on the numerals 0 and 1</td></tr>
+<tr><td>Data</td><td><code>datum</code></td><td>donation</td><td>information in digital form that can be transmitted or processed</td></tr>
+<tr><td>Development</td><td><code>de</code> + <code>volopere</code> + <code>ment</code></td><td>reverse + roll up + result</td><td>designing, coding, testing, and maintaining software applications</td></tr>
+<tr><td>Function</td><td><code>fungi</code> + <code>ion</code></td><td>perform + action</td><td>a named sequence of instructions</td></tr>
+<tr><td>Module</td><td><code>modulus</code></td><td>small unit</td><td>small part of a program</td></tr>
+<tr><td>Information</td><td><code>informare</code> + <code>ion</code></td><td>instruct + action</td><td>Structured knowledge</td></tr>
+<tr><td>Incrementation</td><td><code>incrementum</code> + <code>ion</code></td><td>increase + action</td><td>adding or increasing a value by a predetermined step or unit</td></tr>
+<tr><td>Input</td><td><code>in</code> + <code>putare</code></td><td>within + put</td><td>information fed into a program</td></tr>
+<tr><td>Integer</td><td><code>integer</code></td><td>whole</td><td>a whole number</td></tr>
+<tr><td>Interface</td><td><code>inter</code> + <code>facies</code></td><td>between + faces</td><td>points of interaction between hardware and software components</td></tr>
+<tr><td>Iteration</td><td><code>iterare</code> + <code>ion</code></td><td>repeat + action</td><td>to repeat operations</td></tr>
+<tr><td>Recursion</td><td><code>recurrere</code> + <code>ion</code></td><td>run back + action</td><td>A function that call itself</td></tr>
+<tr><td>Terminal</td><td><code>terminus</code></td><td>end point</td><td>a device that communicates with a computer</td></tr>
+</tbody></table>
+<h2 id="references">References</h2>
+<blockquote>
+<p><strong>The Wholeness in Suffix -omics, -omes, and the Word Om</strong></p>
+<p><em>Satya P Yadav</em></p>
+<p>Journal of biomolecular techniques, 2007. DOI: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2392988/">PMC2392988</a></p>
+</blockquote>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on February 29, 2016
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #FB4C2F">
+                <a style="color: #ffffff" 
+                   href="https://guerinpe.com/tags/sciences/">sciences</a>&nbsp;
+                </li> 
+                
+                <li style="background: #E3D7FF">
+                <a style="color: #3D188E" 
+                   href="https://guerinpe.com/tags/society/">society</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

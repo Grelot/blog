@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - career</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/career/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-23T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/career/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What is a Bad Programmer?</title>
+        <published>2023-12-23T00:00:00+00:00</published>
+        <updated>2023-12-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/what-is-a-bad-programmer/"/>
+        <id>https://guerinpe.com/articles/what-is-a-bad-programmer/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Coding&lt;&#x2F;strong&gt; refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. The program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, programs are designed to transform raw biological data into formats that can be used by other specialists for further analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Analytical Skill</title>
+        <published>2022-02-15T00:00:00+00:00</published>
+        <updated>2022-02-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/analytical-skill/"/>
+        <id>https://guerinpe.com/articles/analytical-skill/</id>
+        
+        <summary type="html">&lt;p&gt;When I was in junior high school, I had the opportunity to take History and Geography classes from &lt;strong&gt;Nicolas Ben Fredj&lt;&#x2F;strong&gt;. He taught us the method (&quot;the way&quot; in Greek) to compose and articulate our thoughts and knowledge. I recently watched a &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IxPyIlTKZnI&quot;&gt;MOOC he recorded for Lycée français international Louis-Massignon&lt;&#x2F;a&gt;. The ability to think analytically and to express ideas is useful. In science, whether in academia or industry, we need to compare different solutions or hypotheses objectively and communicate our analysis to our peers in order to make the best decisions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Making a Good Resume</title>
+        <published>2021-08-12T00:00:00+00:00</published>
+        <updated>2021-08-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/making-a-good-resume/"/>
+        <id>https://guerinpe.com/articles/making-a-good-resume/</id>
+        
+        <summary type="html">&lt;p&gt;The resume is the first thing the recruiter will read about you. I revised my resume multiple times already and continue to sharpen it. Here I describe the structure and overall basics tips to make a competitive resume.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Online Reputation</title>
+        <published>2016-09-03T00:00:00+00:00</published>
+        <updated>2016-09-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/online-reputation/"/>
+        <id>https://guerinpe.com/articles/online-reputation/</id>
+        
+        <summary type="html">&lt;p&gt;When I was on an internship, the director, &lt;strong&gt;Alexandre De Brevern&lt;&#x2F;strong&gt;, told me that I was invisible online. It is not reassuring because people can not verify who you are, what you have done or whether you are trustworthy. Indeed, to have a professional presence on the internet is important, both for yourself and for representing your institution, laboratory or company.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What Playing in Rock Bands Taught Me About Collaboration</title>
+        <published>2015-02-01T00:00:00+00:00</published>
+        <updated>2015-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/what-playing-in-rock-bands-taught-me-about-collaboration/"/>
+        <id>https://guerinpe.com/articles/what-playing-in-rock-bands-taught-me-about-collaboration/</id>
+        
+        <summary type="html">&lt;p&gt;Few knows but Music is part of Mathematics. Musicians often develop a way of thinking that is close to the logic used in science or engineering. Examples of scientists who are also musicians and reciprocally are numerous: &lt;strong&gt;Albert Einstein&lt;&#x2F;strong&gt;, physicist and violonist; &lt;strong&gt;Bruce Dickinson&lt;&#x2F;strong&gt;, lead singer of &lt;em&gt;Iron Maiden&lt;&#x2F;em&gt; and airline pilot; &lt;strong&gt;Brian May&lt;&#x2F;strong&gt; lead guitarist of &lt;em&gt;Queen&lt;&#x2F;em&gt; and astrophysicist; &lt;strong&gt;Bryan Holland&lt;&#x2F;strong&gt;, guitarist of &lt;em&gt;The Offspring&lt;&#x2F;em&gt;, who holds a Ph.D. in Molecular Biology.&lt;&#x2F;p&gt;
+&lt;p&gt;Last but not least, &lt;strong&gt;Steve Jobs&lt;&#x2F;strong&gt; shown how collaborative skills in a rock band can be applied to teams that develop high tech products.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

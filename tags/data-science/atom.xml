@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - data-science</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/data-science/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-18T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/data-science/atom.xml</id>
+    <entry xml:lang="en">
+        <title>BioGPT: Generative Pre-trained Transformer for Biomedical Text Mining</title>
+        <published>2024-01-18T00:00:00+00:00</published>
+        <updated>2024-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/"/>
+        <id>https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/">&lt;p&gt;Following the recent breakthrough in Natural Language Processing models, everyone is now talking about Transformers and ChatGPT. I wondered whether some models had been trained for use in biology or bioinformatics. I discovered a research project called &lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; developped by Microsoft. This article to both describe BioGPT and summarise the recent history of Transformers and NLP.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bibliography-is-hard-work-and-is-getting-worse&quot;&gt;Bibliography is Hard Work (and is getting worse)&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;&quot;&gt;PubMed database&lt;&#x2F;a&gt; contains more than 36 million publications. Every year this number increases following an exponential growth.&lt;&#x2F;p&gt;
+&lt;p&gt;They are no universal glossary &lt;em&gt;e.g.&lt;&#x2F;em&gt; a drug can have multiple synonyms depending on the field, the time frame, the country, etc. So, the research by keyword may be incomplete and not cover all the related articles. In addition, articles are sorted by field or key words making any cross-disciplinary research tedious.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;natural-language-processing&quot;&gt;Natural Language Processing&lt;&#x2F;h2&gt;
+&lt;p&gt;NLP are methods to give the computer the ability to understand and speak human language. &lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; is a model trained on the content of all available articles in PubMed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; can do:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer question using PubMed materials&lt;&#x2F;li&gt;
+&lt;li&gt;Find drugs relations using PubMed materials&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;history-of-nlp&quot;&gt;History of NLP&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In the early 20th century, &lt;strong&gt;Ferdinand de Saussure&lt;&#x2F;strong&gt; establishes human language as a logical structure.&lt;&#x2F;li&gt;
+&lt;li&gt;In 1952, &lt;strong&gt;Alan Hodgkin&lt;&#x2F;strong&gt; and &lt;strong&gt;Andrew Huxley&lt;&#x2F;strong&gt; discover neural networks (Nobel Medicine 1963).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These events inspire the idea of &lt;strong&gt;a machine able to speak and understand human language&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Alan Turing&lt;&#x2F;strong&gt; stated that if a machine could chat with you and you can’t tell it apart from a human, then the machine could be considered capable of thinking.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boolean-request&quot;&gt;Boolean request&lt;&#x2F;h3&gt;
+&lt;p&gt;Boolean logic involves &lt;code&gt;TRUE&lt;&#x2F;code&gt; or &lt;code&gt;FALSE&lt;&#x2F;code&gt; answer. The found documents are the ones matching an &lt;em&gt;exact term&lt;&#x2F;em&gt;. To go further, you can combine statements &lt;code&gt;OR&lt;&#x2F;code&gt;, &lt;code&gt;AND&lt;&#x2F;code&gt;, &lt;code&gt;NEAR&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: in a search engine, you type &quot;puppy&quot; and &quot;kitten&quot; to find any documents that contains both &quot;puppy&quot; and &quot;kitten&quot;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terms-frequency&quot;&gt;Terms frequency&lt;&#x2F;h3&gt;
+&lt;div class=&quot;encart_inside_article&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Term frequency&lt;&#x2F;strong&gt;: How often appears a word in a document.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Inverse Document frequency&lt;&#x2F;strong&gt;: importance of a word in multiple documents.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Term frequency identifies important word that are both frequent in a document and rare across the dataset. It ignores common words like “the” or “is” as well.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tag_cloud&quot;&gt;Tag cloud&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;co-occurence-matrix&quot;&gt;Co-occurence matrix&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Co-occurence matrix&lt;&#x2F;strong&gt; is the table of the number of times two words appear together. The aim is to find words significantly associated. It is possible to reduce a set of words into a set of vector of associated words in order to process vector of words instead of words.&lt;&#x2F;p&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apples are green and red.&lt;&#x2F;p&gt;
+&lt;p&gt;Red apples are sweet.&lt;&#x2F;p&gt;
+&lt;p&gt;Green oranges are sour.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;-&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;apples&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;green&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;red &lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;sweet&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;oranges&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;sour&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;apples&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;green&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;red &lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;sweet&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;oranges&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;sour&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;In this text, &lt;code&gt;red&lt;&#x2F;code&gt; and &lt;code&gt;apples&lt;&#x2F;code&gt; are associated while &lt;code&gt;sour&lt;&#x2F;code&gt; and &lt;code&gt;apples&lt;&#x2F;code&gt; are not.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;word2vec-word-to-vector&quot;&gt;Word2vec: Word to Vector&lt;&#x2F;h3&gt;
+&lt;p&gt;A word is considered as a vector. The computer follows an unsupervised learning (~no involved human) from the document. Each surrounding words is a &lt;em&gt;context&lt;&#x2F;em&gt; or &lt;em&gt;bag of words&lt;&#x2F;em&gt; teaching the word to predict given the context. The sum of all predictions produce a vector space or &lt;em&gt;semantic relationship&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+&lt;p&gt;The computer understand from a document that the word &lt;code&gt;queen&lt;&#x2F;code&gt; and &lt;code&gt;king&lt;&#x2F;code&gt; are linked and &lt;code&gt;woman&lt;&#x2F;code&gt; and &lt;code&gt;man&lt;&#x2F;code&gt; relationship are aligned with &lt;code&gt;king&lt;&#x2F;code&gt; and &lt;code&gt;woman&lt;&#x2F;code&gt; relationship. By summing the vectors, the computer can deduce association between &lt;code&gt;queen&lt;&#x2F;code&gt; and &lt;code&gt;woman&lt;&#x2F;code&gt;  and &lt;code&gt;king&lt;&#x2F;code&gt; and &lt;code&gt;man&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;sementic_relationship.jpg&quot; alt=&quot;semantic relationship&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;neural-network&quot;&gt;Neural Network&lt;&#x2F;h2&gt;
+&lt;p&gt;Inspired by human brain, they are interconnected neurons organised into layers (input, hidden and output). Each connection between neuron has a weight. The network is trained on documents to adjust weights. Weights are self-corrected to minimise the difference between the prediction and the expected result.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: Word2vec is based on neural network of three layers.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;neural_network.jpg&quot; alt=&quot;neural network&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;perceptron&quot;&gt;Perceptron&lt;&#x2F;h2&gt;
+&lt;p&gt;Designed in 1969 with the idea of creating a robot in the image of human. The &lt;strong&gt;perceptron&lt;&#x2F;strong&gt; is a neural network of 2 layers: input and output.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;💡 Note:&lt;&#x2F;strong&gt; Without the hidden layer, a neural network is a &lt;strong&gt;logistic regression model&lt;&#x2F;strong&gt; (Berkson et al. 1944) with a Boolean output.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;perceptron.jpg&quot; alt=&quot;perceptron&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;transformer&quot;&gt;Transformer&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;strong&gt;transformer&lt;&#x2F;strong&gt; is a neural network with four layers. It adds a a new intermediate layer called &lt;em&gt;attention&lt;&#x2F;em&gt; (Vaswani et al. 2017). The decoder layer transforms the input document into a &lt;em&gt;bag of words&lt;&#x2F;em&gt;. The encoder layer produces a predicted &lt;em&gt;vector of words&lt;&#x2F;em&gt; using word2vec. &lt;em&gt;Attention&lt;&#x2F;em&gt; assigns weights to link the encoder and decoder layers. The transformer is the state-of-the-art method in natural language processing. &lt;strong&gt;BERT&lt;&#x2F;strong&gt; and &lt;strong&gt;GPT&lt;&#x2F;strong&gt; are based on transformer.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;www.deepl.com&#x2F;en&#x2F;translator&quot;&gt;deepL&lt;&#x2F;a&gt; for document translation.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bidirectionnel-encoder-representations-from-transformers-bert&quot;&gt;Bidirectionnel Encoder Representations from Transformers (BERT)&lt;&#x2F;h3&gt;
+&lt;p&gt;Transformer architecture developed by Google in 2018. In France, Martin et al. developed camembert in 2019. The context is processed twice from right to left and from left to right. Pre-trained: the neural network is already weighted based on a training using a HUGE dataset so it can be fine-tuned for specific use.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;&quot;&gt;Google Search&lt;&#x2F;a&gt; when you type a full sentence.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;Can google find my missing sock?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;People also ask&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;How do I find my lost sock?
+When socks disappear where do they go?
+Why can&amp;#x27;t I find my socks?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;generative-pretrained-transformer-gpt&quot;&gt;Generative Pretrained Transformer (GPT)&lt;&#x2F;h3&gt;
+&lt;p&gt;Transformer architecture developed by openAI in 2020. Contrary to BERT, the document is processed with an unidirectional attention. In addition, the pre-training is different between GPT and BERT. While BERT is trained to predict the missing word giving a context, GPT is trained to generate complete comprehensive sentence giving a context.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;chatgpt.com&quot;&gt;chatGPT&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;biogpt&quot;&gt;BioGPT&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; is a &lt;strong&gt;GPT&lt;&#x2F;strong&gt; model fine-tuned based on PubMed publications.&lt;&#x2F;li&gt;
+&lt;li&gt;Microsoft provided the source code to build a bioGPT software: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;BioGPT&quot;&gt;github source code BioGPT&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;docs&#x2F;transformers&#x2F;en&#x2F;model_doc&#x2F;biogpt&quot;&gt; 🤗 Hugging Face&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; is an online library of all natural language processing neural network models including transformers including BioGPT.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;Transformer models are not trained on human words but on &lt;em&gt;token&lt;&#x2F;em&gt;. Token are the unit of chunks of information extracted from the original document. They are not human readable. Purely &lt;em&gt;black box&lt;&#x2F;em&gt; machine abstraction. Computer language comprehension relies on maths, not on real text comprehension. On the other side, we could say human language comprehension relies on neurotransmitter concentration. The point is the computer and the human are able to understand each other.&lt;&#x2F;p&gt;
+&lt;p&gt;BioGPT is based on biomedical dataset so this is not relevant for other fields yet. For instance if I ask information about the sugar beet to BioGPT, he will give only information related to human nutrition. BioGPT is specialized into biomedical data and nothing else. Can we imagine a similar AI based on crop science literature in the future? The hardest part will be to collect and format relevant crop science text material.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;BioGPT: generative pre-trained transformer for biomedical text generation and mining&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Renquian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon, Tie-Yan Liu&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Briefings in Bioinformatics, November 2022. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1093&#x2F;bib&#x2F;bbac409&quot;&gt;10.1093&#x2F;bib&#x2F;bbac409&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Hugging Face&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Jain, S.M.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Introduction to Transformers for NLP. Apress, Berkeley, CA, october 2022. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1007&#x2F;978-1-4842-8844-3_4&quot;&gt;10.1007&#x2F;978-1-4842-8844-3_4&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;CamemBERT: a Tasty French Language Model&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suárez, Yoann Dupont, Laurent Romary, Éric Villemonte de la Clergerie, Djamé Seddah, Benoît Sagot&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Submitted in november 2019. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.1911.03894&quot;&gt;10.48550&#x2F;arXiv.1911.03894&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention is All you Need&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, Illia Polosukhin&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Neural information processing systems, december 2017. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.1706.03762&quot;&gt;10.48550&#x2F;arXiv.1706.03762&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Word2Vec&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Kenneth Ward Church&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Natural Language Engineering, january 2017. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1017&#x2F;S1351324916000334&quot;&gt;10.1017&#x2F;S1351324916000334&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Perceptron: A Model for Brain Functioning&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;H.D. Block&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Reviews of Modern Physics, january 1962. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1103&#x2F;RevModPhys.34.123&quot;&gt;10.1103&#x2F;RevModPhys.34.123&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Propagation of electrical signals along giant nerve fibres&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Alan Lloyd Hodgkin and Andrew Fielding Huxley&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Processdings of The Royal Society B, october 1952. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1098&#x2F;rspb.1952.0054&quot;&gt;10.1098&#x2F;rspb.1952.0054&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi Dimensional Scaling</title>
+        <published>2022-04-03T00:00:00+00:00</published>
+        <updated>2022-04-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/multi-dimensional-scaling/"/>
+        <id>https://guerinpe.com/articles/multi-dimensional-scaling/</id>
+        
+        <summary type="html">&lt;p&gt;Multi Dimensional Scaling (MDS) is very similar to &lt;a href=&quot;&#x2F;articles&#x2F;principal-component-analysis&#x2F;&quot;&gt;Principal Component Analysis (PCA)&lt;&#x2F;a&gt;, except that instead of converting correlations into a 2D graph, it converts distances among the samples into a 2D graph.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Step-by-Step Guide to Creating R packages</title>
+        <published>2019-02-27T00:00:00+00:00</published>
+        <updated>2019-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/"/>
+        <id>https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/</id>
+        
+        <summary type="html">&lt;p&gt;In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Principal Component Analysis</title>
+        <published>2017-01-02T00:00:00+00:00</published>
+        <updated>2017-01-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/principal-component-analysis/"/>
+        <id>https://guerinpe.com/articles/principal-component-analysis/</id>
+        
+        <summary type="html">&lt;p&gt;blabla PCA&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ROC Curve</title>
+        <published>2015-04-15T00:00:00+00:00</published>
+        <updated>2015-04-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/roc-curve/"/>
+        <id>https://guerinpe.com/articles/roc-curve/</id>
+        
+        <summary type="html">&lt;p&gt;intro&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sensitivity and Specificity</title>
+        <published>2015-04-06T00:00:00+00:00</published>
+        <updated>2015-04-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/sensitivity-and-specificity/"/>
+        <id>https://guerinpe.com/articles/sensitivity-and-specificity/</id>
+        
+        <summary type="html">&lt;p&gt;How do we know if a test or classifier is reliable? In both medicine and machine learning, classifier are used to attribute a class to an input data. Therefore, &lt;em&gt;performance metrics&lt;&#x2F;em&gt; are necessary to assess the reliability of the resulting classification.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

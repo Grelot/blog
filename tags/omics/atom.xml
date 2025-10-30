@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - omics</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/omics/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-08-22T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/omics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>RNA-Seq</title>
+        <published>2022-08-22T00:00:00+00:00</published>
+        <updated>2022-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/rna-seq/"/>
+        <id>https://guerinpe.com/articles/rna-seq/</id>
+        
+        <summary type="html">&lt;p&gt;One of the approaches to study host–pathogen interactions at the molecular level is &lt;strong&gt;RNA sequencing (RNA-Seq)&lt;&#x2F;strong&gt;. This technology provides access to gene expression profiles in various conditions such as viral infection or environmental stress. I had the opportunity to process RNA-Seq data from sugar beet plants to investigate transcriptional responses to virus yellows disease, a condition caused by a complex of aphid-transmissible viruses. Here, I describe transcriptomics and the methods used for RNA-Seq data analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Phasing</title>
+        <published>2022-07-18T00:00:00+00:00</published>
+        <updated>2022-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/phasing/"/>
+        <id>https://guerinpe.com/articles/phasing/</id>
+        
+        <summary type="html">&lt;p&gt;Given a genotype, &lt;strong&gt;phasing&lt;&#x2F;strong&gt; is the attribution of each allele to the corresponding parent.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nextflow: A Tool for Reproducible and Scalable Bioinformatics Workflows</title>
+        <published>2021-07-03T00:00:00+00:00</published>
+        <updated>2021-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/"/>
+        <id>https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/</id>
+        
+        <summary type="html">&lt;p&gt;In my work, I use &lt;strong&gt;Nextflow&lt;&#x2F;strong&gt; to design and implement bioinformatics pipelines that automate complex data analyses.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Global Ocean Atlas of Eukaryotic Genes</title>
+        <published>2020-09-19T00:00:00+00:00</published>
+        <updated>2020-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/"/>
+        <id>https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/</id>
+        
+        <summary type="html">&lt;p&gt;Single-celled microeukaryotes and small multicellular zooplankton account for most of the planktonic biomass in the world’s ocean. Seawater samples were collected from the global ocean during the Tara Oceans expedition to generate a global ocean reference catalog of genes from planktonic eukaryotes sampled RNA and to explore the expression patterns of community at different microscopic scales with respect to biogeography and environmental conditions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genome Assembly</title>
+        <published>2020-07-03T00:00:00+00:00</published>
+        <updated>2020-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/genome-assembly/"/>
+        <id>https://guerinpe.com/articles/genome-assembly/</id>
+        
+        <summary type="html">&lt;p&gt;I successfuly made the genome assembly of three Mediterranean fish draft genomes. Their genome sequence have been published recently in this &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1016&#x2F;j.ygeno.2020.06.041&quot;&gt;paper&lt;&#x2F;a&gt;. Here, I share the lessons I learned from assembling a genome using both long and short sequencing reads.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OBITools: Processing DNA Metabarcoding Data</title>
+        <published>2020-06-27T00:00:00+00:00</published>
+        <updated>2020-06-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/"/>
+        <id>https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;1755-0998.12428&quot;&gt;OBITools&lt;&#x2F;a&gt; software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Phenomics</title>
+        <published>2019-11-25T00:00:00+00:00</published>
+        <updated>2019-11-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/phenomics/"/>
+        <id>https://guerinpe.com/articles/phenomics/</id>
+        
+        <summary type="html">&lt;p&gt;As part of the &lt;a href=&quot;https:&#x2F;&#x2F;www.madics.fr&#x2F;&quot;&gt;MaDICS working group&lt;&#x2F;a&gt; on data science and plant phenotyping, I had the opportunity to visit the Montpellier Plant Phenotyping Platform. During this workshop, I tested &lt;strong&gt;Phenomenal&lt;&#x2F;strong&gt;, a pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I discovered a new omics called &quot;Phenomics&quot; and how high-thoughput bioimaging is used to generate phenome information at large-scale.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape Genomics</title>
+        <published>2019-11-14T00:00:00+00:00</published>
+        <updated>2019-11-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/landscape-genomics/"/>
+        <id>https://guerinpe.com/articles/landscape-genomics/</id>
+        
+        <summary type="html">&lt;p&gt;Environmental conservation issues have urged a need to better understand and describe species and populations on Earth. Recently, progress in sequencing technologies made it possible to refine this understanding through genomics. Understanding and describing populations of living organisms in a given environment by exploiting sequencing data is the ultimate goal of landscape genomics. So this article is an introduction of this field.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metabarcoding</title>
+        <published>2019-03-09T00:00:00+00:00</published>
+        <updated>2019-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/metabarcoding/"/>
+        <id>https://guerinpe.com/articles/metabarcoding/</id>
+        
+        <summary type="html">&lt;p&gt;One of the most promising genetic techniques for improving biodiversity assessments is the &lt;em&gt;metabarcoding&lt;&#x2F;em&gt; of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genomics</title>
+        <published>2016-05-23T00:00:00+00:00</published>
+        <updated>2016-05-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/genomics/"/>
+        <id>https://guerinpe.com/articles/genomics/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Genomics&lt;&#x2F;strong&gt; is the study of the whole DNA sequences of an organism. &lt;strong&gt;Next-generation Sequencing (NGS)&lt;&#x2F;strong&gt;, particularly Illumina sequencing, have transformed DNA sequencing by allowing millions of fragments to be sequenced in parallel, dramatically increasing speed and reducing cost. High-throughput DNA sequencing has become essential for applications such as whole-genome sequencing, targeted resequencing, and variant discovery&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BLAST: Basic Local Alignment Search Tool</title>
+        <published>2015-01-14T00:00:00+00:00</published>
+        <updated>2015-01-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/basic-local-alignment-search-tool/"/>
+        <id>https://guerinpe.com/articles/basic-local-alignment-search-tool/</id>
+        
+        <summary type="html">&lt;p&gt;Published in 1990 and entitled &lt;strong&gt;Basic Local Alignment Search Tool&lt;&#x2F;strong&gt;, was the most highly cited publication of its time. The development of BLAST bridged Biology and Computer Science giving birth to the new field of &lt;strong&gt;Bioinformatics&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

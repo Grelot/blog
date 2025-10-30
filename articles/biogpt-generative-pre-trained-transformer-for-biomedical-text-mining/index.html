@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">BioGPT: Generative Pre-trained Transformer for Biomedical Text Mining</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 7 min read · Published on January 18, 2024 
+  </div>
+  <hr>
+  <p>Following the recent breakthrough in Natural Language Processing models, everyone is now talking about Transformers and ChatGPT. I wondered whether some models had been trained for use in biology or bioinformatics. I discovered a research project called <strong>BioGPT</strong> developped by Microsoft. This article to both describe BioGPT and summarise the recent history of Transformers and NLP.</p>
+<h2 id="bibliography-is-hard-work-and-is-getting-worse">Bibliography is Hard Work (and is getting worse)</h2>
+<p>The <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed database</a> contains more than 36 million publications. Every year this number increases following an exponential growth.</p>
+<p>They are no universal glossary <em>e.g.</em> a drug can have multiple synonyms depending on the field, the time frame, the country, etc. So, the research by keyword may be incomplete and not cover all the related articles. In addition, articles are sorted by field or key words making any cross-disciplinary research tedious.</p>
+<h2 id="natural-language-processing">Natural Language Processing</h2>
+<p>NLP are methods to give the computer the ability to understand and speak human language. <strong>BioGPT</strong> is a model trained on the content of all available articles in PubMed.</p>
+<p><strong>BioGPT</strong> can do:</p>
+<ul>
+<li>Answer question using PubMed materials</li>
+<li>Find drugs relations using PubMed materials</li>
+</ul>
+<h3 id="history-of-nlp">History of NLP</h3>
+<ul>
+<li>In the early 20th century, <strong>Ferdinand de Saussure</strong> establishes human language as a logical structure.</li>
+<li>In 1952, <strong>Alan Hodgkin</strong> and <strong>Andrew Huxley</strong> discover neural networks (Nobel Medicine 1963).</li>
+</ul>
+<p>These events inspire the idea of <strong>a machine able to speak and understand human language</strong>.</p>
+<p><strong>Alan Turing</strong> stated that if a machine could chat with you and you can’t tell it apart from a human, then the machine could be considered capable of thinking.</p>
+<h3 id="boolean-request">Boolean request</h3>
+<p>Boolean logic involves <code>TRUE</code> or <code>FALSE</code> answer. The found documents are the ones matching an <em>exact term</em>. To go further, you can combine statements <code>OR</code>, <code>AND</code>, <code>NEAR</code>.</p>
+<p>Example: in a search engine, you type "puppy" and "kitten" to find any documents that contains both "puppy" and "kitten".</p>
+<h3 id="terms-frequency">Terms frequency</h3>
+<div class="encart_inside_article">
+<p><strong>Term frequency</strong>: How often appears a word in a document.</p>
+<p><strong>Inverse Document frequency</strong>: importance of a word in multiple documents.</p>
+</div>
+<p>Term frequency identifies important word that are both frequent in a document and rare across the dataset. It ignores common words like “the” or “is” as well.</p>
+<p>Example: <a href="https://en.wikipedia.org/wiki/Tag_cloud">Tag cloud</a>.</p>
+<h3 id="co-occurence-matrix">Co-occurence matrix</h3>
+<p><strong>Co-occurence matrix</strong> is the table of the number of times two words appear together. The aim is to find words significantly associated. It is possible to reduce a set of words into a set of vector of associated words in order to process vector of words instead of words.</p>
+<p>Example:</p>
+<blockquote>
+<p>Apples are green and red.</p>
+<p>Red apples are sweet.</p>
+<p>Green oranges are sour.</p>
+</blockquote>
+<table><thead><tr><th>-</th><th><code>apples</code></th><th><code>green</code></th><th><code>red </code></th><th><code>sweet</code></th><th><code>oranges</code></th><th><code>sour</code></th></tr></thead><tbody>
+<tr><td><code>apples</code></td><td>2</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td><code>green</code></td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td><code>red </code></td><td>2</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td><code>sweet</code></td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td><code>oranges</code></td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><td><code>sour</code></td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
+</tbody></table>
+<p>In this text, <code>red</code> and <code>apples</code> are associated while <code>sour</code> and <code>apples</code> are not.</p>
+<h3 id="word2vec-word-to-vector">Word2vec: Word to Vector</h3>
+<p>A word is considered as a vector. The computer follows an unsupervised learning (~no involved human) from the document. Each surrounding words is a <em>context</em> or <em>bag of words</em> teaching the word to predict given the context. The sum of all predictions produce a vector space or <em>semantic relationship</em>.</p>
+<p>Example:</p>
+<p>The computer understand from a document that the word <code>queen</code> and <code>king</code> are linked and <code>woman</code> and <code>man</code> relationship are aligned with <code>king</code> and <code>woman</code> relationship. By summing the vectors, the computer can deduce association between <code>queen</code> and <code>woman</code>  and <code>king</code> and <code>man</code>.</p>
+<p><img src="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/./sementic_relationship.jpg" alt="semantic relationship" /></p>
+<h2 id="neural-network">Neural Network</h2>
+<p>Inspired by human brain, they are interconnected neurons organised into layers (input, hidden and output). Each connection between neuron has a weight. The network is trained on documents to adjust weights. Weights are self-corrected to minimise the difference between the prediction and the expected result.</p>
+<p>Example: Word2vec is based on neural network of three layers.</p>
+<p><img src="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/./neural_network.jpg" alt="neural network" /></p>
+<h2 id="perceptron">Perceptron</h2>
+<p>Designed in 1969 with the idea of creating a robot in the image of human. The <strong>perceptron</strong> is a neural network of 2 layers: input and output.</p>
+<p><strong>💡 Note:</strong> Without the hidden layer, a neural network is a <strong>logistic regression model</strong> (Berkson et al. 1944) with a Boolean output.</p>
+<p><img src="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/./perceptron.jpg" alt="perceptron" /></p>
+<h2 id="transformer">Transformer</h2>
+<p>The <strong>transformer</strong> is a neural network with four layers. It adds a a new intermediate layer called <em>attention</em> (Vaswani et al. 2017). The decoder layer transforms the input document into a <em>bag of words</em>. The encoder layer produces a predicted <em>vector of words</em> using word2vec. <em>Attention</em> assigns weights to link the encoder and decoder layers. The transformer is the state-of-the-art method in natural language processing. <strong>BERT</strong> and <strong>GPT</strong> are based on transformer.</p>
+<p>Example: <a href="https://www.deepl.com/en/translator">deepL</a> for document translation.</p>
+<h3 id="bidirectionnel-encoder-representations-from-transformers-bert">Bidirectionnel Encoder Representations from Transformers (BERT)</h3>
+<p>Transformer architecture developed by Google in 2018. In France, Martin et al. developed camembert in 2019. The context is processed twice from right to left and from left to right. Pre-trained: the neural network is already weighted based on a training using a HUGE dataset so it can be fine-tuned for specific use.</p>
+<p>Example: <a href="https://www.google.com/">Google Search</a> when you type a full sentence.</p>
+<pre><code>Can google find my missing sock?
+</code></pre>
+<p>People also ask</p>
+<pre><code>How do I find my lost sock?
+When socks disappear where do they go?
+Why can&#x27;t I find my socks?
+</code></pre>
+<h3 id="generative-pretrained-transformer-gpt">Generative Pretrained Transformer (GPT)</h3>
+<p>Transformer architecture developed by openAI in 2020. Contrary to BERT, the document is processed with an unidirectional attention. In addition, the pre-training is different between GPT and BERT. While BERT is trained to predict the missing word giving a context, GPT is trained to generate complete comprehensive sentence giving a context.</p>
+<p>Example: <a href="https://chatgpt.com">chatGPT</a></p>
+<h2 id="biogpt">BioGPT</h2>
+<ul>
+<li><strong>BioGPT</strong> is a <strong>GPT</strong> model fine-tuned based on PubMed publications.</li>
+<li>Microsoft provided the source code to build a bioGPT software: <a href="https://github.com/microsoft/BioGPT">github source code BioGPT</a></li>
+<li>The <strong><a href="https://huggingface.co/docs/transformers/en/model_doc/biogpt"> 🤗 Hugging Face</a></strong> is an online library of all natural language processing neural network models including transformers including BioGPT.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Transformer models are not trained on human words but on <em>token</em>. Token are the unit of chunks of information extracted from the original document. They are not human readable. Purely <em>black box</em> machine abstraction. Computer language comprehension relies on maths, not on real text comprehension. On the other side, we could say human language comprehension relies on neurotransmitter concentration. The point is the computer and the human are able to understand each other.</p>
+<p>BioGPT is based on biomedical dataset so this is not relevant for other fields yet. For instance if I ask information about the sugar beet to BioGPT, he will give only information related to human nutrition. BioGPT is specialized into biomedical data and nothing else. Can we imagine a similar AI based on crop science literature in the future? The hardest part will be to collect and format relevant crop science text material.</p>
+<h2 id="references">References</h2>
+<blockquote>
+<p><strong>BioGPT: generative pre-trained transformer for biomedical text generation and mining</strong></p>
+<p><em>Renquian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon, Tie-Yan Liu</em></p>
+<p>Briefings in Bioinformatics, November 2022. DOI: <a href="https://doi.org/10.1093/bib/bbac409">10.1093/bib/bbac409</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Hugging Face</strong></p>
+<p><em>Jain, S.M.</em></p>
+<p>Introduction to Transformers for NLP. Apress, Berkeley, CA, october 2022. DOI: <a href="https://doi.org/10.1007/978-1-4842-8844-3_4">10.1007/978-1-4842-8844-3_4</a></p>
+</blockquote>
+<blockquote>
+<p><strong>CamemBERT: a Tasty French Language Model</strong></p>
+<p><em>Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suárez, Yoann Dupont, Laurent Romary, Éric Villemonte de la Clergerie, Djamé Seddah, Benoît Sagot</em></p>
+<p>Submitted in november 2019. DOI: <a href="https://doi.org/10.48550/arXiv.1911.03894">10.48550/arXiv.1911.03894</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Attention is All you Need</strong></p>
+<p><em>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, Illia Polosukhin</em></p>
+<p>Neural information processing systems, december 2017. DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550/arXiv.1706.03762</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Word2Vec</strong></p>
+<p><em>Kenneth Ward Church</em></p>
+<p>Natural Language Engineering, january 2017. DOI: <a href="https://doi.org/10.1017/S1351324916000334">10.1017/S1351324916000334</a></p>
+</blockquote>
+<blockquote>
+<p><strong>The Perceptron: A Model for Brain Functioning</strong></p>
+<p><em>H.D. Block</em></p>
+<p>Reviews of Modern Physics, january 1962. DOI: <a href="https://doi.org/10.1103/RevModPhys.34.123">10.1103/RevModPhys.34.123</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Propagation of electrical signals along giant nerve fibres</strong></p>
+<p><em>Alan Lloyd Hodgkin and Andrew Fielding Huxley</em></p>
+<p>Processdings of The Royal Society B, october 1952. DOI: <a href="https://doi.org/10.1098/rspb.1952.0054">10.1098/rspb.1952.0054</a></p>
+</blockquote>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on January 18, 2024
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #98D7E4">
+                <a style="color: #0D3B44" 
+                   href="https://guerinpe.com/tags/data-science/">data-science</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>
