@@ -108,7 +108,7 @@ Answer for each bottlenecks in section `5.2.`:
 
 #### 6.2. Bilan
 
-Summary of all bottlenecks and solutions/results provided to solve each of them.
+Summary of all bottlenecks and their provided solutions.
 
 ### 7. Description of the method & results
 
