@@ -5,16 +5,17 @@ date =  2025-06-25
 draft = false
 +++
 
+## Summary
 
+I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. I am interested in any technology related to the processing, visualization or mining of [biodata](/activity/).
+
+
+## Contact
 
 * [E-mail contact](mailto:pierre-edouard.guerin@groupefd.com)
 * [Linkedin profile](https://www.linkedin.com/in/pierre-edouard-guerin/)
 * [Kaggle portfolio](https://www.kaggle.com/pierreedouardguerin)
 
-
-## Summary
-
-I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. My tools process, store and integrate [omics data](/activity/) into databases linking genetic information with phenotypes and field conditions. I am interested in any technology related to the processing, visualization or mining of biodata.
 
 ## Experience
 <div class="timeline-entry">
@@ -78,22 +79,22 @@ I am a bioinformatician who designs tools to help breeders improve the genetics 
     </p>
       <mark>C</mark>
       <mark>Python</mark>
+      <mark>PyMOL</mark>
   </div>
 </div>
 
+
 ## Training
 
-* 2024: Generative AI workshop, [Interactivity](https://www.interactivity.nl/)
-* 2024: Elastic Stack Workshop, [AMBIENT-IT](https://www.ambient-it.net/)
-* 2023: Databricks Lakehouse Bootcamp, [Databricks Academy](https://www.databricks.com/learn/training/home)
-* 2020: Landscape Genetics Distributed Graduate Seminar, [IDGC](https://sites.google.com/site/landscapegeneticscourse/)
+* 2025: Generative AI, [Interactivity](https://www.interactivity.nl/)
+* 2024: Elastic Stack, [AMBIENT-IT](https://www.ambient-it.net/)
+* 2023: Databricks, [Databricks Academy](https://www.databricks.com/learn/training/home)
+* 2020: Landscape Genetics, [IDGC](https://sites.google.com/site/landscapegeneticscourse/)
 * 2019: ReproHackathon, [CIRAD](https://github.com/IFB-ElixirFr/ReproHackathon)
 * 2018: Advanced Statistics for Data Sciences, [EPHE](https://www.ephe.psl.eu/formations-conferences)
-* 2017: High-Performance Computing Workshop, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/)
+* 2017: High-Performance Computing, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/)
 
 
-
-	
 ## Education
 
 * **2016: M.Sc. in Bioinformatics**, [Paris University](https://u-paris.fr/), France
