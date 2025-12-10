@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">What Playing in Rock Bands Taught Me About Collaboration</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 15 min read · Published on February 1, 2015 
+  </div>
+  <hr>
+  <p>Few knows but Music is part of Mathematics. Musicians often develop a way of thinking that is close to the logic used in science or engineering. Examples of scientists who are also musicians and reciprocally are numerous: <strong>Albert Einstein</strong>, physicist and violonist; <strong>Bruce Dickinson</strong>, lead singer of <em>Iron Maiden</em> and airline pilot; <strong>Brian May</strong> lead guitarist of <em>Queen</em> and astrophysicist; <strong>Bryan Holland</strong>, guitarist of <em>The Offspring</em>, who holds a Ph.D. in Molecular Biology.</p>
+<p>Last but not least, <strong>Steve Jobs</strong> shown how collaborative skills in a rock band can be applied to teams that develop high tech products.</p>
+<span id="continue-reading"></span>
+<p>During my journey as a student in <a href="https://u-paris.fr/">Paris University</a>, I was part of several rock bands and played on stage in various nightclubs, weddings and business school galas. My career in Bioinformatics is more and more demanding in both time and effort, so I must now let go my passion for music. I have been a musician since the age of four, and after spending so much years playing in rock bands, I feel like I reached the end of my career as a musician.</p>
+<p>Here are the lessons rock bands taught me about people and collaboration.</p>
+<p><img src="https://guerinpe.com/articles/what-playing-in-rock-bands-taught-me-about-collaboration/./rockband_laronge_2013.jpg" alt="rockband laronge" /></p>
+<h2 id="early-years">Early Years</h2>
+<p>I studied piano and music theory in the conservatoire for five years. After the conservatoire, I specialized in jazz piano and the art of improvisation for one year. One summer in the countryside, a friend introduced me to the guitar, We were obsessed by <em>Nirvana</em>, <em>The Red Hot Chili Peppers</em> and <em>Gorillaz</em>. I continued playing piano exploring blues and jazz scores by <em>Tom Waits</em> and <em>John Coltrane</em>. Finally, an older pianist friend taught me about bal musette and how to play pop songs on the synthesizer.</p>
+<p>By high school, I started playing in rock band, performing covers of heavy metal and rock bands such as <em>Radiohead</em>, <em>Muse</em>, and <em>Metallica</em>. I progressively gave up piano to learn guitar and bass instead.</p>
+<h2 id="parisian-nights-on-stage">Parisian Nights on Stage</h2>
+<p>While being a student in Paris, I was first obsessed by scores from <em>Megadeth</em> and founded an heavy metal band aiming to make original songs inspired by <strong>Dave Mustaine</strong> and <strong>Marty Friedman</strong>. After a year of hard work, we had built enough of an audience to perform our first concerts, playing both our own compositions and covers of other heavy metal bands such as <em>Led Zeppelin</em> and <em>Black Sabbath</em>.</p>
+<p>Unfortunately, the band had to split due to the different life paths of its members. The alchemy we had was difficult to recreate with others, so I gave up on forming a new band.</p>
+<p>I realized how much I enjoyed being on stage and decided to follow the path of least resistance at this time: I accepted any offers from rock or pop bands looking for a bassist.</p>
+<p>From there, everything was easy:</p>
+<h3 id="rehearsals">Rehearsals</h3>
+<p>Many schools and associations provide free rooms and instruments for students to practice. The cost is often very cheap, especially for students.</p>
+<h3 id="concerts">Concerts</h3>
+<ul>
+<li>They are <strong>associations</strong> that link nightclubs and bands. Back in 1960s, <em>Auvergnat</em> and <em>Kabyle</em> clubs were well known for having hosted some of the first rockabilly bands in Paris. Today, they continue this tradition by supporting underground music. Each band brings its own audience, which helps the nightclub attract customers. Materials like amps and drum kits are usually provided by the association. Sometimes, you have to share with other bands of different styles such as RNB, rap, or electro.</li>
+<li><strong>Business schools</strong> frequently organize galas and parties. I was always surprised by how business schools are supportive to music and culture.</li>
+<li><strong>Open jam sessions</strong> offer free spaces where anyone can bring their instrument and play for a public audience. These sessions are open to all, encouraging improvisations and battles. Like the soccer field at sunday, it is hogged by the old regulars.</li>
+<li>After a concert, <strong>people from the audience</strong> may offer an opportunity to play at weddings or other private events.</li>
+</ul>
+<h3 id="networking-with-other-musicians">Networking with Other Musicians</h3>
+<p>They are specialized websites and forums like <a href="https://www.zikinf.com/">zikinf</a> to connect musicians. They are useful to find bands or fill missing positions. Over time, as I become part of the little parisian community, people start reaching out directly just because they know me.</p>
+<h3 id="finding-an-audience">Finding an Audience</h3>
+<h4 id="word-of-mouth">Word of Mouth</h4>
+<p>Nightclubs usually excepts 50-70 people. Most nightclubs in Paris are very small, so 20 people make the place look occupied, while overcrowded with 50 people. For some reasons people wandering in the streets are attracted by overcrowded nightclubs. So 50 people can easily turn into 100 by the end of the evening. In addition, concerts make people stay instead of just having one drink.</p>
+<p>When you group yourself with three other bands. If each band brings 20 people, 20 × 4 = 80 people. Already good enough, and the nightclub might expect more visitors over the evening.</p>
+<p>As a band is composed of 5 members, if each member brings at least 4 persons (which is easy), we got the 20 persons per band necessary to a full audience. In addition, the association or friends can bring extra people.</p>
+<p>So far, Facebook and social networks have never brought anyone to an event who was not already invited by someone IRL. We use Facebook like posters: it does not really help, but it makes the event looks more official.</p>
+<p>Even with an audience, you will convert less than 1% into real fans. So at a typical concert with 100 people, you might only gain one new fan. Because most people come to see their friends and have a good time, not specifically for the music. And the worst part is your fan are often the type of people who do not use Facebook at all! So you have to text them personally to keep them in the loop.</p>
+<p>But even then, even by playing very well, being talented, and performing many concerts for years in a row, I think there is a <em>glass ceiling</em> in Paris. I mean a maximum number of fans for rock music. Nevertheless, you are more famous than the number of your fans would suggest. People who don't attend your concerts may have already heard of your band by their friends.</p>
+<h3 id="competitions-and-showcases">Competitions and Showcases</h3>
+<p>The magazine <em>Rock &amp; Folk</em>, led by <strong>Philippe Manoeuvre</strong>, often organized showcase competitions to help new bands get noticed. The advantage of these events is that they take place in larger places, such as the <em>Gibus club</em>. The competition was decided by audience votes. The band with the most fans win a recording session and exposure.</p>
+<p>But even then, winners were bands like <em>BB Brunes</em>, <em>The Naast</em> or <em>Plastiscines</em>. While in London, it was <em>Artic Monkeys</em> and <em>Kasabian</em> who emerged. The gap in exposure between Paris and London is abyssal.</p>
+<h2 id="making-a-band">Making a band</h2>
+<p>A rock band is a group of gentlemen who come together to play covers or original compositions on stage.</p>
+<h3 id="the-type-of-musicians">The type of musicians</h3>
+<p>For fun I made caricatures of the different types of musicians based on people I have met. Each character is defined by an obsession: expression, composition, sound setup, interpretation, stage presence.</p>
+<h4 id="adult-rocket-the-gifted">🧑‍🚀 The Gifted</h4>
+<ul>
+<li>Strenghts: Genius in improvisation, finds ideas from outer space.</li>
+<li>Flaws: Chaotic, hard to repeat, does not communicate well.</li>
+</ul>
+<h4 id="construction-worker-the-builder">👷 The Builder</h4>
+<ul>
+<li>Strengths: Gives structure to songs, organizes the band, creative composer.</li>
+<li>Flaws: Can be rigid as he insists on sticking to his "vision", lacks feeling and groove.</li>
+</ul>
+<h4 id="adult-fried-egg-the-colorist">🧑‍🍳 The Colorist</h4>
+<ul>
+<li>Strengths: Seeking for new sounds, instruments, effects and tone.</li>
+<li>Flaws: Less focus on interpretation, can get lost in gear, perfectionist with setups.</li>
+</ul>
+<h4 id="mage-the-purist">🧙 The Purist</h4>
+<ul>
+<li>Strengths: Perfectionist, disciplined, technically strong, plays with feeling and groove.</li>
+<li>Flaws: Not very inventive, conservative, eternal student mindset.</li>
+</ul>
+<h4 id="adult-fire-engine-the-lover">🧑‍🚒 The Lover</h4>
+<ul>
+<li>Strengths: Charismatic, magnetic on stage, brings mystery and coolness.</li>
+<li>Flaws: Weak technician, more about the show than the music, sometimes a poser.</li>
+</ul>
+<h3 id="synergy">Synergy</h3>
+<p>The beauty of a team is that while individuals may have flaws, when they come together, those flaws can turn into strengths for the group.</p>
+<ul>
+<li>🧑‍🚀 🧙 <strong>The Gifted and the Purist</strong>: The Purist will be amazed by the Gifted's playing. He will work hard to figure out how the Gifted does it and then explain it to the rest of the group. Symetrically, the Purist, who is usually reluctant to play on stage because "not ready yet" is reassured by the Gifted's virtuosity.</li>
+<li>🧑‍🍳 🧑‍🚒 <strong>The Colorist and the Lover</strong>: The Lover is not the creative kind. But he will pick the easy flashy ideas from his friend the Colorist to bring some crazy momentum to the show. While the Colorist does not really knows which of his ideas can touch the audience, the Lover will do. Symetrically without the Colorist, the Lover will not have such original ideas to improve the show.</li>
+<li>👷 👷 <strong>Two Builders</strong>: Composition is vast and a composer is rarely good at everything. For example, it helps to have one specialist for the rhythmic parts and another one for harmonies.</li>
+</ul>
+<h2 id="the-alchemy">The Alchemy</h2>
+<h3 id="aggregating-ideas">Aggregating Ideas</h3>
+<p>No one ever brings a finished song. That is why a band tends to be collegial and not dictatorial because it is not possible to make a good song without the full engagement of everyone in the process of creation.</p>
+<p>Generally, everyone bring an idea: it can be a cool riff, a nice structure, a nice chord progression, a melody, a theme, a new instrument, a weird way to use a tone freak, or just a feeling to express, whatever! The other members will then add their own ideas or recall ideas previously discussed during other rehearsals.</p>
+<blockquote>
+<p>Why do we not combine the riff of X with the melody of Y using the sound effect of Z? Mhm I'm not sure. Z do you have something else that could suit more with the theme of the song?</p>
+</blockquote>
+<p>Aggregating everyone's ideas is a long process. There are usually dozens of songs under construction, and some elements are often still missing to make a piece feel complete. Then, often over a drink, spending good times together someone got the spark, the missing piece that finish the song. I remember being on the train, having the epiphany, so excited that I called my guitarist friend and sang him the notes to play on the phone. And he was like "You found it! You're a genius!". Everyone on the train stared at me as if I were mad. Music and his creative process are somewhat captivating.</p>
+<h3 id="balancing-egos">Balancing Egos</h3>
+<p>Everyone in the band is taking great pride of her musician skills and even more of his ideas. Rejecting someone's idea can hurt her feelings, and they might want to leave the band or even sabotage the collective work.</p>
+<p>How to select good ideas without hurting people?</p>
+<p>First, being good friends and spending enjoyable time together makes it easier to be honest and direct. If an idea is bad, I won’t lie to my friend. This help to fasten ideas selection. The downside is that when the same people's ideas are always accepted while others are always rejected. It creates resentment.</p>
+<p>This is why we use "the bag of ideas". All ideas that aren't bad go into the bag so they can be used later. Ideas are used like bricks that can be assembled into different songs. It is hard to predict what will make a good song, so it is better if everyone has fun and feels contributing. In the end, the audience decides which song works best. Because we always involve everyone, no one takes it personally. It is not the song of X versus the song of Y. It is the song of the band.</p>
+<h3 id="be-pragmatical">Be Pragmatical</h3>
+<p>Despite we are all friends and so on. It is important to keep in mind the goal: to play on stage and be ready. If a member did not show up for rehearsals, struggled technically without making progress, stole belongings  or created a negative vibe, then we had no choice but to split the band.</p>
+<h3 id="spending-a-lot-of-time-together">Spending a lot of time Together</h3>
+<p>To achieve a high level of musical synchronization, you need to be very familiar with each other. This comes naturally, through imprinting, imitation, and rehearsals. You really have to spend a lot of time together. This is why it helps to love each other. However, the reward of such dedication is fantastic: when you manage to play in perfect sync, you feel a kind of shared magic power that give chills. And the audience feels it as well.</p>
+<h3 id="playing-what-you-love">Playing What you Love</h3>
+<p>You have to choose wisely the song you will work on together. If the band don't have goose bumps at the early stage you have to throw it away. Why? Because you will spend a lot of time playing over and over this song, revisiting the same passages, and polishing every detail. To sustain that effort with passion and precision, you need to love the song.</p>
+<h3 id="behavior-is-more-important-than-skills">Behavior is more important than Skills</h3>
+<p>When I first started learning guitar, I also needed a bit of money. So, almost at the same time, I began giving guitar lessons. My students were usually just six months behind me in experience, but that was enough to make me the "teacher". When someone is less experienced, they can not say your true level.</p>
+<p>Now, imagine you are a guitarist and you need to recruit a drummer. You are in trouble, because you can not say the true level of the candidates. Every drummer you meet is more experienced on their instrument than you are.</p>
+<ul>
+<li>In a band, one skilled musician is good enough. They are other roles. Scores can be adapted to match a musician's skill level.</li>
+<li>Enthusiasm matters. Do the candidate inspires the rest of the band?</li>
+<li>Motivation matters. Is the candidate ready to take the band all the way to the stage?</li>
+<li>Reliability matters. Will the candidate show up on time for rehearsals?</li>
+<li>Character matters. Will the candidate improve the mood in the band?</li>
+<li>Creativity matters. Will the candidate proposes ideas, or stay passive?</li>
+<li>Flexibility matters. Can the candidate find solutions if a guitar is missing five minutes before going on stage?</li>
+<li>Sociability matters. Will the candidate bring new fans to the band?</li>
+<li>The big question. Will the candidate expand the spirit of the band or shrink it?</li>
+</ul>
+<h3 id="learning-from-each-others">Learning from each others</h3>
+<p>While practicing your instrument, they are two way: the hard way and the easy way.</p>
+<ul>
+<li>The hard way is what how you learn in a conservatoire. You repeat passages thousands of times until your fingers and brain are perfectly synchronized, reaching perfect execution.</li>
+<li>The easy way is what you learn from other musicians.There are many shortcuts and tricks that produce the same effect with minimal effort. These tricks are usually discovered by those who have gone through the hard way, so by learning from your peers, you can spare yourself a lot of hard work.</li>
+</ul>
+<h3 id="having-an-outside-observer">Having an Outside Observer</h3>
+<p>As far as I remember, there was always at least one person watching our rehearsals. Often it was friends or members of other bands or just the guardian of the local. Their presence added a little pressure, helping us get used to play in front of an audience.</p>
+<p>It also kept arguments in checkmate. Disagreements quickly turned into jokes, saving a lot of time. Rehearsals are short, and every minute counts.</p>
+<p>We could also get feedback: whether an influence was too noticable in a composition; whether the sound balance was right or wether the suggestion from X or Y was relevant or not. Finally when our friends said "This rocks!" after a final play, it was pure joy.</p>
+<h3 id="building-trust">Building Trust</h3>
+<p>Going on stage is intimidating. The fear of failing yourself, the fear of letting your friends down, the fear of being let down by them. I have realized that when everything is shared equally within the band, there is very little stress before a performance.</p>
+<p>On the contrary, in a more hierarchical band, with a leader at the top, fear is everywhere. The leader is anxious because, he is carrying the weight of the band. The other members are anxious because of the leader being anxious. The audience feels something is off.</p>
+<p>Trust comes from sharing.</p>
+<h3 id="having-fun">Having Fun</h3>
+<p>To be honest, we spent so much time stressing over small things without interest that if we had taken ourselves too seriously, the whole experience would have felt sinister.</p>
+<p>Of course, we still had to be on time for rehearsals and organize concerts, which required a certain level of seriousness. But I think the reason we managed to play on stage despite not being perfect was the good vibes. Creativity is impossible without being relaxed. Working with people you love and having fun clearly fosters inspiration. I can not count the number of times I got spark of ideas just after a good laugh.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I learned from my friends to do not worry and to live fully in the moment. Music is something <em>alive</em>. Collaboration is not about forcing a rational consensus. It is about feeling good with people, appreciating them, and understanding their flaws, strengths and most important what makes them extraordinary.</p>
+<p>Music taught me to combine open-mindedness with practical common sense: being flexible, tolerant of differences and free from preconceptions. Finally, playing with soul is only what matters.</p>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on February 1, 2015
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #4986E7">
+                <a style="color: #ffffff" 
+                   href="https://guerinpe.com/tags/career/">career</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

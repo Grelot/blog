@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-10-07T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Research Tax Credit</title>
+        <published>2025-10-07T00:00:00+00:00</published>
+        <updated>2025-10-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/research-tax-credit/"/>
+        <id>https://guerinpe.com/articles/research-tax-credit/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;Research Activities Tax Credit&lt;&#x2F;strong&gt; is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;amp;D).  Within my company, I have been tasked with writing the &lt;strong&gt;Research Tax Credit (CIR) justification report&lt;&#x2F;strong&gt; for France. Here, the method for writing such a report.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Turing Complete: From Logical Gates to CPU Architecture</title>
+        <published>2025-09-17T00:00:00+00:00</published>
+        <updated>2025-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/turing-complete-from-logical-gates-to-cpu-architecture/"/>
+        <id>https://guerinpe.com/articles/turing-complete-from-logical-gates-to-cpu-architecture/</id>
+        
+        <summary type="html">&lt;p&gt;In 2021, LevelHead published &lt;a href=&quot;https:&#x2F;&#x2F;turingcomplete.game&quot;&gt;Turing Complete&lt;&#x2F;a&gt;, a game about computer science. My friend &lt;strong&gt;Christophe Georgescu&lt;&#x2F;strong&gt; recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Portfolio</title>
+        <published>2025-08-12T00:00:00+00:00</published>
+        <updated>2025-08-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/portfolio/"/>
+        <id>https://guerinpe.com/portfolio/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/portfolio/">&lt;div class=&quot;all_proj&quot;&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;genbar2&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;48rem&quot; height=&quot;48rem&quot; src=&quot;cnrs.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt; Genbar 2 &lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt; I programmed a software to identify genetic boundaries between populations from individual spatial coordinates and genetic variants data.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (C, C++, htslib)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; May 2019 - Feb 2020 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;edna&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;128rem&quot; height=&quot;48rem&quot; src=&quot;monaco.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Metabarcoding&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I programmed several workflow to process metabarcoding environmental DNA data from MONACO MARINE WORLDWIDE EXPEDITION.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (obitools, vsearch, swarm, cutadapt, bash, python, singularity, snakemake)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Jan 2019 - Jul 2021&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;github.com&#x2F;lmathon&#x2F;eDNA--benchmark_pipelines&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;114rem&quot; height=&quot;48rem&quot; src=&quot;spygen.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Benchmarking of metabarcoding workflows&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;We tested some combinations of softwares to improve performances of metabarcoding data processing.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (obitools, vsearch, qiime, python, singularity, Univa Grid Engine)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Mar 2018 - Jul 2021&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;reservebenefit&#x2F;snakemake_stacks2&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;48rem&quot; height=&quot;48rem&quot; src=&quot;reservebenefit.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Population genomics&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I genotyped 1200 individuals belonging to 3 fish species. I worked with restriction enzyme-based data such as RAD-seq.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (illumina paired-end, STACKS, vcftools, bedtools, bwa, python, snakemake, singularity, Univa Grid Engine, bash)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Jun 2017 - Oct 2019 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;aker--beetGenomeEnvironmentAssociation&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;48rem&quot; height=&quot;48rem&quot; src=&quot;florimond.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Beets genome metrics&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I calculated metrics (nucleotide diversity, Tajima&#x27;s D) on the beets genome from 14,409 random single nucleotide polymorphisms (SNPs) among 299 accessions of cultivated beets.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (R, python, genpop)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; May 2017 - May 2018 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;global_fish_genetic_diversity&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;224rem&quot; height=&quot;48rem&quot; src=&quot;ephe.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;First Global Map of Fish Genetic Diversity&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt; I built a database containing over 50,000 DNA sequences representing 3,815 species of marine fish and 1,611 species of freshwater fish. I estimated the average genetic diversity at different geographical scales.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (julia, python, R, singularity, MUSCLE, UGENE, geonames, BOLD, shiny)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; May 2017 - Feb 2020 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;seaconnect&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;136rem&quot; height=&quot;48rem&quot; src=&quot;total.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Landscape genomics&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I processed low-coverage RAD-seq data from 1800 individuals belonging to 2 fish species collected from all over the Mediterranean sea.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (dDocent, freebayes, vcftools, samtools, trimmomatic, bash, python, singularity, snakemake)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Feb 2017 - Mar 2021 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;reservebenefit&#x2F;genomic_resources_for_med_fishes&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;48rem&quot; height=&quot;48rem&quot; src=&quot;reservebenefit.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Genome assembly&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I did the sequencing and assembly of 3 new fish species nuclear and mitochondrial genomes.&lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (illumina paired-end, mate-pair, 10X genomics chromium, Abyss, Platanus, QUAST, SLURM, bash)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Jan 2017 - Nov 2019 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;diabetesGenetics--COAT&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;136rem&quot; height=&quot;32rem&quot; src=&quot;inserm.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Report bad quality region of coding sequences from genome sequencing data&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I developped a software able to detect human genomic variations with low coverage. Graphical Interface. &lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (Illumina paired-end, samtools, bedtools, variation annotation, python, mySQL, qt4)&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Jan 2016 - Jul 2016 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;div role=&quot;button&quot; class=&quot;project&quot; onclick=&quot;location.href=&#x27;https:&#x2F;&#x2F;www.dsimb.inserm.fr&#x2F;orion&#x2F;&#x27;&quot;&gt;
+&lt;img align=&quot;center&quot; width=&quot;136rem&quot; height=&quot;32rem&quot; src=&quot;inserm.png&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Optimization of a method of fold recognition in protein structure&lt;&#x2F;div&gt;
+&lt;div class=&quot;description&quot;&gt;I added a new algorithm to predict 3D-modelisation of protein structure at atomic resolution &lt;&#x2F;div&gt;
+&lt;div class=&quot;skills&quot;&gt; (PDB, pymol, C, C++, python, R, html, css )&lt;&#x2F;div&gt;
+&lt;hr width=&quot;31%&quot;&gt; 
+&lt;div class=&quot;duration&quot;&gt; Feb 2015 - Jun 2015 &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Activity</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/activity/"/>
+        <id>https://guerinpe.com/activity/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/activity/">&lt;h2 id=&quot;bioinformatics&quot;&gt;Bioinformatics?&lt;&#x2F;h2&gt;
+&lt;p&gt;Using computers and data to answer biological questions. The Bioinformatician collects, analyses, and interprets the large amounts of data generated by life science research or clinical studies through computing.&lt;&#x2F;p&gt;
+&lt;p&gt;It is multidisciplinary, bringing together biologists, computer scientists, mathematicians, statisticians, and physicists. By turning vast raw data into useful information, this approach helps researchers better understand complex systems and diseases, make diagnoses, and develop new medicines.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;missions&quot;&gt;Missions&lt;&#x2F;h2&gt;
+&lt;p&gt;In Florimond Desprez Group, the missions of the bioinformatician are the following:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;implement-bioinformatics-solution&quot;&gt;Implement bioinformatics solution&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Conduct analyses using different kinds of omics data on our different crops.&lt;&#x2F;li&gt;
+&lt;li&gt;Develop and optimise tools, workflows and software to support plant and molecular breeders in the
+analysis and interpretation of their data.&lt;&#x2F;li&gt;
+&lt;li&gt;Design and maintain databases, data storage systems, and data management processes to ensure the integrity and accessibility of biological data.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;bring-expertise&quot;&gt;Bring expertise&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Communicate research findings, insights, and recommendations to stakeholders.&lt;&#x2F;li&gt;
+&lt;li&gt;Participate in external and internal projects related to your field of expertise.&lt;&#x2F;li&gt;
+&lt;li&gt;Keep yourself up-to-date with findings from academia and other sources through literature
+search and participation to conferences.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;operational-excellence&quot;&gt;Operational Excellence&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deliver timely results to meet project deadlines.&lt;&#x2F;li&gt;
+&lt;li&gt;Provide reporting on project contributions.&lt;&#x2F;li&gt;
+&lt;li&gt;Develop robust and documented software components to ensure traceability and reproducibility of your analyses.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Publications</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/publications/"/>
+        <id>https://guerinpe.com/publications/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/publications/">&lt;ul&gt;
+&lt;li&gt;Publications on &lt;a href=&quot;https:&#x2F;&#x2F;orcid.org&#x2F;0000-0001-7909-3729&quot;&gt;ORCiD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Publications on &lt;a href=&quot;https:&#x2F;&#x2F;www.researchgate.net&#x2F;profile&#x2F;Pierre-Edouard-Guerin&quot;&gt;ResearchGate&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Publications on &lt;a href=&quot;https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?hl=en&amp;amp;user=hj1ClrsAAAAJ&quot;&gt;Google Scholar&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;scientific-articles&quot;&gt;Scientific articles&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The distribution of coastal fish eDNA sequences in the Anthropocene&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Laetitia Mathon, Virginie Marques, Stéphanie Manel, Camille Albouy, Marco Andrello, Emilie Boulanger, Julie Deter, Régis Hocdé, Fabien Leprieur, Tom B Letessier, Nicolas Loiseau, Eva Maire, Alice Valentini, Laurent Vigliola, Florian Baletaud, Sandra Bessudo, Tony Dejean, Nadia Faure, Pierre‐edouard Guerin, Meret Jucker, Jean‐baptiste Juhel, Kadarusman, Andrea Polanco F, Laurent Pouyaud, Dario Schwörer, Kirsten F Thompson, Marc Troussellier, Hagi Yulia Sugeha, Laure Velez, Xiaowei Zhang, Wenjun Zhong, Loïc Pellissier, David Mouillot&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Global Ecology and Biogeography. 2023 August 08. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;geb.13698&quot;&gt;10.1111&#x2F;geb.13698&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Contrasting influence of seascape, space and marine reserves on genomic variation in multiple species&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Laura Benestan, Nicolas Loiseau, Pierre‐edouard Guérin, Angel Pérez‐Ruzafa, Aitor Forcada, Esther Arcas, Philippe Lenfant, Sandra Mallol, Raquel Goñi, Laure Velez, David Mouillot, Oscar Puebla, Stéphanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Ecography. 2023 January 01. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;ecog.06127&quot;&gt;10.1111&#x2F;ecog.06127&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Evaluating bioinformatics pipelines for population‐level inference using environmental DNA&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Bastien Macé, Régis Hocdé, Virginie Marques, Pierre‐Edouard Guerin, Alice Valentini, Véronique Arnal, Loïc Pellissier, Stéphanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Environmental DNA. 2022 February 08. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1002&#x2F;edn3.269&quot;&gt;10.1002&#x2F;edn3.269&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cross-ocean patterns and processes in fish biodiversity on coral reefs through the lens of eDNA metabarcoding&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Laetitia Mathon, Virginie Marques, David Mouillot, Camille Albouy, Marco Andrello, Florian Baletaud, Giomar H Borrero-Pérez, Tony Dejean, Graham J Edgar, Jonathan Grondin, Pierre-Edouard Guerin, Régis Hocdé, Jean-Baptiste Juhel, Kadarusman, Eva Maire, Gael Mariani, Matthew Mclean, Andrea Polanco F, Laurent Pouyaud, Rick D Stuart-Smith, Hagi Yulia Sugeha, Alice Valentini, Laurent Vigliola, Indra B Vimono, Loïc Pellissier, Stéphanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Proceedings of the Royal Society B. 2022 April 20. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1098&#x2F;rspb.2022.0162&quot;&gt;10.1098&#x2F;rspb.2022.0162&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Climate differently influences the genomic patterns of two sympatric marine fish species&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Emilie Boulanger, Laura Benestan, Pierre‐Edouard Guerin, Alicia Dalongeville, David Mouillot, Stéphanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Journal of Animal Ecology. 2021 October 30. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;1365-2656.13623&quot;&gt;10.1111&#x2F;1365-2656.13623&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Use of environmental DNA in assessment of fish functional and phylogenetic diversity&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Virginie Marques, Paul Castagne, Andréa Polanco Fernandez, Giomar Helena Borrero-Perez, Regis Hocde,  Pierre-Edouard Guerin, Jean-Baptiste Juhel, Laure Velez, Nicolas Loiseau, Tom Bech Letessier, Sandra Bessudo, Alice Valentini, Tony Dejean, David Mouillot, Loïc Pellissier, Sébastien Villéger&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Conservation Biology. 2021 July 18. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;cobi.13802&quot;&gt;10.1111&#x2F;cobi.13802&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Restricted dispersal in a sea of gene flow&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Laura Benestan, Nicolas Loiseau, Pierre-Edouard Guerin, Katarina Fietz, Elena Trofimenko, Siren Rühs, Willi Rath, Arne Biastoch, Angel Perez-Ruzafa, Pilar Baixauli, Aitor Forcada, Philippe  Lenfant, Sandra Mallol, Rachel Goni, Laure Velez, Marc Höppner, Stuart Kininmonth, David Mouillot, Oscar Puebla, Stephanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Proceedings of the Royal Society B. 2021 May 18. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1098&#x2F;rspb.2021.0458&quot;&gt;10.1098&#x2F;rspb.2021.0458&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Benchmarking bioinformatic tools for fast and accurate eDNA metabarcoding species identification&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Laetitia Mathon, Alice Valentini, Pierre-Edouard Guerin, Eric Normandeau, Cyril Noel, Clément Lionnet, Emilie Boulanger, Wilfried Thuiller, Louis Bernatchez, David Mouillot, Tony Dejean, Stephanie Manel&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Molecular Ecology Resources. 2021 May 17. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;1755-0998.13430&quot;&gt;10.1111&#x2F;1755-0998.13430&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Ecography. 2020 Aug 04. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;ecog.05049&quot;&gt;10.1111&#x2F;ecog.05049&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;New genomic ressources for three exploited Mediterranean fishes&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Katharina Fietz, Elena Trofimenko, Pierre-Edouard Guerin, Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Genomics. 2020 July 03. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1016&#x2F;j.ygeno.2020.06.041&quot;&gt;10.1016&#x2F;j.ygeno.2020.06.041&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Global determinants of freshwater and marine fish genetic diversity&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy &amp;amp; Loic Pellissier&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Nature communications. 2020 Feb 10. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41467-020-14409-7&quot;&gt;10.1038&#x2F;s41467-020-14409-7&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Predicting genotype environmental range from genome–environment associations&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Stephanie Manel, Marco Andrello, Karine Henry, Daphne Verdelet, Aude Darracq, Pierre‐Edouard Guerin, Bruno Desprez, Pierre Devaux&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Molecular Ecology. 2018 May 17. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;mec.14723&quot;&gt;10.1111&#x2F;mec.14723&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Yassine Ghouzam, Guillaume Postic, Pierre-Edouard Guerin, Alexandre G. de Brevern &amp;amp; Jean-Christophe Gelly&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Scientific Reports. 2016 Jun 20. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;srep28268&quot;&gt;10.1038&#x2F;srep28268&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;software&quot;&gt;Software&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;florimond-desprez-group-2021&quot;&gt;Florimond Desprez Group (2021-)&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;My software developed for the company is &lt;strong&gt;confidential&lt;&#x2F;strong&gt;. Please contact me for more information.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;public-research-2015-2021&quot;&gt;Public research (2015-2021)&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shiny.cefe.cnrs.fr&#x2F;wfgd&#x2F;&quot;&gt;WFGD&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): interactive worldmap of fish genetic diversity.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;anvage&quot;&gt;ANVAGE&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;rgeogendiv&quot;&gt;Rgeogendiv&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;edna&quot;&gt;Workflow to process environmental DNA sequencing data&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): this workflow is open-source and was co-developped by the CEFE (lead stakeholder) and the company SPYGEN (data and tests), including interactions IFREMER, ETH Zurich and the marine explorations of Monaco.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;reservebenefit&#x2F;snakemake_stacks2&quot;&gt;Workflow to genotype reduced genome sequencing data&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Grelot&#x2F;genbar2&quot;&gt;Genbar2&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;pypi.org&#x2F;project&#x2F;demort&#x2F;&quot;&gt;DEMORT&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (main contributor): a DEmultiplexing MOnitoring Report Tool&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;sourceforge.net&#x2F;projects&#x2F;exam-exome-analysis-and-mining&#x2F;&quot;&gt;EXAM&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (contributor): a whole exome sequencing analysis and its graphical interface&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.dsimb.inserm.fr&#x2F;orion&#x2F;&quot;&gt;ORION&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; (contributor): a sensivitive method for protein template detection&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Curriculum Vitae</title>
+        <published>2025-06-25T00:00:00+00:00</published>
+        <updated>2025-06-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/resume/"/>
+        <id>https://guerinpe.com/resume/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/resume/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
+&lt;p&gt;I am a bioinformatician who designs tools to help breeders improve the genetics of industrial crops. I am interested in any technology related to the processing, visualization or mining of &lt;a href=&quot;&#x2F;activity&#x2F;&quot;&gt;biodata&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:pierre-edouard.guerin@groupefd.com&quot;&gt;E-mail contact&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin&#x2F;&quot;&gt;Linkedin profile&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;pierreedouardguerin&quot;&gt;Kaggle portfolio&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;experience&quot;&gt;Experience&lt;&#x2F;h2&gt;
+&lt;div class=&quot;timeline-entry&quot;&gt;
+  &lt;div class=&quot;timeline-date&quot;&gt;July 2021 to present&lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-item&quot;&gt;
+    &lt;h3&gt;Bioinformatician&lt;&#x2F;h3&gt;
+    &lt;h5&gt;Florimond Desprez Group Research Unit&lt;&#x2F;h5&gt;
+    &lt;h6&gt;Cappelle-en-Pévèle, France&lt;&#x2F;h6&gt;
+    &lt;p&gt;
+      Developed and optimised software, workflows, and databases to support plant breeders in the analysis and interpretation of omics data.
+    &lt;&#x2F;p&gt;
+      &lt;mark&gt;Python&lt;&#x2F;mark&gt;
+      &lt;mark&gt;SQL&lt;&#x2F;mark&gt;
+      &lt;mark&gt;R&lt;&#x2F;mark&gt;
+      &lt;mark&gt;C++&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Docker&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Nextflow&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Azure&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Databricks&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Elastic Stack&lt;&#x2F;mark&gt;
+  &lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-date&quot;&gt;January 2017 to July 2021&lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-item&quot;&gt;
+    &lt;h3&gt;Bioinformatician&lt;&#x2F;h3&gt;
+    &lt;h5&gt;CNRS Research Unit 5175, Center of Functional Ecology and Evolution&lt;&#x2F;h5&gt;
+    &lt;h6&gt;Montpellier, France&lt;&#x2F;h6&gt;
+    &lt;p&gt;
+      Processed DNA sequence data for population genetics studies of various fish species, enabling marine biologists to assess their conservation status.
+    &lt;&#x2F;p&gt;
+      &lt;mark&gt;Python&lt;&#x2F;mark&gt;
+      &lt;mark&gt;R&lt;&#x2F;mark&gt;
+      &lt;mark&gt;C++&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Singularity&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Snakemake&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Jupyter&lt;&#x2F;mark&gt;
+      &lt;mark&gt;SGE&lt;&#x2F;mark&gt;
+      &lt;mark&gt;SLURM&lt;&#x2F;mark&gt;
+  &lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-date&quot;&gt;January to August 2016&lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-item&quot;&gt;
+    &lt;h3&gt;Bioinformatics Internship&lt;&#x2F;h3&gt;
+    &lt;h5&gt;INSERM Unit S598, Genetics of Diabetes&lt;&#x2F;h5&gt;
+    &lt;h6&gt;Paris, France&lt;&#x2F;h6&gt;
+    &lt;p&gt;
+      Developed a module and user interface for a medical software to detect and annotate rare variants in human genome sequences related to diabetes.
+    &lt;&#x2F;p&gt;
+      &lt;mark&gt;SQL&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Python&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Qt&lt;&#x2F;mark&gt;
+  &lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-date&quot;&gt;January to June 2015&lt;&#x2F;div&gt;
+  &lt;div class=&quot;timeline-item&quot;&gt;
+    &lt;h3&gt;Bioinformatics Internship&lt;&#x2F;h3&gt;
+    &lt;h5&gt;INSERM Unit S1134, Macromolecular Biology&lt;&#x2F;h5&gt;
+    &lt;h6&gt;Paris, France&lt;&#x2F;h6&gt;
+    &lt;p&gt;
+      Optimised an algorithm to predict protein 3D structure at atomic resolution.
+    &lt;&#x2F;p&gt;
+      &lt;mark&gt;C&lt;&#x2F;mark&gt;
+      &lt;mark&gt;Python&lt;&#x2F;mark&gt;
+      &lt;mark&gt;PyMOL&lt;&#x2F;mark&gt;
+  &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;training&quot;&gt;Training&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2025: Generative AI, &lt;a href=&quot;https:&#x2F;&#x2F;www.interactivity.nl&#x2F;&quot;&gt;Interactivity&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2024: Elastic Stack, &lt;a href=&quot;https:&#x2F;&#x2F;www.ambient-it.net&#x2F;&quot;&gt;AMBIENT-IT&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2023: Databricks, &lt;a href=&quot;https:&#x2F;&#x2F;www.databricks.com&#x2F;learn&#x2F;training&#x2F;home&quot;&gt;Databricks Academy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2020: Landscape Genetics, &lt;a href=&quot;https:&#x2F;&#x2F;sites.google.com&#x2F;site&#x2F;landscapegeneticscourse&#x2F;&quot;&gt;IDGC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2019: ReproHackathon, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;IFB-ElixirFr&#x2F;ReproHackathon&quot;&gt;CIRAD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2018: Advanced Statistics for Data Sciences, &lt;a href=&quot;https:&#x2F;&#x2F;www.ephe.psl.eu&#x2F;formations-conferences&quot;&gt;EPHE&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;2017: High-Performance Computing, &lt;a href=&quot;https:&#x2F;&#x2F;isem-evolution.fr&#x2F;plateau&#x2F;plateau-montpellier-bioinformatique-et-biodiversite&#x2F;&quot;&gt;MBB&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;education&quot;&gt;Education&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2016: M.Sc. in Bioinformatics&lt;&#x2F;strong&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;u-paris.fr&#x2F;&quot;&gt;Paris University&lt;&#x2F;a&gt;, France&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;2014: Licence in Bioinformatics&lt;&#x2F;strong&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;u-paris.fr&#x2F;&quot;&gt;Paris University&lt;&#x2F;a&gt;, France&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Manage a Project?</title>
+        <published>2025-06-18T00:00:00+00:00</published>
+        <updated>2025-06-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/how-to-manage-project/"/>
+        <id>https://guerinpe.com/articles/how-to-manage-project/</id>
+        
+        <summary type="html">&lt;p&gt;In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Gantt Chart Excel for Project Management</title>
+        <published>2025-05-12T00:00:00+00:00</published>
+        <updated>2025-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/gantt-chart-excel-for-project-management/"/>
+        <id>https://guerinpe.com/articles/gantt-chart-excel-for-project-management/</id>
+        
+        <summary type="html">&lt;p&gt;A Gantt chart visualizes the scheduling of tasks over the project timeline. My colleague &lt;strong&gt;Daphne Verdelet&lt;&#x2F;strong&gt; shared with me the Excel template her team at &lt;a href=&quot;https:&#x2F;&#x2F;www.inrae.fr&#x2F;&quot;&gt;INRAE&lt;&#x2F;a&gt; uses to keep track of their tasks over the year.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chado: the GMOD Database Schema</title>
+        <published>2025-01-18T00:00:00+00:00</published>
+        <updated>2025-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/chado-the-gmod-database-schema/"/>
+        <id>https://guerinpe.com/articles/chado-the-gmod-database-schema/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Chado&lt;&#x2F;strong&gt; is a relational database schema that underlies many GMOD installations. It is capable of representing many of the general classes of data frequently encountered in modern biology such as sequence, sequence comparisons, phenotypes, genotypes, ontologies, publications, and phylogeny. It has been designed to handle complex representations of biological knowledge and is the most sophisticated relational schemas currently available in molecular biology.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Error Messages with a CLI</title>
+        <published>2024-11-28T00:00:00+00:00</published>
+        <updated>2024-11-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/error-messages/"/>
+        <id>https://guerinpe.com/articles/error-messages/</id>
+        
+        <summary type="html">&lt;p&gt;I am an anxious person. So &lt;strong&gt;error messages&lt;&#x2F;strong&gt; always makes my heart beat faster. Hopefully, following the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Pareto_principle&quot;&gt;Pareto Principle&lt;&#x2F;a&gt;, 80% of error messages are mild while 20% are the really tough one. The point is to solve the first kind as quickly as possible and effortless. To do so, allow the user to solve the issue by himself with clear messages and hints (in the case of errors related to input files or parameters). Clear presentation of the context and precise localization of the error in the code will save a lot of useless and tedious work to the developer. The time spared on the easy errors just by having better messages, then can be reallocated to the second kind of errors, the troublemakers.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generative AI: Integrate openAI API with Python</title>
+        <published>2024-05-27T00:00:00+00:00</published>
+        <updated>2024-05-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/generative-ai/"/>
+        <id>https://guerinpe.com/articles/generative-ai/</id>
+        
+        <summary type="html">&lt;p&gt;I was fortunate to follow the course of &lt;strong&gt;Sven Warris&lt;&#x2F;strong&gt; about software tools to integrate genAI into your own work and applications. The course is aimed at data scientists and bioinformaticians.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Elastic Stack</title>
+        <published>2024-04-23T00:00:00+00:00</published>
+        <updated>2024-04-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/elastic-stack/"/>
+        <id>https://guerinpe.com/articles/elastic-stack/</id>
+        
+        <summary type="html">&lt;p&gt;strange not working&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BioGPT: Generative Pre-trained Transformer for Biomedical Text Mining</title>
+        <published>2024-01-18T00:00:00+00:00</published>
+        <updated>2024-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/"/>
+        <id>https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/</id>
+        
+        <content type="html" xml:base="https://guerinpe.com/articles/biogpt-generative-pre-trained-transformer-for-biomedical-text-mining/">&lt;p&gt;Following the recent breakthrough in Natural Language Processing models, everyone is now talking about Transformers and ChatGPT. I wondered whether some models had been trained for use in biology or bioinformatics. I discovered a research project called &lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; developped by Microsoft. This article to both describe BioGPT and summarise the recent history of Transformers and NLP.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bibliography-is-hard-work-and-is-getting-worse&quot;&gt;Bibliography is Hard Work (and is getting worse)&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;&quot;&gt;PubMed database&lt;&#x2F;a&gt; contains more than 36 million publications. Every year this number increases following an exponential growth.&lt;&#x2F;p&gt;
+&lt;p&gt;They are no universal glossary &lt;em&gt;e.g.&lt;&#x2F;em&gt; a drug can have multiple synonyms depending on the field, the time frame, the country, etc. So, the research by keyword may be incomplete and not cover all the related articles. In addition, articles are sorted by field or key words making any cross-disciplinary research tedious.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;natural-language-processing&quot;&gt;Natural Language Processing&lt;&#x2F;h2&gt;
+&lt;p&gt;NLP are methods to give the computer the ability to understand and speak human language. &lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; is a model trained on the content of all available articles in PubMed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; can do:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer question using PubMed materials&lt;&#x2F;li&gt;
+&lt;li&gt;Find drugs relations using PubMed materials&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;history-of-nlp&quot;&gt;History of NLP&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In the early 20th century, &lt;strong&gt;Ferdinand de Saussure&lt;&#x2F;strong&gt; establishes human language as a logical structure.&lt;&#x2F;li&gt;
+&lt;li&gt;In 1952, &lt;strong&gt;Alan Hodgkin&lt;&#x2F;strong&gt; and &lt;strong&gt;Andrew Huxley&lt;&#x2F;strong&gt; discover neural networks (Nobel Medicine 1963).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These events inspire the idea of &lt;strong&gt;a machine able to speak and understand human language&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Alan Turing&lt;&#x2F;strong&gt; stated that if a machine could chat with you and you can’t tell it apart from a human, then the machine could be considered capable of thinking.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boolean-request&quot;&gt;Boolean request&lt;&#x2F;h3&gt;
+&lt;p&gt;Boolean logic involves &lt;code&gt;TRUE&lt;&#x2F;code&gt; or &lt;code&gt;FALSE&lt;&#x2F;code&gt; answer. The found documents are the ones matching an &lt;em&gt;exact term&lt;&#x2F;em&gt;. To go further, you can combine statements &lt;code&gt;OR&lt;&#x2F;code&gt;, &lt;code&gt;AND&lt;&#x2F;code&gt;, &lt;code&gt;NEAR&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: in a search engine, you type &quot;puppy&quot; and &quot;kitten&quot; to find any documents that contains both &quot;puppy&quot; and &quot;kitten&quot;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terms-frequency&quot;&gt;Terms frequency&lt;&#x2F;h3&gt;
+&lt;div class=&quot;encart_inside_article&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Term frequency&lt;&#x2F;strong&gt;: How often appears a word in a document.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Inverse Document frequency&lt;&#x2F;strong&gt;: importance of a word in multiple documents.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Term frequency identifies important word that are both frequent in a document and rare across the dataset. It ignores common words like “the” or “is” as well.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tag_cloud&quot;&gt;Tag cloud&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;co-occurence-matrix&quot;&gt;Co-occurence matrix&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Co-occurence matrix&lt;&#x2F;strong&gt; is the table of the number of times two words appear together. The aim is to find words significantly associated. It is possible to reduce a set of words into a set of vector of associated words in order to process vector of words instead of words.&lt;&#x2F;p&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apples are green and red.&lt;&#x2F;p&gt;
+&lt;p&gt;Red apples are sweet.&lt;&#x2F;p&gt;
+&lt;p&gt;Green oranges are sour.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;-&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;apples&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;green&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;red &lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;sweet&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;oranges&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;code&gt;sour&lt;&#x2F;code&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;apples&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;green&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;red &lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;sweet&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;oranges&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;sour&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;In this text, &lt;code&gt;red&lt;&#x2F;code&gt; and &lt;code&gt;apples&lt;&#x2F;code&gt; are associated while &lt;code&gt;sour&lt;&#x2F;code&gt; and &lt;code&gt;apples&lt;&#x2F;code&gt; are not.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;word2vec-word-to-vector&quot;&gt;Word2vec: Word to Vector&lt;&#x2F;h3&gt;
+&lt;p&gt;A word is considered as a vector. The computer follows an unsupervised learning (~no involved human) from the document. Each surrounding words is a &lt;em&gt;context&lt;&#x2F;em&gt; or &lt;em&gt;bag of words&lt;&#x2F;em&gt; teaching the word to predict given the context. The sum of all predictions produce a vector space or &lt;em&gt;semantic relationship&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Example:&lt;&#x2F;p&gt;
+&lt;p&gt;The computer understand from a document that the word &lt;code&gt;queen&lt;&#x2F;code&gt; and &lt;code&gt;king&lt;&#x2F;code&gt; are linked and &lt;code&gt;woman&lt;&#x2F;code&gt; and &lt;code&gt;man&lt;&#x2F;code&gt; relationship are aligned with &lt;code&gt;king&lt;&#x2F;code&gt; and &lt;code&gt;woman&lt;&#x2F;code&gt; relationship. By summing the vectors, the computer can deduce association between &lt;code&gt;queen&lt;&#x2F;code&gt; and &lt;code&gt;woman&lt;&#x2F;code&gt;  and &lt;code&gt;king&lt;&#x2F;code&gt; and &lt;code&gt;man&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;sementic_relationship.jpg&quot; alt=&quot;semantic relationship&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;neural-network&quot;&gt;Neural Network&lt;&#x2F;h2&gt;
+&lt;p&gt;Inspired by human brain, they are interconnected neurons organised into layers (input, hidden and output). Each connection between neuron has a weight. The network is trained on documents to adjust weights. Weights are self-corrected to minimise the difference between the prediction and the expected result.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: Word2vec is based on neural network of three layers.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;neural_network.jpg&quot; alt=&quot;neural network&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;perceptron&quot;&gt;Perceptron&lt;&#x2F;h2&gt;
+&lt;p&gt;Designed in 1969 with the idea of creating a robot in the image of human. The &lt;strong&gt;perceptron&lt;&#x2F;strong&gt; is a neural network of 2 layers: input and output.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;💡 Note:&lt;&#x2F;strong&gt; Without the hidden layer, a neural network is a &lt;strong&gt;logistic regression model&lt;&#x2F;strong&gt; (Berkson et al. 1944) with a Boolean output.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;biogpt-generative-pre-trained-transformer-for-biomedical-text-mining&#x2F;.&#x2F;perceptron.jpg&quot; alt=&quot;perceptron&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;transformer&quot;&gt;Transformer&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;strong&gt;transformer&lt;&#x2F;strong&gt; is a neural network with four layers. It adds a a new intermediate layer called &lt;em&gt;attention&lt;&#x2F;em&gt; (Vaswani et al. 2017). The decoder layer transforms the input document into a &lt;em&gt;bag of words&lt;&#x2F;em&gt;. The encoder layer produces a predicted &lt;em&gt;vector of words&lt;&#x2F;em&gt; using word2vec. &lt;em&gt;Attention&lt;&#x2F;em&gt; assigns weights to link the encoder and decoder layers. The transformer is the state-of-the-art method in natural language processing. &lt;strong&gt;BERT&lt;&#x2F;strong&gt; and &lt;strong&gt;GPT&lt;&#x2F;strong&gt; are based on transformer.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;www.deepl.com&#x2F;en&#x2F;translator&quot;&gt;deepL&lt;&#x2F;a&gt; for document translation.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bidirectionnel-encoder-representations-from-transformers-bert&quot;&gt;Bidirectionnel Encoder Representations from Transformers (BERT)&lt;&#x2F;h3&gt;
+&lt;p&gt;Transformer architecture developed by Google in 2018. In France, Martin et al. developed camembert in 2019. The context is processed twice from right to left and from left to right. Pre-trained: the neural network is already weighted based on a training using a HUGE dataset so it can be fine-tuned for specific use.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;&quot;&gt;Google Search&lt;&#x2F;a&gt; when you type a full sentence.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;Can google find my missing sock?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;People also ask&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;How do I find my lost sock?
+When socks disappear where do they go?
+Why can&amp;#x27;t I find my socks?
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;generative-pretrained-transformer-gpt&quot;&gt;Generative Pretrained Transformer (GPT)&lt;&#x2F;h3&gt;
+&lt;p&gt;Transformer architecture developed by openAI in 2020. Contrary to BERT, the document is processed with an unidirectional attention. In addition, the pre-training is different between GPT and BERT. While BERT is trained to predict the missing word giving a context, GPT is trained to generate complete comprehensive sentence giving a context.&lt;&#x2F;p&gt;
+&lt;p&gt;Example: &lt;a href=&quot;https:&#x2F;&#x2F;chatgpt.com&quot;&gt;chatGPT&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;biogpt&quot;&gt;BioGPT&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BioGPT&lt;&#x2F;strong&gt; is a &lt;strong&gt;GPT&lt;&#x2F;strong&gt; model fine-tuned based on PubMed publications.&lt;&#x2F;li&gt;
+&lt;li&gt;Microsoft provided the source code to build a bioGPT software: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;BioGPT&quot;&gt;github source code BioGPT&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;docs&#x2F;transformers&#x2F;en&#x2F;model_doc&#x2F;biogpt&quot;&gt; 🤗 Hugging Face&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt; is an online library of all natural language processing neural network models including transformers including BioGPT.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;Transformer models are not trained on human words but on &lt;em&gt;token&lt;&#x2F;em&gt;. Token are the unit of chunks of information extracted from the original document. They are not human readable. Purely &lt;em&gt;black box&lt;&#x2F;em&gt; machine abstraction. Computer language comprehension relies on maths, not on real text comprehension. On the other side, we could say human language comprehension relies on neurotransmitter concentration. The point is the computer and the human are able to understand each other.&lt;&#x2F;p&gt;
+&lt;p&gt;BioGPT is based on biomedical dataset so this is not relevant for other fields yet. For instance if I ask information about the sugar beet to BioGPT, he will give only information related to human nutrition. BioGPT is specialized into biomedical data and nothing else. Can we imagine a similar AI based on crop science literature in the future? The hardest part will be to collect and format relevant crop science text material.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;BioGPT: generative pre-trained transformer for biomedical text generation and mining&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Renquian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon, Tie-Yan Liu&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Briefings in Bioinformatics, November 2022. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1093&#x2F;bib&#x2F;bbac409&quot;&gt;10.1093&#x2F;bib&#x2F;bbac409&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Hugging Face&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Jain, S.M.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Introduction to Transformers for NLP. Apress, Berkeley, CA, october 2022. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1007&#x2F;978-1-4842-8844-3_4&quot;&gt;10.1007&#x2F;978-1-4842-8844-3_4&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;CamemBERT: a Tasty French Language Model&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suárez, Yoann Dupont, Laurent Romary, Éric Villemonte de la Clergerie, Djamé Seddah, Benoît Sagot&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Submitted in november 2019. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.1911.03894&quot;&gt;10.48550&#x2F;arXiv.1911.03894&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attention is All you Need&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, Illia Polosukhin&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Neural information processing systems, december 2017. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.48550&#x2F;arXiv.1706.03762&quot;&gt;10.48550&#x2F;arXiv.1706.03762&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Word2Vec&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Kenneth Ward Church&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Natural Language Engineering, january 2017. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1017&#x2F;S1351324916000334&quot;&gt;10.1017&#x2F;S1351324916000334&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The Perceptron: A Model for Brain Functioning&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;H.D. Block&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Reviews of Modern Physics, january 1962. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1103&#x2F;RevModPhys.34.123&quot;&gt;10.1103&#x2F;RevModPhys.34.123&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Propagation of electrical signals along giant nerve fibres&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Alan Lloyd Hodgkin and Andrew Fielding Huxley&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Processdings of The Royal Society B, october 1952. DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1098&#x2F;rspb.1952.0054&quot;&gt;10.1098&#x2F;rspb.1952.0054&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What is a Bad Programmer?</title>
+        <published>2023-12-23T00:00:00+00:00</published>
+        <updated>2023-12-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/what-is-a-bad-programmer/"/>
+        <id>https://guerinpe.com/articles/what-is-a-bad-programmer/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Coding&lt;&#x2F;strong&gt; refers to the act of writing instructions in a programming language. In that sense, the coder is also a programmer. The program must serve a clear purpose: automating a routine task, performing repetitive or complex calculations, managing data, and so on. In bioinformatics, programs are designed to transform raw biological data into formats that can be used by other specialists for further analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Project Report</title>
+        <published>2023-09-30T00:00:00+00:00</published>
+        <updated>2023-09-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/project-report/"/>
+        <id>https://guerinpe.com/articles/project-report/</id>
+        
+        <summary type="html">&lt;p&gt;intro&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Object Relational Mapper</title>
+        <published>2023-05-12T00:00:00+00:00</published>
+        <updated>2023-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/object-relational-mapper/"/>
+        <id>https://guerinpe.com/articles/object-relational-mapper/</id>
+        
+        <summary type="html">&lt;p&gt;In bioinformatics, we are familiar with Python and SQL. Python is a general coding language used to problem solve and create programs. SQL is a specific language used to store and retrieve specific information from databases. Then you have SQLAlchemy which is the bridge between both languages. This presents a method to use Python to create databases and facilitates the communication between Python programs and the databases.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Object Relational Mapper (ORM)&lt;&#x2F;strong&gt; tool translates Python classes to tables on relational databases and automatically converts function calls to SQL statements.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RNA-Seq</title>
+        <published>2022-08-22T00:00:00+00:00</published>
+        <updated>2022-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/rna-seq/"/>
+        <id>https://guerinpe.com/articles/rna-seq/</id>
+        
+        <summary type="html">&lt;p&gt;One of the approaches to study host–pathogen interactions at the molecular level is &lt;strong&gt;RNA sequencing (RNA-Seq)&lt;&#x2F;strong&gt;. This technology provides access to gene expression profiles in various conditions such as viral infection or environmental stress. I had the opportunity to process RNA-Seq data from sugar beet plants to investigate transcriptional responses to virus yellows disease, a condition caused by a complex of aphid-transmissible viruses. Here, I describe transcriptomics and the methods used for RNA-Seq data analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Phasing</title>
+        <published>2022-07-18T00:00:00+00:00</published>
+        <updated>2022-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/phasing/"/>
+        <id>https://guerinpe.com/articles/phasing/</id>
+        
+        <summary type="html">&lt;p&gt;Given a genotype, &lt;strong&gt;phasing&lt;&#x2F;strong&gt; is the attribution of each allele to the corresponding parent.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi Dimensional Scaling</title>
+        <published>2022-04-03T00:00:00+00:00</published>
+        <updated>2022-04-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/multi-dimensional-scaling/"/>
+        <id>https://guerinpe.com/articles/multi-dimensional-scaling/</id>
+        
+        <summary type="html">&lt;p&gt;Multi Dimensional Scaling (MDS) is very similar to &lt;a href=&quot;&#x2F;articles&#x2F;principal-component-analysis&#x2F;&quot;&gt;Principal Component Analysis (PCA)&lt;&#x2F;a&gt;, except that instead of converting correlations into a 2D graph, it converts distances among the samples into a 2D graph.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Analytical Skill</title>
+        <published>2022-02-15T00:00:00+00:00</published>
+        <updated>2022-02-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/analytical-skill/"/>
+        <id>https://guerinpe.com/articles/analytical-skill/</id>
+        
+        <summary type="html">&lt;p&gt;When I was in junior high school, I had the opportunity to take History and Geography classes from &lt;strong&gt;Nicolas Ben Fredj&lt;&#x2F;strong&gt;. He taught us the method (&quot;the way&quot; in Greek) to compose and articulate our thoughts and knowledge. I recently watched a &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IxPyIlTKZnI&quot;&gt;MOOC he recorded for Lycée français international Louis-Massignon&lt;&#x2F;a&gt;. The ability to think analytically and to express ideas is useful. In science, whether in academia or industry, we need to compare different solutions or hypotheses objectively and communicate our analysis to our peers in order to make the best decisions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DNA chip</title>
+        <published>2021-12-26T00:00:00+00:00</published>
+        <updated>2021-12-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/dna-chip/"/>
+        <id>https://guerinpe.com/articles/dna-chip/</id>
+        
+        <summary type="html">&lt;p&gt;A &lt;strong&gt;DNA chip&lt;&#x2F;strong&gt; or DNA microarray is a collection of microscopic DNA spots, commonly representing single genes, arrayed on a solid surface by covalent attachment to chemically suitable matrices.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Making a Good Resume</title>
+        <published>2021-08-12T00:00:00+00:00</published>
+        <updated>2021-08-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/making-a-good-resume/"/>
+        <id>https://guerinpe.com/articles/making-a-good-resume/</id>
+        
+        <summary type="html">&lt;p&gt;The resume is the first thing the recruiter will read about you. I revised my resume multiple times already and continue to sharpen it. Here I describe the structure and overall basics tips to make a competitive resume.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Nextflow: A Tool for Reproducible and Scalable Bioinformatics Workflows</title>
+        <published>2021-07-03T00:00:00+00:00</published>
+        <updated>2021-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/"/>
+        <id>https://guerinpe.com/articles/nextflow-reproducible-scalable-workflow/</id>
+        
+        <summary type="html">&lt;p&gt;In my work, I use &lt;strong&gt;Nextflow&lt;&#x2F;strong&gt; to design and implement bioinformatics pipelines that automate complex data analyses.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Entity Relationship Model</title>
+        <published>2021-01-23T00:00:00+00:00</published>
+        <updated>2021-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/entity-relationship-model/"/>
+        <id>https://guerinpe.com/articles/entity-relationship-model/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;Entity Relationship Model&lt;&#x2F;strong&gt; is a model for designing a database. Data is represented as &lt;strong&gt;entities&lt;&#x2F;strong&gt; with attributes. Entities are linked by &lt;strong&gt;relations&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Global Ocean Atlas of Eukaryotic Genes</title>
+        <published>2020-09-19T00:00:00+00:00</published>
+        <updated>2020-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/"/>
+        <id>https://guerinpe.com/articles/a-global-ocean-atlas-of-eukaryotic-genes/</id>
+        
+        <summary type="html">&lt;p&gt;Single-celled microeukaryotes and small multicellular zooplankton account for most of the planktonic biomass in the world’s ocean. Seawater samples were collected from the global ocean during the Tara Oceans expedition to generate a global ocean reference catalog of genes from planktonic eukaryotes sampled RNA and to explore the expression patterns of community at different microscopic scales with respect to biogeography and environmental conditions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genome Assembly</title>
+        <published>2020-07-03T00:00:00+00:00</published>
+        <updated>2020-07-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/genome-assembly/"/>
+        <id>https://guerinpe.com/articles/genome-assembly/</id>
+        
+        <summary type="html">&lt;p&gt;I successfuly made the genome assembly of three Mediterranean fish draft genomes. Their genome sequence have been published recently in this &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1016&#x2F;j.ygeno.2020.06.041&quot;&gt;paper&lt;&#x2F;a&gt;. Here, I share the lessons I learned from assembling a genome using both long and short sequencing reads.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OBITools: Processing DNA Metabarcoding Data</title>
+        <published>2020-06-27T00:00:00+00:00</published>
+        <updated>2020-06-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/"/>
+        <id>https://guerinpe.com/articles/obitools-processing-dna-metabarcoding-data/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1111&#x2F;1755-0998.12428&quot;&gt;OBITools&lt;&#x2F;a&gt; software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Style and Writing in the 21st Century</title>
+        <published>2020-04-02T00:00:00+00:00</published>
+        <updated>2020-04-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/style-and-writing-in-the-21-century/"/>
+        <id>https://guerinpe.com/articles/style-and-writing-in-the-21-century/</id>
+        
+        <summary type="html">&lt;p&gt;I watched Steven Pinker’s talk on YouTube about writing style in the 21st century, and it was brilliant. Does writing well matter in an age of instant communication? According to Pinker, yes it does, but we must minimize the flaws of the post-modern style. Writing has never been natural for humans. Some difficulties are as old as writting itself, some are new, and some have only recently been revealed thanks to cognitive science and linguistics. Here, I have summarized the advices from Pinker on how to write in a better style.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Global Determinants of Fish Genetic Diversity</title>
+        <published>2020-03-04T00:00:00+00:00</published>
+        <updated>2020-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/global-determinants-of-fish-genetic-diversity/"/>
+        <id>https://guerinpe.com/articles/global-determinants-of-fish-genetic-diversity/</id>
+        
+        <summary type="html">&lt;p&gt;At the beginning of 2020, our team* has published the first global map of the genetic diversity of marine and freshwater fishes. This is an important instrument for the preservation of species. This first map is published in the journal &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1038&#x2F;s41467-020-14409-7&quot;&gt;Nature Communications&lt;&#x2F;a&gt;. As I have done all the bioinformatics analysis, I thought I could present this work from my point of view as a computer scientist. Indeed, this work required the collaboration of a wide range of professions: ecologist, oceanographer, statistician and geneticist.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Phenomics</title>
+        <published>2019-11-25T00:00:00+00:00</published>
+        <updated>2019-11-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/phenomics/"/>
+        <id>https://guerinpe.com/articles/phenomics/</id>
+        
+        <summary type="html">&lt;p&gt;As part of the &lt;a href=&quot;https:&#x2F;&#x2F;www.madics.fr&#x2F;&quot;&gt;MaDICS working group&lt;&#x2F;a&gt; on data science and plant phenotyping, I had the opportunity to visit the Montpellier Plant Phenotyping Platform. During this workshop, I tested &lt;strong&gt;Phenomenal&lt;&#x2F;strong&gt;, a pipeline designed to reconstruct the 3D architecture of maize plants grown in greenhouse conditions. I discovered a new omics called &quot;Phenomics&quot; and how high-thoughput bioimaging is used to generate phenome information at large-scale.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Landscape Genomics</title>
+        <published>2019-11-14T00:00:00+00:00</published>
+        <updated>2019-11-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/landscape-genomics/"/>
+        <id>https://guerinpe.com/articles/landscape-genomics/</id>
+        
+        <summary type="html">&lt;p&gt;Environmental conservation issues have urged a need to better understand and describe species and populations on Earth. Recently, progress in sequencing technologies made it possible to refine this understanding through genomics. Understanding and describing populations of living organisms in a given environment by exploiting sequencing data is the ultimate goal of landscape genomics. So this article is an introduction of this field.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metabarcoding</title>
+        <published>2019-03-09T00:00:00+00:00</published>
+        <updated>2019-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/metabarcoding/"/>
+        <id>https://guerinpe.com/articles/metabarcoding/</id>
+        
+        <summary type="html">&lt;p&gt;One of the most promising genetic techniques for improving biodiversity assessments is the &lt;em&gt;metabarcoding&lt;&#x2F;em&gt; of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Step-by-Step Guide to Creating R packages</title>
+        <published>2019-02-27T00:00:00+00:00</published>
+        <updated>2019-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/"/>
+        <id>https://guerinpe.com/articles/step-by-step-guide-to-creating-r-package/</id>
+        
+        <summary type="html">&lt;p&gt;In R, the fundamental unit of shareable code is the package. A package bundles together code, data, documentation, and tests, and is easy to share with others.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pascal&#x27;s Triangle</title>
+        <published>2019-01-15T00:00:00+00:00</published>
+        <updated>2019-01-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/pascal-triangle/"/>
+        <id>https://guerinpe.com/articles/pascal-triangle/</id>
+        
+        <summary type="html">&lt;p&gt;Draft&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Team Working with Git</title>
+        <published>2018-11-26T00:00:00+00:00</published>
+        <updated>2018-11-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/team-working-with-git/"/>
+        <id>https://guerinpe.com/articles/team-working-with-git/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve been using &lt;code&gt;Git&lt;&#x2F;code&gt; for years, alone or in collaboration with my team. Over time, I developed habits that I present in this article.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Virtual Environments, Containers and Scientific Reproducibility</title>
+        <published>2018-01-19T00:00:00+00:00</published>
+        <updated>2018-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/virtual-environment-reproducibility/"/>
+        <id>https://guerinpe.com/articles/virtual-environment-reproducibility/</id>
+        
+        <summary type="html">&lt;p&gt;Containers provide an easy-to-use, secure, and reproducible environment for scientists to transport their studies between computational resources. As more communities are using Docker or Singularity, we enter into the age of high reproducibility or at least replicability so that the use of containers is mandatory for any study.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SGE User Commands</title>
+        <published>2017-09-17T00:00:00+00:00</published>
+        <updated>2017-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/sge-user-commands/"/>
+        <id>https://guerinpe.com/articles/sge-user-commands/</id>
+        
+        <summary type="html">&lt;p&gt;Using a cluster environment is similar to using linux environments for your job submission. The difference is that you need to specify needed resources beforehand. The cluster is controlled by a SGE (Sun Grid Engine Software) that organizes the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many. Here I show how to use Sun Grid Engine for job submission, monitoring and troubleshooting.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Disk Management on Linux</title>
+        <published>2017-07-27T00:00:00+00:00</published>
+        <updated>2017-07-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/disk-management-on-linux/"/>
+        <id>https://guerinpe.com/articles/disk-management-on-linux/</id>
+        
+        <summary type="html">&lt;p&gt;In this article, I resume some bash commands to check up or manage partitions on a linux system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Linux System Administration Basics</title>
+        <published>2017-04-24T00:00:00+00:00</published>
+        <updated>2017-04-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/linux-administration-system-basics/"/>
+        <id>https://guerinpe.com/articles/linux-administration-system-basics/</id>
+        
+        <summary type="html">&lt;p&gt;Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Principal Component Analysis</title>
+        <published>2017-01-02T00:00:00+00:00</published>
+        <updated>2017-01-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/principal-component-analysis/"/>
+        <id>https://guerinpe.com/articles/principal-component-analysis/</id>
+        
+        <summary type="html">&lt;p&gt;blabla PCA&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Online Reputation</title>
+        <published>2016-09-03T00:00:00+00:00</published>
+        <updated>2016-09-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/online-reputation/"/>
+        <id>https://guerinpe.com/articles/online-reputation/</id>
+        
+        <summary type="html">&lt;p&gt;When I was on an internship, the director, &lt;strong&gt;Alexandre De Brevern&lt;&#x2F;strong&gt;, told me that I was invisible online. It is not reassuring because people can not verify who you are, what you have done or whether you are trustworthy. Indeed, to have a professional presence on the internet is important, both for yourself and for representing your institution, laboratory or company.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Genomics</title>
+        <published>2016-05-23T00:00:00+00:00</published>
+        <updated>2016-05-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/genomics/"/>
+        <id>https://guerinpe.com/articles/genomics/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Genomics&lt;&#x2F;strong&gt; is the study of the whole DNA sequences of an organism. &lt;strong&gt;Next-generation Sequencing (NGS)&lt;&#x2F;strong&gt;, particularly Illumina sequencing, have transformed DNA sequencing by allowing millions of fragments to be sequenced in parallel, dramatically increasing speed and reducing cost. High-throughput DNA sequencing has become essential for applications such as whole-genome sequencing, targeted resequencing, and variant discovery&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A little introduction to BASH (Born Again SHell)</title>
+        <published>2016-03-23T00:00:00+00:00</published>
+        <updated>2016-03-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/a-little-introduction-to-bash/"/>
+        <id>https://guerinpe.com/articles/a-little-introduction-to-bash/</id>
+        
+        <summary type="html">&lt;p&gt;This is some hints about shell script programming based on examples. I provide here some little scripts which will hopefully help to understand the very basics.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>State of the Art</title>
+        <published>2016-03-11T00:00:00+00:00</published>
+        <updated>2016-03-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/state-of-the-art/"/>
+        <id>https://guerinpe.com/articles/state-of-the-art/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;state of the art&lt;&#x2F;strong&gt; describes the current knowledge in a specific field through the analysis of a corpus of scientific publications. It serves as a basis for formulating the research question and developing related hypotheses.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Ethymologicon of Science</title>
+        <published>2016-02-29T00:00:00+00:00</published>
+        <updated>2016-02-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/ethymologicon-of-science/"/>
+        <id>https://guerinpe.com/articles/ethymologicon-of-science/</id>
+        
+        <summary type="html">&lt;p&gt;Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Journal Impact Factor</title>
+        <published>2016-01-20T00:00:00+00:00</published>
+        <updated>2016-01-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/journal-impact-factor/"/>
+        <id>https://guerinpe.com/articles/journal-impact-factor/</id>
+        
+        <summary type="html">&lt;p&gt;During the second world war, the USA and the UK create research centers. Their aim is to industrialize scientific discovery to increase the pace of innovation for military applications. From that point on, the figure of the lonesome wizard in his ivory tower gives way to the salaryman working within a team, a laboratory and an Institute. The Research Unit was born.&lt;&#x2F;p&gt;
+&lt;p&gt;In this modern structure, science evolves into a collective and standardized activity. The laboratory is no longer a cabinet of wonders or a private workshop, like those of Lavoisier or Newton. Instead, it becomes a production unit organized around teams, stakeholders, deliverables and measured outcomes.&lt;&#x2F;p&gt;
+&lt;p&gt;Institutions like the Massachusetts Institute of Technology (MIT) or the Los Alamos National Laboratory, created for the Manhattan Project, symbolize this transformation. In France, the Centre National de la Recherche Scientifique (CNRS) is created in 1939.&lt;&#x2F;p&gt;
+&lt;p&gt;In this modern area, the successful scientist is, above all, a productive one. But what does productivity mean in science? Peer-reviewed publications in scientific journal. The more you publish, the more visible and fundable you become. In 1942, the sociologist &lt;strong&gt;Logan Wilson&lt;&#x2F;strong&gt; coins the mantra &lt;em&gt;Publish or Perish&lt;&#x2F;em&gt;, capturing the pressure on academics to continually produce papers. Later, in 1962, &lt;strong&gt;Eugene Garfield&lt;&#x2F;strong&gt; introduces the metrics to evaluate journal and indirectly their authors: the &lt;strong&gt;Impact Factor&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Internship Report</title>
+        <published>2015-05-13T00:00:00+00:00</published>
+        <updated>2015-05-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/internship-report/"/>
+        <id>https://guerinpe.com/articles/internship-report/</id>
+        
+        <summary type="html">&lt;p&gt;During my intership in &lt;a href=&quot;https:&#x2F;&#x2F;www.dsimb.inserm.fr&#x2F;&quot;&gt;INSERM Unit S1134, Macromolecular Biology&lt;&#x2F;a&gt;, my supervisors &lt;strong&gt;Yassine Ghouzam&lt;&#x2F;strong&gt; and &lt;strong&gt;Jean-Christophe Gelly&lt;&#x2F;strong&gt; explained to me the structure of a master internship report. Here is the structure to follow and what to include in each section.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ROC Curve</title>
+        <published>2015-04-15T00:00:00+00:00</published>
+        <updated>2015-04-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/roc-curve/"/>
+        <id>https://guerinpe.com/articles/roc-curve/</id>
+        
+        <summary type="html">&lt;p&gt;intro&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sensitivity and Specificity</title>
+        <published>2015-04-06T00:00:00+00:00</published>
+        <updated>2015-04-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/sensitivity-and-specificity/"/>
+        <id>https://guerinpe.com/articles/sensitivity-and-specificity/</id>
+        
+        <summary type="html">&lt;p&gt;How do we know if a test or classifier is reliable? In both medicine and machine learning, classifier are used to attribute a class to an input data. Therefore, &lt;em&gt;performance metrics&lt;&#x2F;em&gt; are necessary to assess the reliability of the resulting classification.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scientific Article</title>
+        <published>2015-03-20T00:00:00+00:00</published>
+        <updated>2015-03-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/scientific-article/"/>
+        <id>https://guerinpe.com/articles/scientific-article/</id>
+        
+        <summary type="html">&lt;p&gt;A &lt;strong&gt;scientific article&lt;&#x2F;strong&gt; is the report that serves for the dissemination of scientific findings to other researchers. Every scientific article has a title, summary, introduction, materials and methods, results and discussion.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What Playing in Rock Bands Taught Me About Collaboration</title>
+        <published>2015-02-01T00:00:00+00:00</published>
+        <updated>2015-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/what-playing-in-rock-bands-taught-me-about-collaboration/"/>
+        <id>https://guerinpe.com/articles/what-playing-in-rock-bands-taught-me-about-collaboration/</id>
+        
+        <summary type="html">&lt;p&gt;Few knows but Music is part of Mathematics. Musicians often develop a way of thinking that is close to the logic used in science or engineering. Examples of scientists who are also musicians and reciprocally are numerous: &lt;strong&gt;Albert Einstein&lt;&#x2F;strong&gt;, physicist and violonist; &lt;strong&gt;Bruce Dickinson&lt;&#x2F;strong&gt;, lead singer of &lt;em&gt;Iron Maiden&lt;&#x2F;em&gt; and airline pilot; &lt;strong&gt;Brian May&lt;&#x2F;strong&gt; lead guitarist of &lt;em&gt;Queen&lt;&#x2F;em&gt; and astrophysicist; &lt;strong&gt;Bryan Holland&lt;&#x2F;strong&gt;, guitarist of &lt;em&gt;The Offspring&lt;&#x2F;em&gt;, who holds a Ph.D. in Molecular Biology.&lt;&#x2F;p&gt;
+&lt;p&gt;Last but not least, &lt;strong&gt;Steve Jobs&lt;&#x2F;strong&gt; shown how collaborative skills in a rock band can be applied to teams that develop high tech products.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BLAST: Basic Local Alignment Search Tool</title>
+        <published>2015-01-14T00:00:00+00:00</published>
+        <updated>2015-01-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/basic-local-alignment-search-tool/"/>
+        <id>https://guerinpe.com/articles/basic-local-alignment-search-tool/</id>
+        
+        <summary type="html">&lt;p&gt;Published in 1990 and entitled &lt;strong&gt;Basic Local Alignment Search Tool&lt;&#x2F;strong&gt;, was the most highly cited publication of its time. The development of BLAST bridged Biology and Computer Science giving birth to the new field of &lt;strong&gt;Bioinformatics&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

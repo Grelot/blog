@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - management</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/management/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-18T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/management/atom.xml</id>
+    <entry xml:lang="en">
+        <title>How to Manage a Project?</title>
+        <published>2025-06-18T00:00:00+00:00</published>
+        <updated>2025-06-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/how-to-manage-project/"/>
+        <id>https://guerinpe.com/articles/how-to-manage-project/</id>
+        
+        <summary type="html">&lt;p&gt;In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Gantt Chart Excel for Project Management</title>
+        <published>2025-05-12T00:00:00+00:00</published>
+        <updated>2025-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/gantt-chart-excel-for-project-management/"/>
+        <id>https://guerinpe.com/articles/gantt-chart-excel-for-project-management/</id>
+        
+        <summary type="html">&lt;p&gt;A Gantt chart visualizes the scheduling of tasks over the project timeline. My colleague &lt;strong&gt;Daphne Verdelet&lt;&#x2F;strong&gt; shared with me the Excel template her team at &lt;a href=&quot;https:&#x2F;&#x2F;www.inrae.fr&#x2F;&quot;&gt;INRAE&lt;&#x2F;a&gt; uses to keep track of their tasks over the year.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

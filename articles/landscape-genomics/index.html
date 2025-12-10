@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">Landscape Genomics</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 12 min read · Published on November 14, 2019 
+  </div>
+  <hr>
+  <p>Environmental conservation issues have urged a need to better understand and describe species and populations on Earth. Recently, progress in sequencing technologies made it possible to refine this understanding through genomics. Understanding and describing populations of living organisms in a given environment by exploiting sequencing data is the ultimate goal of landscape genomics. So this article is an introduction of this field.</p>
+ <span id="continue-reading"></span>
+<p><a href="https://bioinfo-fr.net/genomique-des-paysages" 
+   class="external-article-box" 
+   target="_blank" 
+   rel="noopener noreferrer">
+<img src="/flags/fr.svg" alt="Drapeau français" class="flag-icon">
+<span>Cet article est publié en version française sur Bioinfo-fr.net</span>
+</a></p>
+<p>« Landscape genomics » sounds like a work by Eduardo Kac. This somewhat post-modern term actually refers to a scientific field that has expanded over the past decade.</p>
+<h2 id="populations-an-ambiguous-definition">Populations : an ambiguous definition</h2>
+<p>Individuals from a same species, unless they are clones, are all slightly differents from each others. In breeding conditions where parents and genotypes are known, it is possible to idendificate accurately relationships between genetic diversity and phenotype. However, in other conditions where these information about pedigree are not available (for instance a study about a wild species with few related information) so it is necessary to infer this genetic structure.</p>
+<p>Indeed, a species - let's take the example of an animal species - can be composed of several populations.</p>
+<p>Speaking of populations, two very thorough researchers, Oscar Gaggiotti &amp; Robin Waples, have listed 17 very exact definitions of this concept. The two authors concluded that with so many definitions for the same concept, based on the same observations, different researchers could reach different or even contradictory results. What is a population? There is no correct answer, the definition depends on the context. In the context of landscape genomics, a population is a group of individuals of the same species capable of interacting at the time of reproduction. A population is therefore defined according to spatial, genetic and temporal criteria. Indeed, not all individuals will have the opportunity to interbreed due to geographic distance, habitat heterogeneity or other factors.</p>
+<p>Hardy and Weinberg defined the equilibrium state of an ideal population in which genetic diversity would tend towards a constant value. The conditions necessary for such an equilibrium are:</p>
+<ul>
+<li>The absence of mutations to prevent the introduction of new alleles</li>
+<li>Panmixie, a scholarly word meaning equal opportunity for access to reproduction</li>
+<li>Generations do not overlap</li>
+<li>There's no natural selection</li>
+<li>There is no transfer of genetic variants to a population from another</li>
+</ul>
+<p>In reality, the ideal population does not exist, but the knowledge of this theoretical equilibrium state of a population's genetic diversity makes it possible to determine the effects of external factors on a real population's genetic diversity. In other words, the way in which a population is not ideal unravels how the natural habitat affects the genetic structure of this population.</p>
+<h2 id="threatened-populations-in-their-habitat">Threatened populations in their habitat</h2>
+<p>In my choice of animal species, I pick up a fish, for instance the red mullet (<em>Mullus surmuletus</em>). As we have seen, in the state of Hardy and Weinberg, the populations are undisturbed and extend infinitely. In the real world, fish stocks are declining and the size of individuals is decreasing.</p>
+<p>While numbers of individuals or morphology can give us trends in the characteristics of a species at a given location, it is difficult to identify multiple populations and the interchanges between them. The transfer of genetic variants from one population to another is called gene flow. If there is gene flow between populations and individuals from one population acquires adaptive traits then individuals from other populations are likely to acquire that adaptation as well.</p>
+<p>The appearance or disappearance of gene flows, the acquisition or loss of adaptive traits are processes related to the species habitat. A knowledge of the habitat and geographical distribution of individuals is therefore necessary. To understand and describe these processes of gene flow and adaptation in relation to the geography and nature of the habitat is therefore to understand the population structure of a species and the way in which the habitat (the landscape) contributes to this structure. To understand how habitat structures the genetics of a species populations. It means making informed decisions in terms of conservation policy.</p>
+<h2 id="from-geography-to-genomics-a-bit-of-history">From geography to genomics: a bit of history</h2>
+<p>The possibilities offered by next generation DNA sequencing combined with new statistical approaches (in particular Bayesian) exploiting the power of computing clusters has allowed the emergence of a science between population genetics and landscape ecology: landscape genetics, which now tends to be called landscape genomics because of the systematic use of full or reduced genome sequencing data in recent studies.</p>
+<p>This discipline has its origins in the work of botanist Augustin Pyrame de Candolle (1778-1841) and naturalist geographer Alfred Russel Wallace (1823-1913). De Candolle was the first to observe that the spatial distribution of individuals within a species is determined by physical causes or resources. Similarly, during a travel in the Malaysian archipelago, Wallace noticed a physical 'boundary' separating the fauna between Australia and the eastern region.</p>
+<p>This approach gives the spatial mapping of the allelic frequencies observed in one or several species or populations. Subsequently, it then becomes possible to study possible correlations between landscape characteristics and this distribution. For a long time this approach has been limited by the number of genetic or molecular markers available (parasitic fauna associated with individuals, faecal composition, microsatellite DNA...). It was then difficult to obtain genetic data on several populations on a spatial scale.</p>
+<p>Today, with computer technology, it is possible both to process complex geographical maps of very numerous environmental descriptors with high resolution and at the same time to process tens of thousands of genetic variants among the populations studied. With the emergence of new high-throughput sequencing technologies and the increasingly urgent problems of conservation, landscape genetics is thus experiencing renewed and growing interest.</p>
+<p>I'm not trying to present all aspects of landscape genomics, I will simply describe the role that bioinformatics plays in it through the point of view of a bioinformatician.</p>
+<h2 id="a-case-study-in-landscape-genomics">A case study in landscape genomics</h2>
+<h3 id="our-example">Our example</h3>
+<p>Let's imagine that we have a fish species with two distinct observed phenotypes (red and blue) and we want to know if there are several genetic populations of this species and if the distribution of individuals within a population is structured by environmental factors.</p>
+<img align="center" src="superschema.png">
+<h3 id="data">Data</h3>
+<p>We need to collect two types of data for each individual:</p>
+<ul>
+<li>Environmental descriptors: temperature, bathymetry, substrate, phytoplankton production, current measurement, distance to shore... These data can be retrieved from the GPS coordinates of the individuals on specialized databases such as the <a href="https://guerinpe.com/articles/landscape-genomics/gmed.auckland.ac.nz">Global Marine Environment Datasets</a>.</li>
+<li>Genotypes are more expensive to obtain. It is necessary to sample each individual, extract their DNA and sequence them. Although the cost of high-throughput genome sequencing has steadily decreased over the past 15 years, it is still too high for large-scale analyses involving the sequencing of hundreds of individuals. This is why reduced genome sequencing is prefered.</li>
+</ul>
+<h3 id="dna-sequencing">DNA sequencing</h3>
+<p>One method for sequencing reduced genomes is RAD-seq for Restriction site Associated Dna SEQuencing. The individual's DNA is extracted and then digested by a restriction enzyme. A sequence called an adapter sequence to initiate sequencing is then incorporated at the digested ends with a tag sequence that will identify the individual. Thus during sequencing, only the consecutive regions of the restriction sites are sequenced. Depending on the enzyme used and the species studied, the number of restriction sites may vary. It is necessary to choose an enzyme that generates a number of fragments that is neither too high (if there are too many sites to sequence, the coverage will be low and there will be missing data for each individual which prevents the comparison of genotypes between individuals) nor too low (if there are not enough sites, there will not be enough genetic markers and it will not be possible to distinguish genetic structures within populations). If a reference sequence of the genome of the species studied is available or in the absence of a close species, it is possible to carry out simulations of enzymatic digestion of the genome in order to choose the most relevant enzyme (see the simRAD package available under R).</p>
+<h3 id="processing-of-sequencing-data">Processing of sequencing data</h3>
+<p>Another aspect of our work will be the processing of this RAD-seq data. This is a classic <code>FastQ</code> file. The first step will be to clean these data by removing the bad quality sequences or contaminations (phiX, adapters, PCR clone...). For the second step, it will be a question of demultiplexing, <em>i.e.</em> from the reading of the tag sequences incorporated in the sequencing, assigning each sequence to an individual.</p>
+<h3 id="genotyping">Genotyping</h3>
+<p>Then comes the crucial step of calling the variants. This involves grouping together all the sequences of the same enzymatic site for all the individuals in order to deduce from the frequencies of each type of base at each position of the sequence, whether the individual is homozygous to the reference, heterozygous or alternatively homozygous. For each enzyme site, genetic variants are sought among the individuals and a genotype is assigned to each individual.</p>
+<p>There are two popular methods for processing this RAD-seq data: STACKS and freebayes.</p>
+<ul>
+<li>
+<p>As the name implies <a href="http://catchenlab.life.illinois.edu/stacks/">STACKS</a> creates stacks of sequences in order to search for individual variations. STACKS has the advantage of being a rigorous and robust method but requires good average coverage of sites per individual and that the sequences must be of identical size (it is therefore not possible to trimm sequences where only the 3' tail is of poor quality during the cleaning step). It is therefore a suitable method if your data is of good quality.</p>
+</li>
+<li>
+<p><a href="https://www.ddocent.com/">Freebayes (dDocent)</a> is based on the concept of genome reference sequence locus rather than sequence stacking and uses a Bayesian approach to assign a genotype knowing the sequences observed at the locus in question. It is therefore possible to use trimmed sequences and genotype an individual even with low coverage where STACKS would have produced only missing data.</p>
+</li>
+</ul>
+<h3 id="population-assignment">Population assignment</h3>
+<p>Individual genotypes can be retrieved as a <code>VCF</code> file. Software such as <a href="https://web.stanford.edu/group/pritchardlab/structure.html">STRUCTURE</a> or <a href="https://dalexander.github.io/admixture/index.html">ADMIXTURE</a> allows, using a hierarchical clustering approach, to perform a population assignment test for each individual based on the genotypes. The allelic frequencies observed for each locus make it possible to infer genetic populations to which individuals are assigned according to their alleles. Each iteration of this operation makes it possible to refine the assignment. The final result is a probability of belonging to one or more genetic populations for each individual.</p>
+<h3 id="analysis-of-populations-in-relation-to-environmental-descriptors">Analysis of populations in relation to environmental descriptors</h3>
+<p>By combining population assignments to environmental descriptors, we can then look for correlations between environmental factors and the genetic structure of our observed populations. For example, goldfish, located at the pond level, live in warm water with low salinity while blue fish, located at the seashore, live in cold water with high salinity. The two populations are only connected by a <em>grau</em> (estuary in Occitan). Differences in environmental conditions and the relative isolation of the two populations may explain the genetic differences observed between the two populations (red and blue). So the landscape structures the genetics of the species.</p>
+<ul>
+<li>If you are interested in a real case study of landscape genomics in a marine environment, then I recommend <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13811">Laura Benestan's article on American lobster in Canada</a>.</li>
+<li>If you don't like the sea and have a preference for plants, then I recommend <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15171">Jimena Guerrero's article on truncated alfalfa in the Mediterranean</a>.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Landscape genomics is a discipline that integrates concepts and tools to test the effect of landscape on individual dispersal and gene flow. It is used to estimate the adaptive capacity of individuals to changes in their environment. We have seen that bioinformatics brings power to these methods at the crossroads between ecology, statistics, computer science and genomics. These approaches are useful both for research laboratories and design offices. The numerous landscape genomics studies carried out during this decade have contributed to making informed choices for nature conservation policy. This has made it possible to maintain ecosystems and to prevent or correct any degradation they may suffer.</p>
+<img align="left" src="reservebenefit.jpg">
+<p>Currently in the western Mediterranean sea, the RESERVEBENEFIT project aims to assess the connection between marine protected areas. This assessment is based on a landscape genomics approach and aims ultimately at optimizing the placement of future marine protected areas in the Mediterranean sea in order to sustain fish stocks. The fruits of this work, a collaboration between fishermen and scientists for which I have the honor of carrying out the bioinformatics part, are disseminated on a <a href="https://twitter.com/reservebenefit">dedicated twitter account</a>.</p>
+<h2 id="references">References</h2>
+<blockquote>
+<p><strong>Landscape genetics: combining landscape ecology and population genetics</strong></p>
+<p><em>Stephanie Manel, Michael Schwartz, Gordon Luikart, Pierre Taberlet</em></p>
+<p>Trends in ecology &amp; evolution. 2003 Apr 27. DOI: <a href="https://doi.org/10.1016/S0169-5347(03)00008-9">10.1016/S0169-5347(03)00008-9</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Soil environment is a key driver of adaptation in Medicago truncatula: new insights from landscape genomics</strong></p>
+<p><em>Jimena Guerrero, Marco Andrello Concetta, Burgarella, Stephanie Manel</em></p>
+<p>New Phytologist. 2018 April 26. DOI: <a href="https://doi.org/10.1111/nph.15171">10.1111/nph.15171</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Conservation genomics of natural and managed populations: building a conceptual and practical framework</strong></p>
+<p><em>Laura Benestan, Anne‐Laure Ferchaud, Paul Hohenlohe, Brittany Garner, Gavin Naylor, Iliana Baums, Michael Schwartz, Joanna Kelley,Gordon Luikart</em></p>
+<p>Molecular Ecology. 2016 April 17. DOI: <a href="https://doi.org/10.1111/mec.13647">10.1111/mec.13647</a></p>
+</blockquote>
+<blockquote>
+<p><strong>What is a population? An empirical evaluation of some genetic methods for identifying the number of gene pools and their degree of connectivity</strong></p>
+<p><em>Robin Waples, Oscar Gaggiotti</em></p>
+<p>Molecular Ecology. 2006 May 15. DOI: <a href="https://doi.org/10.1111/j.1365-294X.2006.02890.x">10.1111/j.1365-294X.2006.02890.x</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Stacks 2: Analytical Methods for Paired-end Sequencing Improve RADseq-based Population Genomics</strong></p>
+<p><em>Nicolas Rochette, Angel Rivera-Colon, Julian Catchen</em></p>
+<p>Molecular Ecology. 2019 Sep 24. DOI: <a href="https://doi.org/10.1111/mec.15253">10.1111/mec.15253</a></p>
+</blockquote>
+<blockquote>
+<p><strong>dDocent: a RADseq, variant-calling pipeline designed for population genomics of non-model organisms</strong></p>
+<p><em>Jonathan Puritz, Christopher Hollenbeck, John Gold</em></p>
+<p>PeerJ. 2014 Jun 10. DOI: <a href="https://doi.org/10.7717/peerj.431">10.7717/peerj.431</a></p>
+</blockquote>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on November 14, 2019
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #16A664">
+                <a style="color: #ffffff" 
+                   href="https://guerinpe.com/tags/omics/">omics</a>&nbsp;
+                </li> 
+                
+                <li style="background: #FB4C2F">
+                <a style="color: #ffffff" 
+                   href="https://guerinpe.com/tags/sciences/">sciences</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - sys</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/sys/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-04-23T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/sys/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Elastic Stack</title>
+        <published>2024-04-23T00:00:00+00:00</published>
+        <updated>2024-04-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/elastic-stack/"/>
+        <id>https://guerinpe.com/articles/elastic-stack/</id>
+        
+        <summary type="html">&lt;p&gt;strange not working&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Virtual Environments, Containers and Scientific Reproducibility</title>
+        <published>2018-01-19T00:00:00+00:00</published>
+        <updated>2018-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/virtual-environment-reproducibility/"/>
+        <id>https://guerinpe.com/articles/virtual-environment-reproducibility/</id>
+        
+        <summary type="html">&lt;p&gt;Containers provide an easy-to-use, secure, and reproducible environment for scientists to transport their studies between computational resources. As more communities are using Docker or Singularity, we enter into the age of high reproducibility or at least replicability so that the use of containers is mandatory for any study.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SGE User Commands</title>
+        <published>2017-09-17T00:00:00+00:00</published>
+        <updated>2017-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/sge-user-commands/"/>
+        <id>https://guerinpe.com/articles/sge-user-commands/</id>
+        
+        <summary type="html">&lt;p&gt;Using a cluster environment is similar to using linux environments for your job submission. The difference is that you need to specify needed resources beforehand. The cluster is controlled by a SGE (Sun Grid Engine Software) that organizes the queues and resources. This sort of scheduling system is necessary when limited computational resources are shared by many. Here I show how to use Sun Grid Engine for job submission, monitoring and troubleshooting.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Disk Management on Linux</title>
+        <published>2017-07-27T00:00:00+00:00</published>
+        <updated>2017-07-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/disk-management-on-linux/"/>
+        <id>https://guerinpe.com/articles/disk-management-on-linux/</id>
+        
+        <summary type="html">&lt;p&gt;In this article, I resume some bash commands to check up or manage partitions on a linux system. The commands would check what partitions there are on each disk and other details like the total size, used up space and file system etc.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Linux System Administration Basics</title>
+        <published>2017-04-24T00:00:00+00:00</published>
+        <updated>2017-04-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/linux-administration-system-basics/"/>
+        <id>https://guerinpe.com/articles/linux-administration-system-basics/</id>
+        
+        <summary type="html">&lt;p&gt;Since Linux is a multi-user operating system, several people may be logged in and actively working on a given machine at the same time. Security-wise, it is never a good idea to allow users to share the credentials of the same account. In fact, best practices dictate the use of as many user accounts as people needing access to the machine.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A little introduction to BASH (Born Again SHell)</title>
+        <published>2016-03-23T00:00:00+00:00</published>
+        <updated>2016-03-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/a-little-introduction-to-bash/"/>
+        <id>https://guerinpe.com/articles/a-little-introduction-to-bash/</id>
+        
+        <summary type="html">&lt;p&gt;This is some hints about shell script programming based on examples. I provide here some little scripts which will hopefully help to understand the very basics.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

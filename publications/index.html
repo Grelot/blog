@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+  <h1 class="page-title">Publications</h1>
+
+
+
+
+    <ul>
+<li>Publications on <a href="https://orcid.org/0000-0001-7909-3729">ORCiD</a></li>
+<li>Publications on <a href="https://www.researchgate.net/profile/Pierre-Edouard-Guerin">ResearchGate</a></li>
+<li>Publications on <a href="https://scholar.google.com/citations?hl=en&amp;user=hj1ClrsAAAAJ">Google Scholar</a></li>
+</ul>
+<h2 id="scientific-articles">Scientific articles</h2>
+<blockquote>
+<p><strong>The distribution of coastal fish eDNA sequences in the Anthropocene</strong></p>
+<p><em>Laetitia Mathon, Virginie Marques, Stéphanie Manel, Camille Albouy, Marco Andrello, Emilie Boulanger, Julie Deter, Régis Hocdé, Fabien Leprieur, Tom B Letessier, Nicolas Loiseau, Eva Maire, Alice Valentini, Laurent Vigliola, Florian Baletaud, Sandra Bessudo, Tony Dejean, Nadia Faure, Pierre‐edouard Guerin, Meret Jucker, Jean‐baptiste Juhel, Kadarusman, Andrea Polanco F, Laurent Pouyaud, Dario Schwörer, Kirsten F Thompson, Marc Troussellier, Hagi Yulia Sugeha, Laure Velez, Xiaowei Zhang, Wenjun Zhong, Loïc Pellissier, David Mouillot</em></p>
+<p>Global Ecology and Biogeography. 2023 August 08. DOI: <a href="https://doi.org/10.1111/geb.13698">10.1111/geb.13698</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Contrasting influence of seascape, space and marine reserves on genomic variation in multiple species</strong></p>
+<p><em>Laura Benestan, Nicolas Loiseau, Pierre‐edouard Guérin, Angel Pérez‐Ruzafa, Aitor Forcada, Esther Arcas, Philippe Lenfant, Sandra Mallol, Raquel Goñi, Laure Velez, David Mouillot, Oscar Puebla, Stéphanie Manel</em></p>
+<p>Ecography. 2023 January 01. DOI: <a href="https://doi.org/10.1111/ecog.06127">10.1111/ecog.06127</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Evaluating bioinformatics pipelines for population‐level inference using environmental DNA</strong></p>
+<p><em>Bastien Macé, Régis Hocdé, Virginie Marques, Pierre‐Edouard Guerin, Alice Valentini, Véronique Arnal, Loïc Pellissier, Stéphanie Manel</em></p>
+<p>Environmental DNA. 2022 February 08. DOI: <a href="https://doi.org/10.1002/edn3.269">10.1002/edn3.269</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Cross-ocean patterns and processes in fish biodiversity on coral reefs through the lens of eDNA metabarcoding</strong></p>
+<p><em>Laetitia Mathon, Virginie Marques, David Mouillot, Camille Albouy, Marco Andrello, Florian Baletaud, Giomar H Borrero-Pérez, Tony Dejean, Graham J Edgar, Jonathan Grondin, Pierre-Edouard Guerin, Régis Hocdé, Jean-Baptiste Juhel, Kadarusman, Eva Maire, Gael Mariani, Matthew Mclean, Andrea Polanco F, Laurent Pouyaud, Rick D Stuart-Smith, Hagi Yulia Sugeha, Alice Valentini, Laurent Vigliola, Indra B Vimono, Loïc Pellissier, Stéphanie Manel</em></p>
+<p>Proceedings of the Royal Society B. 2022 April 20. DOI: <a href="https://doi.org/10.1098/rspb.2022.0162">10.1098/rspb.2022.0162</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Climate differently influences the genomic patterns of two sympatric marine fish species</strong></p>
+<p><em>Emilie Boulanger, Laura Benestan, Pierre‐Edouard Guerin, Alicia Dalongeville, David Mouillot, Stéphanie Manel</em></p>
+<p>Journal of Animal Ecology. 2021 October 30. DOI: <a href="https://doi.org/10.1111/1365-2656.13623">10.1111/1365-2656.13623</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Use of environmental DNA in assessment of fish functional and phylogenetic diversity</strong></p>
+<p><em>Virginie Marques, Paul Castagne, Andréa Polanco Fernandez, Giomar Helena Borrero-Perez, Regis Hocde,  Pierre-Edouard Guerin, Jean-Baptiste Juhel, Laure Velez, Nicolas Loiseau, Tom Bech Letessier, Sandra Bessudo, Alice Valentini, Tony Dejean, David Mouillot, Loïc Pellissier, Sébastien Villéger</em></p>
+<p>Conservation Biology. 2021 July 18. DOI: <a href="https://doi.org/10.1111/cobi.13802">10.1111/cobi.13802</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Restricted dispersal in a sea of gene flow</strong></p>
+<p><em>Laura Benestan, Nicolas Loiseau, Pierre-Edouard Guerin, Katarina Fietz, Elena Trofimenko, Siren Rühs, Willi Rath, Arne Biastoch, Angel Perez-Ruzafa, Pilar Baixauli, Aitor Forcada, Philippe  Lenfant, Sandra Mallol, Rachel Goni, Laure Velez, Marc Höppner, Stuart Kininmonth, David Mouillot, Oscar Puebla, Stephanie Manel</em></p>
+<p>Proceedings of the Royal Society B. 2021 May 18. DOI: <a href="https://doi.org/10.1098/rspb.2021.0458">10.1098/rspb.2021.0458</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Benchmarking bioinformatic tools for fast and accurate eDNA metabarcoding species identification</strong></p>
+<p><em>Laetitia Mathon, Alice Valentini, Pierre-Edouard Guerin, Eric Normandeau, Cyril Noel, Clément Lionnet, Emilie Boulanger, Wilfried Thuiller, Louis Bernatchez, David Mouillot, Tony Dejean, Stephanie Manel</em></p>
+<p>Molecular Ecology Resources. 2021 May 17. DOI: <a href="https://doi.org/10.1111/1755-0998.13430">10.1111/1755-0998.13430</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences</strong></p>
+<p><em>Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean</em></p>
+<p>Ecography. 2020 Aug 04. DOI: <a href="https://doi.org/10.1111/ecog.05049">10.1111/ecog.05049</a></p>
+</blockquote>
+<blockquote>
+<p><strong>New genomic ressources for three exploited Mediterranean fishes</strong></p>
+<p><em>Katharina Fietz, Elena Trofimenko, Pierre-Edouard Guerin, Veronique Arnal, Montserrat Torres-Oliva, Stephane Lobreaux,Angel Perez-Ruzafa, Stephanie Manel, Oscar Puebla</em></p>
+<p>Genomics. 2020 July 03. DOI: <a href="https://doi.org/10.1016/j.ygeno.2020.06.041">10.1016/j.ygeno.2020.06.041</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Global determinants of freshwater and marine fish genetic diversity</strong></p>
+<p><em>Stephanie Manel, Pierre-Edouard Guerin, David Mouillot, Simon Blanchet, Laure Velez, Camille Albouy &amp; Loic Pellissier</em></p>
+<p>Nature communications. 2020 Feb 10. DOI: <a href="https://doi.org/10.1038/s41467-020-14409-7">10.1038/s41467-020-14409-7</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Predicting genotype environmental range from genome–environment associations</strong></p>
+<p><em>Stephanie Manel, Marco Andrello, Karine Henry, Daphne Verdelet, Aude Darracq, Pierre‐Edouard Guerin, Bruno Desprez, Pierre Devaux</em></p>
+<p>Molecular Ecology. 2018 May 17. DOI: <a href="https://doi.org/10.1111/mec.14723">10.1111/mec.14723</a></p>
+</blockquote>
+<blockquote>
+<p><strong>ORION : a web server for protein fold recognition and structure prediction using evolutionary hybrid profiles</strong></p>
+<p><em>Yassine Ghouzam, Guillaume Postic, Pierre-Edouard Guerin, Alexandre G. de Brevern &amp; Jean-Christophe Gelly</em></p>
+<p>Scientific Reports. 2016 Jun 20. DOI: <a href="https://doi.org/10.1038/srep28268">10.1038/srep28268</a></p>
+</blockquote>
+<h1 id="software">Software</h1>
+<h2 id="florimond-desprez-group-2021">Florimond Desprez Group (2021-)</h2>
+<ul>
+<li>My software developed for the company is <strong>confidential</strong>. Please contact me for more information.</li>
+</ul>
+<h2 id="public-research-2015-2021">Public research (2015-2021)</h2>
+<ul>
+<li><strong><a href="https://shiny.cefe.cnrs.fr/wfgd/">WFGD</a></strong> (main contributor): interactive worldmap of fish genetic diversity.</li>
+<li><strong><a href="https://github.com/Grelot/anvage">ANVAGE</a></strong> (main contributor): ANnotation Variants GEnome is a python toolkit software to perform routine operations such as detecting synonymous genetic variants from VCF, GFF3 and FASTA genome files.</li>
+<li><strong><a href="https://github.com/Grelot/rgeogendiv">Rgeogendiv</a></strong> (main contributor): R package for downloading, preparing and aligning georeferenced DNA sequences on Genbank to calculate genetic diversity at different geographical scales</li>
+<li><strong><a href="https://gitlab.mbb.univ-montp2.fr/edna">Workflow to process environmental DNA sequencing data</a></strong> (main contributor): this workflow is open-source and was co-developped by the CEFE (lead stakeholder) and the company SPYGEN (data and tests), including interactions IFREMER, ETH Zurich and the marine explorations of Monaco.</li>
+<li><strong><a href="https://gitlab.mbb.univ-montp2.fr/reservebenefit/snakemake_stacks2">Workflow to genotype reduced genome sequencing data</a></strong> (main contributor): this workflow processed over 3000 fish genomes in the context of the european project RESERVEBENEFIT in collaboration with Helmholtz-Zentrum für Ozeanforschung Kiel and Instituto Español de Oceanografía.</li>
+<li><strong><a href="https://github.com/Grelot/genbar2">Genbar2</a></strong> (main contributor): identify genetic boundaries between populations using individual spatial coordinates and genetic variants.</li>
+<li><strong><a href="https://pypi.org/project/demort/">DEMORT</a></strong> (main contributor): a DEmultiplexing MOnitoring Report Tool</li>
+<li><strong><a href="https://sourceforge.net/projects/exam-exome-analysis-and-mining/">EXAM</a></strong> (contributor): a whole exome sequencing analysis and its graphical interface</li>
+<li><strong><a href="https://www.dsimb.inserm.fr/orion/">ORION</a></strong> (contributor): a sensivitive method for protein template detection</li>
+</ul>
+
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

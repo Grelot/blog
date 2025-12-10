@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">OBITools: Processing DNA Metabarcoding Data</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 10 min read · Published on June 27, 2020 
+  </div>
+  <hr>
+  <p>The <a href="https://doi.org/10.1111/1755-0998.12428">OBITools</a> software is a set of tools specifically designed for processing Next Generation Sequencing data in a DNA metabarcoding context, taking into account taxonomic information. <span id="continue-reading"></span>They are distributed as an open source software available on the following website: http://metabarcoding.org/obitools.</p>
+<h2 id="data-description-a-bit-of-biology">Data description: a bit of biology</h2>
+<img align="right" width="360rem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/1024px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png">
+<p>Deoxyribonucleic acid (DNA) is a molecule composed of two polynucleotide chains that coil around each other to form a double helix carrying genetic information for development of all living organisms.</p>
+<ul>
+<li>DNA molecules are composed of four nucleotides:
+<ul>
+<li><font color="red">thymine (T)</font></li>
+<li><font color="green">adenine (A)</font></li>
+<li><font color="orange">cytosine (C)</font></li>
+<li><font color="blue">guanine (G)</font></li>
+</ul>
+</li>
+<li>Thymine and adenine are complementary: <font color="red">T</font>==<font color="green">A</font></li>
+<li>Cytosine and guanine are complementary: <font color="orange">C</font>==<font color="blue">G</font></li>
+<li>Each strand of the double helix can be described as a sequence of nucleotides (<em>e.g.</em> ATTCGCT)</li>
+<li>One strand is the reversed complementary version of the second one (<em>e.g.</em> AGCGAAT is the reverse complementary sequence of ATTCGCT)</li>
+<li><em>Sense</em> of a DNA strand can be:
+<ul>
+<li>positive (+) "sense strand" from 5' to 3'</li>
+<li>negative (-) "antisense strand" from 3' to 5'</li>
+</ul>
+</li>
+<li>The 5'-end designates the end of the DNA strand that has the fifth carbon in the sugar-ring of the deoxyribose or ribose at its terminus.</li>
+<li>The 3'-end designates the end of the DNA strand that has the hydroxyl group of the third carbon in the sugar-ring free, and is known as the tail end.</li>
+</ul>
+<p>By convention, we write and read a DNA sequence from 5' to 3'. To describe a whole DNA molecule, we write the sequence of the positive sense strand (the negative antisense strand sequence can be deduced from the positive sense sequence as it is the reverse complementary).</p>
+<h2 id="metabarcoding-context">Metabarcoding context</h2>
+<p>Determining the order of the nucleotides composing a DNA molecule is known as <strong>DNA sequencing</strong>. In metabarcoding context we want to target <strong>barcode</strong> sequence exclusively. Barcode are DNA sequence of gene from mitochondrion with the following property:</p>
+<pre>
+conservative region         hypervariable region            conservative region
+
+===================|||||||||||||||||||||||||||||||||||||||||===================
+</pre>
+<p>The conservative region is typical of the taxonomic group we want to target (<em>e.g.</em> teleostei). The conservative region will be used as <em>primer</em> to initiate the PCR. The hypervariable region is the barcode sequence itself, it permits to identify at species level. In <strong>metabarcoding</strong>, barcode sequences from a sample are targeted and ampliflied by PCR using <em>primer</em>. Then the isolated DNA barcodes are pooled with barcode sequences from other samples. A tag sequence of 8 nucleotides is added to each DNA fragments from a given sample. So that it will be possible to assign the sample of a given DNA fragment in downstream analysis.</p>
+<h3 id="next-generation-sequencing">Next generation sequencing</h3>
+<p>DNA sequencing is performed on the library of amplified DNA barcodes. The sequencing of illumina instrument is paired-end. Adaptors are annealed to the ends of DNA fragments. Fragments bind to primer-loaded flow cell and bridge PCR reactions amplify each bound fragment to produce clusters of fragments. During each sequencing cycle, one fluorophore attached nucleotide is added to the growing strands. Laser excites the fluorophores in all the fragments that are being sequenced and an optic scanner collects the signals from each fragment cluster. Then the sequencing terminator is removed and the next sequencing cycle starts.</p>
+<p>The NGS technique produces millions of short sequences (typical read length of 125 bp)</p>
+<div class = "encart_inside_article">
+<h3 id="fasta-files">FASTA files</h3>
+<p>For FAST Alignment. Universal format to describe DNA sequences.</p>
+<pre>
+>ID1 ; a fish
+ATCGAAAAAGGGTAAATAAAAG
+ATCGAAAAAGGGTAAATAAAAG
+ATCGAAAAAGGGTAAATAAAAG
+GGTAAA​
+</pre>
+<ul>
+<li>The row starting with a <code>&gt;</code> indicates information related to the DNA sequence. ID of the sequence <code>ID1</code>. Relative information <code>a fish</code></li>
+<li>The sequence is splitted into row of 80 characters and a jumpline marks the end of the sequence.
+A FASTA file can stores many sequences. These sequences are generally aligned.</li>
+</ul>
+</div>
+<br>
+<div class = "encart_inside_article">
+<h3 id="fastq-files">FASTQ files</h3>
+<p>FASTQ stands for FASTA Quality. They are raw data produced by sequencing instrument. Each sequence is a <em>read</em>. For each DNA sequence, a quality of sequencing sequence is associated.</p>
+<pre>
+@HISEQ:250:CADV5ANXX:5:1101:1832:1959 1:N:0:ATCACGATTCTTTCCC
+TCAACTACGCCTTCCGGTACACTTACCATGTTACGACTTGCCTCCCCTCGTCAGCGCTT
++
+#?ABBFBFFFAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB
+</pre>
+<ul>
+<li>First row: Information. Name of instrument (HISEQ). Run ID (250). Flowcell ID (CADV5ANXX). Flowcell lane (5). Lane's tile (1101). Coordinates x,y (1832:1959). Wether the read is a backward(2) or forward(1) in a paired-end read or a single-end read(0). N/Y If Y the read must be removed according to quality check of sequencing instrument. No supplementary check (0) HISEQ. Barcode/index/tag of read.</li>
+<li>Second row: DNA sequence</li>
+<li>Third row: delimiter</li>
+<li>Last row: quality scores are encoded into a compact form, which uses only 1 byte per quality value. In this encoding, the quality score is represented as the character with an ASCII code equal to its value + 33. For instance <strong>F</strong> corresponds to value 70-33=37. Phred-scaled quality scores are used to represent how confident we are in the assignment of each base call by the sequencer. The Phred quality score <em>Q</em> is logarithmically related to the error probability <em>E</em>.</li>
+</ul>
+<p><em>Q</em> = -10 \log(<em>E</em>)</p>
+<p>Here is a table of how to interpret a range of Phred Quality Scores.</p>
+<table><thead><tr><th>Phred Quality Score</th><th>Error</th><th>Accuracy (1 - Error)</th></tr></thead><tbody>
+<tr><td>10</td><td>10%</td><td>90%</td></tr>
+<tr><td>20</td><td>1%</td><td>99%</td></tr>
+<tr><td>30</td><td>0.1%</td><td>99.9%</td></tr>
+<tr><td>40</td><td>0.01%</td><td>99.99%</td></tr>
+</tbody></table>
+<hr />
+</div>
+<h2 id="metabarcoding-data-processing-workflow">Metabarcoding data processing workflow</h2>
+<p>Metabarcoding data to process are FASTQ files.</p>
+<p>Structure of a DNA fragment is as follow:</p>
+<p><code>5' [TAG] [PRIMER 5'] [BARCODE] [PRIMER 3'] [TAG] 3'</code></p>
+<ul>
+<li><code>TAG</code>: a sequence of 8 nucleotides which indicates the original sample of the DNA fragment.</li>
+<li><code>PRIMER</code>: a sequence used in the PCR technique. In the PCR method, a pair of primers is used to hybridize with the sample DNA and define the region of the DNA that will be amplified. In metabarcoding context, the PCR aims to amplify taxonomic group we want to target using a given primer.</li>
+<li><code>BARCODE</code>: a hypervariable sequence which permits to identify taxonomic levels (order, class, species...). In metabarcoding context this is our sequence of interest. We want to isolate this sequence in order to detect species in a given sample.</li>
+</ul>
+<p>We sequenced each DNA fragment as paired-end meaning from both extremities:</p>
+<ul>
+<li>
+<p>possible forward reads (depends on wether sens or antisens brand is replicated)</p>
+<ul>
+<li><code>5' [forward TAG] [forward PRIMER 5'] [BARCODE] 3'</code></li>
+<li><code>5' [reverse TAG] [reverse PRIMER 5'] [BARCODE] 3'</code></li>
+</ul>
+</li>
+<li>
+<p>possible reverse reads (depends on wether sens or antisens brand is replicated)</p>
+<ul>
+<li><code>5' [reverse TAG] [reverse PRIMER 3'] [BARCODE] 3'</code></li>
+<li><code>5' [foward TAG] [forward PRIMER 3'] [BARCODE] 3'</code></li>
+</ul>
+</li>
+</ul>
+<p>Our aims will be to reconstitute the original DNA fragment sequence from forward and reverse reads and then to isolate, filter and cluster barcode sequences. Then a taxon will be assigned to each barcode allowing detection of species in samples.</p>
+<hr />
+<img align="right" width="480rem" src="https://gitlab.mbb.univ-montp2.fr/edna/snakemake_only_obitools/-/raw/master/schema_only_obitools.png">
+<h3 id="1-assemble-reads">1. Assemble reads</h3>
+<p><code>illuminapairedend</code> aligns and merges the forward and the reverse reads of a couple of paired-end sequences. When the two reads overlap with a high alignment quality score, the consensus sequence is produced.</p>
+<h3 id="2-demultiplexing">2. Demultiplexing</h3>
+<p>Multiplex sequencing is a technology to sequence multiple samples at the same time on a high-throughput DNA sequencer. Samples are distinguished by the short prefix of a DNA sequence called DNA <em>tag</em>. The demultiplex step consists to assign to each DNA sequence its original sample.</p>
+<p><code>ngsfilter</code> seeks for <em>tag</em> and <em>primer</em> sequences in both 5' and 3' direction of each consensus sequence. The primers and tags sequences are removed and annotations about the corresponding sample is added as new attributes.</p>
+<h3 id="3-filtering-and-clustering">3. Filtering and clustering</h3>
+<p>Identical barcode sequences are clustered using <code>obiuniq</code>. Then barcode sequences with a low depth coverage (meaning PCR amplification didn't work on the corresponding DNA fragment during sequencing so probably an error of sequencing) are removed using <code>obigrep</code>. Also, barcode sequences with a mean low quality phred-score are removed.</p>
+<p><code>obiclean</code> annotates the barcode sequences with the tags <em>head</em>, <em>internal</em> or <em>singleton</em>. The tag head corresponds to sequences that possess variant sequences in the dataset without being the variant of another record. Their variants are tagged as internal. The remaining sequences are annotated with the tag singleton. A variant must be related to the head sequence record with a number of differences in the alignment under a threshold value and is defined by a ratio between its count and the count of the head sequence which must be lower than a value fixed between 0 and 1. The command <code>obigrep</code> is then used to get rid of internal sequences.</p>
+<h3 id="4-reference-database">4. Reference database</h3>
+<p>The reference database is a set of barcode sequences representative of taxon group such as species. Each taxon is located on the NCBI tree of life.</p>
+<p>Here the strategy to build a reference database for metabarcoding:</p>
+<ul>
+<li>Download DNA sequences from known species. These sequences are mitochondrial genes (<em>e.g.</em> 12S or 16S for teleostei taxon group)</li>
+<li>Design a primer sequence able to target taxon group of interest</li>
+<li><code>ecopcr</code> is a software that simulates a PCR digestion <em>in silico</em>. So we use the primer to extract the barcode sequences.</li>
+<li>Then we use the <a href="ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz">NCBI taxonomy</a> to assign to each barcode sequences a node of the tree of life.</li>
+</ul>
+<h3 id="5-taxonomic-assignment">5. Taxonomic assignment</h3>
+<p><code>ecotag</code> associate the barcode sequences with taxonomic information from the reference database. It compares the record to the sequences of the provided reference database and assign the most similar one when the similarity reaches a fixed threshold. The command annotates the sequence records with the following attributes:  the sequence of the reference database that matches best, the score of identity, a unique integer taxid often referring to one taxon in the NCBI taxonomy and the scientific name linked to the taxid integer. It allows to identify the most recent common ancestor of each sequence.</p>
+<h3 id="6-format-table">6. Format table</h3>
+<p>Some unuseful attributes are removed. The barcode sequences are sorted by decreasing order of count. Finally, a tab-delimited file that can be open by excel or R is generated. The table is a matrix with row as barcode sequences cluster and colon as sample abundance. Taxonomic assignment for each barcode sequence is mentionned.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Thanks to OBItools we were able to process eDNA raw sequencing data in order to detect species among samples. First, DNA fragments are merged, then demultiplexed (each sequence is assigned to its original sample). Third, sequence barcodes are extracted, filtered and clustered by similarity. Then a taxon is assigned to each barcode sequences. Ultimately, a table of environmental presence of each species abundance among samples is produced allowing further analysis.</p>
+<h2 id="references">References</h2>
+<blockquote>
+<p><strong>Blind assessment of vertebrate taxonomic diversity across spatial scales by clustering environmental DNA metabarcoding sequences</strong></p>
+<p><em>Virginie Marques, Pierre‐Edouard Guerin, Mathieu Rocle, Alice Valentini, Stephanie Manel, David Mouillot, Tony Dejean</em></p>
+<p>Ecography. 2020 Aug 04. DOI: <a href="https://doi.org/10.1111/ecog.05049">10.1111/ecog.05049</a></p>
+</blockquote>
+<blockquote>
+<p><strong>OBItools: a unix‐inspired software package for DNA metabarcoding</strong></p>
+<p><em>Frederic Boyer, Celine Merciern, Aurelie Bonin, Yvan Le Bras, Pierre Taberlet, Eric Coissac</em></p>
+<p>Molecular Ecology Resources. 2015 May 09. DOI: <a href="https://doi.org/10.1111/1755-0998.12428">10.1111/1755-0998.12428</a></p>
+</blockquote>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on June 27, 2020
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #16A664">
+                <a style="color: #ffffff" 
+                   href="https://guerinpe.com/tags/omics/">omics</a>&nbsp;
+                </li> 
+                
+                <li style="background: #FBE983">
+                <a style="color: #594C05" 
+                   href="https://guerinpe.com/tags/software-engineering/">software-engineering</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2025
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

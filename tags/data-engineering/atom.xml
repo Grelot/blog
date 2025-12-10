@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - data-engineering</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/data-engineering/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-18T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/data-engineering/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Chado: the GMOD Database Schema</title>
+        <published>2025-01-18T00:00:00+00:00</published>
+        <updated>2025-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/chado-the-gmod-database-schema/"/>
+        <id>https://guerinpe.com/articles/chado-the-gmod-database-schema/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;strong&gt;Chado&lt;&#x2F;strong&gt; is a relational database schema that underlies many GMOD installations. It is capable of representing many of the general classes of data frequently encountered in modern biology such as sequence, sequence comparisons, phenotypes, genotypes, ontologies, publications, and phylogeny. It has been designed to handle complex representations of biological knowledge and is the most sophisticated relational schemas currently available in molecular biology.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Object Relational Mapper</title>
+        <published>2023-05-12T00:00:00+00:00</published>
+        <updated>2023-05-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/object-relational-mapper/"/>
+        <id>https://guerinpe.com/articles/object-relational-mapper/</id>
+        
+        <summary type="html">&lt;p&gt;In bioinformatics, we are familiar with Python and SQL. Python is a general coding language used to problem solve and create programs. SQL is a specific language used to store and retrieve specific information from databases. Then you have SQLAlchemy which is the bridge between both languages. This presents a method to use Python to create databases and facilitates the communication between Python programs and the databases.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Object Relational Mapper (ORM)&lt;&#x2F;strong&gt; tool translates Python classes to tables on relational databases and automatically converts function calls to SQL statements.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Entity Relationship Model</title>
+        <published>2021-01-23T00:00:00+00:00</published>
+        <updated>2021-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/entity-relationship-model/"/>
+        <id>https://guerinpe.com/articles/entity-relationship-model/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;strong&gt;Entity Relationship Model&lt;&#x2F;strong&gt; is a model for designing a database. Data is represented as &lt;strong&gt;entities&lt;&#x2F;strong&gt; with attributes. Entities are linked by &lt;strong&gt;relations&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>
