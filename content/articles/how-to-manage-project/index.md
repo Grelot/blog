@@ -98,6 +98,7 @@ The objectives must be **measurables** (the P of the PCD triangle) to know if th
 
 
 <div class = "encart_inside_article">
+
 **Task**: elementary action to do for achieving an objective.
 A task is characterised by:
 * A measurable objective, producing a **deliverable**.
@@ -106,7 +107,7 @@ A task is characterised by:
 
 **Deliberable**: any outcome, product, or service that must be completed and delivered to a stakeholder.
 <br>
-<div class = "encart_inside_article">
+</div>
 
 
 Tasks can be fractionned into smaller tasks. Fraction tasks until you reach a point when it becomes easy to attribute responsabilities of each task to a person. A good practice is to describe a task by the wanted results instead of the delivrable itself *e.g. do not say "report" but "written report"*.
@@ -128,6 +129,7 @@ First, we have to order deliverables in time. Each deliverable must have a deliv
 Use an **Anteriority table**. This table display anteriorities of tasks which is based on dependance or good practices. For instance you need to have A to start C.
 
 | Task | Duration | Anteriority |
+| --- | --- | --- |
 | A |2 | - |
 | B |4 | - |
 | C | 4 | A |
@@ -200,9 +202,10 @@ Aleas are inevitable, the aim is to plan project to minimise the impact of aleas
 
 
 <div class = "encart_inside_article">
+
 A **Program** is a set of projects sharing the same theme.
-<br>
-<div class = "encart_inside_article">
+
+</div>
 
 
 
