@@ -22,12 +22,10 @@ build_search_index = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 [markdown]
-render_html = true
+highlighting = false
 render_emoji = true
 
 
-[markdown.highlighting]
-enable = false
 
 
 [search]
