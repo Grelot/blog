@@ -2,3 +2,4 @@ public/*
 static/old_tools_logo
 .local/*.gz
 .local/dep/Mathjax
+artifacts
