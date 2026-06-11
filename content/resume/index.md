@@ -86,12 +86,13 @@ I am a bioinformatician who designs tools to help breeders improve the genetics 
 
 ## Training
 
+* 2026: Advanced Excel, [Orsys](https://www.orsys.fr)
 * 2025: Generative AI, [Interactivity](https://www.interactivity.nl/)
 * 2024: Elastic Stack, [AMBIENT-IT](https://www.ambient-it.net/)
 * 2023: Databricks, [Databricks Academy](https://www.databricks.com/learn/training/home)
 * 2020: Landscape Genetics, [IDGC](https://sites.google.com/site/landscapegeneticscourse/)
 * 2019: ReproHackathon, [CIRAD](https://github.com/IFB-ElixirFr/ReproHackathon)
-* 2018: Advanced Statistics for Data Sciences, [EPHE](https://www.ephe.psl.eu/formations-conferences)
+* 2018: Advanced Statistics for Data Science, [EPHE](https://www.ephe.psl.eu/formations-conferences)
 * 2017: High-Performance Computing, [MBB](https://isem-evolution.fr/plateau/plateau-montpellier-bioinformatique-et-biodiversite/)
 
 
