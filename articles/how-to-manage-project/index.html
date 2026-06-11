@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://guerinpe.com/">
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title> Pierre-Edouard Guerin | Bioinformatician </title>
+
+
+      <link rel="shortcut icon" href="https:&#x2F;&#x2F;guerinpe.com/peguerin.ico" type="image/x-icon" />
+      <!-- SEO -->
+      <meta name="description" content="Scientific blog by bioinformatician Pierre-Edouard Guerin, covering  genetics, omics, engineering and machine learning.">
+      <meta name="keywords" content="bioinformatics, computational biology, genetics, industry, management, omics, engineering, data science, biotechnology, machine learning, science, Pierre-Edouard Guerin">
+      <meta name="author" content="Pierre-Edouard Guerin">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Pierre-Edouard GUERIN" />
+      <meta property="og:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta property="og:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta property="og:image:alt" content="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+      <meta property="og:url" content="https://guerinpe.com" />
+      <meta property="og:site_name" content="Pierre-Edouard GUERIN" />
+      <meta property="og:type" content="website" />
+
+      <!-- Twitter Card -->
+      <meta name="twitter:title" content="Pierre-Edouard GUERIN" />
+      <meta name="twitter:description" content="Science, omics, computational biology, bioinformatics, data science, genetics." />
+      <meta name="twitter:image" content="https:&#x2F;&#x2F;guerinpe.com/avatar.png" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image:alt" content="scientific blog of Pierre-Edouard GUERIN" />
+      
+      <!-- schema markup SEO -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pierre-Edouard Guerin",
+        "url": "https://guerinpe.com",
+        "image": "https://guerinpe.com/avatar.png",
+        "jobTitle": "Bioinformatician Research Scientist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Florimond Desprez Group",
+          "url": "https://www.florimond-desprez.com/fr/fr/groupe-florimond-desprez/notre-recherche.html"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/pierre-edouard-guerin",
+          "https://twitter.com/guerin_pe",
+          "https://github.com/Grelot",
+          "https://gitlab.mbb.univ-montp2.fr/users/peguerin/groups",
+          "https://www.cefe.cnrs.fr/fr/recherche/bc/bev/1048-desc/3594-pierre-edouard-guerin",
+          "https://orcid.org/0000-0001-7909-3729",
+          "https://www.researchgate.net/profile/Pierre-Edouard-Guerin",
+          "https://www.kaggle.com/pierreedouardguerin",
+          "https://scholar.google.com/citations?user=hj1ClrsAAAAJ&hl=en",
+          "https://stackoverflow.com/users/11874491/pierre-edouard-guerin",
+          "https://bioinfo-fr.net/user/peguerin"
+        ],        
+        "description": "Bioinformatician research scientist with focus on data engineering, genetics, and biotechnology."
+      }
+      </script>
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://guerinpe.com/main.css" />      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+      <!--FEEDS-->
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://guerinpe.com/atom.xml">
+      
+
+      <!--Javascript-->
+      <script src="https://guerinpe.com/js/elasticlunr.min.js"></script>
+      <script src="https://guerinpe.com/js/search.js"></script>
+      <script src="https://guerinpe.com/js/active_nav.js"></script>
+      <script src="https://guerinpe.com/js/share.js"></script>
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+      </script>
+      <!--mailchip-->
+
+
+
+  </head>
+
+  <body>
+    
+    <header class="header-container">
+      
+<div class="top-bar">
+
+<div class="top-bar-left">
+  <a href="https:&#x2F;&#x2F;guerinpe.com/" class="top-avatar">
+    <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist" />
+  </a>
+</div>
+<div class="top-bar-center">
+    <div class="site-title">
+        <a href="https:&#x2F;&#x2F;guerinpe.com/">Pierre-Edouard Guerin</a>
+</div>
+  
+</div>
+
+
+
+    <div class="top-bar-right">
+    <button class="top-icon-button" aria-label="Search" onclick="location.href='/search'">
+        <!-- Search Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+        </svg>
+    </button>
+
+    <button class="top-icon-button" aria-label="Share" id="share-button">
+        <!-- Share Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+        <polyline points="16 6 12 2 8 6"></polyline>
+        <line x1="12" x2="12" y1="2" y2="15"></line>
+        </svg>
+    </button>
+
+    <button class="top-contact-button">
+       <a href="mailto:pierre-edouard.guerin@groupefd.com" role="button" aria-label="Send email to Pierre-Edouard Guerin">
+  Contact
+</a>
+    </button>
+    </div>
+</div>
+
+
+      
+
+      <nav class="navbar">
+        <a href="https://guerinpe.com/.">Home</a>             
+        <a href="https://guerinpe.com/articles">Blog</a>
+        <a href="https://guerinpe.com/resume">CV</a>
+        <a href="https://guerinpe.com/activity">Activity</a>
+        <a href="https://guerinpe.com/publications">Publications</a>
+      </nav>               
+    </header>    
+    
+
+
+    <br>
+    
+    
+<div class="post">
+       
+  <h1 class="post-title">How to Manage a Project?</h1>
+    <br>
+
+  <div class="post-info">
+    Posted by <a href="https://guerinpe.com/.">Pierre-Edouard Guerin</a> · 9 min read · Published on June 18, 2025 
+  </div>
+  <hr>
+  <p>In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</p>
+<span id="continue-reading"></span><h2 id="what-is-a-project">What is a project?</h2>
+<p>A project can be defined as an unique process, which is a set of coordinated <strong>tasks</strong>, having a starting and an ending date, with specific start and end dates, undertaken to achieve a defined objective.</p>
+<p>A project is characterised by:</p>
+<ul>
+<li>Being unique</li>
+<li>A set of tasks</li>
+<li>Clear objectives</li>
+<li>Time constraints (start and end date)</li>
+<li>Cost constraints (predetermined budget)</li>
+</ul>
+<h2 id="project-constraints-the-pcd-triangle">Project constraints: the PCD triangle</h2>
+<p>A sucessful project is evaluated using the <strong>PCD triangle</strong> (<strong>P</strong>erformance, <strong>C</strong>ost, <strong>D</strong>eadline).</p>
+<p><img src="https://guerinpe.com/articles/how-to-manage-project/./pcd_triangle_schema.jpg" alt="pcd_triangle_schema" /></p>
+<h2 id="types-of-project">Types of project</h2>
+<p>Depending on their purpose:</p>
+<ul>
+<li><strong>Engineering projects</strong>: unique deliverables for a single client <em>e.g. bridges, buildings</em></li>
+<li><strong>Product projects</strong>: recurring projects producing industrial goods</li>
+<li><strong>Organizational projects</strong>: internal transformations or events</li>
+<li><strong>Societal projects</strong>: large-scale initiatives impacting society <em>e.g. The European Constitution</em></li>
+</ul>
+<h2 id="the-role-of-the-project-within-companies">The Role of the project within companies</h2>
+<p>Depending on the nature of the company, the weight of the project differs:</p>
+<ul>
+<li><strong>Project-driven companies</strong>: innovation-focused, few but critical projects</li>
+<li><strong>Multi-project companies</strong>: many parallel projects across sectors</li>
+<li><strong>Collaborative project</strong>: single project shared by different companies</li>
+<li><strong>Start-ups</strong>: the company itself is a single project</li>
+<li><strong>Internal transformation projects</strong>: change management structure</li>
+</ul>
+<h2 id="matrix-organisation">Matrix organisation</h2>
+<p>Many companies use a matrix structure. They are two axes:</p>
+<ul>
+<li>x-axis: <strong>functional management</strong> which is the technical expertise but also the development of the carreers.</li>
+<li>y-axis: <strong>project management</strong> which is the operational execution and how everybody is implied into the success of the project.</li>
+</ul>
+<p><img src="https://guerinpe.com/articles/how-to-manage-project/./matrix_structure_project_schema.jpg" alt="matrix_structure_project_schema" /></p>
+<p>Therefore, an employee has always two managers (hierarchy and project). The influence of each manager is based on the weight of the projects within the company. Teams can be tailored according to the needs of the project.</p>
+<h2 id="stakeholders-in-a-project">Stakeholders in a project</h2>
+<p>Stakeholders are any individual, group, or company who can affect or be affected by the outcome of a project.</p>
+<ul>
+<li><strong>The Project Owner</strong>: a company or a service who identify the needs, then define the objectives and constraints of the project.</li>
+<li><strong>The Lead Contractor</strong>: a company or a service in charge to execute the project for the Client.</li>
+<li><strong>The Owner's Representative</strong>: reports advancement of the project to the Project Owner.</li>
+<li><strong>The Project Manager</strong>: coordinates execution and delivery, provide reports to the Owner's Representative.</li>
+<li><strong>The Project Team</strong>: performs operational tasks under supervision of the project manager.</li>
+<li><strong>The Functional Manager</strong>: provides the needed experts to the project team.
+Functional managers: provide resources and expertise</li>
+</ul>
+<h2 id="what-is-project-management">What is project management?</h2>
+<p>They are many reason explaining why a project face difficulties such as delays, budget ovveruns or reduced performance. Common causes of failure are unclear or unrealistic requirements, poor planning, lack of resources, weak communication or lack of support.</p>
+<p><strong>Project management</strong> refers to the methods and tools used to plan, organize, and control project activities in terms of:</p>
+<ul>
+<li>Technical performance</li>
+<li>Cost control</li>
+<li>Deadline management</li>
+<li>Quality</li>
+</ul>
+<p>Main methods for project management are: <a href="/articles/gantt-chart-excel-for-project-management/">Gantt charts</a>, agile approaches (scrum, sprints, backlogs).
+The project team can also use collaborative tools such as <a href="/articles/team-working-with-git">Git</a> for software developpement, Microsoft Teams for coordination and online meeting, and Overleaf for writting papers and reports.</p>
+<h2 id="project-definition">Project definition</h2>
+<p>First we need to give a neat and accurate formulation of what is the purpose of the project. What is the limits in terms of time and cost? Stakeholders should participate to this first step.
+Second, we have to define the objectives of the project. What are the expected results? What are the constraints and risks?
+Good question to ask to the stakeholders:</p>
+<ul>
+<li>What do you want to have at the end of the project?</li>
+<li>How will you know the project is successful?</li>
+<li>Which results do you want on the short term ? and on the long term?</li>
+</ul>
+<p>The objectives must be <strong>measurables</strong> (the P of the PCD triangle) to know if they are achieved at the project closure. Objectives can be ordered as primary objectives (mandatory) or secondary objectives (nice to have). Once objectives are defined, we can define the tasks for the project team. Objectives will serve as a non-technical description of the project to the other stakeholders.</p>
+<div class = "encart_inside_article">
+<p><strong>Task</strong>: elementary action to do for achieving an objective.
+A task is characterised by:</p>
+<ul>
+<li>A measurable objective, producing a <strong>deliverable</strong>.</li>
+<li>A duration, start and end date</li>
+<li>Some needed resources</li>
+</ul>
+<p><strong>Deliberable</strong>: any outcome, product, or service that must be completed and delivered to a stakeholder.
+<br></p>
+</div>
+<p>Tasks can be fractionned into smaller tasks. Fraction tasks until you reach a point when it becomes easy to attribute responsabilities of each task to a person. A good practice is to describe a task by the wanted results instead of the delivrable itself <em>e.g. do not say "report" but "written report"</em>.</p>
+<h2 id="project-planning">Project planning</h2>
+<h3 id="plan-responsabilities">Plan Responsabilities</h3>
+<p>We attribute each work-package to a person or a group. The responsible of the work-package must ensure the deliverable. The attribution of responsabilities is the results of a discussion between the project manager and the functional manager.</p>
+<ul>
+<li>Is the work in adequation with the person?</li>
+<li>Is the person available? To which proportion of his time? 20%? 50? 100%?</li>
+<li>Is the task doable?</li>
+</ul>
+<h3 id="plan-deliverables">Plan Deliverables</h3>
+<p>First, we have to order deliverables in time. Each deliverable must have a delivery date. Which deliverables must be done before which ones? Which deliverables can be done in parallel? Which delivery date can be shifted?</p>
+<p>Use an <strong>Anteriority table</strong>. This table display anteriorities of tasks which is based on dependance or good practices. For instance you need to have A to start C.</p>
+<table><thead><tr><th>Task</th><th>Duration</th><th>Anteriority</th></tr></thead><tbody>
+<tr><td>A</td><td>2</td><td>-</td></tr>
+<tr><td>B</td><td>4</td><td>-</td></tr>
+<tr><td>C</td><td>4</td><td>A</td></tr>
+<tr><td>D</td><td>5</td><td>A,B</td></tr>
+<tr><td>E</td><td>6</td><td>C,D</td></tr>
+</tbody></table>
+<p><strong>PERT chart</strong> is a graphe to visualise how tasks are linked.</p>
+<ul>
+<li>Nodes are the states of the project</li>
+<li>Edges are the tasks themselfself and weighted by its duration.</li>
+</ul>
+<p><img src="https://guerinpe.com/articles/how-to-manage-project/./pert_chart_example.jpg" alt="PERT chart example" /></p>
+<p>In green, earliest delivery date, in red, latest delivery dates. The latest delivery date is the date the task must start to do not compromise the project. The <strong>critical path</strong> is the set of tasks that define the total duration of the project. If one of the task of the critical path is late by one day, the whole project is late by one day. In this example the critical path is B,C,D,E. A can be shifted without compromising the execution of the project.</p>
+<h3 id="plan-resources">Plan Resources</h3>
+<p>We need to be sure the resources we need will be available on time. If the resources is not available, we must modify the planning. Otherwise we can try to find a substitute or to externalize it.
+We define a <strong>critical milestone</strong> in the planning. Can the project be done at this date? If the answer is NO, we need to attribute more resources to reduce the delay.</p>
+<h3 id="protect-the-plan">Protect the Plan</h3>
+<p>We identify the parts of the plan that can be problematic. We identify the potential <strong>problems</strong> and their <strong>causes</strong>. Then we anticipate by finding way to mitigate such risks.</p>
+<p>Useful questions:</p>
+<ul>
+<li>Where the work is the most complex?</li>
+<li>Where they are shared or blurred responsibility?</li>
+<li>What are the critical resources?</li>
+</ul>
+<h2 id="do-the-project">Do the Project</h2>
+<h3 id="project-start">Project Start</h3>
+<p><strong>"Kick-off"</strong> is the official start of the project. The starting date can be different from the date when the project have been defined/planned. A <strong>"Kick-off" meeting</strong> is organised to launch the project. The objectives of the kick-off meeting is to inform all the stakeholders about the project planning and to ensure everybody knows it in detail. All contributors to the project must know the tasks they have to do and the deadlines they must meet. Last but not least, it is important to motivate everyone and to demonstrate the interest of the project and its objectives.</p>
+<h3 id="project-control">Project Control</h3>
+<p>The objectives of the <strong>project control</strong> are:</p>
+<ol>
+<li>Ensure the project stays on schedule and deadlines are complied.</li>
+</ol>
+<ul>
+<li>Use <strong>Gantt chart</strong> to check tasks done late or ahead of schedule</li>
+<li>Watch critical milestones</li>
+</ul>
+<ol start="2">
+<li>Prevent budget overruns</li>
+</ol>
+<ul>
+<li>Spending money for consumables or prestation</li>
+</ul>
+<ol start="3">
+<li>Quality of project deliverables</li>
+</ol>
+<ul>
+<li>Use <strong>quality criteria</strong> defined with stakeholders</li>
+</ul>
+<ol start="4">
+<li>Communication of project status progress to stakeholders</li>
+</ol>
+<ul>
+<li>Schedule technical update meeting with the project team every month</li>
+<li>Schedule non-technical update meeting with the stakeholders on occasion</li>
+<li>Define critical milestones and time them with the planned meetings</li>
+<li>Any failure should be shared</li>
+</ul>
+<h3 id="project-modification">Project Modification</h3>
+<p>Modify the project to adapt to aleas. They are different kind of aleas:</p>
+<ul>
+<li>Lack of resources
+<ul>
+<li>A team member is sick or leaving</li>
+<li>A material is missing <em>e.g. a machin is not working or affected to another project</em></li>
+</ul>
+</li>
+<li>Specific to Research &amp; Development projects, things can have been poorly anticipated.</li>
+<li>Wrong estimate of a cost <em>e.g. price of a commodity have changed</em></li>
+</ul>
+<p>Aleas are inevitable, the aim is to plan project to minimise the impact of aleas in terms of delays, cost and performance. Some tips to handle that:</p>
+<ul>
+<li>Lack of human resources: negociate with the functional managers to find a substitute.</li>
+<li>Lack of material resources: negociate with the program directors to arbitrate the priority of allocation between projects</li>
+<li>Unplanned difficulties: negociate with the functional managers to improve the allocated ressources or call an external provider.</li>
+</ul>
+<div class = "encart_inside_article">
+<p>A <strong>Program</strong> is a set of projects sharing the same theme.</p>
+</div>
+<h3 id="project-closure">Project Closure</h3>
+<p>Project closure is the review in respect to its initial objectives and the <strong>PCD triangle</strong>. The team evaluates wether the expected results have been achived within the planned constraints.</p>
+<p>Project closure also involves a critical analysis of the project organisation and execution:</p>
+<ul>
+<li>what worked well</li>
+<li>what did not work</li>
+<li>Practices that should be kept in future projects</li>
+<li>Difficulties encountered during the project</li>
+<li>Learned skills by the team</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Project management</strong> is not an exact science, but a rational approach helps mitigate risks and navigate difficulties. It requires organisation and common sense. Keys of the success: project definition, planning and communication.</p>
+<p>Project management plays a central role in the company. However it is still mostly learned by doing the job!</p>
+<h2 id="references">References</h2>
+<ul>
+<li>University Grenoble-Alpes, 2016-2022: <a rel="external" href="https://pmahe.github.io/teaching_project/">Pierre Mahe teaching project</a></li>
+</ul>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  
+<div class="post-content-wrapper">
+    <div class="post-info">
+    Published on June 18, 2025
+    <br><br>
+    </div>
+    
+    <hr class="bold">     
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">Relevant Tags</h2>
+        <div class="tags-article">
+            <ul>
+                 
+                
+                <li style="background: #F691B2">
+                <a style="color: #994A64" 
+                   href="https://guerinpe.com/tags/management/">management</a>&nbsp;
+                </li> 
+                
+                        
+            </ul>    
+        </div>
+    </div>
+
+    <div class="home-latest-articles">
+        <h2 class="home-section-title">About the Author</h2>
+
+        <div class="about-author">
+            <div class="author-container">
+                <img src="https:&#x2F;&#x2F;guerinpe.com/avatar.png" alt="Portrait of Pierre-Edouard Guerin Bioinformatician Data Scientist"/>
+                <div class="author-info">
+                    <a href="https:&#x2F;&#x2F;guerinpe.com" class="author-name">Pierre-Edouard Guerin</a>
+                    <div class="author-description">Bioinformatician</div>
+                    <div class="brand_nav">
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> </a>
+                        
+                        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups"> <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg> </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<div class="home-latest-articles">
+  <h2 class="home-section-title">Latest Articles</h2>
+
+ <ul class="home-article-list">
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;research-tax-credit&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Research Tax Credit</h3>
+        <div class="home-article-summary">The Research Activities Tax Credit is a tax credit that incentivizes private companies to increase their Research and Development (R&amp;D).  Within my company, I have been tasked with writing the Research Tax Credit (CIR) justification report for France. Here, the method for writing such a report.</div>
+        <div class="home-article-date">  OCT 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;turing-complete-from-logical-gates-to-cpu-architecture&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">Turing Complete: From Logical Gates to CPU Architecture</h3>
+        <div class="home-article-summary">In 2021, LevelHead published Turing Complete, a game about computer science. My friend Christophe Georgescu recommended me to play it. Unfortunately, I took his advice and now I can not stop to play this game! The game challenges you to design an entire computer from scratch. You start with basic logic gates, then move on to components, memory, CPU architecture, and finally assembly programming. By the way, the game is neat and present all these concepts in a playful and intuitive way.</div>
+        <div class="home-article-date">  SEP 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+    <li class="home-article-item">
+      <a href="https:&#x2F;&#x2F;guerinpe.com&#x2F;articles&#x2F;how-to-manage-project&#x2F;" class="home-article-link">
+        <h3 class="home-article-title">How to Manage a Project?</h3>
+        <div class="home-article-summary">In any company, every task is part of a project. I am responsible for managing multiple projects each year. I have to present deliverables to stakeholders, meet deadlines, allocate mandays and coordinate everyone’s actions. This is a meticulous work that requires a strong methodology.</div>
+        <div class="home-article-date">  JUN 2025 · PIERRE-EDOUARD GUERIN </div>
+      </a>
+      
+    </li>
+  
+</ul>
+
+
+  <div class="home-see-all-container">
+    <button class="home-see-all-button ">
+    <a href="https:&#x2F;&#x2F;guerinpe.com/articles" role="button">See all &gt;</a>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+    <br>
+
+  <footer class="footer">
+  <h2>Site Plan</h2>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://guerinpe.com/.">Home</a>
+      <a href="https://guerinpe.com/articles">Blog</a>
+      <a href="https://guerinpe.com/resume/">CV</a>
+      <a href="https://guerinpe.com/activity">Activity</a>
+      <a href="https://guerinpe.com/publications">Publications</a>
+      <a href="https://guerinpe.com/search">Search</a>
+    </div>
+</div>
+
+  <h2>Tags</h2>
+
+
+  
+  <mark>Biotech</mark>
+  
+  <mark>Career</mark>
+  
+  <mark>Communication</mark>
+  
+  <mark>Computer-science</mark>
+  
+  <mark>Data-engineering</mark>
+  
+  <mark>Data-science</mark>
+  
+  <mark>Management</mark>
+  
+  <mark>Math</mark>
+  
+  <mark>Med-science</mark>
+  
+  <mark>Omics</mark>
+  
+  <mark>Plant-science</mark>
+  
+  <mark>Sciences</mark>
+  
+  <mark>Society</mark>
+  
+  <mark>Software-engineering</mark>
+  
+  <mark>Sys</mark>
+  
+  <mark>Tech</mark>
+  
+  <mark>Zoo</mark>
+    
+
+
+  <div class="footer-inner">
+
+    <h2>Social Networks</h2>
+
+    <div class="footer-social">
+        
+        
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;pierre-edouard-guerin" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;twitter.com&#x2F;guerin_pe" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;Grelot" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      
+        <a href="https:&#x2F;&#x2F;gitlab.mbb.univ-montp2.fr&#x2F;users&#x2F;peguerin&#x2F;groups" target="_blank" rel="noopener noreferrer">
+          <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189c-.135-.423-.73-.423-.867 0L16.418 9.45H7.582L4.919 1.263C4.783.84 4.185.84 4.05 1.26L1.386 9.449.044 13.587c-.121.375.014.789.331 1.023L12 23.054l11.625-8.443c.318-.235.453-.647.33-1.024"/></svg>
+        </a>
+      
+      
+    </div>
+  </div>
+</div>
+  
+  
+
+
+  <h2>Site Information</h2>
+
+  <div class="footer-meta">
+    <p>
+     2015-2026
+     guerinpe.com by Pierre-Edouard GUERIN is under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> ·
+      <a href="https://www.getzola.org/">Powered by Zola</a> ·
+      <a href="https://guerinpe.com/atom.xml">RSS feed</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+
+
+</html>

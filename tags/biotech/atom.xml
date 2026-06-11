@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - biotech</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/biotech/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-08-22T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/biotech/atom.xml</id>
+    <entry xml:lang="en">
+        <title>RNA-Seq</title>
+        <published>2022-08-22T00:00:00+00:00</published>
+        <updated>2022-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/rna-seq/"/>
+        <id>https://guerinpe.com/articles/rna-seq/</id>
+        
+        <summary type="html">&lt;p&gt;One of the approaches to study host–pathogen interactions at the molecular level is &lt;strong&gt;RNA sequencing (RNA-Seq)&lt;&#x2F;strong&gt;. This technology provides access to gene expression profiles in various conditions such as viral infection or environmental stress. I had the opportunity to process RNA-Seq data from sugar beet plants to investigate transcriptional responses to virus yellows disease, a condition caused by a complex of aphid-transmissible viruses. Here, I describe transcriptomics and the methods used for RNA-Seq data analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DNA chip</title>
+        <published>2021-12-26T00:00:00+00:00</published>
+        <updated>2021-12-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/dna-chip/"/>
+        <id>https://guerinpe.com/articles/dna-chip/</id>
+        
+        <summary type="html">&lt;p&gt;A &lt;strong&gt;DNA chip&lt;&#x2F;strong&gt; or DNA microarray is a collection of microscopic DNA spots, commonly representing single genes, arrayed on a solid surface by covalent attachment to chemically suitable matrices.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Metabarcoding</title>
+        <published>2019-03-09T00:00:00+00:00</published>
+        <updated>2019-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/metabarcoding/"/>
+        <id>https://guerinpe.com/articles/metabarcoding/</id>
+        
+        <summary type="html">&lt;p&gt;One of the most promising genetic techniques for improving biodiversity assessments is the &lt;em&gt;metabarcoding&lt;&#x2F;em&gt; of environmental DNA (eDNA). I did a state of the Art of available methods and developed serveral workflows to process and manage metabarcoding data from the Monaco Marine Scientific Exploration.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

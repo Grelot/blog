@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Pierre-Edouard Guerin - society</title>
+    <subtitle>Bioinformatician</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://guerinpe.com/tags/society/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://guerinpe.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-02-29T00:00:00+00:00</updated>
+    <id>https://guerinpe.com/tags/society/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Ethymologicon of Science</title>
+        <published>2016-02-29T00:00:00+00:00</published>
+        <updated>2016-02-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/ethymologicon-of-science/"/>
+        <id>https://guerinpe.com/articles/ethymologicon-of-science/</id>
+        
+        <summary type="html">&lt;p&gt;Scientific terms are largely of Greco-Latin origin. This collection gather the roots of scientific terms to better understand specialized nomenclature based on Greek and Latin.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Journal Impact Factor</title>
+        <published>2016-01-20T00:00:00+00:00</published>
+        <updated>2016-01-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://guerinpe.com/articles/journal-impact-factor/"/>
+        <id>https://guerinpe.com/articles/journal-impact-factor/</id>
+        
+        <summary type="html">&lt;p&gt;During the second world war, the USA and the UK create research centers. Their aim is to industrialize scientific discovery to increase the pace of innovation for military applications. From that point on, the figure of the lonesome wizard in his ivory tower gives way to the salaryman working within a team, a laboratory and an Institute. The Research Unit was born.&lt;&#x2F;p&gt;
+&lt;p&gt;In this modern structure, science evolves into a collective and standardized activity. The laboratory is no longer a cabinet of wonders or a private workshop, like those of Lavoisier or Newton. Instead, it becomes a production unit organized around teams, stakeholders, deliverables and measured outcomes.&lt;&#x2F;p&gt;
+&lt;p&gt;Institutions like the Massachusetts Institute of Technology (MIT) or the Los Alamos National Laboratory, created for the Manhattan Project, symbolize this transformation. In France, the Centre National de la Recherche Scientifique (CNRS) is created in 1939.&lt;&#x2F;p&gt;
+&lt;p&gt;In this modern area, the successful scientist is, above all, a productive one. But what does productivity mean in science? Peer-reviewed publications in scientific journal. The more you publish, the more visible and fundable you become. In 1942, the sociologist &lt;strong&gt;Logan Wilson&lt;&#x2F;strong&gt; coins the mantra &lt;em&gt;Publish or Perish&lt;&#x2F;em&gt;, capturing the pressure on academics to continually produce papers. Later, in 1962, &lt;strong&gt;Eugene Garfield&lt;&#x2F;strong&gt; introduces the metrics to evaluate journal and indirectly their authors: the &lt;strong&gt;Impact Factor&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

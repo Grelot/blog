@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /portfolio
+Allow: /
+Sitemap: https://guerinpe.com/sitemap.xml
